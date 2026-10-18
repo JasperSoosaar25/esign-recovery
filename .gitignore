@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+private-input/
+build/
+artifacts/
+*.ipa
+*.dylib
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.mobileconfig
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Restored losslessly by scripts/unpack_evidence.py. Readable class excerpts,
+# headers, indexes, manifests, and summaries remain directly browsable in Git.
+recovered/analysis/native-context.json
+recovered/analysis/static-branches.tsv
+recovered/decompiled/native/
+recovered/decompiled/functions.tsv
+recovered/decompiled/failed-disassembly/
+recovered/disassembly/
+recovered/resources/
+recovered/objc/objc-metadata.json
+recovered/objc/constant-strings.json

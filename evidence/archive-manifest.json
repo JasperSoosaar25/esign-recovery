@@ -1,0 +1,44 @@
+{
+  "format": "split zip",
+  "archive_sha256": "f89239532acb5a8d1ac3ce6593c6cb2bb7471265d74062c0a7a0835f403c5983",
+  "archive_bytes": 27070109,
+  "file_count": 1759,
+  "uncompressed_bytes": 86726580,
+  "parts": [
+    {
+      "path": "evidence/recovery-00.part",
+      "bytes": 4194304,
+      "sha256": "f138aed696281fbaa1ecebc250baf33051165eb5f74746642a0510ea5ea1352f"
+    },
+    {
+      "path": "evidence/recovery-01.part",
+      "bytes": 4194304,
+      "sha256": "a0c9ac8e0adffa0b96c7e5ad9018d02630ed2384ff1336216ec3b43d31afe571"
+    },
+    {
+      "path": "evidence/recovery-02.part",
+      "bytes": 4194304,
+      "sha256": "a9583ce566364c50335a2a9a9a43506b0f661db9436b706e9563fb4fc912437d"
+    },
+    {
+      "path": "evidence/recovery-03.part",
+      "bytes": 4194304,
+      "sha256": "54cacd0412f8e1a164732044ded02949f54ed999be0505fb1ee0d342a4308a13"
+    },
+    {
+      "path": "evidence/recovery-04.part",
+      "bytes": 4194304,
+      "sha256": "507522797395bf613edd937e29b85560029c11938e7ad2f929493cff8b448f91"
+    },
+    {
+      "path": "evidence/recovery-05.part",
+      "bytes": 4194304,
+      "sha256": "f29720dfcf11aac16510c8d84d7e53a99fcd7cecf4a4fded9049fae6b8dbace2"
+    },
+    {
+      "path": "evidence/recovery-06.part",
+      "bytes": 1904285,
+      "sha256": "ad5624db416db2185fc75ab276ad3886b19984962b35268710254d2562ef2d36"
+    }
+  ]
+}

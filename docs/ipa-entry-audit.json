@@ -1,0 +1,986 @@
+{
+  "ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "zip_entries": 100,
+  "files": 68,
+  "directories": 32,
+  "unaccounted_entries": 0,
+  "status_counts": {
+    "directory-accounted": 32,
+    "input-only-signature": 1,
+    "retained-exact": 63,
+    "input-only-profile": 3,
+    "input-only-executable": 1
+  },
+  "all_original_source_recovered": false,
+  "original_source_build_verified": false,
+  "entries": [
+    {
+      "archive_path": "Payload/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/_CodeSignature/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/_CodeSignature/CodeResources",
+      "kind": "file",
+      "bytes": 21685,
+      "zip_crc32": "eddfa0c4",
+      "sha256": "acdf3b581a4ec3262abed41c4ce59984faa28934310cb79d31c14aff3afdacf8",
+      "status": "input-only-signature",
+      "destination": null,
+      "reason": "Original code-signature seal is an input artifact, not application source."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ar.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ar.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 34683,
+      "zip_crc32": "896a864e",
+      "sha256": "70edccab501b566796cb1b06cc78985ccda2341797ed28e9c6b17680e3413d3e",
+      "status": "retained-exact",
+      "destination": "recovered/resources/ar.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hans.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hans.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 6267,
+      "zip_crc32": "0e7de3c7",
+      "sha256": "60e016ebee23243edeb2d656f35a45922b2383883a1b94a50e4935b66b50ed0b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-Hans.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hans.lproj/InfoPlist.strings",
+      "kind": "file",
+      "bytes": 75,
+      "zip_crc32": "0e9bf5e3",
+      "sha256": "4c0e7dabb156e1d1d03019cb6b4e101ade5081facefc8d811b52648b38147299",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-Hans.lproj/InfoPlist.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/en.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/en.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 28192,
+      "zip_crc32": "48ae07ce",
+      "sha256": "cca893c4d26418d1e1fcf791448910e6397a06d365d5ffaca840996fe8d3ba4c",
+      "status": "retained-exact",
+      "destination": "recovered/resources/en.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/en.lproj/InfoPlist.strings",
+      "kind": "file",
+      "bytes": 74,
+      "zip_crc32": "43cb6fbe",
+      "sha256": "2039d3de988c0e9583bbaa796b9b091030931e398b8809fd862d3e72022340eb",
+      "status": "retained-exact",
+      "destination": "recovered/resources/en.lproj/InfoPlist.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-HK.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-HK.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 13081,
+      "zip_crc32": "1de61062",
+      "sha256": "9a1a486fc51e4d27b58da9d438487c07542783213892a87cd42de77fe749575b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-HK.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-HK.lproj/InfoPlist.strings",
+      "kind": "file",
+      "bytes": 75,
+      "zip_crc32": "38b1e2f2",
+      "sha256": "604ba5dd1d01be1c6a4f92173fd69d0ddda7885fbd2d5176edadda8ed150a6cc",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-HK.lproj/InfoPlist.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Assets_noVoice.mp3",
+      "kind": "file",
+      "bytes": 81216,
+      "zip_crc32": "de3dee6e",
+      "sha256": "bfbcedbf997481737b33c24e109de709c337076a545803eb397e0b417e21c8d6",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Assets_noVoice.mp3",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/LICENSE",
+      "kind": "file",
+      "bytes": 8096,
+      "zip_crc32": "691b5fc1",
+      "sha256": "19af3f914f4b36fe3eee904f21a73c51afcda502af2f3b7886d3813962159b2b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/LICENSE",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/signed.mobileconfig",
+      "kind": "file",
+      "bytes": 4887,
+      "zip_crc32": "e7f18719",
+      "sha256": "ea36a3703ba9f56d52007acf17a2ca1dff4b26a53f57ee1d7fcb2d65311997fe",
+      "status": "input-only-profile",
+      "destination": null,
+      "reason": "Provisioning/configuration input remains local; do not publish signing or device configuration material."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ESignLogo.png",
+      "kind": "file",
+      "bytes": 3394,
+      "zip_crc32": "c3fa4151",
+      "sha256": "98fab3f5830cea834b21bedd746a2aace863504c57df6d3880c77bd486ff06c5",
+      "status": "retained-exact",
+      "destination": "recovered/resources/ESignLogo.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hans.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 1368,
+      "zip_crc32": "1f676bc9",
+      "sha256": "01d67d2aa16082707bd107cfb5ea1fa91bed7d42076b41118b1dc1c3d8d792a2",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/en.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/en.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 1374,
+      "zip_crc32": "90687707",
+      "sha256": "68db8ffdaad1be2458946e4c67bb87f60e285d2585baaf0491544755d0a20baf",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/en.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/uk.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/uk.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 1534,
+      "zip_crc32": "4a057af1",
+      "sha256": "c63c4f9d2d5716d3baf82f6f04663c310049b411853497e55d207fb4580f28a4",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/uk.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/arrow@2x.png",
+      "kind": "file",
+      "bytes": 1033,
+      "zip_crc32": "e6a739e2",
+      "sha256": "e6965354ceb13a8cf94e639b23836ad745f1c1680eafdb0cd967bcafc1590188",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/arrow@2x.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ko.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ko.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 771,
+      "zip_crc32": "ed4af6a4",
+      "sha256": "5e57feab5bb15aebd962e6c6fef21899e857e53ee53e535051bf8f1e3874a419",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/ko.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hant.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 891,
+      "zip_crc32": "e46fca83",
+      "sha256": "0f073699fcce2c2be224b2a2be658106d4b1700113775ad3aced1d82f9cddfce",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/trail_arrow@2x.png",
+      "kind": "file",
+      "bytes": 2322,
+      "zip_crc32": "32a86087",
+      "sha256": "bf75218f3d191b71821b64c9613e1100914c215855439fc5b75c1b08f89a8771",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/trail_arrow@2x.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ru.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ru.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 1502,
+      "zip_crc32": "d51feba1",
+      "sha256": "85043e0c6452540691904daa5b1e8038366a7a524675983c4b81d5b1b8754139",
+      "status": "retained-exact",
+      "destination": "recovered/resources/MJRefresh.bundle/ru.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/AppIcon60x60@2x.png",
+      "kind": "file",
+      "bytes": 3394,
+      "zip_crc32": "c3fa4151",
+      "sha256": "98fab3f5830cea834b21bedd746a2aace863504c57df6d3880c77bd486ff06c5",
+      "status": "retained-exact",
+      "destination": "recovered/resources/AppIcon60x60@2x.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ESign",
+      "kind": "file",
+      "bytes": 15815152,
+      "zip_crc32": "1ad066aa",
+      "sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+      "status": "input-only-executable",
+      "destination": null,
+      "reason": "Compiled executable retained as local analysis input. Original code bytes, metadata, and native recovery are represented in the snapshot; this is not recovered buildable source."
+    },
+    {
+      "archive_path": "Payload/ESign.app/LICENSE_CN",
+      "kind": "file",
+      "bytes": 6507,
+      "zip_crc32": "f52006d5",
+      "sha256": "cc49daa655dbfc594958def2202b5e38a4ccc2fbe18c484602c27f31579968c0",
+      "status": "retained-exact",
+      "destination": "recovered/resources/LICENSE_CN",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ckb.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ckb.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 22982,
+      "zip_crc32": "8a17f1d6",
+      "sha256": "dad4b35995a7c9921aaff32a816ebe63f108a880afaed4c44270226706bb347e",
+      "status": "retained-exact",
+      "destination": "recovered/resources/ckb.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/zh-Hans.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 791,
+      "zip_crc32": "8f1dbb32",
+      "sha256": "af17c35ef4a8ed70dd389f70b9f881fdfae334ba898c0343e5ea824b64bca7a2",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/en.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 309,
+      "zip_crc32": "89cdd98d",
+      "sha256": "9512bdfd80b146e722af3d54987d8d2226a5204578025e0a59b0d23cc9f4e342",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/index.html",
+      "kind": "file",
+      "bytes": 9333,
+      "zip_crc32": "41c5d70e",
+      "sha256": "8ce1267aa1c066e0dd98cb551ba2bf2755cf8f01cb0777bfa1f00850749b537b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/index.html",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css",
+      "kind": "file",
+      "bytes": 121224,
+      "zip_crc32": "29667f1f",
+      "sha256": "0e02158f9a427829dee79326be19f97b8060feb18d2b9a9aa256a1fb1ef636f6",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css",
+      "kind": "file",
+      "bytes": 655,
+      "zip_crc32": "dff802fb",
+      "sha256": "8e49019c2903d7a88be4d6748ad01511cd70bdebe4587eb3eff79d28d4522f65",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/index.css",
+      "kind": "file",
+      "bytes": 3354,
+      "zip_crc32": "175e813e",
+      "sha256": "49c12fc18f6f3e51e2eab45affc27b7efbd276c4934a101386681562679a7e71",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/css/index.css",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css",
+      "kind": "file",
+      "bytes": 14936,
+      "zip_crc32": "0bd134f1",
+      "sha256": "382a4120b748eaf656e422f2f27c8778d311fabb97a644db97011ec176c130bf",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js",
+      "kind": "file",
+      "bytes": 15085,
+      "zip_crc32": "4943b8e5",
+      "sha256": "30e522d238f9e84ad8289ab5b43ee396ffbd1e96c8eab77157fbc6fa30edaacd",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js",
+      "kind": "file",
+      "bytes": 4377,
+      "zip_crc32": "7b1616ed",
+      "sha256": "83a8807ef669fa70d0d9375347f5552897f76c6ae8e2e6f97ef592595462d8d1",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js",
+      "kind": "file",
+      "bytes": 61692,
+      "zip_crc32": "581a1950",
+      "sha256": "2b3df6d6dbe0c03ec7724dba14bd98f38cf0b4cfb4737e3fff7ff0594d103056",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/index.js",
+      "kind": "file",
+      "bytes": 12009,
+      "zip_crc32": "eaa0cd83",
+      "sha256": "e7d11c6392a54f1afef8205874b5d5b9d8ce3c7dae38b42d342bad89b44d9467",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/index.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js",
+      "kind": "file",
+      "bytes": 96381,
+      "zip_crc32": "181a2adf",
+      "sha256": "b294e973896f8f874e90a8eb1a8908ac790980d034c4c4bdf0fc3d37b8abf682",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js",
+      "kind": "file",
+      "bytes": 29110,
+      "zip_crc32": "12830ccd",
+      "sha256": "898d05a17f2cfc5120ddcdba47a885c378c0b466f30f0700e502757e24b403a1",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js",
+      "kind": "file",
+      "bytes": 977,
+      "zip_crc32": "0a4f8cc0",
+      "sha256": "8e882ad3513da790ead8b75161f03780a134a0dde5cbbae7ded807915bc23aa9",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js",
+      "kind": "file",
+      "bytes": 2429,
+      "zip_crc32": "faf2394a",
+      "sha256": "8c7a9c0470563367ab00307b4fb9bb3052d0a27f0b94e63b9dc0bb8c369449cb",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js",
+      "kind": "file",
+      "bytes": 24496,
+      "zip_crc32": "aac604a1",
+      "sha256": "882892a2c0ecb30e180f4305c2e04d7f8f24968681473ee8f9e48aad45c36587",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js",
+      "kind": "file",
+      "bytes": 10612,
+      "zip_crc32": "1757f0c4",
+      "sha256": "e127082f8c4e76952f5a8e1e9a0c2731372ca3f7d800fa9a5ec1bed0a516c2a9",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff",
+      "kind": "file",
+      "bytes": 23320,
+      "zip_crc32": "cec1a35c",
+      "sha256": "fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot",
+      "kind": "file",
+      "bytes": 20335,
+      "zip_crc32": "f171b590",
+      "sha256": "f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf",
+      "kind": "file",
+      "bytes": 41280,
+      "zip_crc32": "0617f1ff",
+      "sha256": "bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg",
+      "kind": "file",
+      "bytes": 62927,
+      "zip_crc32": "41334cc4",
+      "sha256": "d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Info.plist",
+      "kind": "file",
+      "bytes": 126,
+      "zip_crc32": "2e0e55be",
+      "sha256": "01f4aae6f996811486228e2d1d85e7f58cc7c08280a659df2c3032c7ab4a3d15",
+      "status": "retained-exact",
+      "destination": "recovered/resources/GCDWebUploader.bundle/Contents/Info.plist",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/UINavigationController-tmn-gx-rew.nib",
+      "kind": "file",
+      "bytes": 1789,
+      "zip_crc32": "37323cbf",
+      "sha256": "fe67ba99b1b1f127cb19c322c98b340d6eb28e6f4409ca14a77d3f3fd5359cd7",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/Main.storyboardc/UINavigationController-tmn-gx-rew.nib",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib",
+      "kind": "file",
+      "bytes": 1197,
+      "zip_crc32": "a286a239",
+      "sha256": "0c070c5fe12016c9e00821a7e239d13dcfb66c256aae83f58b9da67311be9e78",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/Info.plist",
+      "kind": "file",
+      "bytes": 276,
+      "zip_crc32": "6e6f4ccc",
+      "sha256": "7e602a821b759867a09ade5ef4e8db4179cc234cbfaeef3bebcf88cc79e825eb",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/Main.storyboardc/Info.plist",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+      "kind": "file",
+      "bytes": 3183,
+      "zip_crc32": "520e18f0",
+      "sha256": "74730eb4369a0e9db9af3e178d8921951c860f3dd29fc68a13dd8157667816e3",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib",
+      "kind": "file",
+      "bytes": 896,
+      "zip_crc32": "9afa2581",
+      "sha256": "716abbabe890726a52a1a14679c9f23dd28510f170443dec960526c45003915b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/Info.plist",
+      "kind": "file",
+      "bytes": 258,
+      "zip_crc32": "3ed5e388",
+      "sha256": "1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Base.lproj/LaunchScreen.storyboardc/Info.plist",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hant.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hant.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 13081,
+      "zip_crc32": "1de61062",
+      "sha256": "9a1a486fc51e4d27b58da9d438487c07542783213892a87cd42de77fe749575b",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-Hant.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/zh-Hant.lproj/InfoPlist.strings",
+      "kind": "file",
+      "bytes": 75,
+      "zip_crc32": "38b1e2f2",
+      "sha256": "604ba5dd1d01be1c6a4f92173fd69d0ddda7885fbd2d5176edadda8ed150a6cc",
+      "status": "retained-exact",
+      "destination": "recovered/resources/zh-Hant.lproj/InfoPlist.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Assets.car",
+      "kind": "file",
+      "bytes": 1541512,
+      "zip_crc32": "08d11e80",
+      "sha256": "8b8ee995e41859ef45cfe5ae1d5147e7d127fdc89b74d98822f767f7b63e0365",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Assets.car",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/EFileLogo.png",
+      "kind": "file",
+      "bytes": 4657,
+      "zip_crc32": "6927ba89",
+      "sha256": "08d7413de26bc919d9cbf0ae44bb90c89832edde8c2a229770fa7375361a4d71",
+      "status": "retained-exact",
+      "destination": "recovered/resources/EFileLogo.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/AppIcon76x76@2x~ipad.png",
+      "kind": "file",
+      "bytes": 4605,
+      "zip_crc32": "cc4c9adb",
+      "sha256": "28d7d2ba6b3ace559a385d03fe08c3111472a5c88c53b7fa4526c18facb94332",
+      "status": "retained-exact",
+      "destination": "recovered/resources/AppIcon76x76@2x~ipad.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/QMUIResources.bundle/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/QMUIResources.bundle/Assets.car",
+      "kind": "file",
+      "bytes": 498440,
+      "zip_crc32": "e822a03a",
+      "sha256": "2799307ba2063993f13fe5582c3ea3218990fa1ddedd7aee575d0b3effb8a3e1",
+      "status": "retained-exact",
+      "destination": "recovered/resources/QMUIResources.bundle/Assets.car",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/QMUIResources.bundle/Info.plist",
+      "kind": "file",
+      "bytes": 770,
+      "zip_crc32": "20cd0a27",
+      "sha256": "67bc8342b472cf0982605c33e6460c103bdd0e915aca62914be3e8da903191a6",
+      "status": "retained-exact",
+      "destination": "recovered/resources/QMUIResources.bundle/Info.plist",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/pt-BR.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/pt-BR.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 21041,
+      "zip_crc32": "c5d42999",
+      "sha256": "5a24a705a140d17c1f93fbe29bc3ae1987f104ae2781a58ac6d170a50bc38fcf",
+      "status": "retained-exact",
+      "destination": "recovered/resources/pt-BR.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/vi.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/vi.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 21007,
+      "zip_crc32": "f01c59c1",
+      "sha256": "632c1be674471e00b668b2029ead5f91d9708188efd7d4cc6a32e5f1160a21ca",
+      "status": "retained-exact",
+      "destination": "recovered/resources/vi.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ru.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ru.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 39598,
+      "zip_crc32": "eaf9f919",
+      "sha256": "fbf2c5984d321c6d03804d667f6caf48d2b49394daba5fc632209d0242a47c47",
+      "status": "retained-exact",
+      "destination": "recovered/resources/ru.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/fr.lproj/",
+      "kind": "directory",
+      "bytes": 0,
+      "zip_crc32": "00000000",
+      "status": "directory-accounted",
+      "destination": null,
+      "reason": "ZIP directory entry; no file payload to omit."
+    },
+    {
+      "archive_path": "Payload/ESign.app/fr.lproj/Localizable.strings",
+      "kind": "file",
+      "bytes": 22356,
+      "zip_crc32": "302c203a",
+      "sha256": "25c215d324866169c504a2e496a4de169195a79caca290de30ed834bca589047",
+      "status": "retained-exact",
+      "destination": "recovered/resources/fr.lproj/Localizable.strings",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/embedded.mobileprovision",
+      "kind": "file",
+      "bytes": 22705,
+      "zip_crc32": "bcc968c8",
+      "sha256": "2039cdc720766dbacb84f9c90468eb604b385a3ac7a7b3b398d81ba4792d5144",
+      "status": "input-only-profile",
+      "destination": null,
+      "reason": "Provisioning/configuration input remains local; do not publish signing or device configuration material."
+    },
+    {
+      "archive_path": "Payload/ESign.app/ESignDebugLogo.png",
+      "kind": "file",
+      "bytes": 4182,
+      "zip_crc32": "2410119f",
+      "sha256": "1fca3d1a789136aea48a2f79ab1da58ceb65a7a61b2328afebba41e0420507d3",
+      "status": "retained-exact",
+      "destination": "recovered/resources/ESignDebugLogo.png",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/signed_en.mobileconfig",
+      "kind": "file",
+      "bytes": 4885,
+      "zip_crc32": "aee563a7",
+      "sha256": "b43311c75600b544e9d32f5e2f6174ec9490a7eb29beb80d30ffc0fe1c3e96d9",
+      "status": "input-only-profile",
+      "destination": null,
+      "reason": "Provisioning/configuration input remains local; do not publish signing or device configuration material."
+    },
+    {
+      "archive_path": "Payload/ESign.app/Info.plist",
+      "kind": "file",
+      "bytes": 7177,
+      "zip_crc32": "6fdc5755",
+      "sha256": "9fef91dc073fe28a2b3d8573b52d7ed14de33beab53d0425c5be512137c24603",
+      "status": "retained-exact",
+      "destination": "recovered/resources/Info.plist",
+      "reason": "Original bytes retained in the lossless snapshot."
+    },
+    {
+      "archive_path": "Payload/ESign.app/PkgInfo",
+      "kind": "file",
+      "bytes": 8,
+      "zip_crc32": "5b8a0449",
+      "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+      "status": "retained-exact",
+      "destination": "recovered/resources/PkgInfo",
+      "reason": "Original bytes retained in the lossless snapshot."
+    }
+  ]
+}

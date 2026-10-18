@@ -1,0 +1,157 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "ghidra_version": "12.1.4",
+  "input_bytes_modified": false,
+  "app_built_or_run": false,
+  "original_source_build_verified": false,
+  "runtime_equivalence_verified": false,
+  "studies": [
+    {
+      "class_name": "YYYTabBarViewController",
+      "selector": "generateSubViewController",
+      "entry": "0x100006bdc",
+      "instruction_count": 900,
+      "static_table_edges": 13,
+      "unresolved_indirect_jumps": 0,
+      "boundary_stops": []
+    },
+    {
+      "class_name": "AppDelegate",
+      "selector": "application:didFinishLaunchingWithOptions:",
+      "entry": "0x100170bfc",
+      "instruction_count": 254,
+      "static_table_edges": 11,
+      "unresolved_indirect_jumps": 0,
+      "boundary_stops": []
+    },
+    {
+      "class_name": "YYYFileListViewController",
+      "selector": "initSubviews",
+      "entry": "0x1000b0ec4",
+      "instruction_count": 768,
+      "static_table_edges": 20,
+      "unresolved_indirect_jumps": 0,
+      "boundary_stops": []
+    },
+    {
+      "class_name": "YYYSettingTableViewController",
+      "selector": "initTableView",
+      "entry": "0x10032edac",
+      "instruction_count": 620,
+      "static_table_edges": 26,
+      "unresolved_indirect_jumps": 1,
+      "boundary_stops": []
+    },
+    {
+      "class_name": "YYYSignHelper",
+      "selector": "preSignWithOption:",
+      "entry": "0x10038e4a4",
+      "instruction_count": 3362,
+      "static_table_edges": 17,
+      "unresolved_indirect_jumps": 1,
+      "boundary_stops": []
+    }
+  ],
+  "files": [
+    {
+      "path": "analysis/original-flow/AppDelegate-application_didFinishLaunchingWithOptions_.asm",
+      "bytes": 11057,
+      "sha256": "2b7dd32923a312e8eed5ea48f6674c676f6ac26b674b03e2f87778e2b4d27481"
+    },
+    {
+      "path": "analysis/original-flow/AppDelegate-application_didFinishLaunchingWithOptions_.json",
+      "bytes": 51262,
+      "sha256": "7ab888d7971ef07d2c510e691a8d390937607fa1f75531a3eea6f9171aec1517"
+    },
+    {
+      "path": "analysis/original-flow/AppDelegate-application_didFinishLaunchingWithOptions_.pseudo.c",
+      "bytes": 7900,
+      "sha256": "9cff35308f0cffeba0691c9cfe3b077eeab0a87e4d4fdaffd83486071c24579b"
+    },
+    {
+      "path": "analysis/original-flow/AppDelegate-application_didFinishLaunchingWithOptions_.tsv",
+      "bytes": 3463,
+      "sha256": "8fcfd22482163e9a8df1c70ebe0c16878bd9a29be79dcca12903dd3aab251b3d"
+    },
+    {
+      "path": "analysis/original-flow/YYYFileListViewController-initSubviews.asm",
+      "bytes": 32049,
+      "sha256": "2305553257d810330303567479aa057a782840609500bf9696987788da7e7f7d"
+    },
+    {
+      "path": "analysis/original-flow/YYYFileListViewController-initSubviews.json",
+      "bytes": 152538,
+      "sha256": "355a86958089d7690db783e729d4940372188916a8fd905d7293bb6b40ea9cf2"
+    },
+    {
+      "path": "analysis/original-flow/YYYFileListViewController-initSubviews.pseudo.c",
+      "bytes": 15357,
+      "sha256": "75d4b2d3b85b77a5e55765f99423cc33c835234ac9a36791df7c4478cca1ed27"
+    },
+    {
+      "path": "analysis/original-flow/YYYFileListViewController-initSubviews.tsv",
+      "bytes": 10256,
+      "sha256": "e3436cfd5bdc193e8b06e6cd717e7df57dc6400d9083220bb0047afdcf6fc59b"
+    },
+    {
+      "path": "analysis/original-flow/YYYSettingTableViewController-initTableView.asm",
+      "bytes": 26560,
+      "sha256": "2470c64ad2d620df28bdd5e0503bc82d283d85266a8d7d61013c66708d3e584a"
+    },
+    {
+      "path": "analysis/original-flow/YYYSettingTableViewController-initTableView.json",
+      "bytes": 122889,
+      "sha256": "566dfce4751e9774ef2cd2867593a671706e818814d1871baaaf04b5a8173e70"
+    },
+    {
+      "path": "analysis/original-flow/YYYSettingTableViewController-initTableView.pseudo.c",
+      "bytes": 14549,
+      "sha256": "399cbccf8671e40087ae2bc3fe7dbd3630238cf712df7e442ec418457139fd29"
+    },
+    {
+      "path": "analysis/original-flow/YYYSettingTableViewController-initTableView.tsv",
+      "bytes": 8410,
+      "sha256": "519ef5b25ddb6fa16a0efe3de4be51d11c0ad9b03070fb15b8370a4f5b9b6c01"
+    },
+    {
+      "path": "analysis/original-flow/YYYSignHelper-preSignWithOption_.asm",
+      "bytes": 142754,
+      "sha256": "7784b945d883485ba69ea28c6ea52f15d68d740daa32b60ad00f416a410bdc9f"
+    },
+    {
+      "path": "analysis/original-flow/YYYSignHelper-preSignWithOption_.json",
+      "bytes": 626582,
+      "sha256": "4e3aa9cf6543badf7ac33f2183c42b5bb23d0de82a533a2f8d6c557e7d7e3176"
+    },
+    {
+      "path": "analysis/original-flow/YYYSignHelper-preSignWithOption_.pseudo.c",
+      "bytes": 137228,
+      "sha256": "a43535d01e03ac1be68dbfbe822ac50bfcc9a9d6bcf9c09cb1a0841d526c89b0"
+    },
+    {
+      "path": "analysis/original-flow/YYYSignHelper-preSignWithOption_.tsv",
+      "bytes": 43933,
+      "sha256": "bd61ad758ce9e26d0522c014cbfbb62de1826e14f2cc1332b8eae6c3e4b33d98"
+    },
+    {
+      "path": "analysis/original-flow/YYYTabBarViewController-generateSubViewController.asm",
+      "bytes": 36511,
+      "sha256": "79d82c479f4b83372b7551be94a8c429ca8518cf30496df9fab9e57b36df3b91"
+    },
+    {
+      "path": "analysis/original-flow/YYYTabBarViewController-generateSubViewController.json",
+      "bytes": 180406,
+      "sha256": "439fd5490b3807809a19975957846ed0efd8f9757fd113617c4496c9b93cf080"
+    },
+    {
+      "path": "analysis/original-flow/YYYTabBarViewController-generateSubViewController.pseudo.c",
+      "bytes": 20643,
+      "sha256": "8239269a49346668d8e315ea88e02ef4dcb96a28f3947d92fea1677aff3db013"
+    },
+    {
+      "path": "analysis/original-flow/YYYTabBarViewController-generateSubViewController.tsv",
+      "bytes": 11883,
+      "sha256": "3ae6b016ebf2e96ee9cc181acae60f6340c0b6132d51ed66b9f1f3d2018c573f"
+    }
+  ]
+}

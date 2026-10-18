@@ -1,0 +1,135 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_bytes_modified": false,
+  "app_built_or_run": false,
+  "receiver_classes_verified": false,
+  "decoded_selector_stubs": 8999,
+  "sections": [
+    {
+      "name": "__stubs",
+      "segment": "__TEXT",
+      "address": 4304597304,
+      "size": 11652,
+      "offset": 9630008,
+      "path": "__stubs.bin.gz"
+    },
+    {
+      "name": "__stub_helper",
+      "segment": "__TEXT",
+      "address": 4304608956,
+      "size": 11460,
+      "offset": 9641660,
+      "path": "__stub_helper.bin.gz"
+    },
+    {
+      "name": "__objc_stubs",
+      "segment": "__TEXT",
+      "address": 4304620416,
+      "size": 287968,
+      "offset": 9653120,
+      "path": "__objc_stubs.bin.gz"
+    },
+    {
+      "name": "__objc_methname",
+      "segment": "__TEXT",
+      "address": 4305201448,
+      "size": 494474,
+      "offset": 10234152,
+      "path": "__objc_methname.bin.gz"
+    },
+    {
+      "name": "__objc_selrefs",
+      "segment": "__DATA",
+      "address": 4307918000,
+      "size": 95712,
+      "offset": 12950704,
+      "path": "__objc_selrefs.bin.gz"
+    }
+  ],
+  "dyld_bind_streams": [
+    {
+      "kind": "bind",
+      "offset": 15337520,
+      "size": 33368,
+      "path": "bind.bin.gz"
+    },
+    {
+      "kind": "weak-bind",
+      "offset": 15370888,
+      "size": 760,
+      "path": "weak-bind.bin.gz"
+    },
+    {
+      "kind": "lazy-bind",
+      "offset": 15371648,
+      "size": 28160,
+      "path": "lazy-bind.bin.gz"
+    }
+  ],
+  "files": [
+    {
+      "path": "__stubs.bin.gz",
+      "bytes": 1363,
+      "sha256": "e6db16dd778c5b26bbe75a7a18fe86d0e54f85fc6903473d79e0a781ff2cbc11",
+      "uncompressed_bytes": 11652,
+      "uncompressed_sha256": "9a9d7a07cffb5d3b9cc0ebbe2517e5cffb9780551b25e41abb0d00996f66c0ba"
+    },
+    {
+      "path": "__stub_helper.bin.gz",
+      "bytes": 3789,
+      "sha256": "ff67cbaba73a89da292f30ad76d01c481d49e13c017b6cfc041f92ecc4c6697d",
+      "uncompressed_bytes": 11460,
+      "uncompressed_sha256": "ff3ba37fd0759c379c4a19cd8a55a9df1b3b83a8d02f87ab6c9e6b79f68af9de"
+    },
+    {
+      "path": "__objc_stubs.bin.gz",
+      "bytes": 17103,
+      "sha256": "a093c99412c564b636004ad4741ea1d388207801c8f242f2cf003f11717209e9",
+      "uncompressed_bytes": 287968,
+      "uncompressed_sha256": "6d1b9a1838f8ea443ce4bfd1cddf81c48e628da8ae89f9c0ed09ddaf14d34589"
+    },
+    {
+      "path": "__objc_methname.bin.gz",
+      "bytes": 124583,
+      "sha256": "f54bd44f58b9f904661373a1e6805f1fca04f416d31732251246e1daf3059409",
+      "uncompressed_bytes": 494474,
+      "uncompressed_sha256": "dfb5e5b277bb15b41277db0339df1a404b6a7cc7e336bae0983e277b161a0412"
+    },
+    {
+      "path": "__objc_selrefs.bin.gz",
+      "bytes": 35145,
+      "sha256": "9bd283607b9be114119c5bc8e75ecd6952b94a86c12b82eeb5709be4d4bdf017",
+      "uncompressed_bytes": 95712,
+      "uncompressed_sha256": "e223c1cd53dec8014594654558ab210ca52f2c1d6785ff46974985a388272cb7"
+    },
+    {
+      "path": "bind.bin.gz",
+      "bytes": 12327,
+      "sha256": "99e331664ba42564361783653a8e391771a11c30c2a78b238868789d18e7fce7",
+      "uncompressed_bytes": 33368,
+      "uncompressed_sha256": "e0477ee88123e4df0048ff360694ff18cf556eb9679af7963606c2d305462024"
+    },
+    {
+      "path": "weak-bind.bin.gz",
+      "bytes": 326,
+      "sha256": "742a2b87e73fdcbe1889c0d739d2a0a7972b4b313ad985623518d68c351e080b",
+      "uncompressed_bytes": 760,
+      "uncompressed_sha256": "1e416263a50f9a93682981f2bd147f19d50af3ac68da045de7faa54ca45a5756"
+    },
+    {
+      "path": "lazy-bind.bin.gz",
+      "bytes": 8213,
+      "sha256": "ed90e098b1cfeefe23f7ee30591e7107e7a95a914c709b828cdd053ff04d3685",
+      "uncompressed_bytes": 28160,
+      "uncompressed_sha256": "3eb03754a48a959a014e91951b316504e3710add419a9a75ebb9e89cf628debe"
+    },
+    {
+      "path": "selector-stubs.json.gz",
+      "bytes": 197043,
+      "sha256": "add2e7ca475e249cad62eb61fa45d422531c6a8e2d647a926c731d664b11a001",
+      "uncompressed_bytes": 2123103,
+      "uncompressed_sha256": "a4498c3aa3582335db06a6087d8e52039e00d9df5276373812833a76208e9428"
+    }
+  ],
+  "scope": "Exact original code/data section excerpts and static selector-stub decoding; not app source"
+}

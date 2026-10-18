@@ -1,0 +1,1107 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "app_built_or_run": false,
+  "buildable_source": false,
+  "runtime_equivalence_verified": false,
+  "scope": "All YYY-prefix/AppDelegate class method entries; prefix is a heuristic",
+  "classes": 182,
+  "method_entries": 3396,
+  "unique_original_instructions": 358448,
+  "unique_identified_dispatch_calls": 12244,
+  "unresolved_jump_records": 419,
+  "methods_reaching_step_limit": 0,
+  "files": [
+    {
+      "path": "YYYCopyDylibViewController.jsonl.gz",
+      "bytes": 19571,
+      "sha256": "0774fe2f98fdf6dcdfb42cc608d18a5102fbcc96b97ed08ff06c7693171b15f8",
+      "method_records": 14
+    },
+    {
+      "path": "YYYTabBarViewController.jsonl.gz",
+      "bytes": 15416,
+      "sha256": "d33ebb2bc3b67ce1ffcc3cfb923722368184091b5188297a768cf95aca886872",
+      "method_records": 4
+    },
+    {
+      "path": "YYYFontToolView.jsonl.gz",
+      "bytes": 19498,
+      "sha256": "271ee425e0abadf53d2e2345383ce1e6db08db14b3cb4112a95a9b324270126a",
+      "method_records": 20
+    },
+    {
+      "path": "YYYCacheSizeTableViewCell.jsonl.gz",
+      "bytes": 1925,
+      "sha256": "93621524c962724073616ea72b05ddb29073703145c2070c4828d8dfc95589af",
+      "method_records": 1
+    },
+    {
+      "path": "YYYPlistInfoModel.jsonl.gz",
+      "bytes": 31482,
+      "sha256": "7e6d0d4a389af0c4b9c2c86911b9933ab98951b7efa2e397b3ca55a770b7367e",
+      "method_records": 28
+    },
+    {
+      "path": "YYYLanZouFileTableViewCell.jsonl.gz",
+      "bytes": 2771,
+      "sha256": "d6b2a8cc05e56c41be6b702d26935bb427c96d2274c0e77261606f062e088c40",
+      "method_records": 3
+    },
+    {
+      "path": "YYYProgressContentView.jsonl.gz",
+      "bytes": 10893,
+      "sha256": "58b638dd7cf4af7b62c89132d1970167acf14e0ba06ffd5ab8d082a83d2d636c",
+      "method_records": 13
+    },
+    {
+      "path": "YYYProgress.jsonl.gz",
+      "bytes": 9690,
+      "sha256": "abd1e8b94c4a249322b0067bd1d3e3aa078eda24bc3c8a58309a2f60d5776f2b",
+      "method_records": 12
+    },
+    {
+      "path": "YYYDefaultSignConfig.jsonl.gz",
+      "bytes": 13757,
+      "sha256": "bf8ca4d661ef105aafbe1e3b62b7f0cf0e5c41341462f5e96cf51722ef217cd2",
+      "method_records": 46
+    },
+    {
+      "path": "YYYAppSourceInfoTableViewCell.jsonl.gz",
+      "bytes": 9313,
+      "sha256": "550cc0b3bfb2a880c18ee60b261ff325b358fa3041169f544f2d0c5568adc662",
+      "method_records": 13
+    },
+    {
+      "path": "YYYTableViewHeaderFooterHelper.jsonl.gz",
+      "bytes": 5711,
+      "sha256": "bc5a78a94cc9f2a1ca6af29247d231568b3ec76e9d0a03b801d9825679fe3311",
+      "method_records": 17
+    },
+    {
+      "path": "YYYTextViewViewController.jsonl.gz",
+      "bytes": 26000,
+      "sha256": "e1d6038d167f99a69cb152b4e7093e289a63324ddff0797be5771267486a71a1",
+      "method_records": 21
+    },
+    {
+      "path": "YYYLanZouQRCodeView.jsonl.gz",
+      "bytes": 22630,
+      "sha256": "1c468ac28ba9b31413d820439c32a6172a6e5169fc6c5fadf08f9850b2313a04",
+      "method_records": 20
+    },
+    {
+      "path": "YYYTextViewEditorTool.jsonl.gz",
+      "bytes": 10752,
+      "sha256": "aa4764f07611f7ef47477ea2b9201e5a755b75d70cbec0fb43ffb0f64fcae98a",
+      "method_records": 10
+    },
+    {
+      "path": "YYYClassIvarInfo.jsonl.gz",
+      "bytes": 5809,
+      "sha256": "a93c7e708ce8d57dc96b4d6e100467cad2285ff0571239d8c54ec80d2711d2db",
+      "method_records": 8
+    },
+    {
+      "path": "YYYClassMethodArgumentInfo.jsonl.gz",
+      "bytes": 2619,
+      "sha256": "c03dc2965a5d40183abf42dc2c86ddd7870ce87f5d7323e611df387f42a11391",
+      "method_records": 5
+    },
+    {
+      "path": "YYYClassMethodInfo.jsonl.gz",
+      "bytes": 12044,
+      "sha256": "338af2e7f57ca13d9db4141fdbc6b9de1ea0f7037ddb86ae6ef950a065fd44b2",
+      "method_records": 12
+    },
+    {
+      "path": "YYYClassPropertyInfo.jsonl.gz",
+      "bytes": 20313,
+      "sha256": "68b792f408f3b1e779eda76f5bac5db1e63049c86a07ee693442728b01fc813a",
+      "method_records": 12
+    },
+    {
+      "path": "YYYClassInfo.jsonl.gz",
+      "bytes": 20994,
+      "sha256": "ff4f0f699e9d1739a7b236a44b337b43a083009fc4a80ae57d7d29e48bd04f2f",
+      "method_records": 22
+    },
+    {
+      "path": "YYYLanZouViewController.jsonl.gz",
+      "bytes": 75681,
+      "sha256": "1a3d9b088b8a100b836cad905345f4d35f417f0544cc610dde651364b9df38a9",
+      "method_records": 53
+    },
+    {
+      "path": "YYYAppSourceResourceTableViewController.jsonl.gz",
+      "bytes": 39798,
+      "sha256": "d6f23132e65d831c6317ece461c9edac25347406f2254436128bd9941e894806",
+      "method_records": 38
+    },
+    {
+      "path": "YYYWebDAVXMLParser.jsonl.gz",
+      "bytes": 15178,
+      "sha256": "736f28725156cd1d35f122e785a7d34a80bc616a08e21d1094bd8727f0c47243",
+      "method_records": 17
+    },
+    {
+      "path": "YYYTrollSettupViewController.jsonl.gz",
+      "bytes": 32096,
+      "sha256": "024ecb28ae097d7b1d3ad99308a0771fd2c877ce7a7700b891b4c40fa946352d",
+      "method_records": 10
+    },
+    {
+      "path": "YYYVideoPlayer.jsonl.gz",
+      "bytes": 45746,
+      "sha256": "506e89c45223e0d1985380dbbce52af08a84d1d931ce673808cc40cee11a3be7",
+      "method_records": 49
+    },
+    {
+      "path": "YYYAppTableViewCell.jsonl.gz",
+      "bytes": 18853,
+      "sha256": "1b02095e626841f6a5ab67c78a6456b122051fd49bca7d3defd75f96be80e404",
+      "method_records": 15
+    },
+    {
+      "path": "YYYTableViewCellHelper.jsonl.gz",
+      "bytes": 11275,
+      "sha256": "291633a11cf3dfb5cb0c5c4bbcbe5ad79ccba1f15ea040ad2b81356c0b7c2319",
+      "method_records": 33
+    },
+    {
+      "path": "YYYBackupViewController.jsonl.gz",
+      "bytes": 37410,
+      "sha256": "53bb141db4a6662e19675f395dec977d6d187c4bd4c27a3a63681672235f0796",
+      "method_records": 18
+    },
+    {
+      "path": "YYYLanZouFolderTableViewCell.jsonl.gz",
+      "bytes": 2742,
+      "sha256": "6a1f1e734cace00f0482f8a548e8008b6f4fd0f5ef7f0723cdc8dabab3920943",
+      "method_records": 3
+    },
+    {
+      "path": "YYYBackupTableViewCell.jsonl.gz",
+      "bytes": 2390,
+      "sha256": "7739214561c9c9b8042f3497fe5c9d1ab10550b63abfe4bf5345a0db573fd094",
+      "method_records": 1
+    },
+    {
+      "path": "YYYFileMoveViewController.jsonl.gz",
+      "bytes": 49728,
+      "sha256": "31c2a530da0692f2f8525a0c841fe9588484e787a0c7ba9a0ce65eefba875610",
+      "method_records": 39
+    },
+    {
+      "path": "YYYZipLevelTableViewCell.jsonl.gz",
+      "bytes": 9924,
+      "sha256": "a19c56ae5fa6fb5b8bfbd286caaa1075e812c8c536a48bccf7954af895b3048a",
+      "method_records": 9
+    },
+    {
+      "path": "YYYGradientLayerView.jsonl.gz",
+      "bytes": 4754,
+      "sha256": "14154d31abd2faba288e3bb741a5e557e55b95d95fac97403e31185a29894f48",
+      "method_records": 3
+    },
+    {
+      "path": "YYYAnnotationView.jsonl.gz",
+      "bytes": 8379,
+      "sha256": "97f82fa6ab075976d325112b04bcc9195d99f409ea753782e9b8b5d86021f76d",
+      "method_records": 11
+    },
+    {
+      "path": "YYYWebServerFileResponse.jsonl.gz",
+      "bytes": 7223,
+      "sha256": "d4d118d5031decf0333718472406972b403d986e04a56f09d2fca7e0c4fe8874",
+      "method_records": 10
+    },
+    {
+      "path": "YYYFileListViewController.jsonl.gz",
+      "bytes": 142769,
+      "sha256": "b6a8d9a72ea696b95835b23b41d21a64ce799d64696c9f691caefbd7f6603f6f",
+      "method_records": 69
+    },
+    {
+      "path": "YYYHTTPSConnection.jsonl.gz",
+      "bytes": 7454,
+      "sha256": "bb9170cb85012aeb66967cc5768c4b72b72365b74bbd5f28de7b2ef0b1ba808c",
+      "method_records": 5
+    },
+    {
+      "path": "YYYDelegateHelper.jsonl.gz",
+      "bytes": 33083,
+      "sha256": "980dbbe6846d7ef4b314a464d5f299b95c04709552c2dfda2a1360fa62635b05",
+      "method_records": 6
+    },
+    {
+      "path": "YYYSourceMessageTableViewCell.jsonl.gz",
+      "bytes": 5040,
+      "sha256": "711e52797e818343193e927462fa079a89d2fd79676c9f3b7b7ed091965f7ea3",
+      "method_records": 5
+    },
+    {
+      "path": "YYYBackgroundTaskUtil.jsonl.gz",
+      "bytes": 17465,
+      "sha256": "1e69b6a439e6af38e353fc58430ea6e28f48251728bd73dbedd178da3722298b",
+      "method_records": 18
+    },
+    {
+      "path": "YYYAppStoreHelper.jsonl.gz",
+      "bytes": 21734,
+      "sha256": "38df3233bddb8d1ef0dfa7b9aa97b0bafac987de56a00cec5b50b22af492ad52",
+      "method_records": 5
+    },
+    {
+      "path": "YYYAppStoreFilterView.jsonl.gz",
+      "bytes": 25253,
+      "sha256": "359c78dc01f31b3d3685cf045981f6b890de31b721b3e22ec2973c34018c0862",
+      "method_records": 27
+    },
+    {
+      "path": "YYYPlistFileEidtorViewController.jsonl.gz",
+      "bytes": 44019,
+      "sha256": "3a9634886384dfa90d9a8e00c4dae30b078b98dba691557a5892f968db3ab2fe",
+      "method_records": 28
+    },
+    {
+      "path": "YYYWebDavAccountViewController.jsonl.gz",
+      "bytes": 15148,
+      "sha256": "923e9fd9c6c567d1092fb8b66afa1ae11472aedcd897fb210e16f1502f707862",
+      "method_records": 14
+    },
+    {
+      "path": "YYYDownloadSetupView.jsonl.gz",
+      "bytes": 20415,
+      "sha256": "730e29602817d0893a99e72df4f1c13da2bf64092cf7ea77af9c7fb29f9cc3f8",
+      "method_records": 21
+    },
+    {
+      "path": "YYYTrollAppInfo.jsonl.gz",
+      "bytes": 26299,
+      "sha256": "23d12cb96db2a79c4da048713e99ee18b1619abdea144a62965e631de0434681",
+      "method_records": 33
+    },
+    {
+      "path": "YYYFileManagerNavigationController.jsonl.gz",
+      "bytes": 958,
+      "sha256": "bbd65c9a0bceae92c7bf9122f6df78d77beb6c4e835e64272d94c61cc5e78064",
+      "method_records": 1
+    },
+    {
+      "path": "YYYCreateQRCode.jsonl.gz",
+      "bytes": 13988,
+      "sha256": "2720c0b180413644419866568a4b5205a7b38aa62753e2ab8f8337c0446af207",
+      "method_records": 4
+    },
+    {
+      "path": "YYYMapSearchView.jsonl.gz",
+      "bytes": 27117,
+      "sha256": "d7f8a3fd89ac1cc36005ef6ad37665a975e441d54adde597e2ffde2161332c1f",
+      "method_records": 31
+    },
+    {
+      "path": "YYYReaderStyleHelper.jsonl.gz",
+      "bytes": 37758,
+      "sha256": "56c9f21b8b0a9d581264169bef6eb2143664e1afc36a0cc03127819dca74a408",
+      "method_records": 37
+    },
+    {
+      "path": "YYYAppListViewController.jsonl.gz",
+      "bytes": 106774,
+      "sha256": "ee8f3354fc8a204a28c8e073af963b774ca768842f8d34fec1bca81d33251a42",
+      "method_records": 66
+    },
+    {
+      "path": "YYYDownloadTableViewCell.jsonl.gz",
+      "bytes": 17900,
+      "sha256": "c5c5e1ba193519da964c479fed87cd0e5b1bb983965def9965c9b51c9d21f199",
+      "method_records": 17
+    },
+    {
+      "path": "YYYMapAddressCellTableViewCell.jsonl.gz",
+      "bytes": 2002,
+      "sha256": "efcfb3b0e2c3cbe58f8ab19f704e8338f98714eb4852237ea5d01604d8b05c3f",
+      "method_records": 3
+    },
+    {
+      "path": "YYYBookmarksViewController.jsonl.gz",
+      "bytes": 20784,
+      "sha256": "fe3e43e4191304e8051d0ea57fca58fa579054544f9e6318e00ea9da4003fc36",
+      "method_records": 13
+    },
+    {
+      "path": "YYYP12ViewController.jsonl.gz",
+      "bytes": 42942,
+      "sha256": "17283b6d5b68749e5240c24b07ec2f246cb96bf3ea8cdf566a35240e6841fbc0",
+      "method_records": 21
+    },
+    {
+      "path": "YYYSelectDylibTableViewController.jsonl.gz",
+      "bytes": 15674,
+      "sha256": "11c89866f04c87b4408033205ff4ed9761f3294427edbf7edbb4046d19c9c739",
+      "method_records": 14
+    },
+    {
+      "path": "YYYMarkdownViewController.jsonl.gz",
+      "bytes": 31022,
+      "sha256": "56c778f46b647b588ac5ce365b50a8848a818a93753e439a08f625bedf0695dc",
+      "method_records": 11
+    },
+    {
+      "path": "YYYSignInfo.jsonl.gz",
+      "bytes": 40171,
+      "sha256": "d33d05facd401463669c8d6e88a1cfd02ee710e00a1dde691087b5b3028832cf",
+      "method_records": 76
+    },
+    {
+      "path": "YYYBrightnessToolView.jsonl.gz",
+      "bytes": 16865,
+      "sha256": "7b5f709653c1cd4c6279c9f2b7d5d0a14209a4127f7327ff37088c01c8e4acbf",
+      "method_records": 8
+    },
+    {
+      "path": "YYYTableViewHeaderFooterView.jsonl.gz",
+      "bytes": 10437,
+      "sha256": "91cf8f8542962b7c7734cdc2173898789840fa6b4a530e54ecbe20aa9719cec2",
+      "method_records": 14
+    },
+    {
+      "path": "AppDelegate.jsonl.gz",
+      "bytes": 38281,
+      "sha256": "a72939acb56ad936768140971b519c6130cabffcbe6f50425d3b6599db328e71",
+      "method_records": 13
+    },
+    {
+      "path": "YYYMobileprovisionTableViewCell.jsonl.gz",
+      "bytes": 8537,
+      "sha256": "539ec48d162ecee911d940e376a42e2d568c46c2a4bb530d9a86f2eefb546337",
+      "method_records": 11
+    },
+    {
+      "path": "YYYAppStoreApp.jsonl.gz",
+      "bytes": 52135,
+      "sha256": "2305806e30f629d5a3c457ebf0829e04c1738d40bdc7643f4a96226fd7866ec4",
+      "method_records": 47
+    },
+    {
+      "path": "YYYAppStoreSource.jsonl.gz",
+      "bytes": 139044,
+      "sha256": "c18ca12fb92992ebe98731bcb2813f7d0eb636d546936942a34098a9cd5a7ce9",
+      "method_records": 33
+    },
+    {
+      "path": "YYYWebDAVConnectTableViewCell.jsonl.gz",
+      "bytes": 3763,
+      "sha256": "dd9049a3c4d4197cbe82f80f44fbc3ac2d44e322efd8cc3a6efce589f45dcb34",
+      "method_records": 1
+    },
+    {
+      "path": "YYYTrollSettupTableViewCell.jsonl.gz",
+      "bytes": 3192,
+      "sha256": "bb0a8129c6be22d80e64c52737b6dfda79f0c4249f87e9dbc0034aeb734d5058",
+      "method_records": 1
+    },
+    {
+      "path": "YYYTrollSettupRedTableViewCell.jsonl.gz",
+      "bytes": 2267,
+      "sha256": "bf1ed41758ae79aaf5539e12f6a954b1a9520c7cef8900e90466713bff8282af",
+      "method_records": 1
+    },
+    {
+      "path": "YYYBrightnessSlider.jsonl.gz",
+      "bytes": 25547,
+      "sha256": "fa4b78cca3702039e94657bd3ae82a68b1dbaa83f5fbedb4d2ba6a0a955ea49e",
+      "method_records": 33
+    },
+    {
+      "path": "YYYWebViewController.jsonl.gz",
+      "bytes": 77603,
+      "sha256": "509b286742c319d2df1657ed6cd2d4401e4a8acfccd02275c7c34f6c33aa1617",
+      "method_records": 44
+    },
+    {
+      "path": "YYYBenchmarkHelper.jsonl.gz",
+      "bytes": 2307,
+      "sha256": "bdd6d0c13200f88007a387423b413f17181f2441601cd94455743ea13093447e",
+      "method_records": 7
+    },
+    {
+      "path": "YYYChapterModel.jsonl.gz",
+      "bytes": 16567,
+      "sha256": "44bcb742026ea6ee55c9746b83e475bd74eb2bd74f82f6c638cc27b4c58b576e",
+      "method_records": 16
+    },
+    {
+      "path": "YYYBookModel.jsonl.gz",
+      "bytes": 15450,
+      "sha256": "f2f2d5b0b4a6c3b7d394805c3cda6a2e75bcafad7236ba8a046903eaec7d5122",
+      "method_records": 13
+    },
+    {
+      "path": "YYYBookReaderDivision.jsonl.gz",
+      "bytes": 3734,
+      "sha256": "14ef12b39c3b2812e50f3957818a6ac5d1c838893feec4d906558ddd1e9ce28c",
+      "method_records": 13
+    },
+    {
+      "path": "YYYSignDefaultTableViewCell.jsonl.gz",
+      "bytes": 2520,
+      "sha256": "c5124f8ed094135989cb687d591660106f952ce19078cee79c78664d55b47268",
+      "method_records": 1
+    },
+    {
+      "path": "YYYDownloadItem.jsonl.gz",
+      "bytes": 34377,
+      "sha256": "9221df45fb288650b5de91c8f1dfd9711012616af41768b8b0a6a3d323dbc443",
+      "method_records": 28
+    },
+    {
+      "path": "YYYDownloadDataSource.jsonl.gz",
+      "bytes": 41475,
+      "sha256": "6ef93c908eccae8cb35946d02b5382f15b85a79677a4bcc97c2ff6339cf0ad8c",
+      "method_records": 20
+    },
+    {
+      "path": "YYYSignLogViewController.jsonl.gz",
+      "bytes": 49322,
+      "sha256": "1b539e6fb49c7befd6f8be8692f3a3a093078bb2728261069ff4143e48a16e3c",
+      "method_records": 41
+    },
+    {
+      "path": "YYYWiFiViewController.jsonl.gz",
+      "bytes": 29396,
+      "sha256": "328a284d9271df4e997d07e78cdf03918cfbb9ef8eb8d395ff8885cd1557823b",
+      "method_records": 17
+    },
+    {
+      "path": "YYYArchive.jsonl.gz",
+      "bytes": 40761,
+      "sha256": "bd081a0e2499604699ec4a3c918b810c5ba9f00f6cd1dc2a6ced1c1c9647fc4c",
+      "method_records": 42
+    },
+    {
+      "path": "YYYDEBArchive.jsonl.gz",
+      "bytes": 12110,
+      "sha256": "003ed25189b080148e49091170393f5ceb4f15c2840b1ebe4a0d38cae98d530b",
+      "method_records": 10
+    },
+    {
+      "path": "YYYZipArchive.jsonl.gz",
+      "bytes": 2653,
+      "sha256": "6248b41def964ee70c7debe62090aa755823b9887131f0085e5c0cf595fb1615",
+      "method_records": 1
+    },
+    {
+      "path": "YYYSettingTableViewCell.jsonl.gz",
+      "bytes": 3656,
+      "sha256": "cb4f1a063b86517df8bcd1f733f154776e5cf1dbc46a2fc5c685fa718fd90097",
+      "method_records": 4
+    },
+    {
+      "path": "YYYVideoToolView.jsonl.gz",
+      "bytes": 56129,
+      "sha256": "a5161420a9c6cd36912a76d9fe7147fcbffc0769a71e8d3c1837abc6296872b2",
+      "method_records": 79
+    },
+    {
+      "path": "YYYFileTableViewCell.jsonl.gz",
+      "bytes": 13981,
+      "sha256": "5e2ea78ff3e174207b740601692ce7fc8d7b9f59023761ba35975c7b65e2b90f",
+      "method_records": 13
+    },
+    {
+      "path": "YYYSelectFileViewController.jsonl.gz",
+      "bytes": 22070,
+      "sha256": "2a99ad532d1f3238f59a14754ac61ad069a613e4adcc31ca29f1e3a76029e9f9",
+      "method_records": 26
+    },
+    {
+      "path": "YYYSignConfigDefaultSetupViewController.jsonl.gz",
+      "bytes": 20571,
+      "sha256": "446b5ad7ac1cf0d28122046ed5a4ca214c7e736c83223f32d5dc1c5164e490fe",
+      "method_records": 11
+    },
+    {
+      "path": "YYYReaderViewController.jsonl.gz",
+      "bytes": 48001,
+      "sha256": "f30de30e96937f046c86c47c3abb6dafb91ca799b46f7b50d170cdec7639e50f",
+      "method_records": 48
+    },
+    {
+      "path": "YYYDownloadTableViewController.jsonl.gz",
+      "bytes": 41974,
+      "sha256": "1a915b664ce19ee75a1cc9c13d8423a607a1ccfeba7cffe4cd89dda3686b3b12",
+      "method_records": 26
+    },
+    {
+      "path": "YYYBatchSignConfigViewController.jsonl.gz",
+      "bytes": 16187,
+      "sha256": "89094ffc73d3ceaf378bf6f39ff7c6b9f2330f80484ca73fad51ff1228a2d173",
+      "method_records": 17
+    },
+    {
+      "path": "YYYReaderTopView.jsonl.gz",
+      "bytes": 6933,
+      "sha256": "37fa44d66d538ffeec820a34738e5b5b8a890ddf6dcfa1b8d919718cac2eb886",
+      "method_records": 8
+    },
+    {
+      "path": "YYYReaderContentViewController.jsonl.gz",
+      "bytes": 18895,
+      "sha256": "7916cef5f0066aaba456f6e97e4a7e2b237044ca4070b59d33a4b020c928d8d5",
+      "method_records": 26
+    },
+    {
+      "path": "YYYCatalogView.jsonl.gz",
+      "bytes": 34959,
+      "sha256": "4a41003a9255471b427fcf995c75eefbbfb85627e89673a3159ccd9ee69df5e2",
+      "method_records": 38
+    },
+    {
+      "path": "YYYTreeNodeTableViewCell.jsonl.gz",
+      "bytes": 16503,
+      "sha256": "0e85b556865781f7bcd96dc4ba0746171797c6059f910e2de8630d1d9710cff5",
+      "method_records": 17
+    },
+    {
+      "path": "YYYLSApplicationWorkspace.jsonl.gz",
+      "bytes": 897,
+      "sha256": "6c00342f64d0f6a1f9203f463d1432a3cb1a5d3618d389147450c03cea694532",
+      "method_records": 1
+    },
+    {
+      "path": "YYYAppInfoModel.jsonl.gz",
+      "bytes": 56520,
+      "sha256": "2f655b6a5fea11003647e4d2d00052b46981a2b823050d7f81ed334198d7af64",
+      "method_records": 31
+    },
+    {
+      "path": "YYYAppDetailView.jsonl.gz",
+      "bytes": 36794,
+      "sha256": "0a859ef56b6b481157f2a419b405619bd157270749396919dd1d006598855a9e",
+      "method_records": 28
+    },
+    {
+      "path": "YYYHexEditorViewController.jsonl.gz",
+      "bytes": 49882,
+      "sha256": "750a7d7520a61ebff948e713c0304847b24d99a702a30447dd42838576e66c9f",
+      "method_records": 38
+    },
+    {
+      "path": "YYYWebDAVRequest.jsonl.gz",
+      "bytes": 4318,
+      "sha256": "78efb3c303a2134f6d45b4e61458744f80421299fde07a203839b75e0ac4802d",
+      "method_records": 11
+    },
+    {
+      "path": "YYYAppInstall.jsonl.gz",
+      "bytes": 34659,
+      "sha256": "ac473b1ff760903229f23d3132dd7adcd17bca3b249656972af2881890bc75c8",
+      "method_records": 27
+    },
+    {
+      "path": "YYYProgressView.jsonl.gz",
+      "bytes": 5759,
+      "sha256": "012142b7596d034213497b9c9a425f0a1a8545e76807feb370c2691102e3edab",
+      "method_records": 6
+    },
+    {
+      "path": "YYYFolderTableViewCell.jsonl.gz",
+      "bytes": 9644,
+      "sha256": "dcb3400e3590d8c788c5efb910a1435fcdb2cd76d38fa007fde6801250dd78b4",
+      "method_records": 10
+    },
+    {
+      "path": "YYYAppStoreController.jsonl.gz",
+      "bytes": 35124,
+      "sha256": "ca85e68bbd819e0a8a88af85dea8679aa555c0a9e0e480c7e6864ed9863b628f",
+      "method_records": 45
+    },
+    {
+      "path": "YYYContractViewController.jsonl.gz",
+      "bytes": 15965,
+      "sha256": "f2ffdbad135af846d058e2ed4b74547294193fd98516a358ff53491d4a87fb45",
+      "method_records": 7
+    },
+    {
+      "path": "YYYSignLogTableViewCell.jsonl.gz",
+      "bytes": 6432,
+      "sha256": "9aa298a2f3ef4b3c6661b69dac04b8d7ec0bba677402271eadb0219891650ea0",
+      "method_records": 9
+    },
+    {
+      "path": "YYYSignConfigViewController.jsonl.gz",
+      "bytes": 39722,
+      "sha256": "df77252fe4ee13ecca1c05c77653d3f90a80b02754136909c3feae8d0bcc6709",
+      "method_records": 26
+    },
+    {
+      "path": "YYYInjectPathTableViewCell.jsonl.gz",
+      "bytes": 9544,
+      "sha256": "ecf4cd41cff3112407530e5ae54643bd459b8173fb03f1ca39e91e62f358ff17",
+      "method_records": 9
+    },
+    {
+      "path": "YYYSignAppInfoModel.jsonl.gz",
+      "bytes": 24830,
+      "sha256": "3d5fbebcb072d8d5c5325283feece930b64747df4948bd54d7a998d17c7926af",
+      "method_records": 21
+    },
+    {
+      "path": "YYYAppDetailTableViewCell.jsonl.gz",
+      "bytes": 6745,
+      "sha256": "94cb1e69de540c217d2b4323391e8b7b50941a0e2a85edda3716ca650281462c",
+      "method_records": 8
+    },
+    {
+      "path": "YYYModifyInstallAppViewController.jsonl.gz",
+      "bytes": 29297,
+      "sha256": "1c3b75e9e2aa12d725d4d5bef6860ce54efbd80e6c2edebee38e3a9c69c279fd",
+      "method_records": 18
+    },
+    {
+      "path": "YYYWiFiQRCodeView.jsonl.gz",
+      "bytes": 22458,
+      "sha256": "3bd81d4b9cd3def144330f6b46d0699a4bcb65469989a982d2e23ff6e45a9e15",
+      "method_records": 20
+    },
+    {
+      "path": "YYYCertTableViewController.jsonl.gz",
+      "bytes": 35165,
+      "sha256": "af36180afab05507cd635539e84bf8c093b5c69f21bb1674f4991282060464ba",
+      "method_records": 19
+    },
+    {
+      "path": "YYYTableViewSectionHelper.jsonl.gz",
+      "bytes": 17475,
+      "sha256": "a4e6565e20dc15b8490500f6e3752e10a58baffdd645727b5d0eb3f152a36073",
+      "method_records": 26
+    },
+    {
+      "path": "YYYLSApplicationRestrictionsManager.jsonl.gz",
+      "bytes": 942,
+      "sha256": "8d05c0f1745af24f4b838f6e2b259b7ac9d5d7e24e6f8fdf51bd4d3c9a15f101",
+      "method_records": 1
+    },
+    {
+      "path": "YYYWebDAVAccountTableViewCell.jsonl.gz",
+      "bytes": 2784,
+      "sha256": "01409a8e16a3f3125e4129241a9ee75c9f6addbc5d606888053ae07f52c4e1af",
+      "method_records": 1
+    },
+    {
+      "path": "YYYAppStoreSourceTableViewController.jsonl.gz",
+      "bytes": 70672,
+      "sha256": "a0c9031e49b7e5b1545e1435b90f1f63e61ebd80edd7d8e4098e976ac3474d6e",
+      "method_records": 29
+    },
+    {
+      "path": "YYYCacheSliderView.jsonl.gz",
+      "bytes": 6841,
+      "sha256": "8bb6018eb669eb999233ae54f2d94e1fb8a30f4f32ac99140fb50dd5058ae347",
+      "method_records": 8
+    },
+    {
+      "path": "YYYWebDAVFileListViewController.jsonl.gz",
+      "bytes": 67070,
+      "sha256": "9d1dbbcbd6c268d398266e3adb5134aac2a435f6c299ef874f33eef4ff043fef",
+      "method_records": 28
+    },
+    {
+      "path": "YYYCertModel.jsonl.gz",
+      "bytes": 28110,
+      "sha256": "8de81ec7fd0a6755d22edbc79d9f5c0de1449c344e6cca4461ac96f0ea6af0b0",
+      "method_records": 29
+    },
+    {
+      "path": "YYYListToolView.jsonl.gz",
+      "bytes": 22264,
+      "sha256": "ceda4051a6fc1b7be5f36afd34385fca2afc218d5941c6881df98872600419b0",
+      "method_records": 18
+    },
+    {
+      "path": "YYYSettingTableViewController.jsonl.gz",
+      "bytes": 64817,
+      "sha256": "0daf8177636d0ffb5f98e5604f8aeb16297eabc809668bcb5715171dad0d6192",
+      "method_records": 29
+    },
+    {
+      "path": "YYYSourceManager.jsonl.gz",
+      "bytes": 262570,
+      "sha256": "57bd3968e2d8cfa0c53abae2a542f862afb639f3c928647e7a04e17a38deabab",
+      "method_records": 122
+    },
+    {
+      "path": "YYYHexEditorTableViewCell.jsonl.gz",
+      "bytes": 37351,
+      "sha256": "600f9d8c8060e93abcccfb75d933b338c16207882f66c837a27c49488f18f812",
+      "method_records": 25
+    },
+    {
+      "path": "YYYMapViewController.jsonl.gz",
+      "bytes": 33219,
+      "sha256": "cbb904666f1d37a938fd2df9b8e75b65d1f4e218c6fab74c62b620fe7aa01cbe",
+      "method_records": 31
+    },
+    {
+      "path": "YYYCacheSizeViewController.jsonl.gz",
+      "bytes": 14324,
+      "sha256": "73139172a679d8f615eb8777fc07a67505177e908348e6554efe88c6493033aa",
+      "method_records": 16
+    },
+    {
+      "path": "YYYModifyDylibTableViewController.jsonl.gz",
+      "bytes": 23949,
+      "sha256": "7fc6be083ba925e3f480eaa77dd9785b48c7eac848e19339061f8e8c5b91eb94",
+      "method_records": 16
+    },
+    {
+      "path": "YYYCertTableViewCell.jsonl.gz",
+      "bytes": 14619,
+      "sha256": "21c0565dd3d88cbf9b270f8eab04fa3dd264d62f3212e8e4235d20ffc51979e5",
+      "method_records": 14
+    },
+    {
+      "path": "YYYSelectCertTableViewController.jsonl.gz",
+      "bytes": 21717,
+      "sha256": "83504f80374b47372140bd85074c564ffc850ec01d1f59c1e4b97020117ceb43",
+      "method_records": 19
+    },
+    {
+      "path": "YYYMobileprovisionViewerViewController.jsonl.gz",
+      "bytes": 61159,
+      "sha256": "bca12774d1a68655138a5f9aa8184e0785313eb22d82e3c0f6f43e91f0e2a029",
+      "method_records": 19
+    },
+    {
+      "path": "YYYEditToolView.jsonl.gz",
+      "bytes": 2205,
+      "sha256": "2a50ef73e5b09e744ea66ed641dd145a080fe4b1fc1817a36ff72127660d24ca",
+      "method_records": 5
+    },
+    {
+      "path": "YYYTableViewHelper.jsonl.gz",
+      "bytes": 39968,
+      "sha256": "40fd5bf8c835da9b4b22f11e077912cb0631a709f9bfda5987aba3c49d606145",
+      "method_records": 33
+    },
+    {
+      "path": "YYYWebDAVManager.jsonl.gz",
+      "bytes": 55118,
+      "sha256": "774e471e9674c8b50ab637ec4654ac4b670ec8df0395b93209dd0367a7fd298c",
+      "method_records": 28
+    },
+    {
+      "path": "YYYQRScanViewController.jsonl.gz",
+      "bytes": 23757,
+      "sha256": "ec9dea6a6da459d80952b3b1b1e34eb206753fa534963c6e118b9132814a13c7",
+      "method_records": 21
+    },
+    {
+      "path": "YYYLocation.jsonl.gz",
+      "bytes": 4592,
+      "sha256": "e8c414ea4a349cd02b087f9e4c8a34ec2888002477b1d759e56f7c48c1d747ef",
+      "method_records": 11
+    },
+    {
+      "path": "YYYSignFooterView.jsonl.gz",
+      "bytes": 10072,
+      "sha256": "81ab7c109711e0f854df9b489443d175685a244213952779fa825f29c5d06ef9",
+      "method_records": 9
+    },
+    {
+      "path": "YYYSignHelper.jsonl.gz",
+      "bytes": 77154,
+      "sha256": "80db71a583341f9dbe2999aad0332570720087876918e60e12b7d07a601c1e44",
+      "method_records": 17
+    },
+    {
+      "path": "YYYSwitchTableViewCell.jsonl.gz",
+      "bytes": 6070,
+      "sha256": "ef8056b63b964b1bd330cda251a9cec9ba19ac59a5ea2c4c3554070c45b6e4b2",
+      "method_records": 8
+    },
+    {
+      "path": "YYYVideoPlayerView.jsonl.gz",
+      "bytes": 52026,
+      "sha256": "60b5e3ba1e14691cb894a684550ea0d268df07fa2aca1d0c2eb394eef925a50b",
+      "method_records": 42
+    },
+    {
+      "path": "YYYAListViewController.jsonl.gz",
+      "bytes": 67922,
+      "sha256": "ab0b2e54a037188143fe082cbfe391758e4c7130c22433670942e1df210dd8d6",
+      "method_records": 34
+    },
+    {
+      "path": "YYYModifyInfo.jsonl.gz",
+      "bytes": 50680,
+      "sha256": "b184841de74602012960ac4ee684141622ea8fdd0517045936aef0c7f3a05bfb",
+      "method_records": 44
+    },
+    {
+      "path": "YYYReaderContentView.jsonl.gz",
+      "bytes": 3382,
+      "sha256": "a680e51eb842bf9b42eb0723410f57e9245d7010cc126167a0486dfd7bf34ff3",
+      "method_records": 4
+    },
+    {
+      "path": "YYYReaderBottomView.jsonl.gz",
+      "bytes": 30231,
+      "sha256": "a332913a5498bbf0e974c90f6338e79cdb9d5eb86cca40a910ab40fbc70ad549",
+      "method_records": 31
+    },
+    {
+      "path": "YYYWebDAVInputTableViewCell.jsonl.gz",
+      "bytes": 9200,
+      "sha256": "5bfe87240b0a63e0f3382c5ab1968e7d116cd47fed618ac168cc73369cb64acd",
+      "method_records": 12
+    },
+    {
+      "path": "YYYAlistHelper.jsonl.gz",
+      "bytes": 68538,
+      "sha256": "e857da463d3d97af02bab52d62a681363e19d6b254583803a7b8ca94e63bd147",
+      "method_records": 22
+    },
+    {
+      "path": "YYYInjectFolderTableViewCell.jsonl.gz",
+      "bytes": 11508,
+      "sha256": "1386505c314386a1059601fce32ebb40f05cec1781a9b27165f35436e8e8f672",
+      "method_records": 9
+    },
+    {
+      "path": "YYYTableViewCell.jsonl.gz",
+      "bytes": 6562,
+      "sha256": "bd78ac5be6bb290a7643261a17b7c192d10ee1ec0d011b69aece06d601b5b401",
+      "method_records": 8
+    },
+    {
+      "path": "YYYImageTableViewCell.jsonl.gz",
+      "bytes": 6811,
+      "sha256": "1ca9c4f7d9e5c94fb446ae87098d1c9ebb980a87875827473b7ae5439539bae9",
+      "method_records": 10
+    },
+    {
+      "path": "YYYSignFileNameRuleTableViewCell.jsonl.gz",
+      "bytes": 21754,
+      "sha256": "8c70a2df84da71e0e224c96cfdcac3162f2e57a3177987db0e68e173956fbae0",
+      "method_records": 15
+    },
+    {
+      "path": "YYYAppLogoTableViewCell.jsonl.gz",
+      "bytes": 8069,
+      "sha256": "42f849926097eaeb6e5dfc47c336cb4a6f5ce408c3d04cceee77bdf26c0aad82",
+      "method_records": 10
+    },
+    {
+      "path": "YYYVideoPlayerViewController.jsonl.gz",
+      "bytes": 13310,
+      "sha256": "496877da4b711fcb749ae75bbaa9b86dc28216596eb454fa282ac077971ad99f",
+      "method_records": 15
+    },
+    {
+      "path": "YYYClassDump.jsonl.gz",
+      "bytes": 6265,
+      "sha256": "06386cae7d5421fac0d4fd49805bd1edc939bb89d92ca51585fff93db761857e",
+      "method_records": 2
+    },
+    {
+      "path": "YYYEntitlementValue.jsonl.gz",
+      "bytes": 3957,
+      "sha256": "d5b3ea39ed366b831e3cf2c4d204d867201ceda4c66954b5254bdb2305fbcca8",
+      "method_records": 12
+    },
+    {
+      "path": "YYYEntitlementBlob.jsonl.gz",
+      "bytes": 4921,
+      "sha256": "4d9f8c88eaccea3c300eb9b067d602048d48f30a9ed782e88f9a5b298b8b1008",
+      "method_records": 14
+    },
+    {
+      "path": "YYYEntitlementsSuperBlob.jsonl.gz",
+      "bytes": 7460,
+      "sha256": "6aca36ed57636e68517d6d0f5118ed86fce3447dba68a2eebf12e3e2b76e94f1",
+      "method_records": 15
+    },
+    {
+      "path": "YYYMachO.jsonl.gz",
+      "bytes": 93228,
+      "sha256": "1c1aac855a5263e85fba0c83965cc56ca2396800e40972c62d5b220161a6259f",
+      "method_records": 34
+    },
+    {
+      "path": "YYYMobileprovision.jsonl.gz",
+      "bytes": 35510,
+      "sha256": "df47eab5761b28ba86d792afd6a0cbd6d73e962f2837cf6eccc66def345952f7",
+      "method_records": 38
+    },
+    {
+      "path": "YYYP12.jsonl.gz",
+      "bytes": 213610,
+      "sha256": "09c66713860552cda11751f0fc36ec8ce3fdd0ea5c4b7e0ef1c8b028c12aa7fb",
+      "method_records": 37
+    },
+    {
+      "path": "YYYRPathCommand.jsonl.gz",
+      "bytes": 1731,
+      "sha256": "bef0c599b13bb11375feacdd53ec8ebfb6f9a69d8aa5095d5a4002a5664a30e5",
+      "method_records": 5
+    },
+    {
+      "path": "YYYBundle.jsonl.gz",
+      "bytes": 73640,
+      "sha256": "555c2e0f2380b53dcbeec9fda4066889d71a4c5666c6cf6c82b0db3caf71dbec",
+      "method_records": 43
+    },
+    {
+      "path": "YYYAppBundle.jsonl.gz",
+      "bytes": 149486,
+      "sha256": "881f55410ea20f1f6b628e86771dc27a61c028b6893ab8888aa62dac6fac57e6",
+      "method_records": 38
+    },
+    {
+      "path": "YYYLoadCommand.jsonl.gz",
+      "bytes": 1620,
+      "sha256": "6c1848feaa0b1c24648c216efbef19c6ba80e5011746a85756a83fbb984bb674",
+      "method_records": 4
+    },
+    {
+      "path": "YYYSignAsset.jsonl.gz",
+      "bytes": 34061,
+      "sha256": "b0e2564388151e22fdfb886ad04eacaf02b90a922049c0482c801626aad6e96d",
+      "method_records": 22
+    },
+    {
+      "path": "YYYDylibCommand.jsonl.gz",
+      "bytes": 1663,
+      "sha256": "a2af3180b0a5ac206940de8e57b98a7b8131d50658d0a2959653e01f83059c71",
+      "method_records": 5
+    },
+    {
+      "path": "YYYMachHeader.jsonl.gz",
+      "bytes": 4942,
+      "sha256": "afb3610a000db9ff61ed9c1153b90f7e740373d106ff28e9f6c21e424c824d08",
+      "method_records": 12
+    },
+    {
+      "path": "YYYlinkeditDataCommand.jsonl.gz",
+      "bytes": 979,
+      "sha256": "02bb919bdf1f5291a5424394a52df3e9d3b6533e577f97d0fc4a4ff245c564a0",
+      "method_records": 2
+    },
+    {
+      "path": "YYYOffsetNode.jsonl.gz",
+      "bytes": 2040,
+      "sha256": "e9461ee22bd4da87e18765f07b20422506566ed6a6702245e094335a096f1edc",
+      "method_records": 5
+    },
+    {
+      "path": "YYYFatArchO.jsonl.gz",
+      "bytes": 3998,
+      "sha256": "39e30b10adbe24995748f46fcaffc4ef45222e2470dd59e182f2db79154e3376",
+      "method_records": 5
+    },
+    {
+      "path": "YYYFatArch.jsonl.gz",
+      "bytes": 818,
+      "sha256": "3fcc10e894fb06ee418f2247c13c741d73865feb6476d9a65c35df931bc62249",
+      "method_records": 2
+    },
+    {
+      "path": "YYYArchO.jsonl.gz",
+      "bytes": 99063,
+      "sha256": "278849f6455dac0d375c1bdbdf60f8af5eb7d8588631f1805e252cabdf036573",
+      "method_records": 49
+    },
+    {
+      "path": "YYYSegmentCommand.jsonl.gz",
+      "bytes": 1226,
+      "sha256": "47c8b28c00e2c78d93c1568c372b97d7c5cf5350f1d59ceba7bafcbcd2446340",
+      "method_records": 4
+    },
+    {
+      "path": "YYYBlob.jsonl.gz",
+      "bytes": 7670,
+      "sha256": "832b45aae453c4b15ae20ed870709553d80ce4ac0de5feb9ad410631e681fdbc",
+      "method_records": 12
+    },
+    {
+      "path": "YYYBlobIndex.jsonl.gz",
+      "bytes": 4342,
+      "sha256": "e74bf938433a1e0c4c32cb51c3411d1003affe5a8393e594851e688f6654b633",
+      "method_records": 12
+    },
+    {
+      "path": "YYYSuperBlob.jsonl.gz",
+      "bytes": 19665,
+      "sha256": "17e8226f98319f18ebb5d6a56e42c60dd6108bc1e58bc524f32399760b3c283e",
+      "method_records": 14
+    },
+    {
+      "path": "YYYLIEF.jsonl.gz",
+      "bytes": 2271,
+      "sha256": "396262f334e11280e517f796eaeee7796e2438758d5df17d68e8b8adb0f4b4c6",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_traditional.jsonl.gz",
+      "bytes": 21304,
+      "sha256": "2f5d05a76dc69600f64e94fc6350f691ba4fe802372f17149e93611287fd7411",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_vietnamese.jsonl.gz",
+      "bytes": 20677,
+      "sha256": "1c72686852bd8b686081b5a976cb704c7c825cba1a9f67e4c767e7e23ee8d2df",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_russian.jsonl.gz",
+      "bytes": 30656,
+      "sha256": "6aac7abdc9d62932b6da1e812b3ff42cf3b0b758eb2793b95803624b16027dd0",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_chinese.jsonl.gz",
+      "bytes": 15853,
+      "sha256": "24e5269011c85a244c18398a41af30a8ff86a012e1cf723d5b0b561dd0262f16",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_brazil.jsonl.gz",
+      "bytes": 23870,
+      "sha256": "f7333fe316517f6dfb7799c048e2c0eaefb79fa01e86f343f68954472f25c70a",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_arabic.jsonl.gz",
+      "bytes": 30035,
+      "sha256": "06fb0e268fb09490380aceda3084b4b365230fa0cdaa1380dc3fd4d167990da2",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_kurdish.jsonl.gz",
+      "bytes": 20842,
+      "sha256": "1ad0c22a8b504e6127566c50a92f9a2d23b66baba7ca16bc10fd1a7b43f57d27",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized.jsonl.gz",
+      "bytes": 34520,
+      "sha256": "eef25becc207f7cb30d9762ced5b3c6beeeb9a6f29e7c1ee523d0db419bdbcfe",
+      "method_records": 4
+    },
+    {
+      "path": "YYYLocalized_hk.jsonl.gz",
+      "bytes": 21345,
+      "sha256": "4a8092ed858bbe3696493d17eb0da255a9db85f64f169bd20488bd942643051a",
+      "method_records": 1
+    },
+    {
+      "path": "YYYLocalized_french.jsonl.gz",
+      "bytes": 21232,
+      "sha256": "3db839f793f39ab9ce035720d8d971fc5cf63768e900a80705269d6848e52b4b",
+      "method_records": 1
+    }
+  ]
+}

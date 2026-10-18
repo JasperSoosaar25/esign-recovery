@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>
+%@ 下载完成，正在安装
+</key>
+	<string>
+%@ Download complete, installing
+</string>
+	<key>
+%@ 下载完成，正在安装，可以返回桌面查看安装进度。</key>
+	<string>
+%@ The download is complete and the installation is in progress. You can return to the desktop to view the installation progress.</string>
+	<key>
+尝试安装：%@ 
+</key>
+	<string>
+Try to install: %@ 
+</string>
+	<key>%@项</key>
+	<string>%@ Item</string>
+	<key>0.75X</key>
+	<string>0.75X</string>
+	<key>1.0X</key>
+	<string>1.0X</string>
+	<key>1.5X</key>
+	<string>1.5X</string>
+	<key>2.0X</key>
+	<string>2.0X</string>
+	<key>App名字</key>
+	<string>Имя приложения</string>
+	<key>App多开</key>
+	<string>Мульти-дубликат приложения</string>
+	<key>App已签名成功</key>
+	<string>Приложение успешно подписано</string>
+	<key>App文件</key>
+	<string>Файл приложения</string>
+	<key>App文件有错误</key>
+	<string>В файле приложения есть ошибка</string>
+	<key>Begin %@，Count %@</key>
+	<string>Номер: %@，Количество: %@</string>
+	<key>Bundle Identifier</key>
+	<string>Bundle ID</string>
+	<key>Cancel</key>
+	<string>Отмена</string>
+	<key>Download</key>
+	<string>Скачать</string>
+	<key>EPILOGUE</key>
+	<string></string>
+	<key>FOOTER_FORMAT</key>
+	<string>%@ %@</string>
+	<key>File</key>
+	<string>Файл</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>IPA文件不存在或无法访问。</key>
+	<string>Файл IPA не существует или недоступен.</string>
+	<key>IPA文件中似乎不包app文件</key>
+	<string>Файл IPA не содержит приложения.</string>
+	<key>IPA文件出错</key>
+	<string>Ошибка IPA файла</string>
+	<key>Info.plist 缺少必要值</key>
+	<string>В приложении в Info.plist отсутствуют необходимые значения.</string>
+	<key>Install</key>
+	<string>Установить</string>
+	<key>PROLOGUE</key>
+	<string>&lt;p&gt;Перетащите файлы в это окно или используйте кнопку "Загрузить файлы" для загрузки новых файлов.&lt;/p&gt;</string>
+	<key>Plist 格式错误,无法解析</key>
+	<string>Ошибка формата .plist</string>
+	<key>Refresh</key>
+	<string>Обновить</string>
+	<key>UDID复制成功</key>
+	<string>UDID успешно скопирован </string>
+	<key>UDID获取成功</key>
+	<string>UDID получен успешно </string>
+	<key>URL 不能为空</key>
+	<string>Неверный URL</string>
+	<key>Upload Files</key>
+	<string>Загрузить файлы</string>
+	<key>WiFi传输</key>
+	<string>WiFi</string>
+	<key>[%@]个文件%@成功，当前目录已存在%@个相同名称的文件</key>
+	<string>[%@] файлы были успешно %@, %@ файлы с таким именем уже существуют</string>
+	<key>[%@]个文件%@成功，此位置已经存在名称为“%@”的文件</key>
+	<string>[%@] файлы были успешно %@ и файл с именем '%@' уже существует</string>
+	<key>deb解压失败:%@</key>
+	<string>Deb unzip ошибка:%@</string>
+	<key>entitlements文件有错误，读取失败。</key>
+	<string>Ошибка entitlements файла.</string>
+	<key>iPhone存储空间</key>
+	<string>Хранилище iPhone</string>
+	<key>ipa安装失败</key>
+	<string>установка ipa не удалась</string>
+	<key>ipa文件有错误</key>
+	<string>Ошибка в файле ipa</string>
+	<key>ldid签名失败</key>
+	<string>Не удалось подписать приложение. ldid вернул ненулевой код состояния.</string>
+	<key>《服务协议》</key>
+	<string>《Service Agreement》</string>
+	<key>上传</key>
+	<string>Загрузить</string>
+	<key>上传到蓝奏云</key>
+	<string>Загрузить в LanzouCloud</string>
+	<key>上传失败</key>
+	<string>Загрузка не удалась</string>
+	<key>上传成功</key>
+	<string>Загружено успешно</string>
+	<key>上传文件</key>
+	<string>Загрузить файл</string>
+	<key>下载</key>
+	<string>Скачать</string>
+	<key>下载中</key>
+	<string>Загрузка</string>
+	<key>下载地址为空，无法下载。</key>
+	<string>URL загрузки пуст и не может быть загружен. </string>
+	<key>下载失败</key>
+	<string>Ошибка загрузки</string>
+	<key>下载完成</key>
+	<string>Загрузка завершена</string>
+	<key>下载完成自动导入</key>
+	<string>Авто импорт</string>
+	<key>下载完成，正在安装</key>
+	<string>Загрузка завершена, Установка...</string>
+	<key>下载暂停</key>
+	<string>Загрузка приостановлена</string>
+	<key>下载管理</key>
+	<string>Менеджер загрузок</string>
+	<key>下载管理配置</key>
+	<string>Настройки загрузок</string>
+	<key>不同意</key>
+	<string>Не согласен</string>
+	<key>不支持直接上传目录文件</key>
+	<string>Не поддерживает прямую загрузку файлов каталога </string>
+	<key>专业功能，不懂建议别乱改，不然容易闪退。</key>
+	<string>Профессиональные функции. Если вы не понимаете для чего они, пожалуйста, не меняйте их, иначе это может привести к сбою.</string>
+	<key>个人热点HTTP传输地址</key>
+	<string>Персональный HTTP-адрес точки доступа</string>
+	<key>为应用程序包创建容器失败。</key>
+	<string>Не удалось создать контейнер для пакета приложений.</string>
+	<key>主题</key>
+	<string>Темы</string>
+	<key>书签</key>
+	<string>Закладки</string>
+	<key>二维码值</key>
+	<string>Значение QR кода </string>
+	<key>仅修改配置忽略签名</key>
+	<string>Модифицировать игнорируя подпись</string>
+	<key>仅修改配置，不签名</key>
+	<string>Модифицировать(Без подписи)</string>
+	<key>付费</key>
+	<string>Тип</string>
+	<key>企</key>
+	<string>CO</string>
+	<key>企·过期时间:%@</key>
+	<string>CO·Срок действия: %@ </string>
+	<key>使用永久安装的轻松签无法分享文件，是否通过跳转【文件】app进行分享？</key>
+	<string>Невозможно поделиться файлами с помощью постоянно установленного ESign, вы хотите поделиться через приложение Файлы?</string>
+	<key>使用自定义entitlements文件签名</key>
+	<string>Использовать пользовательский entitlements для подписи</string>
+	<key>例如: AppDemo</key>
+	<string>Пример: AppDemo</string>
+	<key>保存</key>
+	<string>Сохранить</string>
+	<key>保存失败</key>
+	<string>Ошибка сохранения</string>
+	<key>保持后台运行</key>
+	<string>Работа в фоновом режиме</string>
+	<key>保留两者</key>
+	<string>Оставить оба</string>
+	<key>修复成功</key>
+	<string>Успешно</string>
+	<key>修复权限</key>
+	<string>Исправить разрешения</string>
+	<key>修复白图标</key>
+	<string>Исправить белую иконку</string>
+	<key>修改</key>
+	<string>Модифицировать</string>
+	<key>修改App名字：%@</key>
+	<string>Изменение имя приложения: %@ </string>
+	<key>修改BundleIdentifier：%@</key>
+	<string>Modify BundleIdentifier：%@</string>
+	<key>修改Version：%@</key>
+	<string>Изменение версии：%@</string>
+	<key>修改为"%@"</key>
+	<string>Переключение на "%@"</string>
+	<key>修改为"User"</key>
+	<string>Переключить на "User"</string>
+	<key>修改为"User"状态后，可能无法打开应用。但是会在系统设置中显示该应用，可以用来修改配置。也可以修复iTunes的文件分享。如果应用无法打开，需将该应用修改为"System"状态才能打开！</key>
+	<string>Переключение этого приложения на "User" регистрацию сделает его незапускаемым после следующего обновления. 
+Цель этой опции - заставить приложение временно отображаться в настройках, чтобы вы могли настроить параметры, а затем переключить его обратно на "System" регистрацию. Кроме того, состояние регистрации "User" также полезно для временного исправления обмена файлами iTunes.
+Когда вы сделаете необходимые изменения и захотите, чтобы приложение снова стало запускаемым, вам нужно будет переключить его обратно в состояние "System"..</string>
+	<key>修改依赖</key>
+	<string>Изменение зависимостей</string>
+	<key>修改动态库</key>
+	<string>Изменение динамической библиотеки</string>
+	<key>修改失败</key>
+	<string>Не удалось модифицировать</string>
+	<key>修改定位</key>
+	<string>Фейковое местоположение</string>
+	<key>修改密码</key>
+	<string>Изменить пароль</string>
+	<key>修改成功</key>
+	<string>Модифицировано успешно</string>
+	<key>修改桌面图标</key>
+	<string>Изменение иконки</string>
+	<key>修改版本限制为：iOS 10.0</key>
+	<string>Понизить требуемую версию iOS: 10.0</string>
+	<key>修改配置未签名</key>
+	<string>Модифицировать(Без подписи)</string>
+	<key>倍数</key>
+	<string>Multiple</string>
+	<key>停止</key>
+	<string>Стоп</string>
+	<key>停止修改定位</key>
+	<string>фейковое местоположение остановлено</string>
+	<key>免费</key>
+	<string>Беспалтные</string>
+	<key>全选</key>
+	<string>Выбрать все</string>
+	<key>全部</key>
+	<string>Все</string>
+	<key>全部覆盖</key>
+	<string>All covered</string>
+	<key>关闭</key>
+	<string>Закрыть</string>
+	<key>关闭密码</key>
+	<string>Закрыть пароль</string>
+	<key>其他</key>
+	<string>Другое</string>
+	<key>兼容</key>
+	<string>Средний</string>
+	<key>兼顾速度与压缩率</key>
+	<string>Сбалансированный режим скорости и сжатия</string>
+	<key>分享</key>
+	<string>Поделиться</string>
+	<key>分享链接已复制到剪切板</key>
+	<string>Ссылка скопирована в буфер обмена</string>
+	<key>分类</key>
+	<string>Категория</string>
+	<key>创建</key>
+	<string>Создать</string>
+	<key>创建目录</key>
+	<string>Создание директории</string>
+	<key>创建缓存文件夹</key>
+	<string>Создание временной папки</string>
+	<key>初始化Bundle：%@ 失败</key>
+	<string>Инициализировать пакет: %@ не удалось</string>
+	<key>删除</key>
+	<string>Удалить</string>
+	<key>删除失败</key>
+	<string>Удаление не выполнено</string>
+	<key>前缀</key>
+	<string>Префикс</string>
+	<key>剪切</key>
+	<string>Вырезать</string>
+	<key>剪切版网址</key>
+	<string>URL вырезан</string>
+	<key>加入QQ交流群</key>
+	<string>Join QQ Group</string>
+	<key>加入Telegram交流群</key>
+	<string>Чат в Telegram</string>
+	<key>动态库文件有错误，请检查文件!</key>
+	<string>Ошибка в файле динамической библиотеки, проверьте файл!</string>
+	<key>动态库注入设置</key>
+	<string>Настройки установки твика</string>
+	<key>十六进制编辑器</key>
+	<string>HEX Редактор</string>
+	<key>卸载 ESign</key>
+	<string>Удалить ESign</string>
+	<key>卸载中</key>
+	<string>Uninstalling</string>
+	<key>卸载轻松签+,是否同时卸载所有使用轻松签+安装的应用?</key>
+	<string>Удаляя ESign+, хотите ли вы удалить все установленные им приложения?</string>
+	<key>卸载轻松签+，保留已安装应用</key>
+	<string>Удалить приложение ESign+</string>
+	<key>卸载轻松签+，卸载已安装应用</key>
+	<string>Удаление ESign+ и всех приложений</string>
+	<key>压缩</key>
+	<string>Сжать</string>
+	<key>压缩文件</key>
+	<string>Сжатый файл</string>
+	<key>压缩率高，文件较小，压缩速度慢</key>
+	<string>Более долгий процесс сжатия, файлы будут меньше</string>
+	<key>压缩级别</key>
+	<string>Уровень сжатия</string>
+	<key>压缩级别设置</key>
+	<string>Настройки сжатия</string>
+	<key>压缩速度快，压缩率低，文件较大</key>
+	<string>Быстрый режим сжатия, размер файла может быть больше.</string>
+	<key>去底部</key>
+	<string>Нижний</string>
+	<key>去当前</key>
+	<string>Перейти в текущее состояние</string>
+	<key>去获取</key>
+	<string>Получить</string>
+	<key>去顶部</key>
+	<string>Вверх</string>
+	<key>发现新的免费企业证书，免费的企业证书来源于网上共享，部分设备签名安装后也是无法信任或者打开闪退，是否导入?</key>
+	<string>Найден новый корпоративный сертификат. Импортировать или нет? (Выберите Нет, если вы используете личный платный сертификат)</string>
+	<key>取消</key>
+	<string>Отмена</string>
+	<key>取消全选</key>
+	<string>Отменить</string>
+	<key>只支持上传100MB以内的文件，未判断是否开通会员。</key>
+	<string>Поддерживается загрузка файлов размером только до 100 МБ. </string>
+	<key>可选</key>
+	<string>Введите данные</string>
+	<key>同意</key>
+	<string>Принять</string>
+	<key>名字</key>
+	<string>Имя</string>
+	<key>名称: </key>
+	<string>Имя: </string>
+	<key>名称不能为空</key>
+	<string>Имя не может быть пустым</string>
+	<key>后缀</key>
+	<string>Суфикс</string>
+	<key>在另一个端使用浏览器，输入上述地址，即可连接本机进行传输。另一端需与本机处于同一个WIFI网络下</key>
+	<string>Используйте браузер на другом устройстве и введите вышеуказанный адрес, чтобы подключиться к этому устройству для передачи файлов. Другое устройство должно находиться в той же сети WIFI, что и ваше устройство.</string>
+	<key>复制</key>
+	<string>Копировать</string>
+	<key>复制app bundle失败</key>
+	<string>Не удалось скопировать пакет приложения.</string>
+	<key>复制到</key>
+	<string>Скопировать</string>
+	<key>复制到当前目录</key>
+	<string>Скопировать в текущую папку</string>
+	<key>复制文件失败</key>
+	<string>Не удалось скопировать файл</string>
+	<key>复制文件失败：%@</key>
+	<string>Ошибка копирования файла: %@</string>
+	<key>复制文件：%@</key>
+	<string>Копирование файла: %@ </string>
+	<key>复制链接</key>
+	<string>Скопировать ссылку</string>
+	<key>多开</key>
+	<string>Настройки дубликата</string>
+	<key>多开数量</key>
+	<string>Количество дубликатов</string>
+	<key>多开签名：%@</key>
+	<string>Подпись дубликата: %@</string>
+	<key>大小</key>
+	<string>Высокий</string>
+	<key>如果安装应用后桌面没有出现图标，点击重建图标缓存刷新。</key>
+	<string>Если приложение не появляется сразу после установки, сделайте Respring, и оно должно появиться после этого.</string>
+	<key>如果导入应用库提示无权限的，可以尝试使用这个修复。</key>
+	<string>Попробуйте это исправление, если приложение импорта запрашивает отсутствие разрешений.</string>
+	<key>如果您觉得轻松签好用，可以请我喝杯饮料，您的支持是我更新的动力！</key>
+	<string>Если вы думаете, что ESign прост в использовании, вы можете пригласить меня выпить, ваша поддержка - моя мотивация для обновления!</string>
+	<key>字体</key>
+	<string>Шрифт</string>
+	<key>存储空间</key>
+	<string>Хранилище</string>
+	<key>安装</key>
+	<string>Установить </string>
+	<key>安装ESign Helper</key>
+	<string>Установить ESign Helper</string>
+	<key>安装ldid</key>
+	<string>Установить ldid</string>
+	<key>安装ldid后，才能安装未签名的IPA</key>
+	<string>ldid установлен и позволяет ESign устанавливать неподписанные файлы IPA.</string>
+	<key>安装地址</key>
+	<string>Метод установки</string>
+	<key>安装地址 - %@</key>
+	<string>Метод установки - %@</string>
+	<key>安装失败</key>
+	<string>Ошибка установки</string>
+	<key>安装设置</key>
+	<string>Настройки установки</string>
+	<key>完成</key>
+	<string>Готово</string>
+	<key>密码</key>
+	<string>Пароль</string>
+	<key>密码: </key>
+	<string>Пароль: </string>
+	<key>密码错误，请重新输入</key>
+	<string>Ошибка пароля, пожалуйста, введите повторно</string>
+	<key>导入</key>
+	<string>Импорт</string>
+	<key>导入后自动删除</key>
+	<string>Авто удаление</string>
+	<key>导入失败</key>
+	<string>Ошибка импорта</string>
+	<key>导入应用库</key>
+	<string>Импорт в библиотеку приложений</string>
+	<key>导入成功</key>
+	<string>Импортировано успешно</string>
+	<key>导入文件</key>
+	<string>Импорт ресурсов</string>
+	<key>导入证书库</key>
+	<string>Импортировать сертификат</string>
+	<key>小说阅读器</key>
+	<string>Novel reader</string>
+	<key>尝试修复图标</key>
+	<string>Исправление белой иконки</string>
+	<key>尝试安装：%@</key>
+	<string>Установка: %@</string>
+	<key>局域网HTTP传输地址</key>
+	<string>HTTP-адрес LAN</string>
+	<key>属性编辑器</key>
+	<string>Plist Редактор</string>
+	<key>工具</key>
+	<string>Инструменты</string>
+	<key>已下载</key>
+	<string>загружено</string>
+	<key>已复制QQ群号：1036180327，请手动加群。</key>
+	<string>ID чата QQ был скопирован: 1036180327</string>
+	<key>已存在 %@,是否覆盖?</key>
+	<string>%@ уже существует, вы хотите его перезаписать?</string>
+	<key>已存在同名文件</key>
+	<string>Файл с таким именем уже существует</string>
+	<key>已存在同名文件，是否直接覆盖？</key>
+	<string>Файл с таким именем уже существует. Вы хотите его перезаписать?</string>
+	<key>已安装</key>
+	<string>Установлено</string>
+	<key>已导入描述文件</key>
+	<string>mobileprovision импортирован</string>
+	<key>已登录</key>
+	<string>Авторизовано</string>
+	<key>已签名</key>
+	<string>Подписанные</string>
+	<key>已签名应用</key>
+	<string>Подписанные</string>
+	<key>已经安装了一个具有相同标识符的非 esign store 应用程序。您可以强制安装它。</key>
+	<string>Приложение с таким же идентификатором уже установлено. Если вы уверены, что это не так, вы можете установить его принудительно.</string>
+	<key>应用</key>
+	<string>Приложения</string>
+	<key>应用名字前缀</key>
+	<string>Имя(префикс)</string>
+	<key>应用名字后缀</key>
+	<string>Имя (суфикс)</string>
+	<key>应用已下载完毕</key>
+	<string>ipa файл загружен</string>
+	<key>应用程序主可执行文件不存在。</key>
+	<string>Главный исполняемый файл приложения не существует.</string>
+	<key>建议删除文件，重新导入!</key>
+	<string>Рекомендуется удалить файл и импортировать его повторно!</string>
+	<key>开启修改定位</key>
+	<string>используется фейковое местоположение</string>
+	<key>开启后需购买免密包才能关闭密码！！</key>
+	<string>После открытия вам необходимо приобрести пакет без пароля, чтобы отключить пароль!！</string>
+	<key>开启文件访问</key>
+	<string>Включить доступ к Файлам</string>
+	<key>开始序号</key>
+	<string>Начальный номер</string>
+	<key>开始打包：%@</key>
+	<string>Упаковка: %@</string>
+	<key>开始签名</key>
+	<string>Подпись</string>
+	<key>开始签名：%@</key>
+	<string>Подпись: %@ </string>
+	<key>开始解压deb：%@</key>
+	<string>Распаковка deb: %@</string>
+	<key>当iOS重建图标缓存时，ESign和使用ESign安装的app可能会恢复为"用户"状态，然后消失或闪退。在没越狱环境中实现永久安装的唯一方法是替换系统应用程序。在这里，您可以选择一个系统应用程序替换为ESign Helper，该程序可用于刷新ESign和使用ESign安装的app的注册信息，以防它们消失或闪退。</key>
+	<string>Когда iOS перестроит кэш иконок, все приложения ESign, включая сам ESign, будут возвращены в состояние "User" или исчезнут, либо больше не запустятся. Единственный способ сохранить постоянство в среде без рута - заменить системное приложение. Здесь вы можете выбрать системное приложение для замены на Esign Helper, который можно использовать для обновления регистраций всех приложений, связанных с ESign, если они исчезнут или перестанут запускаться.</string>
+	<key>影音</key>
+	<string>Аудио</string>
+	<key>您试图安装的应用程序与设备上已安装的系统应用程序具有相同的标识符。已阻止安装。</key>
+	<string>Приложение, которое вы пытались установить, имеет тот же идентификатор, что и системное приложение, уже установленное на устройстве.  Установка была предотвращена, чтобы защитить вас от возможных зацикливаний или других проблем..</string>
+	<key>手动添加</key>
+	<string>Добавить вручную</string>
+	<key>手机剩余空间</key>
+	<string>Доступно</string>
+	<key>手机已用空间</key>
+	<string>Занято</string>
+	<key>手机硬盘空间</key>
+	<string>Емкость</string>
+	<key>手机设置的存储空间计算的有问题，有时候会有缓存。
+轻松签首页文件列表存储的位置即Documents,想清除占用空间的话，进入文件列表删除文件即可。
+Library内的文件是系统自动生成，与一些必要信息存储，不会占用太多空间，不用理会。</key>
+	<string>Вычесление хранилища iPhone может быть не точным. 
+ESign хранит файлы в приложении Файлы. Если вы хотите освободить место, вы можете их удалить. 
+Некоторые файлы автоматически создаются системой, в них хранится некоторая необходимая информация, не занимая много места, не обращайте внимания.</string>
+	<key>打包IPA</key>
+	<string>Пакет IPA </string>
+	<key>打包失败：%@</key>
+	<string>Ошибка упаковки: %@ </string>
+	<key>打包成功：%@</key>
+	<string>Упаковано успешно: %@ </string>
+	<key>打包文件名</key>
+	<string>Имя файла</string>
+	<key>打包文件名生成规则</key>
+	<string>Формирование названия имени файла</string>
+	<key>扫一扫</key>
+	<string>Сканировать</string>
+	<key>扫描值</key>
+	<string>Значение QRCode</string>
+	<key>批量签名</key>
+	<string>Мультиподпись</string>
+	<key>描述: </key>
+	<string>Описание: </string>
+	<key>提取库</key>
+	<string>Экспорт Dylibs</string>
+	<key>提示</key>
+	<string>Советы</string>
+	<key>插件</key>
+	<string>Dylib</string>
+	<key>操作成功</key>
+	<string>Операция завершена</string>
+	<key>支持作者</key>
+	<string>Поддержать автора</string>
+	<key>收费</key>
+	<string>Платные</string>
+	<key>整理</key>
+	<string>Свернуть</string>
+	<key>文件</key>
+	<string>Файлы</string>
+	<key>文件不可删除</key>
+	<string>Файл не может быть удален</string>
+	<key>文件不存在</key>
+	<string>Файл не существует</string>
+	<key>文件列表</key>
+	<string>Список файлов</string>
+	<key>文件名字已存在，请换个名字</key>
+	<string>Такой файл существует, пожалуйста измените имя</string>
+	<key>文件名已存在</key>
+	<string>Файл с таким именем существует</string>
+	<key>文件名称</key>
+	<string>Имя файла</string>
+	<key>文件大小</key>
+	<string>Размер</string>
+	<key>文件已删除</key>
+	<string>Файл удален</string>
+	<key>文件已剪切</key>
+	<string>Файл вырезан</string>
+	<key>文件已复制</key>
+	<string>Файл скопирован</string>
+	<key>文件已存在</key>
+	<string>Такой файл уже существует</string>
+	<key>文件已存在，是否覆盖上传？</key>
+	<string>Файл уже существует. Вы хотите перезаписать загрузку?</string>
+	<key>文件已导入</key>
+	<string>Файл импортирован</string>
+	<key>文件已添加到下载列表，请到下载列表中查看下载进度。</key>
+	<string>Начата загрузка файла. Пожалуйста, проверьте прогресс загрузки в списке загрузок.</string>
+	<key>文件已被删除</key>
+	<string>Файл удален</string>
+	<key>文件有错误</key>
+	<string>Файл имеет ошибки</string>
+	<key>文件被删除</key>
+	<string>Файл удален</string>
+	<key>文件路径</key>
+	<string>Путь к файлу</string>
+	<key>文件错误</key>
+	<string>Ошибка файла</string>
+	<key>文本编辑器</key>
+	<string>Редактор текста</string>
+	<key>新建文件</key>
+	<string>Новый файл</string>
+	<key>新建文件夹</key>
+	<string>Новая папка</string>
+	<key>无依赖第三方库</key>
+	<string>Нет зависимостей от библиотек</string>
+	<key>无分享权限</key>
+	<string>Нет разрешения</string>
+	<key>无可用证书</key>
+	<string>Нет доступных сертификатов</string>
+	<key>无法打开QQ</key>
+	<string>Не удается открыть QQ </string>
+	<key>时间</key>
+	<string>Дата</string>
+	<key>时间戳</key>
+	<string>Время</string>
+	<key>是否全部覆盖?</key>
+	<string>Is it all covered?</string>
+	<key>是否删除该记录</key>
+	<string>Удалить</string>
+	<key>是否导入应用库</key>
+	<string>Импортировать в библиотеку приложений?</string>
+	<key>是否导入证书库？</key>
+	<string>Импортировать сертификат？</string>
+	<key>是否已阅读本协议，并同意协议所包含的条款</key>
+	<string>Вы прочитали это соглашение и согласны с условиями, содержащимися в соглашении</string>
+	<key>是否直接替换掉原有文件</key>
+	<string>Перезаписать файл?</string>
+	<key>是否覆盖?</key>
+	<string>Он перезаписан?</string>
+	<key>是否返回桌面查看安装进度</key>
+	<string>Вернитесь на рабочий стол для просмотра хода установки</string>
+	<key>暂无数据</key>
+	<string>Нет данных</string>
+	<key>暂未开放解锁码</key>
+	<string>Код разблокировки еще не выпущен</string>
+	<key>暂未识别出图中二维码</key>
+	<string>QR-код на картинке еще не распознан</string>
+	<key>更多设置</key>
+	<string>Расширенные настройки</string>
+	<key>替换</key>
+	<string>Перезаписать</string>
+	<key>服务器地址</key>
+	<string>Сервер</string>
+	<key>服务器（推荐）</key>
+	<string>Сервер (рекомендуется)</string>
+	<key>未导入描述文件</key>
+	<string>Нет импортированных mobileprovision</string>
+	<key>未开启个人热点</key>
+	<string>Персональная точка доступа не включена</string>
+	<key>未开放</key>
+	<string>Не открыто</string>
+	<key>未找到.app文件</key>
+	<string>.app не найден </string>
+	<key>未找到dylib</key>
+	<string>Найти dylib</string>
+	<key>未找到mobileprovision文件</key>
+	<string>Mobileprovision не найден</string>
+	<key>未找到与本证书相匹配的mobileprovision文件，请将mobileprovision文件放在与p12文件相同的目录下。</key>
+	<string>Файл mobileprovision, соответствующий этому сертификату, не найден, поместите файл mobileprovision в тот же каталог, что и файл p12.</string>
+	<key>未找到图标文件</key>
+	<string>Файл иконки не найден</string>
+	<key>未登录</key>
+	<string>Логин</string>
+	<key>未知错误</key>
+	<string>Неизвестная ошибка</string>
+	<key>未签名</key>
+	<string>Неподписанные</string>
+	<key>未获取UDID</key>
+	<string>UDID не получен</string>
+	<key>未获取UDID，请先到设置界面中获取UDID！</key>
+	<string>UDID не получен, перейдите в настройки, чтобы получить UDID!</string>
+	<key>本地（iOS13+）</key>
+	<string>Локально（iOS13+）</string>
+	<key>本机开启个人热点，另一个端连接本机热点。即可实现同一个WiFi网络进行数据传输</key>
+	<string>Эта устройство включает персональную точку доступа, а другое устройство подключается к локальной точке доступа. Он может реализовать ту же сеть Wi-Fi для передачи данных</string>
+	<key>来源：%@ %@</key>
+	<string>Источник: %@ %@</string>
+	<key>查找dylib</key>
+	<string>Найти dylib</string>
+	<key>查看</key>
+	<string>Просмотреть</string>
+	<key>查看文件</key>
+	<string>Просмотреть файл</string>
+	<key>查看文件位置</key>
+	<string>Просмотреть местоположение файла</string>
+	<key>标题</key>
+	<string>Название</string>
+	<key>根目录</key>
+	<string>Корневая папка</string>
+	<key>桌面图标</key>
+	<string>Иконка</string>
+	<key>正在复制%@个文件</key>
+	<string>Копирование %@ файлов</string>
+	<key>正在复制文件</key>
+	<string>Копируемый файл</string>
+	<key>正在复制文件夹</key>
+	<string>Копируемая folder</string>
+	<key>正在安装中
+请勿锁屏或者切换应用</key>
+	<string>Installing 
+ Do not lock the screen or switch apps</string>
+	<key>正在移动%@个文件</key>
+	<string>Перемещение %@ файлов</string>
+	<key>正在移动文件</key>
+	<string>Перемещаемый файл</string>
+	<key>正在移动文件夹</key>
+	<string>Перемещаемая папка</string>
+	<key>正在解析文章</key>
+	<string>Анализ</string>
+	<key>正在计算存储空间，需要一定时间，请耐心等待...</key>
+	<string>Выполняется расчет объема памяти. Это занимает некоторое время. Пожалуйста, подождите...</string>
+	<key>此签名证书不包含当前设备，签名后无法在当前设备安装！！！</key>
+	<string>Этот сертификат не содержит данные о текущем устройстве, приложение не может быть установлено на текущем устройстве после подписания !!!</string>
+	<key>永久安装</key>
+	<string>Установить с Troll</string>
+	<key>永久安装配置</key>
+	<string>Настройки Troll</string>
+	<key>没有匹配结果</key>
+	<string>Нет результатов</string>
+	<key>没有权限访问相机</key>
+	<string>Нет разрешения на доступ к камере</string>
+	<key>注入成功</key>
+	<string>Модифицировано успешно</string>
+	<key>注入目录</key>
+	<string>Папка установки</string>
+	<key>注入路径</key>
+	<string>Тип установки</string>
+	<key>注销</key>
+	<string>Respring</string>
+	<key>添加</key>
+	<string>Добавить</string>
+	<key>添加 Key - Value</key>
+	<string>Добавить ключ — значение</string>
+	<key>添加书签</key>
+	<string>Добавить закладку</string>
+	<key>添加成功</key>
+	<string>Успешно</string>
+	<key>添加或者替换 Info.plist 内容</key>
+	<string>Добавить или заменить содержимое info.plist</string>
+	<key>添加所有</key>
+	<string>Добавить все</string>
+	<key>添加数据</key>
+	<string>Добавить</string>
+	<key>添加源</key>
+	<string>Добавить источник</string>
+	<key>添加的源与轻松签无任何关系，请勿添加非法应用的源。</key>
+	<string>Пожалуйста, не добавляйте источники незаконных приложений.</string>
+	<key>添加第三方库（dylib,framework,deb）</key>
+	<string>Установить твик（dylib,framework,deb）</string>
+	<key>游戏</key>
+	<string>Игры</string>
+	<key>源解锁地址有误，无法解锁</key>
+	<string>Исходный адрес разблокировки неверен и не может быть разблокирован </string>
+	<key>源链接有问题</key>
+	<string>Ошибка в исходной ссылке</string>
+	<key>版本号</key>
+	<string>Версия</string>
+	<key>用户名</key>
+	<string>Имя</string>
+	<key>用户输入</key>
+	<string>Пользовательский ввод</string>
+	<key>登录</key>
+	<string>Авторизовано</string>
+	<key>目录</key>
+	<string>Папка</string>
+	<key>相册</key>
+	<string>Альбом</string>
+	<key>码云Gitee</key>
+	<string>Gitee</string>
+	<key>确定</key>
+	<string>OK</string>
+	<key>确定要删除 %@？</key>
+	<string>Вы уверены, что хотите удалить %@?</string>
+	<key>确定要删除所选择的数据吗？</key>
+	<string>Вы уверены, что хотите удалить выбранные данные?</string>
+	<key>确定要删除所选文件吗？</key>
+	<string>Вы уверены, что хотите удалить файл?</string>
+	<key>种类</key>
+	<string>Тип</string>
+	<key>移动</key>
+	<string>перейти</string>
+	<key>移动到</key>
+	<string>Переместить</string>
+	<key>移动到当前目录</key>
+	<string>Переместить в текущую папку</string>
+	<key>移动文件</key>
+	<string>Переместить файл</string>
+	<key>移除:%@</key>
+	<string>удаление:%@</string>
+	<key>移除dylibs</key>
+	<string>удалить dylibs</string>
+	<key>移除已有库</key>
+	<string>Удалить существующую библиотеку</string>
+	<key>移除应用跳转</key>
+	<string>Удалить URL схемы</string>
+	<key>移除所有手表App</key>
+	<string>Удалить все плагины для часов</string>
+	<key>移除所有插件App</key>
+	<string>Удалить все плагины приложения</string>
+	<key>移除所有插件组件</key>
+	<string>Удаление плагинов</string>
+	<key>移除手表组件</key>
+	<string>Удаление плагинов часов</string>
+	<key>移除设备限制</key>
+	<string>Удалить UISupportedDevices</string>
+	<key>程序未脱壳，签名后可能无法安装，建议重新脱壳签名！！！</key>
+	<string>Приложение не распаковывается и может не быть установлено после подписи.  Рекомендуется снова распаковать и подписать !!!</string>
+	<key>立即签名</key>
+	<string>Подписать</string>
+	<key>竖屏锁定</key>
+	<string>Блокировка ориентации</string>
+	<key>等待下载</key>
+	<string>Ожидание загрузки</string>
+	<key>等待网页加载完毕点击下载即可下载</key>
+	<string>Подождите, пока страница загрузится, и нажмите кнопку загрузки, чтобы загрузить</string>
+	<key>筛选</key>
+	<string>Фильтр</string>
+	<key>签名</key>
+	<string>Подписать</string>
+	<key>签名后立即安装</key>
+	<string>Установить после подписи</string>
+	<key>签名失败</key>
+	<string>Ошибка подписи</string>
+	<key>签名成功</key>
+	<string>Подписано успешно</string>
+	<key>签名时间</key>
+	<string>Время подписи</string>
+	<key>签名证书</key>
+	<string>Сертификат</string>
+	<key>签名默认配置</key>
+	<string>Настройки подписи</string>
+	<key>粘贴</key>
+	<string>Вставить</string>
+	<key>经纬度:%.5f,%.5f</key>
+	<string>%.5f,%.5f</string>
+	<key>继续修改</key>
+	<string>Keep Modify</string>
+	<key>继续扫描</key>
+	<string>Продолжить сканирование</string>
+	<key>网址</key>
+	<string>URL</string>
+	<key>网址无效</key>
+	<string>Неверный URL</string>
+	<key>自动修改越狱依赖</key>
+	<string>Автоматическое изменение зависимостей Jailbreak</string>
+	<key>自定义信息插入 info.plist</key>
+	<string>Внести пользовательскую информацию в info.plist</string>
+	<key>自定义签名entitlements，签名后可能无法安装。</key>
+	<string>Пользовательские права подписи могут быть не установлены после подписания.</string>
+	<key>获取解锁码</key>
+	<string>Купить код разблокировки</string>
+	<key>获取设备UDID</key>
+	<string>Получить UDID устройства</string>
+	<key>蓝奏云</key>
+	<string>LanZouCloud</string>
+	<key>蓝奏云登录</key>
+	<string>LanZouCloud Логин</string>
+	<key>要分享的软件源地址已复制</key>
+	<string>Адрес источника был скопирован</string>
+	<key>覆盖</key>
+	<string>Перезаписать</string>
+	<key>解压</key>
+	<string>Распаковать</string>
+	<key>解压失败</key>
+	<string>Не удается распаковать</string>
+	<key>解压成功</key>
+	<string>Распаковано успешно</string>
+	<key>解析失败</key>
+	<string>Не удалось выполнить синтаксический анализ</string>
+	<key>解锁</key>
+	<string>Разблокировать</string>
+	<key>解锁成功</key>
+	<string>Разблокировано успешно</string>
+	<key>解锁软件源</key>
+	<string>Разблокировать источник </string>
+	<key>设置</key>
+	<string>Настройки</string>
+	<key>设置ESignStore app标识失败</key>
+	<string>Не удалось пометить приложение как приложение ESignStore.</string>
+	<key>设置密码</key>
+	<string>Установить пароль</string>
+	<key>设置密码访问</key>
+	<string>Установить пароль</string>
+	<key>证书</key>
+	<string>Серт</string>
+	<key>证书名字</key>
+	<string>ИмяСертификата</string>
+	<key>证书密码</key>
+	<string>Пароль сертификата</string>
+	<key>证书已经掉签，签名后可能无法安装！！！</key>
+	<string>Сертификат отозван, после подписи приложение не может быть установлено !!!</string>
+	<key>证书撤销</key>
+	<string>Отозван</string>
+	<key>证书有效</key>
+	<string>Активен</string>
+	<key>证书未知</key>
+	<string>Нет данных</string>
+	<key>证书管理</key>
+	<string>Менеджер сертификатов</string>
+	<key>识别失败</key>
+	<string>Распознать не удалось</string>
+	<key>该应用程序不包含info.plist文件</key>
+	<string>The app does not contain an Info.plist file.</string>
+	<key>该应用程序没有使用伪造的CoreTrust证书签名，也没有安装ldid。在设置选项卡中安装ldid，然后重试。</key>
+	<string>Приложение не подписано поддельным сертификатом CoreTrust, а ldid не установлен. Установите ldid в Настройках и повторите попытку..</string>
+	<key>该证书未导入描述文件,无法使用</key>
+	<string>Сертификат не импортируется с файлом описания и не может быть использован.</string>
+	<key>该软件源已被拉黑，禁止添加。</key>
+	<string>Этот источник был заблокирован и не может быть добавлен.</string>
+	<key>详情</key>
+	<string>Свойства</string>
+	<key>请先导入p12证书跟描述文件</key>
+	<string>Сначала импортируйте сертификат p12, после файл mobileprovision.</string>
+	<key>请在设置中打开相机权限</key>
+	<string>Пожалуйста, включите разрешения камеры в настройках</string>
+	<key>请导入描述文件</key>
+	<string>Пожалуйста, импортируйте файл mobileprovision</string>
+	<key>请输入 key</key>
+	<string>Введите ключ</string>
+	<key>请输入key</key>
+	<string>введите ключ</string>
+	<key>请输入value</key>
+	<string>введите значение</string>
+	<key>请输入值</key>
+	<string>Пожалуйста, введите значение</string>
+	<key>请输入多开序号跟数量</key>
+	<string>Пожалуйста, введите номер и количество дубликатов</string>
+	<key>请输入描述（选填）</key>
+	<string>Пожалуйста, введите описание (необязательно)</string>
+	<key>请输入文件分享密码</key>
+	<string>Пожалуйста, введите пароль для обмена файлами </string>
+	<key>请输入文件夹名字</key>
+	<string>Пожалуйста, введите название папки</string>
+	<key>请输入新的文件名</key>
+	<string>Пожалуйста, введите новое имя файла</string>
+	<key>请输入新的文件名，不要跟已有文件重名</key>
+	<string>Пожалуйста, введите новое имя файла, а не то же самое, что и у существующего файла.</string>
+	<key>请输入目录名称</key>
+	<string>Пожалуйста, введите название папки</string>
+	<key>请输入蓝奏云密码</key>
+	<string>Пожалуйста, введите пароль Lanzou Cloud </string>
+	<key>请输入蓝奏云账号</key>
+	<string>Пожалуйста, войдите в аккаунт Lanzou Cloud</string>
+	<key>请输入要修改的值</key>
+	<string>Пожалуйста, введите значение, которое нужно изменить</string>
+	<key>请输入解压密码</key>
+	<string>Пожалуйста, введите пароль архива</string>
+	<key>请输入解锁码</key>
+	<string>Пожалуйста, введите код разблокировки</string>
+	<key>请输入证书密码</key>
+	<string>Ввведите пароль сертификата</string>
+	<key>请输入软件源地址</key>
+	<string>Введите адрес источника приложения</string>
+	<key>读取证书信息失败：%@</key>
+	<string>Не удалось прочитать информацию о сертификате: %@</string>
+	<key>读取证书信息：%@</key>
+	<string>Чтение информации о сертификате: %@ </string>
+	<key>读取证书失败</key>
+	<string>Не удалось прочитать сертификат</string>
+	<key>账号: </key>
+	<string>Аккаунт: </string>
+	<key>软件源</key>
+	<string>Источники</string>
+	<key>软件源已存在</key>
+	<string>Источник уже существует </string>
+	<key>软件源已添加，无需重复添加。</key>
+	<string>Источник уже добавлен, нет необходимости добавлять его снова.</string>
+	<key>软件源解锁与轻松签无任何关系，请自己确认源的有效性，请勿添加非法应用源。</key>
+	<string>Разблокировка источника приложения не имеет ничего общего с ESign.  Пожалуйста, подтвердите достоверность источника самостоятельно.  Пожалуйста, не добавляйте нелегальные источники приложений.</string>
+	<key>轻松签</key>
+	<string>ESign</string>
+	<key>轻松签官网</key>
+	<string>Веб-сайт ESign</string>
+	<key>轻松签已用空间</key>
+	<string>Хранилище ESign</string>
+	<key>轻松签源</key>
+	<string>Источник ESign</string>
+	<key>输入下载页网址</key>
+	<string>Введите URL страницы загрузки</string>
+	<key>输入框</key>
+	<string>Поле ввода</string>
+	<key>过期时间:%@</key>
+	<string>Срок действия: %@</string>
+	<key>返回</key>
+	<string>Свернуть</string>
+	<key>返回数据错误</key>
+	<string>Ошибка возврата данных</string>
+	<key>返回格式错误</key>
+	<string>Ошибка формата возврата</string>
+	<key>连接</key>
+	<string>Подключиться</string>
+	<key>退出</key>
+	<string>Выйти</string>
+	<key>退出登录</key>
+	<string>Выйти</string>
+	<key>选择</key>
+	<string>Выбрать</string>
+	<key>选择entitlements文件</key>
+	<string>Выберите entitlements файл</string>
+	<key>选择文件</key>
+	<string>Выберите файл</string>
+	<key>选择要安装ESign Helper 的系统app。该app的正常功能将不可用，因此建议选择一些无用的系统app，如【提示】</key>
+	<string>Выберите системное приложение для установки ESign Helper. Обычные функции приложения будут недоступны, поэтому рекомендуется выбрать что-нибудь бесполезное, например приложение Советы.</string>
+	<key>选择要移动到的目录</key>
+	<string>Выберите каталог, в который хотите перейти</string>
+	<key>选择要覆盖的系统app</key>
+	<string>Выберите системное приложение, которое вы хотите перезаписать</string>
+	<key>选择证书</key>
+	<string>Сертификат</string>
+	<key>选择项目</key>
+	<string>Выбрать</string>
+	<key>通用</key>
+	<string>Утилиты</string>
+	<key>速度</key>
+	<string>Низкий</string>
+	<key>配置</key>
+	<string>Настройки</string>
+	<key>重命名</key>
+	<string>Переименовать</string>
+	<key>重建图标缓存</key>
+	<string>Восстановить кэш иконок</string>
+	<key>重新签名</key>
+	<string>Переподписать</string>
+	<key>重新获取</key>
+	<string>Восстановить</string>
+	<key>错误</key>
+	<string>Ошибка</string>
+	<key>隐私政策</key>
+	<string>Политика конфиденциальности</string>
+	<key>隐藏</key>
+	<string>Скрыть</string>
+	<key>项</key>
+	<string>Объект</string>
+	<key>验证异常</key>
+	<string>Сбой</string>
+	<key>（不支持iOS16+）</key>
+	<string> (iOS16+ не поддерживается)</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "resolved_initial_image_jumps": 70077,
+  "runtime_equivalence_verified": false,
+  "assumptions": "Static initial table values only; runtime writes and initializers are not modeled. Input binary is never modified."
+}

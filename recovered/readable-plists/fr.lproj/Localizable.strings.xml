@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>
+%@ 下载完成，正在安装
+</key>
+	<string>
+%@ Download complete, installing
+</string>
+	<key>
+%@ 下载完成，正在安装，可以返回桌面查看安装进度。</key>
+	<string>
+%@ The download is complete and the installation is in progress. You can return to the desktop to view the installation progress.</string>
+	<key>
+尝试安装：%@ 
+</key>
+	<string>
+Try to install: %@ 
+</string>
+	<key>0.75X</key>
+	<string>0.75X</string>
+	<key>1.0X</key>
+	<string>1.0X</string>
+	<key>1.5X</key>
+	<string>1.5X</string>
+	<key>2.0X</key>
+	<string>2.0X</string>
+	<key>App名字</key>
+	<string>Nom de l'application</string>
+	<key>App多开</key>
+	<string>Application multi-ouverte</string>
+	<key>App已签名成功</key>
+	<string>L'application a été signée avec succès</string>
+	<key>App文件</key>
+	<string>Fichier d'application</string>
+	<key>App文件有错误</key>
+	<string>Le fichier App a une erreur</string>
+	<key>Begin %@，Count %@</key>
+	<string>Commencer %@，Compter %@</string>
+	<key>Bundle Identifier</key>
+	<string>Bundle Identifier</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>IPA文件出错</key>
+	<string>Erreur de fichier IPA</string>
+	<key>Plist 格式错误,无法解析</key>
+	<string>Erreur de format Plist et ne peut pas être analysé</string>
+	<key>UDID复制成功</key>
+	<string>UDID copié avec succès</string>
+	<key>UDID获取成功</key>
+	<string>UDID obtenu avec succès</string>
+	<key>URL 不能为空</key>
+	<string>URL invalide</string>
+	<key>deb解压失败:%@</key>
+	<string>Échec de la décompression de Deb : %@</string>
+	<key>ipa安装失败</key>
+	<string>l'installation d'ipa a échoué</string>
+	<key>ipa文件有错误</key>
+	<string>Il y a une erreur dans le fichier ipa</string>
+	<key>《服务协议》</key>
+	<string>《Contrat de service》</string>
+	<key>上传到蓝奏云</key>
+	<string>Télécharger sur LanzouCloud</string>
+	<key>上传失败</key>
+	<string>Le téléchargement a échoué</string>
+	<key>上传成功</key>
+	<string>Importé avec succès</string>
+	<key>上传文件</key>
+	<string>Téléverser un fichier</string>
+	<key>下载</key>
+	<string>Télécharger</string>
+	<key>下载地址为空，无法下载。</key>
+	<string>L'URL de téléchargement est vide et ne peut pas être téléchargée.</string>
+	<key>下载失败</key>
+	<string>Échec du téléchargement</string>
+	<key>下载完成</key>
+	<string>Téléchargement complet</string>
+	<key>下载完成自动导入</key>
+	<string>Importation automatique</string>
+	<key>下载暂停</key>
+	<string>Téléchargement suspendu</string>
+	<key>下载管理</key>
+	<string>Gestion des téléchargements</string>
+	<key>下载管理配置</key>
+	<string>Paramètres de téléchargement</string>
+	<key>不同意</key>
+	<string>Refuser</string>
+	<key>不支持直接上传目录文件</key>
+	<string>Ne prend pas en charge le téléchargement direct des fichiers de catalogue</string>
+	<key>专业功能，不懂建议别乱改，不然容易闪退。</key>
+	<string>Fonctions professionnelles. Si vous ne comprenez pas, veuillez ne pas le changer, ou il sera facile de planter.</string>
+	<key>主题</key>
+	<string>Thème</string>
+	<key>书签</key>
+	<string>Signets</string>
+	<key>二维码值</key>
+	<string>qr code value </string>
+	<key>企</key>
+	<string>CO</string>
+	<key>企·过期时间:%@</key>
+	<string>CO·Expiration: %@ </string>
+	<key>保存</key>
+	<string>Sauver</string>
+	<key>保存失败</key>
+	<string>Échec de la sauvegarde</string>
+	<key>保持后台运行</key>
+	<string>Continuez en arrière-plan</string>
+	<key>修复白图标</key>
+	<string>Fixer l'icône blanche</string>
+	<key>修改</key>
+	<string>Modifier</string>
+	<key>修改App名字：%@</key>
+	<string>Modifier le nom de l'application : %@</string>
+	<key>修改BundleIdentifier：%@</key>
+	<string>Modify BundleIdentifier：%@</string>
+	<key>修改Version：%@</key>
+	<string>Modifier la version：%@</string>
+	<key>修改依赖</key>
+	<string>Modifier la dépendance</string>
+	<key>修改动态库</key>
+	<string>Modifier la bibliothèque dynamique</string>
+	<key>修改密码</key>
+	<string>Modifier le mot de passe</string>
+	<key>修改桌面图标</key>
+	<string>Modifier le logo</string>
+	<key>修改版本限制为：iOS 10.0</key>
+	<string>Définir la version minimale: iOS 10.0</string>
+	<key>倍数</key>
+	<string>Multiple</string>
+	<key>全选</key>
+	<string>Tout sélectionner</string>
+	<key>关闭</key>
+	<string>Close</string>
+	<key>关闭密码</key>
+	<string>Close Password</string>
+	<key>其他</key>
+	<string>Autres</string>
+	<key>分享</key>
+	<string>Partager</string>
+	<key>分享链接已复制到剪切板</key>
+	<string>Le lien de partage a été copié dans le presse-papiers</string>
+	<key>创建</key>
+	<string>Créé </string>
+	<key>创建目录</key>
+	<string>Créer un répertoire</string>
+	<key>创建缓存文件夹</key>
+	<string>Créer un dossier cache</string>
+	<key>初始化Bundle：%@ 失败</key>
+	<string>Initialiser le bundle : %@ a échoué</string>
+	<key>删除</key>
+	<string>Supprimer</string>
+	<key>删除失败</key>
+	<string>Échec de la suppression</string>
+	<key>前缀</key>
+	<string>Prefix</string>
+	<key>剪切</key>
+	<string>Couper</string>
+	<key>剪切版网址</key>
+	<string>Clippé d'URL</string>
+	<key>加入QQ交流群</key>
+	<string>Rejoignez le groupe QQ</string>
+	<key>加入Telegram交流群</key>
+	<string>Rejoindre le groupe Telegram</string>
+	<key>动态库文件有错误，请检查文件!</key>
+	<string>Il y a une erreur dans le fichier de bibliothèque dynamique, veuillez vérifier le fichier !</string>
+	<key>十六进制编辑器</key>
+	<string>HEX Editor</string>
+	<key>压缩</key>
+	<string>Compresse</string>
+	<key>压缩文件</key>
+	<string>Fichier compressé</string>
+	<key>去底部</key>
+	<string>Bottom</string>
+	<key>去当前</key>
+	<string>Go current</string>
+	<key>去获取</key>
+	<string>Go Get</string>
+	<key>去顶部</key>
+	<string>Go Top</string>
+	<key>取消</key>
+	<string>Annuler</string>
+	<key>取消全选</key>
+	<string>Tout déselectionner</string>
+	<key>只支持上传100MB以内的文件，未判断是否开通会员。</key>
+	<string>Ne prend en charge que le téléchargement de fichiers de moins de 100 Mo et ne détermine pas s'il faut ouvrir l'adhésion.</string>
+	<key>同意</key>
+	<string>Accepter</string>
+	<key>名字</key>
+	<string>Nom</string>
+	<key>名称: </key>
+	<string>Nom: </string>
+	<key>名称不能为空</key>
+	<string>Le nom ne peut pas être vide</string>
+	<key>后缀</key>
+	<string>Suffix</string>
+	<key>复制</key>
+	<string>Copie</string>
+	<key>复制文件失败</key>
+	<string>Failed to copy file</string>
+	<key>复制文件失败：%@</key>
+	<string>Failed to copy file: %@</string>
+	<key>复制文件：%@</key>
+	<string>Copier un fichier: %@</string>
+	<key>多开</key>
+	<string>Multi-Ouvert</string>
+	<key>多开数量</key>
+	<string>quantité de Multi-Open</string>
+	<key>多开签名：%@</key>
+	<string>Signature multi-ouverture : %@</string>
+	<key>如果您觉得轻松签好用，可以请我喝杯饮料，您的支持是我更新的动力！</key>
+	<string>Si vous pensez que l'esign est bon, vous pouvez m'inviter à boire un verre, votre soutien est la motivation pour ma mise à jour !</string>
+	<key>字体</key>
+	<string>Font</string>
+	<key>安装</key>
+	<string>Installer</string>
+	<key>安装地址</key>
+	<string>Adresse d'installation</string>
+	<key>安装地址 - %@</key>
+	<string>Adresse d'installation - %@</string>
+	<key>完成</key>
+	<string>Finir</string>
+	<key>密码: </key>
+	<string>Mot de passe:</string>
+	<key>密码错误，请重新输入</key>
+	<string>Erreur de mot de passe, veuillez le saisir à nouveau</string>
+	<key>导入</key>
+	<string>Importer</string>
+	<key>导入后自动删除</key>
+	<string>Effacement Automatique</string>
+	<key>导入失败</key>
+	<string>Échec de l'importation</string>
+	<key>导入应用库</key>
+	<string>Importer la bibliothèque d'applications</string>
+	<key>导入成功</key>
+	<string>IImporté avec succès</string>
+	<key>导入文件</key>
+	<string>Importer une ressource</string>
+	<key>导入证书库</key>
+	<string>Gestion des certificats</string>
+	<key>小说阅读器</key>
+	<string>Novel reader</string>
+	<key>尝试修复图标</key>
+	<string>Essayez de réparer l'icône</string>
+	<key>属性编辑器</key>
+	<string>Éditeur de Plist</string>
+	<key>已下载</key>
+	<string>téléchargé</string>
+	<key>已复制QQ群号：1036180327，请手动加群。</key>
+	<string>Le numéro de groupe QQ a été copié : 1036180327</string>
+	<key>已存在 %@,是否覆盖?</key>
+	<string>%@ existe déjà, voulez-vous l'écraser ?</string>
+	<key>已存在同名文件</key>
+	<string>Un fichier du même nom existe déjà</string>
+	<key>已存在同名文件，是否直接覆盖？</key>
+	<string>Un fichier portant le même nom existe déjà, voulez-vous l'écraser ?</string>
+	<key>已导入描述文件</key>
+	<string>mobileprovision Importer</string>
+	<key>已登录</key>
+	<string>Connecté</string>
+	<key>已签名</key>
+	<string>Signé</string>
+	<key>应用</key>
+	<string>Applications</string>
+	<key>应用名字前缀</key>
+	<string>Préfixe du nom de l'application</string>
+	<key>应用名字后缀</key>
+	<string>Suffixe du nom de l'application</string>
+	<key>应用已下载完毕</key>
+	<string>L'ipa a été téléchargé</string>
+	<key>建议删除文件，重新导入!</key>
+	<string>Il est recommandé de supprimer le fichier et de le réimporter !</string>
+	<key>开启后需购买免密包才能关闭密码！！</key>
+	<string>Après l'ouverture, vous devez acheter un package sans mot de passe pour fermer le mot de passe !!!</string>
+	<key>开启文件访问</key>
+	<string>Prend en charge le navigateur de documents</string>
+	<key>开始序号</key>
+	<string>Commencer le numéro de série</string>
+	<key>开始打包：%@</key>
+	<string>Commencer l'empaquetage : %@</string>
+	<key>开始签名</key>
+	<string>Commencez à signer</string>
+	<key>开始签名：%@</key>
+	<string>Commencer à signer : %@</string>
+	<key>开始解压deb：%@</key>
+	<string>Commencez à décompresser deb : %@</string>
+	<key>手动添加</key>
+	<string>Ajouter manuellement</string>
+	<key>打包IPA</key>
+	<string>Paquet IPA</string>
+	<key>打包失败：%@</key>
+	<string>Échec de l'empaquetage : %@</string>
+	<key>打包成功：%@</key>
+	<string>Emballé avec succès : %@</string>
+	<key>扫一扫</key>
+	<string>Balayage</string>
+	<key>扫描值</key>
+	<string>Valeur du code QR</string>
+	<key>描述: </key>
+	<string>La description:</string>
+	<key>提示</key>
+	<string>Rapide</string>
+	<key>支持作者</key>
+	<string>Soutenir l'Auteur</string>
+	<key>文件</key>
+	<string>Fichier</string>
+	<key>文件不可删除</key>
+	<string>Le fichier ne peut pas être supprimé</string>
+	<key>文件不存在</key>
+	<string>Fichier n'existe pas</string>
+	<key>文件列表</key>
+	<string>Liste de fichiers</string>
+	<key>文件名字已存在，请换个名字</key>
+	<string>Le nom du fichier existe déjà, veuillez changer le nom</string>
+	<key>文件名已存在</key>
+	<string>Le nom du fichier existe déjà</string>
+	<key>文件名称</key>
+	<string>File Name</string>
+	<key>文件大小</key>
+	<string>File Size</string>
+	<key>文件已删除</key>
+	<string>Fichier supprimé</string>
+	<key>文件已剪切</key>
+	<string>Le fichier a été coupé</string>
+	<key>文件已复制</key>
+	<string>Le fichier a été copié</string>
+	<key>文件已存在</key>
+	<string>Le fichier existe déjà</string>
+	<key>文件已导入</key>
+	<string>Fichier importé</string>
+	<key>文件已被删除</key>
+	<string>Le fichier a été supprimé</string>
+	<key>文件有错误</key>
+	<string>Le fichier contient des erreurs</string>
+	<key>文件被删除</key>
+	<string>Le fichier a été supprimé</string>
+	<key>文件错误</key>
+	<string>Erreur de fichier</string>
+	<key>文本编辑器</key>
+	<string>Éditeur de texte</string>
+	<key>新建文件</key>
+	<string>Nouveau fichier</string>
+	<key>新建文件夹</key>
+	<string>Nouveau dossier</string>
+	<key>无依赖第三方库</key>
+	<string>Aucune dépendance aux bibliothèques</string>
+	<key>无可用证书</key>
+	<string>Aucun certificat disponible</string>
+	<key>无法打开QQ</key>
+	<string>Impossible d'ouvrir QQ</string>
+	<key>时间</key>
+	<string>Temps</string>
+	<key>是否删除该记录</key>
+	<string>S'il faut supprimer cet enregistrement</string>
+	<key>是否导入应用库</key>
+	<string>Importer la bibliothèque d'applications ?</string>
+	<key>是否导入证书库？</key>
+	<string>Gestion des certificats d'importation？</string>
+	<key>是否已阅读本协议，并同意协议所包含的条款</key>
+	<string>Avez-vous lu cet accord et accepté les termes contenus dans l'accord</string>
+	<key>是否返回桌面查看安装进度</key>
+	<string>S'il faut revenir au bureau pour voir la progression de l'installation</string>
+	<key>暂无数据</key>
+	<string>Pas de données</string>
+	<key>暂未开放解锁码</key>
+	<string>Le code de déverrouillage n'a pas encore été publié</string>
+	<key>暂未识别出图中二维码</key>
+	<string>Le code QR dans l'image n'est pas encore reconnu</string>
+	<key>更多设置</key>
+	<string>Plus de réglages</string>
+	<key>服务器（推荐）</key>
+	<string>Serveur (recommandé)</string>
+	<key>未导入描述文件</key>
+	<string>Mobileprovision non importé</string>
+	<key>未开放</key>
+	<string>Pas ouverte</string>
+	<key>未找到.app文件</key>
+	<string>Fichier .app introuvable</string>
+	<key>未找到dylib</key>
+	<string>Trouver dylib</string>
+	<key>未找到mobileprovision文件</key>
+	<string>Mobileprovision non trouvé</string>
+	<key>未找到与本证书相匹配的mobileprovision文件，请将mobileprovision文件放在与p12文件相同的目录下。</key>
+	<string>Aucun fichier mobileprovision correspondant à ce certificat n'a été trouvé, veuillez placer le fichier mobileprovision dans le même répertoire que le fichier p12.</string>
+	<key>未找到图标文件</key>
+	<string>Fichier d'icône introuvable</string>
+	<key>未登录</key>
+	<string>Connexion</string>
+	<key>未签名</key>
+	<string>Non signé</string>
+	<key>未获取UDID</key>
+	<string>UDID non obtenu</string>
+	<key>未获取UDID，请先到设置界面中获取UDID！</key>
+	<string>UDID non obtenu, veuillez vous rendre dans l'interface de paramétrage pour obtenir l'UDID !</string>
+	<key>来源：%@ %@</key>
+	<string>La source: %@ %@</string>
+	<key>查找dylib</key>
+	<string>Trouver dylib</string>
+	<key>查看</key>
+	<string>Voir</string>
+	<key>查看文件</key>
+	<string>Voir le fichier</string>
+	<key>查看文件位置</key>
+	<string>Afficher l'emplacement du fichier</string>
+	<key>标题</key>
+	<string>Titre</string>
+	<key>根目录</key>
+	<string>Dossier racine</string>
+	<key>桌面图标</key>
+	<string>Logo</string>
+	<key>正在安装中
+请勿锁屏或者切换应用</key>
+	<string>Installing 
+ Do not lock the screen or switch apps</string>
+	<key>正在解析文章</key>
+	<string>Analyse de l'article</string>
+	<key>此签名证书不包含当前设备，签名后无法在当前设备安装！！！</key>
+	<string>Ce certificat signé ne contient pas l'appareil actuel et ne peut pas être installé sur l'appareil actuel après signature !!!</string>
+	<key>没有匹配结果</key>
+	<string>Aucun résultat correspondant</string>
+	<key>没有权限访问相机</key>
+	<string>Aucune autorisation d'accéder à la caméra</string>
+	<key>注入成功</key>
+	<string>Injection réussie</string>
+	<key>添加</key>
+	<string>Ajouter</string>
+	<key>添加 Key - Value</key>
+	<string>Ajouter une clé - Valeur</string>
+	<key>添加书签</key>
+	<string>Ajouter un marque-page</string>
+	<key>添加成功</key>
+	<string>Succès</string>
+	<key>添加或者替换 Info.plist 内容</key>
+	<string>Ajouter ou remplacer le contenu d' info.plist</string>
+	<key>添加所有</key>
+	<string>Tout ajouter</string>
+	<key>添加数据</key>
+	<string>Ajouter</string>
+	<key>添加源</key>
+	<string>Ajouter une source</string>
+	<key>添加的源与轻松签无任何关系，请勿添加非法应用的源。</key>
+	<string>La source ajoutée n'a rien à voir avec ESign. Veuillez ne pas ajouter la source des applications illégales.</string>
+	<key>添加第三方库（dylib,framework,deb）</key>
+	<string>Ajouter une bibliothèque (dylib, framework, deb)</string>
+	<key>源解锁地址有误，无法解锁</key>
+	<string>L'adresse de déverrouillage de la source est erronée et ne peut pas être déverrouillée</string>
+	<key>源链接有问题</key>
+	<string>Il y a une erreur avec le lien source</string>
+	<key>版本号</key>
+	<string>Version</string>
+	<key>用户输入</key>
+	<string>Entrée utilisateur</string>
+	<key>登录</key>
+	<string>Connecté</string>
+	<key>目录</key>
+	<string>Dossier</string>
+	<key>相册</key>
+	<string>Album</string>
+	<key>码云Gitee</key>
+	<string>Gitee</string>
+	<key>确定</key>
+	<string>OK</string>
+	<key>确定要删除所选择的数据吗？</key>
+	<string>Voulez-vous vraiment supprimer les données sélectionnées ?</string>
+	<key>种类</key>
+	<string>Type</string>
+	<key>移动文件</key>
+	<string>Déplacer le fichier</string>
+	<key>移除已有库</key>
+	<string>Supprimer la bibliothèque existante</string>
+	<key>移除应用跳转</key>
+	<string>Schéma d'URL supprimé</string>
+	<key>移除所有手表App</key>
+	<string>Supprimer toutes les applications de la montre</string>
+	<key>移除所有插件App</key>
+	<string>Supprimer tous les plug-ins</string>
+	<key>移除所有插件组件</key>
+	<string>Supprimer tous les plug-ins</string>
+	<key>移除手表组件</key>
+	<string>Supprimer le composant Watch</string>
+	<key>移除设备限制</key>
+	<string>Supprimer UISupportedDevices</string>
+	<key>程序未脱壳，签名后可能无法安装，建议重新脱壳签名！！！</key>
+	<string>L'application est cryptée et peut ne pas être installée après la signature. Il est recommandé de déchiffrer et de signer à nouveau !!!</string>
+	<key>立即签名</key>
+	<string>Signature</string>
+	<key>等待下载</key>
+	<string>En attente de téléchargement</string>
+	<key>等待网页加载完毕点击下载即可下载</key>
+	<string>Attendez que la page se charge et cliquez sur télécharger pour télécharger</string>
+	<key>签名</key>
+	<string>Signature</string>
+	<key>签名后立即安装</key>
+	<string>Installer après signature</string>
+	<key>签名失败</key>
+	<string>La signature a échoué</string>
+	<key>签名成功</key>
+	<string>Signé avec succès</string>
+	<key>签名时间</key>
+	<string>Heure du signe</string>
+	<key>签名证书</key>
+	<string>Signed Cert</string>
+	<key>签名默认配置</key>
+	<string>Signer la configuration par défaut</string>
+	<key>粘贴</key>
+	<string>Coller</string>
+	<key>继续扫描</key>
+	<string>Continuer la numérisation</string>
+	<key>网址</key>
+	<string>URL</string>
+	<key>网址无效</key>
+	<string>Invalid URL</string>
+	<key>自动修改越狱依赖</key>
+	<string>Modification automatique des dépendances de jailbreak</string>
+	<key>自定义信息插入 info.plist</key>
+	<string>Insérer des informations personnalisées dans info.plist</string>
+	<key>获取解锁码</key>
+	<string>Acheter un code de déverrouillage</string>
+	<key>获取设备UDID</key>
+	<string>Obtenir l'UDID de l'appareil</string>
+	<key>蓝奏云</key>
+	<string>LanZouCloud</string>
+	<key>蓝奏云登录</key>
+	<string>Connexion LanZouCloud</string>
+	<key>覆盖</key>
+	<string>Passer outre</string>
+	<key>解压</key>
+	<string>Décompressez</string>
+	<key>解压成功</key>
+	<string>Décompressez avec succès</string>
+	<key>解析失败</key>
+	<string>Échec de l'analyse</string>
+	<key>解锁</key>
+	<string>Débloqué</string>
+	<key>解锁成功</key>
+	<string>Débloqué avec succès</string>
+	<key>解锁软件源</key>
+	<string>Déverrouiller la source</string>
+	<key>设置</key>
+	<string>Réglages</string>
+	<key>设置密码</key>
+	<string>Définir le mot de passe</string>
+	<key>设置密码访问</key>
+	<string>Définir le mot de passe</string>
+	<key>证书密码</key>
+	<string>Mot de passe du certificat</string>
+	<key>证书已经掉签，签名后可能无法安装！！！</key>
+	<string>Le certificat a été révoqué, il ne peut pas être installé après la signature !!!</string>
+	<key>证书撤销</key>
+	<string>Revocation</string>
+	<key>证书有效</key>
+	<string>Bon</string>
+	<key>证书未知</key>
+	<string>Inconnue</string>
+	<key>证书管理</key>
+	<string>Gestion des certificats</string>
+	<key>识别失败</key>
+	<string>Échec de la reconnaissance</string>
+	<key>该证书未导入描述文件,无法使用</key>
+	<string>Le certificat n'est pas importé avec un fichier de description et ne peut pas être utilisé</string>
+	<key>该软件源已被拉黑，禁止添加。</key>
+	<string>Cette source a été bloquée et ne peut pas être ajoutée.</string>
+	<key>详情</key>
+	<string>Details</string>
+	<key>请先导入p12证书跟描述文件</key>
+	<string>Veuillez d'abord importer le certificat p12 et le fichier mobileprovision</string>
+	<key>请在设置中打开相机权限</key>
+	<string>Veuillez activer les autorisations de l'appareil photo dans les paramètres</string>
+	<key>请导入描述文件</key>
+	<string>Veuillez importer le fichier mobileprovision</string>
+	<key>请输入 key</key>
+	<string>Veuillez entrer la clé</string>
+	<key>请输入key</key>
+	<string>entrer la clé</string>
+	<key>请输入value</key>
+	<string>entrer la valeur</string>
+	<key>请输入值</key>
+	<string>entrer un nombre, SVP</string>
+	<key>请输入多开序号跟数量</key>
+	<string>Veuillez entrer le numéro de série et la quantité de Multi-Open</string>
+	<key>请输入描述（选填）</key>
+	<string>Veuillez saisir une description (facultatif)</string>
+	<key>请输入文件分享密码</key>
+	<string>Veuillez entrer le mot de passe de partage de fichiers</string>
+	<key>请输入文件夹名字</key>
+	<string>Veuillez saisir le nom du dossier</string>
+	<key>请输入新的文件名</key>
+	<string>Veuillez entrer un nouveau nom de fichier</string>
+	<key>请输入新的文件名，不要跟已有文件重名</key>
+	<string>Veuillez entrer un nouveau nom de fichier, différent du même nom qu'un fichier existant</string>
+	<key>请输入目录名称</key>
+	<string>Veuillez saisir le nom du dossier</string>
+	<key>请输入蓝奏云密码</key>
+	<string>Veuillez saisir le mot de passe Lanzou Cloud</string>
+	<key>请输入蓝奏云账号</key>
+	<string>Veuillez entrer le compte Lanzou Cloud</string>
+	<key>请输入要修改的值</key>
+	<string>Veuillez entrer la valeur à modifier</string>
+	<key>请输入解压密码</key>
+	<string>Veuillez entrer le mot de passe de décompression</string>
+	<key>请输入解锁码</key>
+	<string>Veuillez entrer le code de déverrouillage</string>
+	<key>请输入证书密码</key>
+	<string>Veuillez entrer le mot de passe du certificat</string>
+	<key>请输入软件源地址</key>
+	<string>Veuillez saisir l'adresse source de l'application</string>
+	<key>读取证书信息失败：%@</key>
+	<string>Impossible de lire les informations du certificat : %@</string>
+	<key>读取证书信息：%@</key>
+	<string>Lire les informations du certificat : %@</string>
+	<key>读取证书失败</key>
+	<string>Impossible de lire le certificat</string>
+	<key>账号: </key>
+	<string>Compte:</string>
+	<key>软件源</key>
+	<string>Source de l'application</string>
+	<key>软件源已存在</key>
+	<string>La source de l'application existe déjà</string>
+	<key>软件源解锁与轻松签无任何关系，请自己确认源的有效性，请勿添加非法应用源。</key>
+	<string>Le déverrouillage de la source Appp n'a rien à voir avec ESign. Veuillez confirmer vous-même la validité de la source. Veuillez ne pas ajouter de sources d'applications illégales.</string>
+	<key>轻松签</key>
+	<string>Esign</string>
+	<key>轻松签官网</key>
+	<string>Esign Website</string>
+	<key>轻松签源</key>
+	<string>Esign Source</string>
+	<key>输入下载页网址</key>
+	<string>Entrez l'URL de la page de téléchargement</string>
+	<key>输入框</key>
+	<string>Zone de saisie</string>
+	<key>过期时间:%@</key>
+	<string>Expiration: %@</string>
+	<key>返回</key>
+	<string>Retourner</string>
+	<key>返回数据错误</key>
+	<string>Erreur de données de retour</string>
+	<key>返回格式错误</key>
+	<string>Erreur de format de retour</string>
+	<key>退出</key>
+	<string>Sortie</string>
+	<key>退出登录</key>
+	<string>Se déconnecter</string>
+	<key>选择</key>
+	<string>Sélectionner</string>
+	<key>选择文件</key>
+	<string>Choisir le dossier</string>
+	<key>选择要移动到的目录</key>
+	<string>Sélectionnez le répertoire vers lequel vous déplacer</string>
+	<key>选择证书</key>
+	<string>Sélectionnez le certificat</string>
+	<key>配置</key>
+	<string>Réglages</string>
+	<key>重命名</key>
+	<string>Renommer</string>
+	<key>重新签名</key>
+	<string>Re-sign</string>
+	<key>重新获取</key>
+	<string>Réacquérir</string>
+	<key>错误</key>
+	<string>Erreur</string>
+	<key>隐私政策</key>
+	<string>Politique de confidentialité</string>
+	<key>隐藏</key>
+	<string>cacher</string>
+	<key>项</key>
+	<string>Item</string>
+	<key>验证异常</key>
+	<string>Échec</string>
+</dict>
+</plist>

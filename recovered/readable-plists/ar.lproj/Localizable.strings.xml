@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>
+%@ 下载完成，正在安装
+</key>
+	<string>
+%@ Download complete, installing
+</string>
+	<key>
+%@ 下载完成，正在安装，可以返回桌面查看安装进度。</key>
+	<string>
+%@ The download is complete and the installation is in progress. You can return to the desktop to view the installation progress.</string>
+	<key>
+尝试安装：%@ 
+</key>
+	<string>
+Try to install: %@ 
+</string>
+	<key>%@项</key>
+	<string>%@ عنصر</string>
+	<key>0.75X</key>
+	<string>0.75X</string>
+	<key>1.0X</key>
+	<string>1.0X</string>
+	<key>1.5X</key>
+	<string>1.5X</string>
+	<key>2.0X</key>
+	<string>2.0X</string>
+	<key>Alist网盘</key>
+	<string>قائمة</string>
+	<key>App名字</key>
+	<string>اسم التطبيق</string>
+	<key>App多开</key>
+	<string>تطبيق متعدد الفتح</string>
+	<key>App已签名成功</key>
+	<string>تم توقيع التطبيق بنجاح</string>
+	<key>App文件</key>
+	<string>ملف التطبيق</string>
+	<key>App文件有错误</key>
+	<string>هنالك خطأ في ملف التطبيق</string>
+	<key>Begin %@，Count %@</key>
+	<string>Begin %@，Count %@</string>
+	<key>Bundle Identifier</key>
+	<string>معرّف حزمة التطبيق - البندل</string>
+	<key>Cancel</key>
+	<string>الغاء</string>
+	<key>Download</key>
+	<string>تنزيل</string>
+	<key>EPILOGUE</key>
+	<string></string>
+	<key>FOOTER_FORMAT</key>
+	<string>%@ %@</string>
+	<key>File</key>
+	<string>ملف</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>IPA文件不存在或无法访问。</key>
+	<string>ملف IPA غير موجود أو لا يمكن الوصول إليه.</string>
+	<key>IPA文件中似乎不包app文件</key>
+	<string>لا يبدو أن ملف IPA يحتوي على تطبيق </string>
+	<key>IPA文件出错</key>
+	<string>خطأ في ملف IPA</string>
+	<key>Info.plist 缺少必要值</key>
+	<string>تفتقر التطبيقات Info.plist إلى القيم المطلوبة.</string>
+	<key>Install</key>
+	<string>تثبيت</string>
+	<key>PROLOGUE</key>
+	<string>&lt;p&gt;Drag &amp;amp; drop files on this window or use the 'Upload Files&amp;hellip;' button to upload new files.&lt;/p&gt;</string>
+	<key>Plist 格式错误,无法解析</key>
+	<string>خطأ في تنسيق Plist ولا يمكن تحليله</string>
+	<key>Refresh</key>
+	<string>تحديث</string>
+	<key>UDID复制成功</key>
+	<string>تم نسخ معرف UDID بنجاح</string>
+	<key>UDID获取成功</key>
+	<string>تم الحصول على معرّف UDID بنجاح</string>
+	<key>URL 不能为空</key>
+	<string>رابط غير صحيح</string>
+	<key>Upload Files</key>
+	<string>رفع ملفات</string>
+	<key>WiFi传输</key>
+	<string>WiFi</string>
+	<key>[%@]个文件%@成功，当前目录已存在%@个相同名称的文件</key>
+	<string>[%@] تم تسجيل الملفات بنجاح %@، %@ الملفات التي تحمل نفس الاسم موجودة بالفعل في هذا الموقع</string>
+	<key>[%@]个文件%@成功，此位置已经存在名称为“%@”的文件</key>
+	<string>[%@] تم بنجاح %@ ويوجد ملف باسم '%@' بالفعل في هذا الموقع</string>
+	<key>deb解压失败:%@</key>
+	<string>فشل فك ضغط Deb:%@</string>
+	<key>entitlements文件有错误，读取失败。</key>
+	<string>يحتوي ملف الاستحقاقات على أخطاء.</string>
+	<key>iPhone存储空间</key>
+	<string>مساحة تخزين الجهاز</string>
+	<key>ipa安装失败</key>
+	<string>فشل تثبيت ملف IPA</string>
+	<key>ipa文件有错误</key>
+	<string>هناك خطأ في ملف ipa</string>
+	<key>ldid签名失败</key>
+	<string>فشل في التوقيع على التطبيق. أعاد ldid رمز حالة غير صفري.</string>
+	<key>《服务协议》</key>
+	<string>《اتفاقية خدمات. تعريب حاتم》</string>
+	<key>上传</key>
+	<string>حمل</string>
+	<key>上传到蓝奏云</key>
+	<string>الرفع الى LanzouCloud</string>
+	<key>上传失败</key>
+	<string>فشلت عملية الرفع</string>
+	<key>上传成功</key>
+	<string>تم الرفع بنجاح</string>
+	<key>上传文件</key>
+	<string>رفع ملف</string>
+	<key>下载</key>
+	<string>تنزيل</string>
+	<key>下载中</key>
+	<string>يتم التنزيل</string>
+	<key>下载地址为空，无法下载。</key>
+	<string>رابط التنزيل فارغ ولايمكن اتمام العملية</string>
+	<key>下载失败</key>
+	<string>فشل التنزيل</string>
+	<key>下载完成</key>
+	<string>اكتمل التنزيل</string>
+	<key>下载完成自动导入</key>
+	<string>استيراد تلقائي</string>
+	<key>下载完成，正在安装</key>
+	<string>اكتمل التنزيل ، يتم التثبيت الآن</string>
+	<key>下载暂停</key>
+	<string>ايقاف مؤقت للتنزيل</string>
+	<key>下载管理</key>
+	<string>ادارة التنزيلات</string>
+	<key>下载管理配置</key>
+	<string>اعدادات التنزيلات</string>
+	<key>不同意</key>
+	<string>عدم الموافقة</string>
+	<key>不支持直接上传目录文件</key>
+	<string>لا يدعم الرفع المباشر لملفات الكتالوج</string>
+	<key>专业功能，不懂建议别乱改，不然容易闪退。</key>
+	<string>تعديلات للمحترفين. إذا كنت لا تفهم بها، فالرجاء عدم تغييرها ، أو ستتسبب في عدم فتح التطبيق.</string>
+	<key>个人热点HTTP传输地址</key>
+	<string>عنوان HTTP لنقطة الاتصال الشخصية</string>
+	<key>为应用程序包创建容器失败。</key>
+	<string>فشل في إنشاء حاوية لحزمة التطبيقات.</string>
+	<key>主题</key>
+	<string>سمات</string>
+	<key>书签</key>
+	<string>اشارات مرجعية</string>
+	<key>二维码值</key>
+	<string>كود QR</string>
+	<key>仅修改配置忽略签名</key>
+	<string>تعديل التكوين فقط، تجاهل التوقيع</string>
+	<key>仅修改配置，不签名</key>
+	<string>تعديل التكوين فقط، بدون توقيع </string>
+	<key>付费</key>
+	<string>Pay</string>
+	<key>企</key>
+	<string>CO</string>
+	<key>企·过期时间:%@</key>
+	<string>CO·Expiration: %@ </string>
+	<key>使用永久安装的轻松签无法分享文件，是否通过跳转【文件】app进行分享？</key>
+	<string>غير قادر على مشاركة الملفات باستخدام ESign المثبت بشكل دائم، هل تريد المشاركة عبر تطبيق Jump [File]؟</string>
+	<key>使用自定义entitlements文件签名</key>
+	<string>استخدام الاستحقاقات المخصصة توقيع الملف</string>
+	<key>例如: AppDemo</key>
+	<string>e.g. AppDemo</string>
+	<key>保存</key>
+	<string>حفظ</string>
+	<key>保存失败</key>
+	<string>فشل الحفظ</string>
+	<key>保持后台运行</key>
+	<string>استمرار التشغيل بالخلفية</string>
+	<key>保留两者</key>
+	<string>احتفظ بكليهما</string>
+	<key>修复成功</key>
+	<string>Successful</string>
+	<key>修复权限</key>
+	<string>Fix Permissions</string>
+	<key>修复白图标</key>
+	<string>اصلاح الأيقونة البيضاء</string>
+	<key>修改</key>
+	<string>تعديل</string>
+	<key>修改App名字：%@</key>
+	<string>تعديل اسم التطبيق: %@ </string>
+	<key>修改BundleIdentifier：%@</key>
+	<string>تعديل معرّف الحزمة- البندل：%@</string>
+	<key>修改Version：%@</key>
+	<string>تعديل اصدار التطبيق：%@</string>
+	<key>修改为"%@"</key>
+	<string>Switching to "%@"</string>
+	<key>修改为"User"</key>
+	<string>Switching to "User"</string>
+	<key>修改为"User"状态后，可能无法打开应用。但是会在系统设置中显示该应用，可以用来修改配置。也可以修复iTunes的文件分享。如果应用无法打开，需将该应用修改为"System"状态才能打开！</key>
+	<string>Switching this app to a "User" registration will make it unlaunchable after the next respring. 
+The purpose of this option is to make the app temporarily show up in settings, so you can adjust the settings and then switch it back to a "System" registration. Additionally, the "User" registration state is also useful to temporarily fix iTunes file sharing.
+When you're done making the changes you need and want the app to become launchable again, you will need to switch it back to "System" state.</string>
+	<key>修改依赖</key>
+	<string>تعديل المتطلبات</string>
+	<key>修改动态库</key>
+	<string>تعديل المكتبات الديناميكية</string>
+	<key>修改失败</key>
+	<string>فشل في التعديل</string>
+	<key>修改定位</key>
+	<string>Fake Location</string>
+	<key>修改密码</key>
+	<string>تعديل الرقم السري</string>
+	<key>修改成功</key>
+	<string>تم التعديل بنجاح</string>
+	<key>修改桌面图标</key>
+	<string>تعديل أيقونة التطبيق</string>
+	<key>修改版本限制为：iOS 10.0</key>
+	<string>ضبط اقل اصدار تشغيل مطلوب:iOS 10.0</string>
+	<key>修改配置未签名</key>
+	<string>تعديل التكوين فقط</string>
+	<key>倍数</key>
+	<string>متعدد</string>
+	<key>停止</key>
+	<string>Stop</string>
+	<key>停止修改定位</key>
+	<string>fake location stopped</string>
+	<key>免费</key>
+	<string>مجانًا</string>
+	<key>全选</key>
+	<string>تحديد الكل</string>
+	<key>全部</key>
+	<string>الكل</string>
+	<key>全部覆盖</key>
+	<string>كل شيء مغطى</string>
+	<key>关闭</key>
+	<string>اغلاق</string>
+	<key>关闭密码</key>
+	<string>اغلاق برقم سري</string>
+	<key>其他</key>
+	<string>اخرى</string>
+	<key>兼容</key>
+	<string>موازنة</string>
+	<key>兼顾速度与压缩率</key>
+	<string>ضبط موازنة السرعة والضغط</string>
+	<key>分享</key>
+	<string>مشاركة</string>
+	<key>分享链接已复制到剪切板</key>
+	<string>تم نسخ رابط المشاركة</string>
+	<key>分类</key>
+	<string>جلسة</string>
+	<key>创建</key>
+	<string>إنشاء</string>
+	<key>创建目录</key>
+	<string>إنشاء مجلد</string>
+	<key>创建缓存文件夹</key>
+	<string>إنشاء مجلد ذاكرة تخزين مؤقت</string>
+	<key>初始化Bundle：%@ 失败</key>
+	<string>تهئية معرّف الحزمة: %@ فشل</string>
+	<key>删除</key>
+	<string>حذف</string>
+	<key>删除失败</key>
+	<string>فشل الحذف</string>
+	<key>前缀</key>
+	<string>بادئة</string>
+	<key>剪切</key>
+	<string>قص</string>
+	<key>剪切版网址</key>
+	<string>تجميع الروابط</string>
+	<key>加入QQ交流群</key>
+	<string>انضم الى مجموعة QQ</string>
+	<key>加入Telegram交流群</key>
+	<string>انضم الى مجموعة التليقرام </string>
+	<key>动态库文件有错误，请检查文件!</key>
+	<string>يوجد خلل في ملف الـDylib ، الرجاء التحقق من الملف</string>
+	<key>动态库注入设置</key>
+	<string>اعدادات حقن المكتبات</string>
+	<key>十六进制编辑器</key>
+	<string>محرر الهيكس</string>
+	<key>卸载 ESign</key>
+	<string>قم بإلغاء تثبيت ESign</string>
+	<key>卸载中</key>
+	<string>Uninstalling</string>
+	<key>卸载轻松签+,是否同时卸载所有使用轻松签+安装的应用?</key>
+	<string>على وشك إلغاء تثبيت ESign+، هل تريد إلغاء تثبيت جميع التطبيقات المثبتة عليه؟</string>
+	<key>卸载轻松签+，保留已安装应用</key>
+	<string>إلغاء تثبيت ESign+، والحفاظ على التطبيق</string>
+	<key>卸载轻松签+，卸载已安装应用</key>
+	<string>إلغاء تثبيت ESign+، إلغاء تثبيت جميع التطبيقات </string>
+	<key>压缩</key>
+	<string>ضغط</string>
+	<key>压缩文件</key>
+	<string>الملفات المضغوطة</string>
+	<key>压缩率高，文件较小，压缩速度慢</key>
+	<string>معدل ضغط مرتفع ، ملفات صغيرة ، سرعة ضغط منخفضة</string>
+	<key>压缩级别</key>
+	<string>معدل الضغط</string>
+	<key>压缩级别设置</key>
+	<string>اعداد معدل الضغط</string>
+	<key>压缩速度快，压缩率低，文件较大</key>
+	<string>سرعة ضغط عالية ، معدل ضغط منخفض ، ملفات كبيرة</string>
+	<key>去底部</key>
+	<string>سفلي</string>
+	<key>去当前</key>
+	<string>Go current</string>
+	<key>去获取</key>
+	<string>Go Get</string>
+	<key>去顶部</key>
+	<string>Go Top</string>
+	<key>发现新的免费企业证书，免费的企业证书来源于网上共享，部分设备签名安装后也是无法信任或者打开闪退，是否导入?</key>
+	<string>تم العثور على شهادة مؤسسة حرة جديدة. تتم مشاركة شهادة المؤسسة المجانية عبر الإنترنت. لا يمكن الوثوق ببعض توقيعات الجهاز بعد التثبيت. استيراد أم لا؟</string>
+	<key>取消</key>
+	<string>الغاء</string>
+	<key>取消全选</key>
+	<string>الغاء تحديد الكل</string>
+	<key>只支持上传100MB以内的文件，未判断是否开通会员。</key>
+	<string>يدعم فقط تحميل الملفات في حدود 100 ميغا بايت ، ولا يحدد ما إذا كان سيتم فتح العضوية.</string>
+	<key>可选</key>
+	<string>Optional</string>
+	<key>同意</key>
+	<string>موافق</string>
+	<key>名字</key>
+	<string>الاسم</string>
+	<key>名称: </key>
+	<string>الاسم: </string>
+	<key>名称不能为空</key>
+	<string>خانة الاسم يجب تعبئتها</string>
+	<key>后缀</key>
+	<string>نهاية الاسم</string>
+	<key>在另一个端使用浏览器，输入上述地址，即可连接本机进行传输。另一端需与本机处于同一个WIFI网络下</key>
+	<string>استخدم متصفحًا على جهاز آخر وأدخل العنوان أعلاه للاتصال بهذا الجهاز للإرسال. يجب أن يكون الجهاز الآخر متصلاً بنفس شبكة WIFI مثل هذا الجهاز</string>
+	<key>复制</key>
+	<string>نسخ</string>
+	<key>复制app bundle失败</key>
+	<string>فشل في نسخ حزمة التطبيقات.</string>
+	<key>复制到</key>
+	<string>تم نسخه إلى</string>
+	<key>复制到当前目录</key>
+	<string>انسخ إلى المجلد الحالي</string>
+	<key>复制文件失败</key>
+	<string>فشل نسخ الملف</string>
+	<key>复制文件失败：%@</key>
+	<string>فشل نسخ الملف: %@</string>
+	<key>复制文件：%@</key>
+	<string>نسخ الملف: %@ </string>
+	<key>复制链接</key>
+	<string>نسخ الرابط</string>
+	<key>多开</key>
+	<string>متعدد الفتح</string>
+	<key>多开数量</key>
+	<string>كمية تعدد الفتح</string>
+	<key>多开签名：%@</key>
+	<string>توقيع متعدد الفتح: %@</string>
+	<key>大小</key>
+	<string>الحجم</string>
+	<key>如果安装应用后桌面没有出现图标，点击重建图标缓存刷新。</key>
+	<string>إذا لم يظهر التطبيق على الفور بعد التثبيت، فقم بإعادة الاتصال هنا ويجب أن يظهر بعد ذلك.</string>
+	<key>如果导入应用库提示无权限的，可以尝试使用这个修复。</key>
+	<string>Try this fix if the import app prompts no permissions.</string>
+	<key>如果您觉得轻松签好用，可以请我喝杯饮料，您的支持是我更新的动力！</key>
+	<string>ان كنت ترى Esign مفيدًا — الرجاء  دعمي بالتبرع</string>
+	<key>字体</key>
+	<string>الخط</string>
+	<key>存储空间</key>
+	<string>مساحة التخزين</string>
+	<key>安装</key>
+	<string>تثبيت </string>
+	<key>安装ESign Helper</key>
+	<string>قم بتثبيت مساعد ESign</string>
+	<key>安装ldid</key>
+	<string>قم بتثبيت ldid</string>
+	<key>安装ldid后，才能安装未签名的IPA</key>
+	<string>يتم تثبيت ldid ويسمح ل ESign بتثبيت ملفات IPA غير الموقعة.</string>
+	<key>安装地址</key>
+	<string>تثبيت العنوان</string>
+	<key>安装地址 - %@</key>
+	<string>تثبيت العنوان - %@</string>
+	<key>安装失败</key>
+	<string>فشل التثبيت</string>
+	<key>安装设置</key>
+	<string>اعداد التثبيت</string>
+	<key>完成</key>
+	<string>انتهاء</string>
+	<key>密码</key>
+	<string>كلمة سر</string>
+	<key>密码: </key>
+	<string>كلمة مرور: </string>
+	<key>密码错误，请重新输入</key>
+	<string>خطأ بكلمة المرور، عاود ادخال كلمة المرور</string>
+	<key>导入</key>
+	<string>استيراد</string>
+	<key>导入后自动删除</key>
+	<string>حذف تلقائي</string>
+	<key>导入失败</key>
+	<string>فشل الاستيراد</string>
+	<key>导入应用库</key>
+	<string>استيراد الى مكتبة التطبيقات</string>
+	<key>导入成功</key>
+	<string>نجح الاستيراد</string>
+	<key>导入文件</key>
+	<string>مصادر الاستيراد</string>
+	<key>导入证书库</key>
+	<string>ادارة استيراد الشهادات</string>
+	<key>小说阅读器</key>
+	<string>Novel reader</string>
+	<key>尝试修复图标</key>
+	<string>محاولة اصلاح الأيقونة</string>
+	<key>尝试安装：%@</key>
+	<string>محاولة تثبيت: %@</string>
+	<key>局域网HTTP传输地址</key>
+	<string>LAN HTTP address</string>
+	<key>属性编辑器</key>
+	<string>محرر ملف plist</string>
+	<key>工具</key>
+	<string>أداة</string>
+	<key>已下载</key>
+	<string>تم التنزيل</string>
+	<key>已复制QQ群号：1036180327，请手动加群。</key>
+	<string>The QQ group number has been copied: 1036180327</string>
+	<key>已存在 %@,是否覆盖?</key>
+	<string>%@ موجود بالفعل، هل تريد استبداله؟</string>
+	<key>已存在同名文件</key>
+	<string>يوجد ملف مسبقًا بنفس الاسم</string>
+	<key>已存在同名文件，是否直接覆盖？</key>
+	<string>يوجد ملف مسبقًا بنفس الاسم، هل تريد استبداله؟</string>
+	<key>已安装</key>
+	<string>مثبتا</string>
+	<key>已导入描述文件</key>
+	<string>ملف شهادة مضاف</string>
+	<key>已登录</key>
+	<string>مسجل الدخول</string>
+	<key>已签名</key>
+	<string>تم توقيعه</string>
+	<key>已签名应用</key>
+	<string>تطبيقات تم توقيعها</string>
+	<key>已经安装了一个具有相同标识符的非 esign store 应用程序。您可以强制安装它。</key>
+	<string>تم بالفعل تثبيت تطبيق غير متجر ESign بنفس المعرف. إذا كنت متأكدا تماما من أنه ليس كذلك، فيمكنك فرض تثبيته.</string>
+	<key>应用</key>
+	<string>تطبيقات</string>
+	<key>应用名字前缀</key>
+	<string>بادئة اسم التطبيق</string>
+	<key>应用名字后缀</key>
+	<string>لاحقة اسم التطبيق</string>
+	<key>应用已下载完毕</key>
+	<string>تم تنزيل ملف ipa</string>
+	<key>应用程序主可执行文件不存在。</key>
+	<string>التطبيقات الرئيسية القابلة للتنفيذ غير موجودة.</string>
+	<key>建议删除文件，重新导入!</key>
+	<string>يوصى بحذف الملف وإعادة الاستيراد!</string>
+	<key>开启修改定位</key>
+	<string>بداية موقع مزيف</string>
+	<key>开启后需购买免密包才能关闭密码！！</key>
+	<string>بعد الفتح ، تحتاج إلى شراء حزمة خالية من كلمة المرور لإغلاق كلمة المرور !!!</string>
+	<key>开启文件访问</key>
+	<string>دعم تصفح الملفات</string>
+	<key>开始序号</key>
+	<string>بدء الرقم التسلسلي</string>
+	<key>开始打包：%@</key>
+	<string>بدء تكوين حزمة: %@</string>
+	<key>开始签名</key>
+	<string>بدء التوقيع</string>
+	<key>开始签名：%@</key>
+	<string>بدء توقيع: %@ </string>
+	<key>开始解压deb：%@</key>
+	<string>بدء فك ضغط Deb: %@</string>
+	<key>当iOS重建图标缓存时，ESign和使用ESign安装的app可能会恢复为"用户"状态，然后消失或闪退。在没越狱环境中实现永久安装的唯一方法是替换系统应用程序。在这里，您可以选择一个系统应用程序替换为ESign Helper，该程序可用于刷新ESign和使用ESign安装的app的注册信息，以防它们消失或闪退。</key>
+	<string>When iOS rebuilds the icon cache, all ESign apps including ESign itself will be reverted to "User" state and either disappear or no longer launch. The only way to have persistence in a rootless environment is to replace a system application, here you can select a system app to replace with a esign helper that can be used to refresh the registrations of all ESign related apps in case they disappear or no longer launch.</string>
+	<key>影音</key>
+	<string>صوت</string>
+	<key>您试图安装的应用程序与设备上已安装的系统应用程序具有相同的标识符。已阻止安装。</key>
+	<string>يحتوي التطبيق الذي حاولت تثبيته على نفس معرف تطبيق النظام المثبت بالفعل على الجهاز. تم منع التثبيت لحمايتك من التمهيدات المحتملة أو غيرها من المشكلات.</string>
+	<key>手动添加</key>
+	<string>اضافة يدوية</string>
+	<key>手机剩余空间</key>
+	<string>مساحة حرة على القرص</string>
+	<key>手机已用空间</key>
+	<string>مساحة القرص المستخدمة</string>
+	<key>手机硬盘空间</key>
+	<string>إجمالي مساحة القرص</string>
+	<key>手机设置的存储空间计算的有问题，有时候会有缓存。
+轻松签首页文件列表存储的位置即Documents,想清除占用空间的话，进入文件列表删除文件即可。
+Library内的文件是系统自动生成，与一些必要信息存储，不会占用太多空间，不用理会。</key>
+	<string>There is a problem with the storage space calculation of the phone Settings, sometimes there is a cache. 
+ ESin files is stored in Documents. If you want to clear the space, you can enter the file list and delete the file. 
+Library files are automatically generated by the system, with some necessary information stored, do not take up too much space, ignore.</string>
+	<key>打包IPA</key>
+	<string>تكوين حزمة ipa</string>
+	<key>打包失败：%@</key>
+	<string>فشل تكوين حزمة: %@ </string>
+	<key>打包成功：%@</key>
+	<string>تم تكوين الحزمة بنجاح: %@ </string>
+	<key>打包文件名</key>
+	<string>اسم ملف الحزمة</string>
+	<key>打包文件名生成规则</key>
+	<string>قواعد إنشاء اسم ملف الحزمة</string>
+	<key>扫一扫</key>
+	<string>مسح</string>
+	<key>扫描值</key>
+	<string>QRCode Value</string>
+	<key>批量签名</key>
+	<string>توقيع جماعي</string>
+	<key>描述: </key>
+	<string>الوصف:</string>
+	<key>提取库</key>
+	<string>استخراج ديليب</string>
+	<key>提示</key>
+	<string>Prompt</string>
+	<key>插件</key>
+	<string>ديليب</string>
+	<key>操作成功</key>
+	<string>نجحت العملية</string>
+	<key>支持作者</key>
+	<string>Support Author</string>
+	<key>收费</key>
+	<string>ادفع</string>
+	<key>整理</key>
+	<string>ترتيب</string>
+	<key>文件</key>
+	<string>ملف</string>
+	<key>文件不可删除</key>
+	<string>لايمكن حذف الملف</string>
+	<key>文件不存在</key>
+	<string>الملف غير موجود</string>
+	<key>文件列表</key>
+	<string>قائمة الملف</string>
+	<key>文件名字已存在，请换个名字</key>
+	<string>اسم الملف موجود مسبقًا، الرجاء اختيار اسم آخر</string>
+	<key>文件名已存在</key>
+	<string>اسم الملف موجود مسبقًا</string>
+	<key>文件名称</key>
+	<string>اسم الملف</string>
+	<key>文件大小</key>
+	<string>حجم الملف</string>
+	<key>文件已删除</key>
+	<string>تم حذف الملف</string>
+	<key>文件已剪切</key>
+	<string>تم قص الملف</string>
+	<key>文件已复制</key>
+	<string>تم نسخ الملف</string>
+	<key>文件已存在</key>
+	<string>الملف موجود مسبقًا</string>
+	<key>文件已存在，是否覆盖上传？</key>
+	<string>الملف موجود بالفعل. هل تريد الكتابة فوق التحميل؟</string>
+	<key>文件已导入</key>
+	<string>تم استيراد الملف</string>
+	<key>文件已添加到下载列表，请到下载列表中查看下载进度。</key>
+	<string>تمت إضافة الملف إلى قائمة التنزيل. يرجى التحقق من تقدم التنزيل في قائمة التنزيل.</string>
+	<key>文件已被删除</key>
+	<string>تم حذف الملف</string>
+	<key>文件有错误</key>
+	<string>يوجد اخطاء بالملف</string>
+	<key>文件被删除</key>
+	<string>الملف محذوف</string>
+	<key>文件路径</key>
+	<string>مسار الملف</string>
+	<key>文件错误</key>
+	<string>اخطاء الملف</string>
+	<key>文本编辑器</key>
+	<string>محرر النص</string>
+	<key>新建文件</key>
+	<string>ملف جديد</string>
+	<key>新建文件夹</key>
+	<string>مجلد جديد</string>
+	<key>无依赖第三方库</key>
+	<string>لا يوجد متطلبات للمكتبات</string>
+	<key>无分享权限</key>
+	<string>لا يوجد إذن بالمشاركة</string>
+	<key>无可用证书</key>
+	<string>لا توجد شهادة متاحة</string>
+	<key>无法打开QQ</key>
+	<string>لايمكن فتح QQ</string>
+	<key>时间</key>
+	<string>الوقت</string>
+	<key>时间戳</key>
+	<string>الطابع الزمني</string>
+	<key>是否全部覆盖?</key>
+	<string>هل كل شيء مغطى؟</string>
+	<key>是否删除该记录</key>
+	<string>ما إذا كان سيتم حذف هذا السجل</string>
+	<key>是否导入应用库</key>
+	<string>استيراد الى مكتبة التطبيقات؟</string>
+	<key>是否导入证书库？</key>
+	<string>استيراد الى ادارة الشهادات؟</string>
+	<key>是否已阅读本协议，并同意协议所包含的条款</key>
+	<string>قرأت ووافقت على الشروط والأحكام</string>
+	<key>是否直接替换掉原有文件</key>
+	<string>هل تستبدل الملف الأصلي؟</string>
+	<key>是否覆盖?</key>
+	<string>هل تم الكتابة فوقها؟</string>
+	<key>是否返回桌面查看安装进度</key>
+	<string>ما إذا كان سيتم الرجوع إلى الشاشة الرئيسية لعرض تقدم التثبيت أم لا</string>
+	<key>暂无数据</key>
+	<string>لا يوجد بيانات</string>
+	<key>暂未开放解锁码</key>
+	<string>لم يتم تحرير رمز فك القفل</string>
+	<key>暂未识别出图中二维码</key>
+	<string>لم يتم التعرف على رمز الاستجابة السريعة الموجود في الصورة بعد</string>
+	<key>更多设置</key>
+	<string>المزيد من الإعدادات</string>
+	<key>替换</key>
+	<string>أَبْدَلَ</string>
+	<key>服务器地址</key>
+	<string>سيرفر</string>
+	<key>服务器（推荐）</key>
+	<string>الخادم (موصى به)</string>
+	<key>未导入描述文件</key>
+	<string>لم يتم استيراد ملف الشهادة</string>
+	<key>未开启个人热点</key>
+	<string>لم يتم تشغيل نقطة الاتصال الشخصية</string>
+	<key>未开放</key>
+	<string>ليس مفتوح</string>
+	<key>未找到.app文件</key>
+	<string>مجلد التطبيق غير موجود</string>
+	<key>未找到dylib</key>
+	<string>العثور على ملف Dylib</string>
+	<key>未找到mobileprovision文件</key>
+	<string>لم يتم العثور على ملف الشهادة</string>
+	<key>未找到与本证书相匹配的mobileprovision文件，请将mobileprovision文件放在与p12文件相同的目录下。</key>
+	<string>لم يتم العثور على ملف mobileprovision يطابق هذه الشهادة ، يرجى وضع ملف mobileprovision في نفس مكان ملف p12.</string>
+	<key>未找到图标文件</key>
+	<string>لم يتم العثور على ملف الأيقونة</string>
+	<key>未登录</key>
+	<string>تسجيل الخروج</string>
+	<key>未知错误</key>
+	<string>خطأ غير معروف</string>
+	<key>未签名</key>
+	<string>لم يتم توقيعه</string>
+	<key>未获取UDID</key>
+	<string>لم يتم الحصول على UDID</string>
+	<key>未获取UDID，请先到设置界面中获取UDID！</key>
+	<string>لم يتم الحصول على UDID ، يرجى الانتقال إلى واجهة الإعدادات للحصول على UDID!</string>
+	<key>本地（iOS13+）</key>
+	<string>محلي（iOS13+）</string>
+	<key>本机开启个人热点，另一个端连接本机热点。即可实现同一个WiFi网络进行数据传输</key>
+	<string>يقوم هذا الجهاز بتشغيل نقطة الاتصال الشخصية ، ويتصل جهاز آخر بنقطة الاتصال المحلية. يمكنه التعرف على نفس شبكة WiFi لنقل البيانات</string>
+	<key>来源：%@ %@</key>
+	<string>مصدر: %@ %@</string>
+	<key>查找dylib</key>
+	<string>العثور على ملف Dylib</string>
+	<key>查看</key>
+	<string>عرض</string>
+	<key>查看文件</key>
+	<string>عرض الملف</string>
+	<key>查看文件位置</key>
+	<string>عرض مكان الملف</string>
+	<key>标题</key>
+	<string>عنوان</string>
+	<key>根目录</key>
+	<string>المجلد الرئيسي</string>
+	<key>桌面图标</key>
+	<string>أيقونة</string>
+	<key>正在复制%@个文件</key>
+	<string>نسخ ملفات %@</string>
+	<key>正在复制文件</key>
+	<string>نسخ الملف</string>
+	<key>正在复制文件夹</key>
+	<string>مجلد النسخ</string>
+	<key>正在安装中
+请勿锁屏或者切换应用</key>
+	<string>Installing 
+ Do not lock the screen or switch apps</string>
+	<key>正在移动%@个文件</key>
+	<string>نسخ ملفات %@</string>
+	<key>正在移动文件</key>
+	<string>نقل الملف</string>
+	<key>正在移动文件夹</key>
+	<string>مجلد متحرك</string>
+	<key>正在解析文章</key>
+	<string>Analyzing article</string>
+	<key>正在计算存储空间，需要一定时间，请耐心等待...</key>
+	<string>يتم حساب مساحة التخزين. يستغرق الأمر بعض الوقت. من فضلك انتظر بصبر...</string>
+	<key>此签名证书不包含当前设备，签名后无法在当前设备安装！！！</key>
+	<string>لا تحتوي هذه الشهادة الموقعة على الجهاز الحالي ولا يمكن تثبيتها على الجهاز الحالي بعد التوقيع !!!</string>
+	<key>永久安装</key>
+	<string>تثبيت القزم</string>
+	<key>永久安装配置</key>
+	<string>تكوين تثبيت القزم</string>
+	<key>没有匹配结果</key>
+	<string>لا توجد نتائج مطابقة</string>
+	<key>没有权限访问相机</key>
+	<string>لا يوجد إذن للوصول إلى الكاميرا</string>
+	<key>注入成功</key>
+	<string>تم الدمج بنجاح</string>
+	<key>注入目录</key>
+	<string>مجلد الدمج</string>
+	<key>注入路径</key>
+	<string>مسار الدمج</string>
+	<key>注销</key>
+	<string>اعادة التشغيل</string>
+	<key>添加</key>
+	<string>اضافة</string>
+	<key>添加 Key - Value</key>
+	<string>اضافة قيمة</string>
+	<key>添加书签</key>
+	<string>اضافة علامة مرجعية</string>
+	<key>添加成功</key>
+	<string>تم بنجاح</string>
+	<key>添加或者替换 Info.plist 内容</key>
+	<string>اضافة او استبدال محتوى ملف info.plist</string>
+	<key>添加所有</key>
+	<string>اضافة الكل</string>
+	<key>添加数据</key>
+	<string>اضافة</string>
+	<key>添加源</key>
+	<string>اضافة مصدر</string>
+	<key>添加的源与轻松签无任何关系，请勿添加非法应用的源。</key>
+	<string>المصدر المضاف لا علاقة له بـ ESign. الرجاء عدم إضافة مصدر تطبيقات غير قانونية.</string>
+	<key>添加第三方库（dylib,framework,deb）</key>
+	<string>اضافة مكتبة ( ملف دايلب/ فريم وورك/ ديب) </string>
+	<key>游戏</key>
+	<string>ألعاب</string>
+	<key>源解锁地址有误，无法解锁</key>
+	<string>عنوان فتح المصدر خاطئ ولا يمكن إلغاء قفله</string>
+	<key>源链接有问题</key>
+	<string>يوجد خطأ في رابط المصدر</string>
+	<key>版本号</key>
+	<string>الإصدار</string>
+	<key>用户名</key>
+	<string>اسم مستخدم</string>
+	<key>用户输入</key>
+	<string>مدخلات المستخدم</string>
+	<key>登录</key>
+	<string>مسجل الدخول</string>
+	<key>目录</key>
+	<string>مجلد</string>
+	<key>相册</key>
+	<string>البوم</string>
+	<key>码云Gitee</key>
+	<string>Gitee</string>
+	<key>确定</key>
+	<string>حسنًا</string>
+	<key>确定要删除 %@？</key>
+	<string>هل تريد حذف %@؟</string>
+	<key>确定要删除所选择的数据吗？</key>
+	<string>هل انت متأكد من حذف البيانات المحددة؟</string>
+	<key>确定要删除所选文件吗？</key>
+	<string>هل أنت متأكد من أنك تريد حذف الملفات المحددة؟</string>
+	<key>种类</key>
+	<string>النوع</string>
+	<key>移动</key>
+	<string>نقل </string>
+	<key>移动到</key>
+	<string>انتقل إلى</string>
+	<key>移动到当前目录</key>
+	<string>انتقل إلى المجلد الحالي</string>
+	<key>移动文件</key>
+	<string>نقل الملف</string>
+	<key>移除:%@</key>
+	<string>ازالة:%@</string>
+	<key>移除dylibs</key>
+	<string>ازالة ملفات دايلب</string>
+	<key>移除已有库</key>
+	<string>ازالة مكتبة موجودة</string>
+	<key>移除应用跳转</key>
+	<string>ازالة مخطط الروابط</string>
+	<key>移除所有手表App</key>
+	<string>ازالة تطبيق الساعة</string>
+	<key>移除所有插件App</key>
+	<string>ازالة كافة المكونات الإضافية</string>
+	<key>移除所有插件组件</key>
+	<string>إزالة كافة المكونات الإضافية</string>
+	<key>移除手表组件</key>
+	<string>إزالة مكون الساعة</string>
+	<key>移除设备限制</key>
+	<string>إزالة UISupportedDevices</string>
+	<key>程序未脱壳，签名后可能无法安装，建议重新脱壳签名！！！</key>
+	<string>التطبيق مشفّر ، وقد لا يتم تثبيته بعد التوقيع. يوصى بفك التشفير والتوقيع مرة أخرى !!!</string>
+	<key>立即签名</key>
+	<string>توقيع</string>
+	<key>竖屏锁定</key>
+	<string>قفل عمودي</string>
+	<key>等待下载</key>
+	<string>بإنتظار التنزيل</string>
+	<key>等待网页加载完毕点击下载即可下载</key>
+	<string>انتظر حتى يتم تحميل الصفحة وانقر فوق تنزيل للتنزيل</string>
+	<key>筛选</key>
+	<string>فرز</string>
+	<key>签名</key>
+	<string>توقيع</string>
+	<key>签名后立即安装</key>
+	<string>التثبيت بعد التوقيع</string>
+	<key>签名失败</key>
+	<string>فشل التوقيع</string>
+	<key>签名成功</key>
+	<string>تم التوقيع بنجاح</string>
+	<key>签名时间</key>
+	<string>وقت التوقيع</string>
+	<key>签名证书</key>
+	<string>شهادة التوقيع</string>
+	<key>签名默认配置</key>
+	<string>ضبط اعدادات التوقيع الافتراضية</string>
+	<key>粘贴</key>
+	<string>لصق</string>
+	<key>经纬度:%.5f,%.5f</key>
+	<string>%.5f,%.5f</string>
+	<key>继续修改</key>
+	<string>استمر في التعديل</string>
+	<key>继续扫描</key>
+	<string>الإستمرار بالمسح</string>
+	<key>网址</key>
+	<string>رابط</string>
+	<key>网址无效</key>
+	<string>رابط غير صالح</string>
+	<key>自动修改越狱依赖</key>
+	<string>التعديل التلقائي لمتطلبات الجيلبريك</string>
+	<key>自定义信息插入 info.plist</key>
+	<string>ادخال خانات مخصصة بملف info.plist</string>
+	<key>自定义签名entitlements，签名后可能无法安装。</key>
+	<string>استحقاقات التوقيع المخصصة، قد لا يتم تثبيتها بعد التوقيع.</string>
+	<key>获取解锁码</key>
+	<string>شراء رمز لفك القفل</string>
+	<key>获取设备UDID</key>
+	<string>الحصول على رقم UDID للجهاز</string>
+	<key>蓝奏云</key>
+	<string>LanZouCloud</string>
+	<key>蓝奏云登录</key>
+	<string>LanZouCloud Login</string>
+	<key>要分享的软件源地址已复制</key>
+	<string>تم نسخ عنوان مصدر التطبيق للمشاركة</string>
+	<key>覆盖</key>
+	<string>استبدال</string>
+	<key>解压</key>
+	<string>فك الضغط</string>
+	<key>解压失败</key>
+	<string>فشل فك الضغط</string>
+	<key>解压成功</key>
+	<string>تم فك الضغط بنجاح</string>
+	<key>解析失败</key>
+	<string>فشلت الموازنة</string>
+	<key>解锁</key>
+	<string>فتح القفل</string>
+	<key>解锁成功</key>
+	<string>تم فتح القفل بنجاح</string>
+	<key>解锁软件源</key>
+	<string>فتح قفل المصدر</string>
+	<key>设置</key>
+	<string>الإعدادات</string>
+	<key>设置ESignStore app标识失败</key>
+	<string>فشل في وضع علامة على التطبيق كتطبيق ESignStore</string>
+	<key>设置密码</key>
+	<string>اضافة رقم سري</string>
+	<key>设置密码访问</key>
+	<string>اضافة رقم سري</string>
+	<key>证书</key>
+	<string>الشهادة</string>
+	<key>证书名字</key>
+	<string>اسم الشهادة</string>
+	<key>证书密码</key>
+	<string>الرقم السري للشهادة</string>
+	<key>证书已经掉签，签名后可能无法安装！！！</key>
+	<string>هذه الشهادة غير صالحة، وقد لا يتم تثبيت التطبيق بعد التوقيع!!!</string>
+	<key>证书撤销</key>
+	<string>غير صالحة</string>
+	<key>证书有效</key>
+	<string>صالحة</string>
+	<key>证书未知</key>
+	<string>غير معروف</string>
+	<key>证书管理</key>
+	<string>ادارة الشهادات</string>
+	<key>识别失败</key>
+	<string>فشل التعرف</string>
+	<key>该应用程序不包含info.plist文件</key>
+	<string>لا يحتوي التطبيق على ملف Info.plist.</string>
+	<key>该应用程序没有使用伪造的CoreTrust证书签名，也没有安装ldid。在设置选项卡中安装ldid，然后重试。</key>
+	<string>لم يتم توقيع التطبيق بشهادة CoreTrust مزيفة ولم يتم تثبيت ldid. قم بتثبيت ldid في علامة التبويب الإعدادات وحاول مرة أخرى.</string>
+	<key>该证书未导入描述文件,无法使用</key>
+	<string>لم يتم استيراد الشهادة مع ملف التعريف ولا يمكن استخدامها</string>
+	<key>该软件源已被拉黑，禁止添加。</key>
+	<string>تم حظر هذا المصدر ولا يمكن إضافته.</string>
+	<key>详情</key>
+	<string>تفاصيل</string>
+	<key>请先导入p12证书跟描述文件</key>
+	<string>يرجى استيراد شهادة p12 وملف mobileprovision أولاً</string>
+	<key>请在设置中打开相机权限</key>
+	<string>يرجى تشغيل أذونات الكاميرا في الإعدادات</string>
+	<key>请导入描述文件</key>
+	<string>الرجاء استيراد ملف mobileprovision</string>
+	<key>请输入 key</key>
+	<string>الرجاء ادخال مفتاح</string>
+	<key>请输入key</key>
+	<string>ادخل مفتاح</string>
+	<key>请输入value</key>
+	<string>ادخل قيمة</string>
+	<key>请输入值</key>
+	<string>الرجاء ادخال قيمة</string>
+	<key>请输入多开序号跟数量</key>
+	<string>الرجاء إدخال الرقم التسلسلي متعدد الفتح والكمية</string>
+	<key>请输入描述（选填）</key>
+	<string>الرجاء ادخال وصف (اختياري) </string>
+	<key>请输入文件分享密码</key>
+	<string>الرجاء إدخال كلمة مرور مشاركة الملف</string>
+	<key>请输入文件夹名字</key>
+	<string>الرجاء ادخال اسم المجلد</string>
+	<key>请输入新的文件名</key>
+	<string>الرجاء ادخال اسم ملف جديد</string>
+	<key>请输入新的文件名，不要跟已有文件重名</key>
+	<string>الرجاء إدخال اسم ملف جديد ، وليس نفس اسم ملف موجود</string>
+	<key>请输入目录名称</key>
+	<string>الرجاء ادخال اسم مجلد جديد</string>
+	<key>请输入蓝奏云密码</key>
+	<string>الرجاء إدخال كلمة مرور Lanzou Cloud</string>
+	<key>请输入蓝奏云账号</key>
+	<string>الرجاء إدخال حساب Lanzou Cloud</string>
+	<key>请输入要修改的值</key>
+	<string>الرجاء ادخال القيمة المراد تعديلها</string>
+	<key>请输入解压密码</key>
+	<string>الرجاء إدخال كلمة مرور فك الضغط</string>
+	<key>请输入解锁码</key>
+	<string>الرجاء ادخال رمز فتح القفل</string>
+	<key>请输入证书密码</key>
+	<string>الرجاء إدخال كلمة مرور الشهادة</string>
+	<key>请输入软件源地址</key>
+	<string>الرجاء إدخال عنوان مصدر التطبيق</string>
+	<key>读取证书信息失败：%@</key>
+	<string>فشل في قراءة معلومات الشهادة
+: %@</string>
+	<key>读取证书信息：%@</key>
+	<string>قراءة معلومات الشهادة: %@ </string>
+	<key>读取证书失败</key>
+	<string>فشل في قراءة الشهادة</string>
+	<key>账号: </key>
+	<string>الحساب: </string>
+	<key>软件源</key>
+	<string>مصدر التطبيق</string>
+	<key>软件源已存在</key>
+	<string>مصدر التطبيق موجود بالفعل</string>
+	<key>软件源已添加，无需重复添加。</key>
+	<string>تمت إضافة المصدر، لا حاجة للإضافة مرة أخرى.</string>
+	<key>软件源解锁与轻松签无任何关系，请自己确认源的有效性，请勿添加非法应用源。</key>
+	<string>لا علاقة لإلغاء قفل مصدر التطبيق بـ ESign. يرجى تأكيد صحة المصدر بنفسك. الرجاء عدم إضافة مصادر تطبيقات غير قانونية.</string>
+	<key>轻松签</key>
+	<string>ESign</string>
+	<key>轻松签官网</key>
+	<string>ESign موقع</string>
+	<key>轻松签已用空间</key>
+	<string>ESign مساحة مستعملة</string>
+	<key>轻松签源</key>
+	<string>ESign مصدر</string>
+	<key>输入下载页网址</key>
+	<string>أدخل عنوان URL لصفحة التنزيل</string>
+	<key>输入框</key>
+	<string>صندوق الإدخال</string>
+	<key>过期时间:%@</key>
+	<string>تاريخ الإنتهاء: %@</string>
+	<key>返回</key>
+	<string>الرجوع</string>
+	<key>返回数据错误</key>
+	<string>خطأ بإستعادة البيانات</string>
+	<key>返回格式错误</key>
+	<string>خطأ بإستعادة التنسيق</string>
+	<key>连接</key>
+	<string>متصل</string>
+	<key>退出</key>
+	<string>خروج</string>
+	<key>退出登录</key>
+	<string>تسجيل خروج</string>
+	<key>选择</key>
+	<string>اختيار</string>
+	<key>选择entitlements文件</key>
+	<string>حدد ملف الاستحقاقات </string>
+	<key>选择文件</key>
+	<string>اختيار ملف</string>
+	<key>选择要安装ESign Helper 的系统app。该app的正常功能将不可用，因此建议选择一些无用的系统app，如【提示】</key>
+	<string>حدد تطبيق نظام لتثبيت مساعد ESign فيه. لن تكون الوظيفة العادية للتطبيق متاحة، لذلك يوصى باختيار شيء عديم الفائدة مثل تطبيق النصائح.</string>
+	<key>选择要移动到的目录</key>
+	<string>حدد المسار للانتقال إليه</string>
+	<key>选择要覆盖的系统app</key>
+	<string>حدد تطبيق النظام الذي تريد الكتابة فوقه</string>
+	<key>选择证书</key>
+	<string>اختيار الشهادة</string>
+	<key>选择项目</key>
+	<string>اختر العنصر</string>
+	<key>通用</key>
+	<string>المرافق العامة</string>
+	<key>速度</key>
+	<string>السرعة</string>
+	<key>配置</key>
+	<string>الإعدادات</string>
+	<key>重命名</key>
+	<string>اعادة تسمية</string>
+	<key>重建图标缓存</key>
+	<string>أعد بناء ذاكرة التخزين المؤقت للأيقونات</string>
+	<key>重新签名</key>
+	<string>اعادة التوقيع</string>
+	<key>重新获取</key>
+	<string>استعادة</string>
+	<key>错误</key>
+	<string>خطأ</string>
+	<key>隐私政策</key>
+	<string>سياسة الخصوصية. تعريب </string>
+	<key>隐藏</key>
+	<string>اخفاء</string>
+	<key>项</key>
+	<string>العنصر</string>
+	<key>验证异常</key>
+	<string>فشل</string>
+	<key>（不支持iOS16+）</key>
+	<string>(iOS16+ غير مدعوم)</string>
+</dict>
+</plist>

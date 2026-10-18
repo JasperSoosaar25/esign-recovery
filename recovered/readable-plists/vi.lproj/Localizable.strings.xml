@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>
+%@ 下载完成，正在安装
+</key>
+	<string>
+%@ Tải xuống hoàn tất, cài đặt
+</string>
+	<key>
+%@ 下载完成，正在安装，可以返回桌面查看安装进度。</key>
+	<string>
+%@ Quá trình tải xuống hoàn tất và quá trình cài đặt đang diễn ra. Bạn có thể quay lại màn hình để xem tiến trình cài đặt.</string>
+	<key>
+尝试安装：%@ 
+</key>
+	<string>
+Thử cài đặt lại: %@ 
+</string>
+	<key>0.75X</key>
+	<string>0.75X</string>
+	<key>1.0X</key>
+	<string>1.0X</string>
+	<key>1.5X</key>
+	<string>1.5X</string>
+	<key>2.0X</key>
+	<string>2.0X</string>
+	<key>App名字</key>
+	<string>Tên App</string>
+	<key>App多开</key>
+	<string>Mở thêm App</string>
+	<key>App已签名成功</key>
+	<string>Ứng dụng đã được ký thành công</string>
+	<key>App文件</key>
+	<string>Tệp ứng dụng</string>
+	<key>App文件有错误</key>
+	<string>Tệp ứng dụng có lỗi</string>
+	<key>Begin %@，Count %@</key>
+	<string>Begin %@，Count %@</string>
+	<key>Bundle Identifier</key>
+	<string>Bundle Định danh</string>
+	<key>GitHub</key>
+	<string>GitHub</string>
+	<key>IPA文件出错</key>
+	<string>Lỗi tệp IPA</string>
+	<key>Plist 格式错误,无法解析</key>
+	<string>Lỗi định dạng danh sách và không thể phân tích</string>
+	<key>UDID复制成功</key>
+	<string>đã sao chép thành công UDID </string>
+	<key>UDID获取成功</key>
+	<string>UDID thành công đạt được</string>
+	<key>URL 不能为空</key>
+	<string>URL không hợp lệ</string>
+	<key>deb解压失败:%@</key>
+	<string>Giải nén Deb bị lỗi:%@</string>
+	<key>ipa安装失败</key>
+	<string>Cài đặt ipa không thành công</string>
+	<key>ipa文件有错误</key>
+	<string>Có lỗi trong tệp ipa</string>
+	<key>《服务协议》</key>
+	<string>《Thỏa thuận dịch vụ》</string>
+	<key>上传到蓝奏云</key>
+	<string>Tải lên LanzouCloud</string>
+	<key>上传失败</key>
+	<string>Tải lên không thành công</string>
+	<key>上传成功</key>
+	<string>Tải lên thành công</string>
+	<key>上传文件</key>
+	<string>Tải tệp lên</string>
+	<key>下载</key>
+	<string> Tải xuống</string>
+	<key>下载地址为空，无法下载。</key>
+	<string>Url tải xuống trống và không thể tải xuống được. </string>
+	<key>下载失败</key>
+	<string>Tải xuống không thành công</string>
+	<key>下载完成</key>
+	<string>Hoàn thành tải</string>
+	<key>下载完成自动导入</key>
+	<string>Nhập tự động</string>
+	<key>下载暂停</key>
+	<string>Tải xuống bị tạm dừng</string>
+	<key>下载管理</key>
+	<string>Quản lý tải xuống</string>
+	<key>下载管理配置</key>
+	<string>Tải xuống cài đặt</string>
+	<key>不同意</key>
+	<string>Không đồng ý</string>
+	<key>不支持直接上传目录文件</key>
+	<string>Không hỗ trợ tải lên trực tiếp các tệp danh mục</string>
+	<key>专业功能，不懂建议别乱改，不然容易闪退。</key>
+	<string>Các chức năng nghiệp vụ. Nếu bạn không hiểu, vui lòng không thay đổi nó, nếu không sẽ rất dễ bị hỏng. </string>
+	<key>主题</key>
+	<string>Chủ đề</string>
+	<key>书签</key>
+	<string>Bookmarks</string>
+	<key>二维码值</key>
+	<string>Giá trị mã QR </string>
+	<key>企</key>
+	<string>Doanh nghiệp</string>
+	<key>企·过期时间:%@</key>
+	<string>CO·Thời gian hết hạn:%@</string>
+	<key>保存</key>
+	<string>Lưu</string>
+	<key>保存失败</key>
+	<string> Lưu thất bại </string>
+	<key>保持后台运行</key>
+	<string>Tiếp tục chạy trong nền</string>
+	<key>修复白图标</key>
+	<string>Sửa biểu tượng màu trắng</string>
+	<key>修改</key>
+	<string>Sửa đổi</string>
+	<key>修改App名字：%@</key>
+	<string>Sửa đổi tên ứng dụng: %@ </string>
+	<key>修改BundleIdentifier：%@</key>
+	<string>Sửa đổi BundleIdentifier：%@</string>
+	<key>修改Version：%@</key>
+	<string>Sửa đổi phiên bản：%@</string>
+	<key>修改依赖</key>
+	<string>Sửa đổi sự phụ thuộc</string>
+	<key>修改动态库</key>
+	<string>Sửa đổi thư viện động</string>
+	<key>修改密码</key>
+	<string>Thay đổi mật khẩu</string>
+	<key>修改桌面图标</key>
+	<string>Sửa đổi logo</string>
+	<key>修改版本限制为：iOS 10.0</key>
+	<string>Đặt tối thiểu: iOS 10.0</string>
+	<key>倍数</key>
+	<string>Nhiều</string>
+	<key>全选</key>
+	<string>chọn tất cả</string>
+	<key>关闭</key>
+	<string>Đóng</string>
+	<key>关闭密码</key>
+	<string>đóng mật khẩu</string>
+	<key>其他</key>
+	<string>Khác</string>
+	<key>分享</key>
+	<string>Chia sẻ</string>
+	<key>分享链接已复制到剪切板</key>
+	<string>Chia sẻ liên kết đã được sao chép vào khay nhớ tạm</string>
+	<key>创建</key>
+	<string>Tạo</string>
+	<key>创建目录</key>
+	<string>Tạo thư mục</string>
+	<key>创建缓存文件夹</key>
+	<string>Tạo thư mục bộ nhớ đệm</string>
+	<key>初始化Bundle：%@ 失败</key>
+	<string>Khởi tạo gói Bundle: %@ thất bại</string>
+	<key>删除</key>
+	<string>xóa bỏ</string>
+	<key>删除失败</key>
+	<string>Xóa không thành công</string>
+	<key>前缀</key>
+	<string>Tiền tố</string>
+	<key>剪切</key>
+	<string>Cắt</string>
+	<key>剪切版网址</key>
+	<string>Cắt URL</string>
+	<key>加入QQ交流群</key>
+	<string>Tham gia nhóm QQ </string>
+	<key>加入Telegram交流群</key>
+	<string>Tham gia nhóm Telegram</string>
+	<key>动态库文件有错误，请检查文件!</key>
+	<string>Có lỗi trong tệp thư viện, vui lòng kiểm tra tệp!</string>
+	<key>十六进制编辑器</key>
+	<string>HEX Editor</string>
+	<key>压缩</key>
+	<string>Nén</string>
+	<key>压缩文件</key>
+	<string>Nén tệp</string>
+	<key>去底部</key>
+	<string>ở dưới</string>
+	<key>去当前</key>
+	<string>Tới vị trí</string>
+	<key>去获取</key>
+	<string>Bắt đầu</string>
+	<key>去顶部</key>
+	<string>Lên đỉnh</string>
+	<key>取消</key>
+	<string>Hủy bỏ</string>
+	<key>取消全选</key>
+	<string>Bỏ chọn tất cả</string>
+	<key>只支持上传100MB以内的文件，未判断是否开通会员。</key>
+	<string>Chỉ hỗ trợ tải lên các tệp có dung lượng 100MB và không xác định có mở tư cách thành viên hay không.</string>
+	<key>同意</key>
+	<string>đồng ý</string>
+	<key>名字</key>
+	<string>Tên</string>
+	<key>名称: </key>
+	<string>Tên: </string>
+	<key>名称不能为空</key>
+	<string>Tên không được để trống</string>
+	<key>后缀</key>
+	<string>Hậu tố</string>
+	<key>复制</key>
+	<string>Copy</string>
+	<key>复制文件失败</key>
+	<string>Sao chép tệp không thành công</string>
+	<key>复制文件失败：%@</key>
+	<string>Sao chép tệp bị lỗi: %@</string>
+	<key>复制文件：%@</key>
+	<string>Sao chép tệp: %@ </string>
+	<key>多开</key>
+	<string>Mở thêm</string>
+	<key>多开数量</key>
+	<string>Mở số lượng</string>
+	<key>多开签名：%@</key>
+	<string>Chứ ký vẫn còn đang mở: %@</string>
+	<key>如果您觉得轻松签好用，可以请我喝杯饮料，您的支持是我更新的动力！</key>
+	<string>Các bạn thấy esign ngon có thể mời mình đi uống nước, sự ủng hộ của các bạn là động lực để mình cập nhật!</string>
+	<key>字体</key>
+	<string>cỡ chữ</string>
+	<key>安装</key>
+	<string>Cài đặt </string>
+	<key>安装地址</key>
+	<string>Cài đặt địa chỉ</string>
+	<key>安装地址 - %@</key>
+	<string>Cài đặt địa chỉ - %@</string>
+	<key>完成</key>
+	<string>Hoàn thành</string>
+	<key>密码: </key>
+	<string>Mật khẩu: </string>
+	<key>密码错误，请重新输入</key>
+	<string>Lỗi mật khẩu, vui lòng nhập lại</string>
+	<key>导入</key>
+	<string>Nhập</string>
+	<key>导入后自动删除</key>
+	<string>Tự động xóa</string>
+	<key>导入失败</key>
+	<string>Nhập không thành công</string>
+	<key>导入应用库</key>
+	<string>Nhập vào thư viện</string>
+	<key>导入成功</key>
+	<string>Nhập thành công</string>
+	<key>导入文件</key>
+	<string>Nhập Nguồn</string>
+	<key>导入证书库</key>
+	<string>Nhập kho chứng chỉ</string>
+	<key>小说阅读器</key>
+	<string>Người đọc sách</string>
+	<key>尝试修复图标</key>
+	<string>Cố sửa chữa biểu tượng</string>
+	<key>属性编辑器</key>
+	<string>Trình chỉnh sửa danh sách</string>
+	<key>已下载</key>
+	<string>Đã tải xuống</string>
+	<key>已复制QQ群号：1036180327，请手动加群。</key>
+	<string>đã được sao chép: 1036180327</string>
+	<key>已存在 %@,是否覆盖?</key>
+	<string>%@ đã tồn tại, bạn có muốn ghi đè lên nó không?</string>
+	<key>已存在同名文件</key>
+	<string>Tệp có cùng tên đã tồn tại</string>
+	<key>已存在同名文件，是否直接覆盖？</key>
+	<string>Một tệp có cùng tên đã tồn tại, bạn có muốn ghi đè lên tệp đó không?</string>
+	<key>已导入描述文件</key>
+	<string>Đã nhập mobileprovision</string>
+	<key>已登录</key>
+	<string>ghi nhật ký</string>
+	<key>已签名</key>
+	<string>Đã ký</string>
+	<key>应用</key>
+	<string>Apps</string>
+	<key>应用名字前缀</key>
+	<string> Tiền tố tên ứng dụng</string>
+	<key>应用名字后缀</key>
+	<string> Hậu tố tên ứng dụng </string>
+	<key>应用已下载完毕</key>
+	<string>Ipa đã được tải xuống</string>
+	<key>建议删除文件，重新导入!</key>
+	<string>Bạn nên xóa tệp và nhập lại! </string>
+	<key>开启后需购买免密包才能关闭密码！！</key>
+	<string>Sau khi mở, bạn cần mua gói để tắt mật khẩu!!! </string>
+	<key>开启文件访问</key>
+	<string>Hỗ trợ trình duyệt tài liệu</string>
+	<key>开始序号</key>
+	<string>Bắt đầu Số sê-ri</string>
+	<key>开始打包：%@</key>
+	<string>Bắt đầu đóng gói: %@</string>
+	<key>开始签名</key>
+	<string>Bắt đầu ký</string>
+	<key>开始签名：%@</key>
+	<string>Bắt đầu ký: %@ </string>
+	<key>开始解压deb：%@</key>
+	<string>Bắt đầu giải nén deb: %@</string>
+	<key>手动添加</key>
+	<string>Thêm thủ công</string>
+	<key>打包IPA</key>
+	<string>Đóng Gói IPA</string>
+	<key>打包失败：%@</key>
+	<string>Đóng gói không thành công: %@ </string>
+	<key>打包成功：%@</key>
+	<string>Đã đóng gói thành công: %@ </string>
+	<key>扫一扫</key>
+	<string>Camera</string>
+	<key>扫描值</key>
+	<string>QRCode</string>
+	<key>描述: </key>
+	<string>Mô tả: </string>
+	<key>提示</key>
+	<string>Lời nhắc</string>
+	<key>支持作者</key>
+	<string>Hỗ trợ Tác giả</string>
+	<key>文件</key>
+	<string>File</string>
+	<key>文件不可删除</key>
+	<string>Không thể xóa tệp</string>
+	<key>文件不存在</key>
+	<string>Tập tin không tồn tại</string>
+	<key>文件列表</key>
+	<string>Danh sách tệp</string>
+	<key>文件名字已存在，请换个名字</key>
+	<string>Tên tệp đã tồn tại, vui lòng thay đổi tên</string>
+	<key>文件名已存在</key>
+	<string>Tên tệp đã tồn tại</string>
+	<key>文件名称</key>
+	<string>File Name</string>
+	<key>文件大小</key>
+	<string>File Size</string>
+	<key>文件已删除</key>
+	<string>Tệp đã Xóa</string>
+	<key>文件已剪切</key>
+	<string>Tệp đã cắt</string>
+	<key>文件已复制</key>
+	<string>Tệp đã được sao chép</string>
+	<key>文件已存在</key>
+	<string>Tập tin đã tồn tại</string>
+	<key>文件已导入</key>
+	<string>Đã nhập tệp</string>
+	<key>文件已被删除</key>
+	<string>Tệp đã bị xóa</string>
+	<key>文件有错误</key>
+	<string>Tệp có lỗi</string>
+	<key>文件被删除</key>
+	<string>Tệp đã bị xóa</string>
+	<key>文件错误</key>
+	<string>Lỗi tập tin</string>
+	<key>文本编辑器</key>
+	<string>Sửa văn bản </string>
+	<key>新建文件</key>
+	<string>Tập tin mới</string>
+	<key>新建文件夹</key>
+	<string>Thư mục mới</string>
+	<key>无依赖第三方库</key>
+	<string>Không phụ thuộc vào thư viện</string>
+	<key>无可用证书</key>
+	<string>Không có chứng chỉ</string>
+	<key>无法打开QQ</key>
+	<string>Không thể mở QQ </string>
+	<key>时间</key>
+	<string>Time</string>
+	<key>是否删除该记录</key>
+	<string>Có xóa bản ghi này không</string>
+	<key>是否导入应用库</key>
+	<string>Nhập vào thư viện</string>
+	<key>是否导入证书库？</key>
+	<string>Có nhập vào kho chứng chỉ hay không?</string>
+	<key>是否已阅读本协议，并同意协议所包含的条款</key>
+	<string>Bạn đã đọc thỏa thuận này và đồng ý với các điều khoản có trong thỏa thuận chưa</string>
+	<key>是否返回桌面查看安装进度</key>
+	<string>Có quay lại màn hình để xem tiến trình cài đặt hay không</string>
+	<key>暂无数据</key>
+	<string>Không có dữ liệu</string>
+	<key>暂未开放解锁码</key>
+	<string>Mã mở khóa vẫn chưa được phát hành</string>
+	<key>暂未识别出图中二维码</key>
+	<string>Mã QR trong hình chưa được nhận dạng</string>
+	<key>更多设置</key>
+	<string>Cài đặt khác</string>
+	<key>服务器（推荐）</key>
+	<string>Máy chủ (khuyến nghị)</string>
+	<key>未导入描述文件</key>
+	<string>Không nhập được mobileprovision</string>
+	<key>未开放</key>
+	<string>Không mở</string>
+	<key>未找到.app文件</key>
+	<string>Không tìm thấy tệp .app</string>
+	<key>未找到dylib</key>
+	<string>Tìm dylib</string>
+	<key>未找到mobileprovision文件</key>
+	<string>Không tìm thấy tệp Mobileprovision</string>
+	<key>未找到与本证书相匹配的mobileprovision文件，请将mobileprovision文件放在与p12文件相同的目录下。</key>
+	<string>Không tìm thấy tệp mobileprovision nào khớp với chứng chỉ này, vui lòng đặt tệp mobileprovision vào cùng thư mục với tệp p12.</string>
+	<key>未找到图标文件</key>
+	<string>Không tìm thấy tệp biểu tượng</string>
+	<key>未登录</key>
+	<string>Đăng nhập</string>
+	<key>未签名</key>
+	<string>Chưa ký</string>
+	<key>未获取UDID</key>
+	<string>Không lấy được UDID</string>
+	<key>未获取UDID，请先到设置界面中获取UDID！</key>
+	<string>UDID đã thanh toán, vui lòng chuyển đến giao diện cài đặt để lấy UDID! </string>
+	<key>来源：%@ %@</key>
+	<string>Nguồn: %@ %@</string>
+	<key>查找dylib</key>
+	<string>Tìm dylib</string>
+	<key>查看</key>
+	<string>Kiểm tra</string>
+	<key>查看文件</key>
+	<string>Xem Tập tin</string>
+	<key>查看文件位置</key>
+	<string>Xem vị trí tệp</string>
+	<key>标题</key>
+	<string>Tiêu đề</string>
+	<key>根目录</key>
+	<string>Thư mục gốc</string>
+	<key>桌面图标</key>
+	<string>Logo</string>
+	<key>正在安装中
+请勿锁屏或者切换应用</key>
+	<string>Đang cài đặt 
+ Không khóa màn hình hoặc chuyển đổi ứng dụng</string>
+	<key>正在解析文章</key>
+	<string>Phân tích báo cáo</string>
+	<key>此签名证书不包含当前设备，签名后无法在当前设备安装！！！</key>
+	<string>Chứng chỉ đã ký này không chứa thiết bị hiện tại và không thể cài đặt trên thiết bị hiện tại sau khi ký!!! </string>
+	<key>没有匹配结果</key>
+	<string>Không có kết quả phù hợp</string>
+	<key>没有权限访问相机</key>
+	<string>Không có quyền truy cập máy ảnh</string>
+	<key>注入成功</key>
+	<string>Đã tiêm thành công</string>
+	<key>添加</key>
+	<string>Thêm vào</string>
+	<key>添加书签</key>
+	<string>Add bookmark</string>
+	<key>添加成功</key>
+	<string>Thành công</string>
+	<key>添加所有</key>
+	<string>Thêm tất cả</string>
+	<key>添加数据</key>
+	<string>Thêm</string>
+	<key>添加源</key>
+	<string>Thêm nguồn</string>
+	<key>添加的源与轻松签无任何关系，请勿添加非法应用的源。</key>
+	<string>Nguồn đã thêm không liên quan gì đến ESign. Vui lòng không thêm nguồn của các ứng dụng bất hợp pháp. </string>
+	<key>添加第三方库（dylib,framework,deb）</key>
+	<string>Thêm thư viện bên thứ ba（dylib,framework,deb）</string>
+	<key>源解锁地址有误，无法解锁</key>
+	<string>Địa chỉ mở khóa nguồn sai và không thể mở khóa được </string>
+	<key>源链接有问题</key>
+	<string>Có lỗi với liên kết nguồn</string>
+	<key>版本号</key>
+	<string>Phiên bản</string>
+	<key>用户输入</key>
+	<string>Đầu vào của người dùng</string>
+	<key>登录</key>
+	<string>Đã đăng nhập</string>
+	<key>目录</key>
+	<string>Thư mục</string>
+	<key>相册</key>
+	<string>Album</string>
+	<key>码云Gitee</key>
+	<string>Gitee</string>
+	<key>确定</key>
+	<string>OK</string>
+	<key>确定要删除所选择的数据吗？</key>
+	<string>Bạn có chắc chắn muốn xóa dữ liệu đã chọn không?</string>
+	<key>种类</key>
+	<string>Type</string>
+	<key>移动文件</key>
+	<string>Di chuyển tập tin</string>
+	<key>移除已有库</key>
+	<string>Xóa thư viện hiện có</string>
+	<key>移除应用跳转</key>
+	<string>Đã xóa URL </string>
+	<key>移除所有手表App</key>
+	<string>Tháo tất cả các hộp cát ứng dụng</string>
+	<key>移除所有插件App</key>
+	<string>Xóa tất cả plugin</string>
+	<key>移除所有插件组件</key>
+	<string>Xóa tất cả plugin</string>
+	<key>移除手表组件</key>
+	<string>Xóa thành phần đồng hồ cát</string>
+	<key>移除设备限制</key>
+	<string>Xóa UISupportedDevices</string>
+	<key>程序未脱壳，签名后可能无法安装，建议重新脱壳签名！！！</key>
+	<string>Ứng dụng là Mã hóa và nó có thể không được cài đặt sau khi ký. Nên giải mã và ký lại!!! </string>
+	<key>立即签名</key>
+	<string>Chữ ký</string>
+	<key>等待下载</key>
+	<string>Đang chờ tải xuống</string>
+	<key>等待网页加载完毕点击下载即可下载</key>
+	<string>Chờ trang tải và nhấp vào tải xuống để tải xuống</string>
+	<key>签名</key>
+	<string>Ký</string>
+	<key>签名后立即安装</key>
+	<string>Cài đặt sau khi ký</string>
+	<key>签名失败</key>
+	<string>Ký không thành công</string>
+	<key>签名成功</key>
+	<string>Đã ký thành công</string>
+	<key>签名时间</key>
+	<string>Thời gian ký</string>
+	<key>签名证书</key>
+	<string>Signed Cert</string>
+	<key>签名默认配置</key>
+	<string>Cấu hình ký mặc định</string>
+	<key>粘贴</key>
+	<string>Dán</string>
+	<key>继续扫描</key>
+	<string>Tiếp tục quét</string>
+	<key>网址</key>
+	<string>URL</string>
+	<key>网址无效</key>
+	<string>URL không hợp lệ</string>
+	<key>自动修改越狱依赖</key>
+	<string>Tự động sửa đổi các phụ thuộc bẻ khóa</string>
+	<key>自定义信息插入 info.plist</key>
+	<string>Chèn thông tin tùy chỉnh vào info.plist</string>
+	<key>获取解锁码</key>
+	<string>Mua mã mở khóa</string>
+	<key>获取设备UDID</key>
+	<string>Nhận thiết bị UDID</string>
+	<key>蓝奏云</key>
+	<string>LanZouCloud</string>
+	<key>蓝奏云登录</key>
+	<string>LanZouCloud Login</string>
+	<key>覆盖</key>
+	<string>Ghi đè</string>
+	<key>解压</key>
+	<string>Giải nén</string>
+	<key>解压成功</key>
+	<string>Giải nén thành công</string>
+	<key>解析失败</key>
+	<string>Phân tích cú pháp không thành công</string>
+	<key>解锁</key>
+	<string>Mở khóa</string>
+	<key>解锁成功</key>
+	<string>Đã mở khóa thành công</string>
+	<key>解锁软件源</key>
+	<string>Mở khóa nguồn</string>
+	<key>设置</key>
+	<string>Cài đặt</string>
+	<key>设置密码</key>
+	<string>Đặt mật khẩu</string>
+	<key>设置密码访问</key>
+	<string>Đặt mật khẩu</string>
+	<key>证书密码</key>
+	<string>Mật khẩu chứng chỉ</string>
+	<key>证书已经掉签，签名后可能无法安装！！！</key>
+	<string>Chứng chỉ đã bị thu hồi, có thể không được cài đặt được sau khi ký!!! </string>
+	<key>证书撤销</key>
+	<string>Thu hồi</string>
+	<key>证书有效</key>
+	<string>Good</string>
+	<key>证书未知</key>
+	<string>Không xác địnhn</string>
+	<key>证书管理</key>
+	<string>Quản lý chứng chỉ</string>
+	<key>识别失败</key>
+	<string>Nhận dạng không thành công</string>
+	<key>该证书未导入描述文件,无法使用</key>
+	<string>Chứng chỉ không được nhập với tệp mô tả và không thể sử dụng được</string>
+	<key>该软件源已被拉黑，禁止添加。</key>
+	<string>Nguồn này đã bị chặn và không thể được thêm vào.</string>
+	<key>详情</key>
+	<string>Details</string>
+	<key>请先导入p12证书跟描述文件</key>
+	<string>Vui lòng nhập chứng chỉ p12 và tệp mobileprovision trước tiên</string>
+	<key>请在设置中打开相机权限</key>
+	<string>Vui lòng bật quyền đối với máy ảnh trong cài đặt</string>
+	<key>请导入描述文件</key>
+	<string>Vui lòng nhập tệp mobileprovision</string>
+	<key>请输入 key</key>
+	<string>Vui lòng nhập khóa</string>
+	<key>请输入值</key>
+	<string>Vui lòng nhập một giá trị</string>
+	<key>请输入多开序号跟数量</key>
+	<string>Vui lòng nhập số sê-ri và số lượng mở</string>
+	<key>请输入描述（选填）</key>
+	<string>Vui lòng nhập mô tả (tùy chọn)</string>
+	<key>请输入文件分享密码</key>
+	<string>Vui lòng nhập mật khẩu</string>
+	<key>请输入文件夹名字</key>
+	<string>Vui lòng nhập tên thư mục</string>
+	<key>请输入新的文件名</key>
+	<string>Vui lòng nhập tên mới tệp</string>
+	<key>请输入新的文件名，不要跟已有文件重名</key>
+	<string>Vui lòng nhập tên tệp mới, không trùng tên với tệp hiện có</string>
+	<key>请输入目录名称</key>
+	<string>Vui lòng nhập tên thư mục</string>
+	<key>请输入蓝奏云密码</key>
+	<string>Vui lòng nhập mật khẩu đám mây Lanzou </string>
+	<key>请输入蓝奏云账号</key>
+	<string>Vui lòng nhập tài khoản Lanzou Cloud</string>
+	<key>请输入要修改的值</key>
+	<string>Vui lòng nhập giá trị cần sửa đổi</string>
+	<key>请输入解压密码</key>
+	<string>Vui lòng nhập mật khẩu giải nén</string>
+	<key>请输入解锁码</key>
+	<string>Vui lòng nhập mã mở khóa</string>
+	<key>请输入证书密码</key>
+	<string>Vui lòng nhập mật khẩu chứng chỉ</string>
+	<key>请输入软件源地址</key>
+	<string>Vui lòng nhập địa chỉ nguồn ứng dụng</string>
+	<key>读取证书信息失败：%@</key>
+	<string>Không đọc được thông tin chứng chỉ: %@</string>
+	<key>读取证书信息：%@</key>
+	<string>Đọc thông tin chứng chỉ: %@ </string>
+	<key>读取证书失败</key>
+	<string>Không đọc được chứng chỉ</string>
+	<key>账号: </key>
+	<string>Tài khoản: </string>
+	<key>软件源</key>
+	<string>Nguồn</string>
+	<key>软件源已存在</key>
+	<string>Nguồn ứng dụng đã tồn tại </string>
+	<key>软件源解锁与轻松签无任何关系，请自己确认源的有效性，请勿添加非法应用源。</key>
+	<string>Mở khóa nguồn ứng dụng không liên quan gì đến ESign. Vui lòng tự xác nhận tính hợp lệ của nguồn. Vui lòng không thêm các nguồn ứng dụng bất hợp pháp. </string>
+	<key>轻松签</key>
+	<string>Đã ký</string>
+	<key>轻松签官网</key>
+	<string>Website ESign</string>
+	<key>轻松签源</key>
+	<string>Nguồn eSign</string>
+	<key>输入下载页网址</key>
+	<string>Nhập URL trang tải xuống</string>
+	<key>输入框</key>
+	<string>Hộp đầu vào</string>
+	<key>过期时间:%@</key>
+	<string>Hết hạn: %@</string>
+	<key>返回</key>
+	<string>Trở lại</string>
+	<key>返回数据错误</key>
+	<string>trả về lỗi dữ liệu</string>
+	<key>返回格式错误</key>
+	<string>lỗi định dạng</string>
+	<key>退出</key>
+	<string>Thoát</string>
+	<key>退出登录</key>
+	<string>Đăng xuất</string>
+	<key>选择</key>
+	<string>Lựa chọn</string>
+	<key>选择文件</key>
+	<string>Chọn tập tin</string>
+	<key>选择要移动到的目录</key>
+	<string>Chọn thư mục để chuyển đến</string>
+	<key>选择证书</key>
+	<string>Chọn chứng chỉ</string>
+	<key>配置</key>
+	<string>Thiết lập</string>
+	<key>重命名</key>
+	<string>Đổi tên</string>
+	<key>重新签名</key>
+	<string>Từ bỏ</string>
+	<key>重新获取</key>
+	<string>Yêu cầu lại</string>
+	<key>错误</key>
+	<string>Lỗi</string>
+	<key>隐私政策</key>
+	<string>Chính sách bảo mật</string>
+	<key>隐藏</key>
+	<string>Ẩn</string>
+	<key>项</key>
+	<string>Mục</string>
+	<key>验证异常</key>
+	<string>Ký thất bại</string>
+</dict>
+</plist>

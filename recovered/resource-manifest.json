@@ -1,0 +1,475 @@
+{
+  "ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "entries": [
+    {
+      "path": "resources/ar.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/ar.lproj/Localizable.strings",
+      "bytes": 34683,
+      "sha256": "70edccab501b566796cb1b06cc78985ccda2341797ed28e9c6b17680e3413d3e",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-Hans.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/zh-Hans.lproj/Localizable.strings",
+      "bytes": 6267,
+      "sha256": "60e016ebee23243edeb2d656f35a45922b2383883a1b94a50e4935b66b50ed0b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-Hans.lproj/InfoPlist.strings",
+      "archive_path": "Payload/ESign.app/zh-Hans.lproj/InfoPlist.strings",
+      "bytes": 75,
+      "sha256": "4c0e7dabb156e1d1d03019cb6b4e101ade5081facefc8d811b52648b38147299",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/en.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/en.lproj/Localizable.strings",
+      "bytes": 28192,
+      "sha256": "cca893c4d26418d1e1fcf791448910e6397a06d365d5ffaca840996fe8d3ba4c",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/en.lproj/InfoPlist.strings",
+      "archive_path": "Payload/ESign.app/en.lproj/InfoPlist.strings",
+      "bytes": 74,
+      "sha256": "2039d3de988c0e9583bbaa796b9b091030931e398b8809fd862d3e72022340eb",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-HK.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/zh-HK.lproj/Localizable.strings",
+      "bytes": 13081,
+      "sha256": "9a1a486fc51e4d27b58da9d438487c07542783213892a87cd42de77fe749575b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-HK.lproj/InfoPlist.strings",
+      "archive_path": "Payload/ESign.app/zh-HK.lproj/InfoPlist.strings",
+      "bytes": 75,
+      "sha256": "604ba5dd1d01be1c6a4f92173fd69d0ddda7885fbd2d5176edadda8ed150a6cc",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Assets_noVoice.mp3",
+      "archive_path": "Payload/ESign.app/Assets_noVoice.mp3",
+      "bytes": 81216,
+      "sha256": "bfbcedbf997481737b33c24e109de709c337076a545803eb397e0b417e21c8d6",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/LICENSE",
+      "archive_path": "Payload/ESign.app/LICENSE",
+      "bytes": 8096,
+      "sha256": "19af3f914f4b36fe3eee904f21a73c51afcda502af2f3b7886d3813962159b2b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/ESignLogo.png",
+      "archive_path": "Payload/ESign.app/ESignLogo.png",
+      "bytes": 3394,
+      "sha256": "98fab3f5830cea834b21bedd746a2aace863504c57df6d3880c77bd486ff06c5",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hans.lproj/Localizable.strings",
+      "bytes": 1368,
+      "sha256": "01d67d2aa16082707bd107cfb5ea1fa91bed7d42076b41118b1dc1c3d8d792a2",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/en.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/en.lproj/Localizable.strings",
+      "bytes": 1374,
+      "sha256": "68db8ffdaad1be2458946e4c67bb87f60e285d2585baaf0491544755d0a20baf",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/uk.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/uk.lproj/Localizable.strings",
+      "bytes": 1534,
+      "sha256": "c63c4f9d2d5716d3baf82f6f04663c310049b411853497e55d207fb4580f28a4",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/arrow@2x.png",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/arrow@2x.png",
+      "bytes": 1033,
+      "sha256": "e6965354ceb13a8cf94e639b23836ad745f1c1680eafdb0cd967bcafc1590188",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/ko.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ko.lproj/Localizable.strings",
+      "bytes": 771,
+      "sha256": "5e57feab5bb15aebd962e6c6fef21899e857e53ee53e535051bf8f1e3874a419",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/zh-Hant.lproj/Localizable.strings",
+      "bytes": 891,
+      "sha256": "0f073699fcce2c2be224b2a2be658106d4b1700113775ad3aced1d82f9cddfce",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/trail_arrow@2x.png",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/trail_arrow@2x.png",
+      "bytes": 2322,
+      "sha256": "bf75218f3d191b71821b64c9613e1100914c215855439fc5b75c1b08f89a8771",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/MJRefresh.bundle/ru.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/MJRefresh.bundle/ru.lproj/Localizable.strings",
+      "bytes": 1502,
+      "sha256": "85043e0c6452540691904daa5b1e8038366a7a524675983c4b81d5b1b8754139",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/AppIcon60x60@2x.png",
+      "archive_path": "Payload/ESign.app/AppIcon60x60@2x.png",
+      "bytes": 3394,
+      "sha256": "98fab3f5830cea834b21bedd746a2aace863504c57df6d3880c77bd486ff06c5",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/LICENSE_CN",
+      "archive_path": "Payload/ESign.app/LICENSE_CN",
+      "bytes": 6507,
+      "sha256": "cc49daa655dbfc594958def2202b5e38a4ccc2fbe18c484602c27f31579968c0",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/ckb.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/ckb.lproj/Localizable.strings",
+      "bytes": 22982,
+      "sha256": "dad4b35995a7c9921aaff32a816ebe63f108a880afaed4c44270226706bb347e",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/zh-Hans.lproj/Localizable.strings",
+      "bytes": 791,
+      "sha256": "af17c35ef4a8ed70dd389f70b9f881fdfae334ba898c0343e5ea824b64bca7a2",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings",
+      "bytes": 309,
+      "sha256": "9512bdfd80b146e722af3d54987d8d2226a5204578025e0a59b0d23cc9f4e342",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/index.html",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/index.html",
+      "bytes": 9333,
+      "sha256": "8ce1267aa1c066e0dd98cb551ba2bf2755cf8f01cb0777bfa1f00850749b537b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css",
+      "bytes": 121224,
+      "sha256": "0e02158f9a427829dee79326be19f97b8060feb18d2b9a9aa256a1fb1ef636f6",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css",
+      "bytes": 655,
+      "sha256": "8e49019c2903d7a88be4d6748ad01511cd70bdebe4587eb3eff79d28d4522f65",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/css/index.css",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/index.css",
+      "bytes": 3354,
+      "sha256": "49c12fc18f6f3e51e2eab45affc27b7efbd276c4934a101386681562679a7e71",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css",
+      "bytes": 14936,
+      "sha256": "382a4120b748eaf656e422f2f27c8778d311fabb97a644db97011ec176c130bf",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js",
+      "bytes": 15085,
+      "sha256": "30e522d238f9e84ad8289ab5b43ee396ffbd1e96c8eab77157fbc6fa30edaacd",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js",
+      "bytes": 4377,
+      "sha256": "83a8807ef669fa70d0d9375347f5552897f76c6ae8e2e6f97ef592595462d8d1",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js",
+      "bytes": 61692,
+      "sha256": "2b3df6d6dbe0c03ec7724dba14bd98f38cf0b4cfb4737e3fff7ff0594d103056",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/index.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/index.js",
+      "bytes": 12009,
+      "sha256": "e7d11c6392a54f1afef8205874b5d5b9d8ce3c7dae38b42d342bad89b44d9467",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js",
+      "bytes": 96381,
+      "sha256": "b294e973896f8f874e90a8eb1a8908ac790980d034c4c4bdf0fc3d37b8abf682",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js",
+      "bytes": 29110,
+      "sha256": "898d05a17f2cfc5120ddcdba47a885c378c0b466f30f0700e502757e24b403a1",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js",
+      "bytes": 977,
+      "sha256": "8e882ad3513da790ead8b75161f03780a134a0dde5cbbae7ded807915bc23aa9",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js",
+      "bytes": 2429,
+      "sha256": "8c7a9c0470563367ab00307b4fb9bb3052d0a27f0b94e63b9dc0bb8c369449cb",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js",
+      "bytes": 24496,
+      "sha256": "882892a2c0ecb30e180f4305c2e04d7f8f24968681473ee8f9e48aad45c36587",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js",
+      "bytes": 10612,
+      "sha256": "e127082f8c4e76952f5a8e1e9a0c2731372ca3f7d800fa9a5ec1bed0a516c2a9",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff",
+      "bytes": 23320,
+      "sha256": "fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot",
+      "bytes": 20335,
+      "sha256": "f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf",
+      "bytes": 41280,
+      "sha256": "bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg",
+      "bytes": 62927,
+      "sha256": "d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/GCDWebUploader.bundle/Contents/Info.plist",
+      "archive_path": "Payload/ESign.app/GCDWebUploader.bundle/Contents/Info.plist",
+      "bytes": 126,
+      "sha256": "01f4aae6f996811486228e2d1d85e7f58cc7c08280a659df2c3032c7ab4a3d15",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/Main.storyboardc/UINavigationController-tmn-gx-rew.nib",
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/UINavigationController-tmn-gx-rew.nib",
+      "bytes": 1789,
+      "sha256": "fe67ba99b1b1f127cb19c322c98b340d6eb28e6f4409ca14a77d3f3fd5359cd7",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib",
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib",
+      "bytes": 1197,
+      "sha256": "0c070c5fe12016c9e00821a7e239d13dcfb66c256aae83f58b9da67311be9e78",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/Main.storyboardc/Info.plist",
+      "archive_path": "Payload/ESign.app/Base.lproj/Main.storyboardc/Info.plist",
+      "bytes": 276,
+      "sha256": "7e602a821b759867a09ade5ef4e8db4179cc234cbfaeef3bebcf88cc79e825eb",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+      "bytes": 3183,
+      "sha256": "74730eb4369a0e9db9af3e178d8921951c860f3dd29fc68a13dd8157667816e3",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib",
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib",
+      "bytes": 896,
+      "sha256": "716abbabe890726a52a1a14679c9f23dd28510f170443dec960526c45003915b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Base.lproj/LaunchScreen.storyboardc/Info.plist",
+      "archive_path": "Payload/ESign.app/Base.lproj/LaunchScreen.storyboardc/Info.plist",
+      "bytes": 258,
+      "sha256": "1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-Hant.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/zh-Hant.lproj/Localizable.strings",
+      "bytes": 13081,
+      "sha256": "9a1a486fc51e4d27b58da9d438487c07542783213892a87cd42de77fe749575b",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/zh-Hant.lproj/InfoPlist.strings",
+      "archive_path": "Payload/ESign.app/zh-Hant.lproj/InfoPlist.strings",
+      "bytes": 75,
+      "sha256": "604ba5dd1d01be1c6a4f92173fd69d0ddda7885fbd2d5176edadda8ed150a6cc",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Assets.car",
+      "archive_path": "Payload/ESign.app/Assets.car",
+      "bytes": 1541512,
+      "sha256": "8b8ee995e41859ef45cfe5ae1d5147e7d127fdc89b74d98822f767f7b63e0365",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/EFileLogo.png",
+      "archive_path": "Payload/ESign.app/EFileLogo.png",
+      "bytes": 4657,
+      "sha256": "08d7413de26bc919d9cbf0ae44bb90c89832edde8c2a229770fa7375361a4d71",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/AppIcon76x76@2x~ipad.png",
+      "archive_path": "Payload/ESign.app/AppIcon76x76@2x~ipad.png",
+      "bytes": 4605,
+      "sha256": "28d7d2ba6b3ace559a385d03fe08c3111472a5c88c53b7fa4526c18facb94332",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/QMUIResources.bundle/Assets.car",
+      "archive_path": "Payload/ESign.app/QMUIResources.bundle/Assets.car",
+      "bytes": 498440,
+      "sha256": "2799307ba2063993f13fe5582c3ea3218990fa1ddedd7aee575d0b3effb8a3e1",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/QMUIResources.bundle/Info.plist",
+      "archive_path": "Payload/ESign.app/QMUIResources.bundle/Info.plist",
+      "bytes": 770,
+      "sha256": "67bc8342b472cf0982605c33e6460c103bdd0e915aca62914be3e8da903191a6",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/pt-BR.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/pt-BR.lproj/Localizable.strings",
+      "bytes": 21041,
+      "sha256": "5a24a705a140d17c1f93fbe29bc3ae1987f104ae2781a58ac6d170a50bc38fcf",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/vi.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/vi.lproj/Localizable.strings",
+      "bytes": 21007,
+      "sha256": "632c1be674471e00b668b2029ead5f91d9708188efd7d4cc6a32e5f1160a21ca",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/ru.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/ru.lproj/Localizable.strings",
+      "bytes": 39598,
+      "sha256": "fbf2c5984d321c6d03804d667f6caf48d2b49394daba5fc632209d0242a47c47",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/fr.lproj/Localizable.strings",
+      "archive_path": "Payload/ESign.app/fr.lproj/Localizable.strings",
+      "bytes": 22356,
+      "sha256": "25c215d324866169c504a2e496a4de169195a79caca290de30ed834bca589047",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/ESignDebugLogo.png",
+      "archive_path": "Payload/ESign.app/ESignDebugLogo.png",
+      "bytes": 4182,
+      "sha256": "1fca3d1a789136aea48a2f79ab1da58ceb65a7a61b2328afebba41e0420507d3",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/Info.plist",
+      "archive_path": "Payload/ESign.app/Info.plist",
+      "bytes": 7177,
+      "sha256": "9fef91dc073fe28a2b3d8573b52d7ed14de33beab53d0425c5be512137c24603",
+      "origin": "exact archive resource"
+    },
+    {
+      "path": "resources/PkgInfo",
+      "archive_path": "Payload/ESign.app/PkgInfo",
+      "bytes": 8,
+      "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+      "origin": "exact archive resource"
+    }
+  ],
+  "excluded": [
+    "_CodeSignature/CodeResources",
+    "signed.mobileconfig",
+    "ESign",
+    "embedded.mobileprovision",
+    "signed_en.mobileconfig"
+  ],
+  "readable_plist_derivatives": [
+    "readable-plists/ar.lproj/Localizable.strings.xml",
+    "readable-plists/zh-Hans.lproj/Localizable.strings.xml",
+    "readable-plists/zh-Hans.lproj/InfoPlist.strings.xml",
+    "readable-plists/en.lproj/Localizable.strings.xml",
+    "readable-plists/en.lproj/InfoPlist.strings.xml",
+    "readable-plists/zh-HK.lproj/Localizable.strings.xml",
+    "readable-plists/zh-HK.lproj/InfoPlist.strings.xml",
+    "readable-plists/ckb.lproj/Localizable.strings.xml",
+    "readable-plists/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg.json",
+    "readable-plists/GCDWebUploader.bundle/Contents/Info.plist.xml",
+    "readable-plists/Base.lproj/Main.storyboardc/Info.plist.xml",
+    "readable-plists/Base.lproj/LaunchScreen.storyboardc/Info.plist.xml",
+    "readable-plists/zh-Hant.lproj/Localizable.strings.xml",
+    "readable-plists/zh-Hant.lproj/InfoPlist.strings.xml",
+    "readable-plists/QMUIResources.bundle/Info.plist.xml",
+    "readable-plists/pt-BR.lproj/Localizable.strings.xml",
+    "readable-plists/vi.lproj/Localizable.strings.xml",
+    "readable-plists/ru.lproj/Localizable.strings.xml",
+    "readable-plists/fr.lproj/Localizable.strings.xml",
+    "readable-plists/Info.plist.xml"
+  ]
+}

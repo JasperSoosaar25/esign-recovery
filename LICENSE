@@ -1,0 +1,17 @@
+Licensing scope
+===============
+
+The newly written recovery tools in scripts/, tests in tests/, and newly
+written build/configuration/documentation files are
+available under LICENSES/MIT-new-code.txt.
+
+This grant does not cover recovered ESign code, original resources, extracted
+metadata, or native decompiler/disassembly output. Those materials retain
+their original ownership and any applicable original terms. Their presence
+does not establish an open-source license for ESign or permission to relicense
+its implementation. No license grant on behalf of ESign's author is made here.
+
+Bundled open-source resource files retain their existing copyright and license
+notices. See THIRD_PARTY_NOTICES.md and the notices inside the files themselves.
+
+The original IPA/executable and personal signing inputs are not included in Git.

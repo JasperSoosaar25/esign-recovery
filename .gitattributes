@@ -1,0 +1,4 @@
+recovered/** linguist-generated=true -whitespace
+recovered/resources/** -text
+recovered/disassembly/*.gz -text
+evidence/*.part -text

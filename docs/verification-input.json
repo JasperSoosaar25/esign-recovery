@@ -1,0 +1,18 @@
+{
+  "ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "zip_entries": 100,
+  "zip_files": 68,
+  "exact_resources": 63,
+  "excluded_files": 5,
+  "classes_compared": 1104,
+  "categories_compared": 142,
+  "static_jump_records_compared": 70077,
+  "text_bytes": 9612732,
+  "text_sha256": "ae565c9de9782f6383eb813df4946a4e96b32afec6b80a03dfb538cc77927287",
+  "chunks": 147,
+  "executed_or_installed": false,
+  "source_build_verified": false,
+  "ios27_runtime_verified": false,
+  "semantic_equivalence_verified": false
+}
