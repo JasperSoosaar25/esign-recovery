@@ -1,0 +1,14 @@
+{
+  "format": "split zip",
+  "archive_sha256": "29e08a5f7ec42f2180dfa0420c320fd2aafb224518248d4865f63831728368bb",
+  "archive_bytes": 3284493,
+  "file_count": 3396,
+  "uncompressed_bytes": 11085241,
+  "parts": [
+    {
+      "path": "analysis/native-methods/methods-00.part",
+      "bytes": 3284493,
+      "sha256": "29e08a5f7ec42f2180dfa0420c320fd2aafb224518248d4865f63831728368bb"
+    }
+  ]
+}

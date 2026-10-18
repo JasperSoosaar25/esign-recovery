@@ -1,0 +1,672 @@
+{
+  "input_ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "methods_translated": 215,
+  "fixture_comparisons": 35840,
+  "unicorn_version": "2.1.4",
+  "classes": 39,
+  "unsupported_methods": [
+    {
+      "class_name": "YYYTextViewViewController",
+      "selector": "encoding",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYTextViewViewController",
+      "selector": "setEncoding:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYLanZouViewController",
+      "selector": "page",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYLanZouViewController",
+      "selector": "setPage:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYLanZouViewController",
+      "selector": "needRefresh",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYLanZouViewController",
+      "selector": "setNeedRefresh:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "needRefresh",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "setNeedRefresh:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "type",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "setType:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "freeType",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppSourceResourceTableViewController",
+      "selector": "setFreeType:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoPlayer",
+      "selector": "setState:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYTableViewCellHelper",
+      "selector": "cellNumber",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYFileMoveViewController",
+      "selector": "isMove",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYFileMoveViewController",
+      "selector": "setIsMove:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYFileListViewController",
+      "selector": "needReload",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYFileListViewController",
+      "selector": "setNeedReload:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYFileListViewController",
+      "selector": "isRootDir",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYFileListViewController",
+      "selector": "setIsRootDir:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYBackgroundTaskUtil",
+      "selector": "setKeepRunning:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYPlistFileEidtorViewController",
+      "selector": "isJson",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYPlistFileEidtorViewController",
+      "selector": "setIsJson:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapSearchView",
+      "selector": "isShowAll",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapSearchView",
+      "selector": "setIsShowAll:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYReaderStyleHelper",
+      "selector": "setStyle:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYAppListViewController",
+      "selector": "beginSelected",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppListViewController",
+      "selector": "setBeginSelected:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppListViewController",
+      "selector": "filterType",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppListViewController",
+      "selector": "setFilterType:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignInfo",
+      "selector": "duokai",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYTableViewHeaderFooterView",
+      "selector": "isFooter",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYTableViewHeaderFooterView",
+      "selector": "setIsFooter:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYBrightnessSlider",
+      "selector": "drag",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYBrightnessSlider",
+      "selector": "setDrag:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWebViewController",
+      "selector": "showTitleFromWeb",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWebViewController",
+      "selector": "setShowTitleFromWeb:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWebViewController",
+      "selector": "isFromAppSource",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWebViewController",
+      "selector": "setIsFromAppSource:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYDownloadDataSource",
+      "selector": "count",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYDownloadDataSource",
+      "selector": "setAutoImport:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYDownloadDataSource",
+      "selector": "setAutoDelete:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYSignLogViewController",
+      "selector": "needSign",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignLogViewController",
+      "selector": "setNeedSign:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWiFiViewController",
+      "selector": "port",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYWiFiViewController",
+      "selector": "setPort:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "playing",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "setPlaying:",
+      "reason": "unresolved control flow"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "show",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "setShow:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "lock",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYVideoToolView",
+      "selector": "setLock:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYSelectFileViewController",
+      "selector": "multipleSelection",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSelectFileViewController",
+      "selector": "setMultipleSelection:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderViewController",
+      "selector": "showTool",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderViewController",
+      "selector": "setShowTool:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "index",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "setIndex:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "totalPages",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "setTotalPages:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "isSnapshopVC",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderContentViewController",
+      "selector": "setIsSnapshopVC:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCatalogView",
+      "selector": "index",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCatalogView",
+      "selector": "setIndex:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCatalogView",
+      "selector": "style",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCatalogView",
+      "selector": "setStyle:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "count",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "setCount:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "limit",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "setLimit:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "fileSize",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "setFileSize:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "searchFromLocation",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYHexEditorViewController",
+      "selector": "setSearchFromLocation:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "finishCount",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setFinishCount:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "needRefresh",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setNeedRefresh:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "type",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setType:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "freeType",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setFreeType:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "isLoading",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setIsLoading:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "limit",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppStoreController",
+      "selector": "setLimit:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignConfigViewController",
+      "selector": "showMore",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignConfigViewController",
+      "selector": "setShowMore:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignConfigViewController",
+      "selector": "isModifyOnly",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYSignConfigViewController",
+      "selector": "setIsModifyOnly:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignAppInfoModel",
+      "selector": "fileSize",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYCertTableViewController",
+      "selector": "finishCount",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCertTableViewController",
+      "selector": "setFinishCount:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYListToolView",
+      "selector": "showMore",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYListToolView",
+      "selector": "setShowMore:",
+      "reason": "unsupported scalar instruction: sub"
+    },
+    {
+      "class_name": "YYYSettingTableViewController",
+      "selector": "needShow",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSettingTableViewController",
+      "selector": "setNeedShow:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapViewController",
+      "selector": "setupZoomLeve",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapViewController",
+      "selector": "setSetupZoomLeve:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapViewController",
+      "selector": "showSearch",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYMapViewController",
+      "selector": "setShowSearch:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "freespace",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "setFreespace:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "totalDiskSize",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "setTotalDiskSize:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "esignDiskSize",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYCacheSizeViewController",
+      "selector": "setEsignDiskSize:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYQRScanViewController",
+      "selector": "isGoToWebVC",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYQRScanViewController",
+      "selector": "setIsGoToWebVC:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAListViewController",
+      "selector": "page",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAListViewController",
+      "selector": "setPage:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderBottomView",
+      "selector": "showBrightness",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderBottomView",
+      "selector": "setShowBrightness:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderBottomView",
+      "selector": "showType",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYReaderBottomView",
+      "selector": "setShowType:",
+      "reason": "unsupported scalar instruction: stp"
+    },
+    {
+      "class_name": "YYYSignFileNameRuleTableViewCell",
+      "selector": "rule",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYSignFileNameRuleTableViewCell",
+      "selector": "setRule:",
+      "reason": "unresolved control flow"
+    },
+    {
+      "class_name": "YYYAppBundle",
+      "selector": "isSubApp",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYAppBundle",
+      "selector": "setIsSubApp:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "loadCommandsFreeSpace",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setLoadCommandsFreeSpace:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "length",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setLength:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "codeLength",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setCodeLength:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "execSegLimit",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setExecSegLimit:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "execSegFlags",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setExecSegFlags:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "isEncryption",
+      "reason": "unsupported scalar instruction: ldrsw"
+    },
+    {
+      "class_name": "YYYArchO",
+      "selector": "setIsEncryption:",
+      "reason": "unsupported scalar instruction: ldrsw"
+    }
+  ],
+  "source_sha256": "d6f45903c5b837b0117c223a2d29b57536dcc1bbaefbe0dcbebe9c0aca93da56",
+  "evidence_sha256": "2968b681e0e0b3f4a4246bb3c420add32107896e82795ac57b7a6f1042faeb3c",
+  "original_image_pointer_values_assumed": true,
+  "original_object_layout_required": true,
+  "full_app_semantic_equivalence_verified": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false
+}

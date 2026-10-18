@@ -4,7 +4,7 @@ This record separates static recovery validation from app verification. The supp
 
 ## Direct comparison with the cached IPA
 
-The new Pixeldrain link could not be downloaded. The checks below were rerun against the cached IPA with the recorded hash. They do not prove that the newly linked file is identical. See [input provenance](INPUT-PROVENANCE.md).
+The later Filebin link downloaded successfully and matches the baseline hash. The complete baseline and expanded dispatch checks were independently rerun against that exact user-selected download. The earlier Pixeldrain URL itself remained inaccessible. See [input provenance](INPUT-PROVENANCE.md).
 
 `scripts/verify_against_ipa.py` checks the exact input hash, ZIP CRC, resource bytes, freshly decoded class/category metadata, section metadata, native context, pointer-table records, and every original `__text` byte represented by the listings. See [the machine-readable result](verification-input.json).
 
@@ -37,10 +37,12 @@ The [expanded analysis](DISPATCH-RECOVERY.md) covers all 3,396 indexed app-candi
 
 ## Not verified
 
+The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; 32 tool tests pass. These results do not establish complete app equivalence.
+
 | Claim | Status |
 |---|---|
 | Original official native source obtained | No |
-| Cached input matches new Pixeldrain file | Unconfirmed; link inaccessible |
+| Recovery baseline matches exact user-supplied Filebin IPA | Yes, byte-for-byte |
 | Source-only ESign build | Incomplete; no app target |
 | Same functionality/usability as original | Unverified |
 | Signing and installation on a physical iPhone | Not run |

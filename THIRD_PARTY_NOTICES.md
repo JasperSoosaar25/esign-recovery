@@ -9,3 +9,7 @@ Metadata also identifies bundled native library classes, including QMUI, GCDWebS
 Ghidra is a separately downloaded analysis tool from the National Security Agency project, under its own distribution licenses; it is not bundled in this repository. The newly written export script is distinct from Ghidra's generated pseudocode.
 
 Original native excerpts in `analysis/objc-dispatch/` and original instruction bytes in `analysis/app-methods/` retain the ownership boundaries of the baseline recovered materials. The MIT license on new scripts does not relicense those excerpts. Apple's linker source is referenced for recognizing instruction patterns; no replacement runtime code from that source is incorporated.
+
+## Additional native reconstruction outputs
+
+The `analysis/native-methods/` pseudocode and `reconstruction/scalar-accessors/` C fragments derive from ESign native instructions. They retain the same ownership/provenance boundaries as other recovered ESign material. New tooling/documentation licensing does not relicense these app-derived outputs or the original application. The C entry-point names are generated reconstruction names, not claims about the author's original source symbols.

@@ -58,3 +58,9 @@ You can browse and edit documentation, review recovery output, propose features,
 ## Expanded original-method traces
 
 Read [the dispatch guide](docs/DISPATCH-RECOVERY.md). `python3 scripts/read_method_trace.py YYYSignHelper 'preSignWithOption:'` prints annotated original assembly. Install pinned recovery requirements and run `python3 scripts/verify_app_analysis.py` to check every indexed app-method trace and the original dispatch excerpts.
+
+## Native source fragments and fuller decompilation
+
+Read [the native reconstruction guide](docs/NATIVE-RECONSTRUCTION.md). The separate `reconstruction/scalar-accessors/` tree contains restricted machine-level C translations tied to original metadata and instructions. They require original object offsets and do not define classes or register replacement methods. Install `requirements-reconstruction.txt` and run `python3 scripts/recover_scalar_accessors.py --verify` to compile the fragments and compare them with original ARM64 snippets in an emulator.
+
+Run `python3 scripts/unpack_native_methods.py` to restore individually indexed fuller decompiler outputs, then `python3 scripts/verify_native_methods.py`. Class-focused views are directly browsable under `analysis/native-methods/classes/`. Remaining failures and control-flow assumptions stay explicit in the index. None of these tools builds ESign.

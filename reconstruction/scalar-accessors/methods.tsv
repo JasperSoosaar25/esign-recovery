@@ -1,0 +1,216 @@
+class_name	selector	kind	abi	entry	property	ivar	offset	width	setter	expression	c_symbol
+YYYPlistInfoModel	index	-	q16@0:8	0x100010304	index	_index	16	8	False	value	esign_scalar_0000
+YYYPlistInfoModel	setIndex:	-	v24@0:8q16	0x100010324	index	_index	16	8	True	argument	esign_scalar_0001
+YYYPlistInfoModel	parentValueType	-	Q16@0:8	0x100010350	parentValueType	_parentValueType	24	8	False	value	esign_scalar_0002
+YYYPlistInfoModel	setParentValueType:	-	v24@0:8Q16	0x100010370	parentValueType	_parentValueType	24	8	True	argument	esign_scalar_0003
+YYYPlistInfoModel	valueType	-	Q16@0:8	0x10001039c	valueType	_valueType	32	8	False	value	esign_scalar_0004
+YYYPlistInfoModel	setValueType:	-	v24@0:8Q16	0x1000103bc	valueType	_valueType	32	8	True	argument	esign_scalar_0005
+YYYPlistInfoModel	showSub	-	B16@0:8	0x1000104fc	showSub	_showSub	8	1	False	value	esign_scalar_0006
+YYYPlistInfoModel	setShowSub:	-	v20@0:8B16	0x10001051c	showSub	_showSub	8	1	True	argument	esign_scalar_0007
+YYYDefaultSignConfig	installWhenSign	-	B16@0:8	0x1000283e0	installWhenSign	_installWhenSign	8	1	False	(value != 0)	esign_scalar_0008
+YYYDefaultSignConfig	setInstallWhenSign:	-	v20@0:8B16	0x100028414	installWhenSign	_installWhenSign	8	1	True	argument	esign_scalar_0009
+YYYDefaultSignConfig	removePlugIns	-	B16@0:8	0x100028450	removePlugIns	_removePlugIns	9	1	False	value	esign_scalar_0010
+YYYDefaultSignConfig	setRemovePlugIns:	-	v20@0:8B16	0x100028470	removePlugIns	_removePlugIns	9	1	True	argument	esign_scalar_0011
+YYYDefaultSignConfig	removeWatchs	-	B16@0:8	0x1000284ac	removeWatchs	_removeWatchs	10	1	False	(value != 0)	esign_scalar_0012
+YYYDefaultSignConfig	setRemoveWatchs:	-	v20@0:8B16	0x1000284d4	removeWatchs	_removeWatchs	10	1	True	argument	esign_scalar_0013
+YYYDefaultSignConfig	removeMinimumOSVersion	-	B16@0:8	0x100028500	removeMinimumOSVersion	_removeMinimumOSVersion	11	1	False	(value != 0)	esign_scalar_0014
+YYYDefaultSignConfig	setRemoveMinimumOSVersion:	-	v20@0:8B16	0x100028528	removeMinimumOSVersion	_removeMinimumOSVersion	11	1	True	argument	esign_scalar_0015
+YYYDefaultSignConfig	removeUISupportedDevices	-	B16@0:8	0x100028554	removeUISupportedDevices	_removeUISupportedDevices	12	1	False	(value != 0)	esign_scalar_0016
+YYYDefaultSignConfig	setRemoveUISupportedDevices:	-	v20@0:8B16	0x10002857c	removeUISupportedDevices	_removeUISupportedDevices	12	1	True	argument	esign_scalar_0017
+YYYDefaultSignConfig	removeURLScheme	-	B16@0:8	0x10002859c	removeURLScheme	_removeURLScheme	13	1	False	(value != 0)	esign_scalar_0018
+YYYDefaultSignConfig	setRemoveURLScheme:	-	v20@0:8B16	0x1000285d0	removeURLScheme	_removeURLScheme	13	1	True	argument	esign_scalar_0019
+YYYDefaultSignConfig	addUISupportsDocumentBrowser	-	B16@0:8	0x1000285f0	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	14	1	False	(value != 0)	esign_scalar_0020
+YYYDefaultSignConfig	setAddUISupportsDocumentBrowser:	-	v20@0:8B16	0x100028618	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	14	1	True	argument	esign_scalar_0021
+YYYDefaultSignConfig	fixIcon	-	B16@0:8	0x100028644	fixIcon	_fixIcon	15	1	False	value	esign_scalar_0022
+YYYDefaultSignConfig	setFixIcon:	-	v20@0:8B16	0x100028670	fixIcon	_fixIcon	15	1	True	argument	esign_scalar_0023
+YYYDefaultSignConfig	fixJb	-	B16@0:8	0x10002869c	fixJb	_fixJb	16	1	False	value	esign_scalar_0024
+YYYDefaultSignConfig	setFixJb:	-	v20@0:8B16	0x1000286b0	fixJb	_fixJb	16	1	True	argument	esign_scalar_0025
+YYYDefaultSignConfig	igonSign	-	B16@0:8	0x1000286ec	igonSign	_igonSign	17	1	False	value	esign_scalar_0026
+YYYDefaultSignConfig	setIgonSign:	-	v20@0:8B16	0x10002870c	igonSign	_igonSign	17	1	True	argument	esign_scalar_0027
+YYYDefaultSignConfig	removeEmbedded	-	B16@0:8	0x100028714	removeEmbedded	_removeEmbedded	18	1	False	value	esign_scalar_0028
+YYYDefaultSignConfig	setRemoveEmbedded:	-	v20@0:8B16	0x100028734	removeEmbedded	_removeEmbedded	18	1	True	argument	esign_scalar_0029
+YYYDefaultSignConfig	fileNameRule	-	Q16@0:8	0x1000288d0	fileNameRule	_fileNameRule	64	8	False	value	esign_scalar_0030
+YYYDefaultSignConfig	setFileNameRule:	-	v24@0:8Q16	0x1000288fc	fileNameRule	_fileNameRule	64	8	True	argument	esign_scalar_0031
+YYYDefaultSignConfig	injectPath	-	Q16@0:8	0x10002891c	injectPath	_injectPath	72	8	False	value	esign_scalar_0032
+YYYDefaultSignConfig	setInjectPath:	-	v24@0:8Q16	0x100028930	injectPath	_injectPath	72	8	True	argument	esign_scalar_0033
+YYYDefaultSignConfig	injectFolder	-	Q16@0:8	0x10002895c	injectFolder	_injectFolder	80	8	False	value	esign_scalar_0034
+YYYDefaultSignConfig	setInjectFolder:	-	v24@0:8Q16	0x10002897c	injectFolder	_injectFolder	80	8	True	argument	esign_scalar_0035
+YYYDefaultSignConfig	zipLevel	-	Q16@0:8	0x100028990	zipLevel	_zipLevel	88	8	False	value	esign_scalar_0036
+YYYDefaultSignConfig	setZipLevel:	-	v24@0:8Q16	0x1000289a4	zipLevel	_zipLevel	88	8	True	argument	esign_scalar_0037
+YYYClassIvarInfo	offset	-	q16@0:8	0x10003b3b0	offset	_offset	24	8	False	value	esign_scalar_0038
+YYYClassIvarInfo	type	-	Q16@0:8	0x10003b3e4	type	_type	40	8	False	value	esign_scalar_0039
+YYYClassMethodArgumentInfo	type	-	Q16@0:8	0x10003b65c	type	_type	16	8	False	value	esign_scalar_0040
+YYYClassMethodInfo	returnType	-	Q16@0:8	0x10003c594	returnType	_returnType	48	8	False	value	esign_scalar_0041
+YYYClassPropertyInfo	type	-	Q16@0:8	0x10003f034	type	_type	24	8	False	value	esign_scalar_0042
+YYYClassInfo	isMeta	-	B16@0:8	0x100041d84	isMeta	_isMeta	9	1	False	(value != 0)	esign_scalar_0043
+YYYWebDAVXMLParser	uriLength	-	Q16@0:8	0x100059400	uriLength	_uriLength	32	8	False	value	esign_scalar_0044
+YYYWebDAVXMLParser	setUriLength:	-	v24@0:8Q16	0x100059420	uriLength	_uriLength	32	8	True	argument	esign_scalar_0045
+YYYVideoPlayer	state	-	q16@0:8	0x10006a4a0	state	_state	40	8	False	value	esign_scalar_0046
+YYYVideoPlayer	isBuffering	-	B16@0:8	0x10006a708	buffering	_buffering	8	1	False	value	esign_scalar_0047
+YYYVideoPlayer	setBuffering:	-	v20@0:8B16	0x10006a728	buffering	_buffering	8	1	True	argument	esign_scalar_0048
+YYYVideoPlayer	isPauseByUser	-	B16@0:8	0x10006a764	pauseByUser	_pauseByUser	9	1	False	value	esign_scalar_0049
+YYYVideoPlayer	setPauseByUser:	-	v20@0:8B16	0x10006a778	pauseByUser	_pauseByUser	9	1	True	argument	esign_scalar_0050
+YYYTableViewCellHelper	setCellNumber:	-	v24@0:8q16	0x1000885dc	cellNumber	_cellNumber	48	8	True	argument	esign_scalar_0051
+YYYTableViewCellHelper	autoDeselectRow	-	B16@0:8	0x1000885fc	autoDeselectRow	_autoDeselectRow	8	1	False	value	esign_scalar_0052
+YYYTableViewCellHelper	setAutoDeselectRow:	-	v20@0:8B16	0x100088604	autoDeselectRow	_autoDeselectRow	8	1	True	argument	esign_scalar_0053
+YYYBackgroundTaskUtil	backgroundTask	-	Q16@0:8	0x1000cf3f4	backgroundTask	_backgroundTask	32	8	False	value	esign_scalar_0054
+YYYBackgroundTaskUtil	setBackgroundTask:	-	v24@0:8Q16	0x1000cf420	backgroundTask	_backgroundTask	32	8	True	argument	esign_scalar_0055
+YYYBackgroundTaskUtil	keepRunning	-	B16@0:8	0x1000cf2e0	keepRunning	_keepRunning	8	1	False	value	esign_scalar_0056
+YYYBackgroundTaskUtil	getUDIDRun	-	B16@0:8	0x1000cf300	getUDIDRun	_getUDIDRun	9	1	False	value	esign_scalar_0057
+YYYBackgroundTaskUtil	setGetUDIDRun:	-	v20@0:8B16	0x1000cf320	getUDIDRun	_getUDIDRun	9	1	True	argument	esign_scalar_0058
+YYYTrollAppInfo	hasTryGetLogo	-	B16@0:8	0x1001059e0	hasTryGetLogo	_hasTryGetLogo	8	1	False	(value != 0)	esign_scalar_0059
+YYYTrollAppInfo	setHasTryGetLogo:	-	v20@0:8B16	0x100105a14	hasTryGetLogo	_hasTryGetLogo	8	1	True	argument	esign_scalar_0060
+YYYTrollAppInfo	isDecryptApp	-	B16@0:8	0x100105f58	isDecryptApp	_isDecryptApp	9	1	False	(value != 0)	esign_scalar_0061
+YYYTrollAppInfo	setIsDecryptApp:	-	v20@0:8B16	0x100105f8c	isDecryptApp	_isDecryptApp	9	1	True	argument	esign_scalar_0062
+YYYReaderStyleHelper	style	-	Q16@0:8	0x10011dfc8	style	_style	8	8	False	value	esign_scalar_0063
+YYYReaderStyleHelper	preferredStatusBarStyle	-	q16@0:8	0x10011e198	preferredStatusBarStyle	_preferredStatusBarStyle	56	8	False	value	esign_scalar_0064
+YYYReaderStyleHelper	setPreferredStatusBarStyle:	-	v24@0:8q16	0x10011e1c4	preferredStatusBarStyle	_preferredStatusBarStyle	56	8	True	argument	esign_scalar_0065
+YYYSignInfo	removePlugIns	-	B16@0:8	0x100167958	removePlugIns	_removePlugIns	8	1	False	(value != 0)	esign_scalar_0066
+YYYSignInfo	setRemovePlugIns:	-	v20@0:8B16	0x10016798c	removePlugIns	_removePlugIns	8	1	True	argument	esign_scalar_0067
+YYYSignInfo	removeWatchs	-	B16@0:8	0x1001679b8	removeWatchs	_removeWatchs	9	1	False	value	esign_scalar_0068
+YYYSignInfo	setRemoveWatchs:	-	v20@0:8B16	0x1001679cc	removeWatchs	_removeWatchs	9	1	True	argument	esign_scalar_0069
+YYYSignInfo	removeMinimumOSVersion	-	B16@0:8	0x1001679ec	removeMinimumOSVersion	_removeMinimumOSVersion	10	1	False	value	esign_scalar_0070
+YYYSignInfo	setRemoveMinimumOSVersion:	-	v20@0:8B16	0x100167a0c	removeMinimumOSVersion	_removeMinimumOSVersion	10	1	True	argument	esign_scalar_0071
+YYYSignInfo	removeUISupportedDevices	-	B16@0:8	0x100167a2c	removeUISupportedDevices	_removeUISupportedDevices	11	1	False	value	esign_scalar_0072
+YYYSignInfo	setRemoveUISupportedDevices:	-	v20@0:8B16	0x100167a4c	removeUISupportedDevices	_removeUISupportedDevices	11	1	True	argument	esign_scalar_0073
+YYYSignInfo	fixIcon	-	B16@0:8	0x100167a7c	fixIcon	_fixIcon	12	1	False	(value != 0)	esign_scalar_0074
+YYYSignInfo	setFixIcon:	-	v20@0:8B16	0x100167a98	fixIcon	_fixIcon	12	1	True	argument	esign_scalar_0075
+YYYSignInfo	fixJb	-	B16@0:8	0x100167ac4	fixJb	_fixJb	13	1	False	(value != 0)	esign_scalar_0076
+YYYSignInfo	setFixJb:	-	v20@0:8B16	0x100167af8	fixJb	_fixJb	13	1	True	argument	esign_scalar_0077
+YYYSignInfo	addUISupportsDocumentBrowser	-	B16@0:8	0x100167b24	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	14	1	False	(value != 0)	esign_scalar_0078
+YYYSignInfo	setAddUISupportsDocumentBrowser:	-	v20@0:8B16	0x100167b4c	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	14	1	True	argument	esign_scalar_0079
+YYYSignInfo	removeURLScheme	-	B16@0:8	0x100167b78	removeURLScheme	_removeURLScheme	15	1	False	(value != 0)	esign_scalar_0080
+YYYSignInfo	setRemoveURLScheme:	-	v20@0:8B16	0x100167b94	removeURLScheme	_removeURLScheme	15	1	True	argument	esign_scalar_0081
+YYYSignInfo	installWhenSign	-	B16@0:8	0x100167bb4	installWhenSign	_installWhenSign	16	1	False	(value != 0)	esign_scalar_0082
+YYYSignInfo	setInstallWhenSign:	-	v20@0:8B16	0x100167be8	installWhenSign	_installWhenSign	16	1	True	argument	esign_scalar_0083
+YYYSignInfo	igonSign	-	B16@0:8	0x100167bfc	igonSign	_igonSign	17	1	False	(value != 0)	esign_scalar_0084
+YYYSignInfo	setIgonSign:	-	v20@0:8B16	0x100167c18	igonSign	_igonSign	17	1	True	argument	esign_scalar_0085
+YYYSignInfo	setDuokai:	-	v20@0:8B16	0x100167c38	duokai	_duokai	18	1	True	argument	esign_scalar_0086
+YYYSignInfo	removeEmbedded	-	B16@0:8	0x100167c58	removeEmbedded	_removeEmbedded	19	1	False	(value != 0)	esign_scalar_0087
+YYYSignInfo	setRemoveEmbedded:	-	v20@0:8B16	0x100167c74	removeEmbedded	_removeEmbedded	19	1	True	argument	esign_scalar_0088
+YYYSignInfo	startIndex	-	q16@0:8	0x100167c88	startIndex	_startIndex	72	8	False	value	esign_scalar_0089
+YYYSignInfo	setStartIndex:	-	v24@0:8q16	0x100167ca8	startIndex	_startIndex	72	8	True	argument	esign_scalar_0090
+YYYSignInfo	duokaiNumber	-	q16@0:8	0x100167cd4	duokaiNumber	_duokaiNumber	80	8	False	value	esign_scalar_0091
+YYYSignInfo	setDuokaiNumber:	-	v24@0:8q16	0x100167cf4	duokaiNumber	_duokaiNumber	80	8	True	argument	esign_scalar_0092
+YYYSignInfo	injectPath	-	Q16@0:8	0x100167da0	injectPath	_injectPath	96	8	False	value	esign_scalar_0093
+YYYSignInfo	setInjectPath:	-	v24@0:8Q16	0x100167dd0	injectPath	_injectPath	96	8	True	argument	esign_scalar_0094
+YYYSignInfo	injectFolder	-	Q16@0:8	0x100167dfc	injectFolder	_injectFolder	104	8	False	value	esign_scalar_0095
+YYYSignInfo	setInjectFolder:	-	v24@0:8Q16	0x100167e2c	injectFolder	_injectFolder	104	8	True	argument	esign_scalar_0096
+YYYSignInfo	zipLevel	-	Q16@0:8	0x100167e4c	zipLevel	_zipLevel	112	8	False	value	esign_scalar_0097
+YYYSignInfo	setZipLevel:	-	v24@0:8Q16	0x100167e60	zipLevel	_zipLevel	112	8	True	argument	esign_scalar_0098
+YYYAppStoreApp	size	-	Q16@0:8	0x10017f63c	size	_size	96	8	False	value	esign_scalar_0099
+YYYAppStoreApp	setSize:	-	v24@0:8Q16	0x10017f668	size	_size	96	8	True	argument	esign_scalar_0100
+YYYAppStoreApp	isLanZouCloud	-	B16@0:8	0x10017f754	isLanZouCloud	_isLanZouCloud	8	1	False	value	esign_scalar_0101
+YYYAppStoreApp	setIsLanZouCloud:	-	v20@0:8B16	0x10017f774	isLanZouCloud	_isLanZouCloud	8	1	True	argument	esign_scalar_0102
+YYYAppStoreApp	lock	-	B16@0:8	0x10017f77c	lock	_lock	9	1	False	value	esign_scalar_0103
+YYYAppStoreApp	setLock:	-	v20@0:8B16	0x10017f790	lock	_lock	9	1	True	argument	esign_scalar_0104
+YYYAppStoreApp	type	-	Q16@0:8	0x10017f9bc	type	_type	152	8	False	value	esign_scalar_0105
+YYYAppStoreApp	setType:	-	v24@0:8Q16	0x10017f9dc	type	_type	152	8	True	argument	esign_scalar_0106
+YYYAppStoreSource	isEncrypt	-	B16@0:8	0x100193e08	isEncrypt	_isEncrypt	8	1	False	value	esign_scalar_0107
+YYYAppStoreSource	setIsEncrypt:	-	v20@0:8B16	0x100193e28	isEncrypt	_isEncrypt	8	1	True	argument	esign_scalar_0108
+YYYAppStoreSource	encryptTime	-	q16@0:8	0x100193e54	encryptTime	_encryptTime	80	8	False	value	esign_scalar_0109
+YYYAppStoreSource	setEncryptTime:	-	v24@0:8q16	0x100193e80	encryptTime	_encryptTime	80	8	True	argument	esign_scalar_0110
+YYYChapterModel	index	-	q16@0:8	0x1001b2b0c	index	_index	24	8	False	value	esign_scalar_0111
+YYYChapterModel	setIndex:	-	v24@0:8q16	0x1001b2b38	index	_index	24	8	True	argument	esign_scalar_0112
+YYYBookReaderDivision	index	-	q16@0:8	0x1001b4ecc	index	_index	32	8	False	value	esign_scalar_0113
+YYYBookReaderDivision	setIndex:	-	v24@0:8q16	0x1001b4eec	index	_index	32	8	True	argument	esign_scalar_0114
+YYYDownloadDataSource	setCount:	-	v24@0:8q16	0x1001c85d4	count	_count	16	8	True	argument	esign_scalar_0115
+YYYDownloadDataSource	autoImport	-	B16@0:8	0x1001c8678	autoImport	_autoImport	8	1	False	value	esign_scalar_0116
+YYYDownloadDataSource	autoDelete	-	B16@0:8	0x1001c86a4	autoDelete	_autoDelete	9	1	False	(value != 0)	esign_scalar_0117
+YYYArchive	cancel	-	B16@0:8	0x1001e4bdc	cancel	_cancel	8	1	False	(value != 0)	esign_scalar_0118
+YYYArchive	setCancel:	-	v20@0:8B16	0x1001e4c10	cancel	_cancel	8	1	True	argument	esign_scalar_0119
+YYYArchive	needInputPassword	-	B16@0:8	0x1001e4c30	needInputPassword	_needInputPassword	9	1	False	value	esign_scalar_0120
+YYYArchive	setNeedInputPassword:	-	v20@0:8B16	0x1001e4c5c	needInputPassword	_needInputPassword	9	1	True	argument	esign_scalar_0121
+YYYArchive	isAskPassword	-	B16@0:8	0x1001e4c7c	isAskPassword	_isAskPassword	10	1	False	(value != 0)	esign_scalar_0122
+YYYArchive	setIsAskPassword:	-	v20@0:8B16	0x1001e4ca4	isAskPassword	_isAskPassword	10	1	True	argument	esign_scalar_0123
+YYYArchive	type	-	Q16@0:8	0x1001e4960	type	_type	40	8	False	value	esign_scalar_0124
+YYYArchive	setType:	-	v24@0:8Q16	0x1001e4974	type	_type	40	8	True	argument	esign_scalar_0125
+YYYSignAppInfoModel	setFileSize:	-	v24@0:8Q16	0x1002d1218	fileSize	_fileSize	64	8	True	argument	esign_scalar_0126
+YYYTableViewSectionHelper	section	-	q16@0:8	0x1002f97b8	section	_section	32	8	False	value	esign_scalar_0127
+YYYTableViewSectionHelper	setSection:	-	v24@0:8q16	0x1002f97cc	section	_section	32	8	True	argument	esign_scalar_0128
+YYYTableViewSectionHelper	autoDeselectRow	-	B16@0:8	0x1002f97ec	autoDeselectRow	_autoDeselectRow	8	1	False	(value != 0)	esign_scalar_0129
+YYYTableViewSectionHelper	setAutoDeselectRow:	-	v20@0:8B16	0x1002f9814	autoDeselectRow	_autoDeselectRow	8	1	True	argument	esign_scalar_0130
+YYYCertModel	isEnterprise	-	B16@0:8	0x10031e6dc	isEnterprise	_isEnterprise	8	1	False	value	esign_scalar_0131
+YYYCertModel	setIsEnterprise:	-	v20@0:8B16	0x10031e708	isEnterprise	_isEnterprise	8	1	True	argument	esign_scalar_0132
+YYYSourceManager	agreeDeal	-	B16@0:8	0x100352020	agreeDeal	_agreeDeal	8	1	False	value	esign_scalar_0133
+YYYSourceManager	setAgreeDeal:	-	v20@0:8B16	0x10035204c	agreeDeal	_agreeDeal	8	1	True	argument	esign_scalar_0134
+YYYSourceManager	alwayDeleted	-	B16@0:8	0x1003523f0	alwayDeleted	_alwayDeleted	9	1	False	value	esign_scalar_0135
+YYYSourceManager	setAlwayDeleted:	-	v20@0:8B16	0x1003523f8	alwayDeleted	_alwayDeleted	9	1	True	argument	esign_scalar_0136
+YYYSourceManager	fileState	-	Q16@0:8	0x10035240c	fileState	_fileState	72	8	False	value	esign_scalar_0137
+YYYSourceManager	setFileState:	-	v24@0:8Q16	0x100352438	fileState	_fileState	72	8	True	argument	esign_scalar_0138
+YYYSourceManager	sortState	-	Q16@0:8	0x100352458	sortState	_sortState	80	8	False	value	esign_scalar_0139
+YYYSourceManager	setSortState:	-	v24@0:8Q16	0x100352484	sortState	_sortState	80	8	True	argument	esign_scalar_0140
+YYYSourceManager	sortASC	-	B16@0:8	0x1003524c0	sortASC	_sortASC	10	1	False	value	esign_scalar_0141
+YYYSourceManager	setSortASC:	-	v20@0:8B16	0x1003524e0	sortASC	_sortASC	10	1	True	argument	esign_scalar_0142
+YYYSourceManager	canUseTroll	-	B16@0:8	0x1003526a0	canUseTroll	_canUseTroll	11	1	False	(value != 0)	esign_scalar_0143
+YYYSourceManager	setCanUseTroll:	-	v20@0:8B16	0x1003526c8	canUseTroll	_canUseTroll	11	1	True	argument	esign_scalar_0144
+YYYSourceManager	canMDM	-	B16@0:8	0x10035278c	canMDM	_canMDM	12	1	False	(value != 0)	esign_scalar_0145
+YYYSourceManager	setCanMDM:	-	v20@0:8B16	0x1003527a8	canMDM	_canMDM	12	1	True	argument	esign_scalar_0146
+YYYTableViewHelper	autoDeselectRow	-	B16@0:8	0x10038168c	autoDeselectRow	_autoDeselectRow	8	1	False	(value != 0)	esign_scalar_0147
+YYYTableViewHelper	setAutoDeselectRow:	-	v20@0:8B16	0x1003816c0	autoDeselectRow	_autoDeselectRow	8	1	True	argument	esign_scalar_0148
+YYYWebDAVManager	timeout	-	q16@0:8	0x1003868ec	timeout	_timeout	8	8	False	value	esign_scalar_0149
+YYYWebDAVManager	setTimeout:	-	v24@0:8q16	0x100386918	timeout	_timeout	8	8	True	argument	esign_scalar_0150
+YYYModifyInfo	removeMinimumOSVersion	-	B16@0:8	0x1003cddf0	removeMinimumOSVersion	_removeMinimumOSVersion	8	1	False	value	esign_scalar_0151
+YYYModifyInfo	setRemoveMinimumOSVersion:	-	v20@0:8B16	0x1003cde1c	removeMinimumOSVersion	_removeMinimumOSVersion	8	1	True	argument	esign_scalar_0152
+YYYModifyInfo	removeUISupportedDevices	-	B16@0:8	0x1003cde3c	removeUISupportedDevices	_removeUISupportedDevices	9	1	False	(value != 0)	esign_scalar_0153
+YYYModifyInfo	setRemoveUISupportedDevices:	-	v20@0:8B16	0x1003cde64	removeUISupportedDevices	_removeUISupportedDevices	9	1	True	argument	esign_scalar_0154
+YYYModifyInfo	fixJb	-	B16@0:8	0x1003cde90	fixJb	_fixJb	10	1	False	value	esign_scalar_0155
+YYYModifyInfo	setFixJb:	-	v20@0:8B16	0x1003cdea4	fixJb	_fixJb	10	1	True	argument	esign_scalar_0156
+YYYModifyInfo	addUISupportsDocumentBrowser	-	B16@0:8	0x1003cded4	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	11	1	False	value	esign_scalar_0157
+YYYModifyInfo	setAddUISupportsDocumentBrowser:	-	v20@0:8B16	0x1003cdee8	addUISupportsDocumentBrowser	_addUISupportsDocumentBrowser	11	1	True	argument	esign_scalar_0158
+YYYModifyInfo	removeURLScheme	-	B16@0:8	0x1003cdf08	removeURLScheme	_removeURLScheme	12	1	False	value	esign_scalar_0159
+YYYModifyInfo	setRemoveURLScheme:	-	v20@0:8B16	0x1003cdf28	removeURLScheme	_removeURLScheme	12	1	True	argument	esign_scalar_0160
+YYYModifyInfo	injectPath	-	Q16@0:8	0x1003cdf54	injectPath	_injectPath	88	8	False	value	esign_scalar_0161
+YYYModifyInfo	setInjectPath:	-	v24@0:8Q16	0x1003cdf74	injectPath	_injectPath	88	8	True	argument	esign_scalar_0162
+YYYModifyInfo	injectFolder	-	Q16@0:8	0x1003cdf94	injectFolder	_injectFolder	96	8	False	value	esign_scalar_0163
+YYYModifyInfo	setInjectFolder:	-	v24@0:8Q16	0x1003cdfc4	injectFolder	_injectFolder	96	8	True	argument	esign_scalar_0164
+YYYEntitlementValue	type	-	C16@0:8	0x10070bf70	type	_type	8	1	False	value	esign_scalar_0165
+YYYEntitlementValue	setType:	-	v20@0:8C16	0x10070bf9c	type	_type	8	1	True	argument	esign_scalar_0166
+YYYEntitlementValue	length	-	C16@0:8	0x10070c0a8	length	_length	9	1	False	value	esign_scalar_0167
+YYYEntitlementValue	setLength:	-	v20@0:8C16	0x10070c0d4	length	_length	9	1	True	argument	esign_scalar_0168
+YYYEntitlementBlob	padding	-	C16@0:8	0x10070cf0c	padding	_padding	8	1	False	value	esign_scalar_0169
+YYYEntitlementBlob	setPadding:	-	v20@0:8C16	0x10070cf2c	padding	_padding	8	1	True	argument	esign_scalar_0170
+YYYEntitlementBlob	length	-	C16@0:8	0x10070cf4c	length	_length	9	1	False	value	esign_scalar_0171
+YYYEntitlementBlob	setLength:	-	v20@0:8C16	0x10070cf6c	length	_length	9	1	True	argument	esign_scalar_0172
+YYYEntitlementBlob	isArray	-	B16@0:8	0x10070d050	isArray	_isArray	10	1	False	(value != 0)	esign_scalar_0173
+YYYEntitlementBlob	setIsArray:	-	v20@0:8B16	0x10070d078	isArray	_isArray	10	1	True	argument	esign_scalar_0174
+YYYEntitlementsSuperBlob	magic	-	I16@0:8	0x10070dc14	magic	_magic	12	4	False	value	esign_scalar_0175
+YYYEntitlementsSuperBlob	setMagic:	-	v20@0:8I16	0x10070dc44	magic	_magic	12	4	True	argument	esign_scalar_0176
+YYYEntitlementsSuperBlob	length	-	I16@0:8	0x10070dc70	length	_length	16	4	False	value	esign_scalar_0177
+YYYEntitlementsSuperBlob	setLength:	-	v20@0:8I16	0x10070dc84	length	_length	16	4	True	argument	esign_scalar_0178
+YYYEntitlementsSuperBlob	byte1	-	C16@0:8	0x10070dca4	byte1	_byte1	8	1	False	value	esign_scalar_0179
+YYYEntitlementsSuperBlob	setByte1:	-	v20@0:8C16	0x10070dcb8	byte1	_byte1	8	1	True	argument	esign_scalar_0180
+YYYEntitlementsSuperBlob	byte2	-	C16@0:8	0x10070dcd8	byte2	_byte2	9	1	False	value	esign_scalar_0181
+YYYEntitlementsSuperBlob	setByte2:	-	v20@0:8C16	0x10070dcec	byte2	_byte2	9	1	True	argument	esign_scalar_0182
+YYYEntitlementsSuperBlob	blobsLength	-	S16@0:8	0x10070dcf4	blobsLength	_blobsLength	10	2	False	value	esign_scalar_0183
+YYYEntitlementsSuperBlob	setBlobsLength:	-	v20@0:8S16	0x10070dd14	blobsLength	_blobsLength	10	2	True	argument	esign_scalar_0184
+YYYMachO	thin	-	B16@0:8	0x1007190a4	thin	_thin	8	1	False	value	esign_scalar_0185
+YYYMachO	setThin:	-	v20@0:8B16	0x1007190b8	thin	_thin	8	1	True	argument	esign_scalar_0186
+YYYMobileprovision	provisionsAllDevices	-	B16@0:8	0x10071bf88	provisionsAllDevices	_provisionsAllDevices	8	1	False	value	esign_scalar_0187
+YYYMobileprovision	setProvisionsAllDevices:	-	v20@0:8B16	0x10071bfb4	provisionsAllDevices	_provisionsAllDevices	8	1	True	argument	esign_scalar_0188
+YYYP12	isP12Data	-	B16@0:8	0x100739760	isP12Data	_isP12Data	32	1	False	value	esign_scalar_0189
+YYYP12	setIsP12Data:	-	v20@0:8B16	0x100739774	isP12Data	_isP12Data	32	1	True	argument	esign_scalar_0190
+YYYBundle	isFramework	-	B16@0:8	0x100745524	isFramework	_isFramework	8	1	False	(value != 0)	esign_scalar_0191
+YYYBundle	setIsFramework:	-	v20@0:8B16	0x10074554c	isFramework	_isFramework	8	1	True	argument	esign_scalar_0192
+YYYBundle	isReadOnly	-	B16@0:8	0x100745c78	isReadOnly	_isReadOnly	9	1	False	(value != 0)	esign_scalar_0193
+YYYBundle	setIsReadOnly:	-	v20@0:8B16	0x100745ca0	isReadOnly	_isReadOnly	9	1	True	argument	esign_scalar_0194
+YYYBundle	thin	-	B16@0:8	0x100745ccc	thin	_thin	10	1	False	value	esign_scalar_0195
+YYYBundle	setThin:	-	v20@0:8B16	0x100745cec	thin	_thin	10	1	True	argument	esign_scalar_0196
+YYYSignAsset	mergeEntitlements	-	B16@0:8	0x10075e0a4	mergeEntitlements	_mergeEntitlements	8	1	False	value	esign_scalar_0197
+YYYSignAsset	setMergeEntitlements:	-	v20@0:8B16	0x10075e0c4	mergeEntitlements	_mergeEntitlements	8	1	True	argument	esign_scalar_0198
+YYYSignAsset	removeEmbedded	-	B16@0:8	0x10075e0f0	removeEmbedded	_removeEmbedded	9	1	False	(value != 0)	esign_scalar_0199
+YYYSignAsset	setRemoveEmbedded:	-	v20@0:8B16	0x10075e124	removeEmbedded	_removeEmbedded	9	1	True	argument	esign_scalar_0200
+YYYSignAsset	useBugSign	-	B16@0:8	0x10075e138	useBugSign	_useBugSign	10	1	False	value	esign_scalar_0201
+YYYSignAsset	setUseBugSign:	-	v20@0:8B16	0x10075e164	useBugSign	_useBugSign	10	1	True	argument	esign_scalar_0202
+YYYOffsetNode	offset	-	q16@0:8	0x100762dec	offset	_offset	16	8	False	value	esign_scalar_0203
+YYYOffsetNode	setOffset:	-	v24@0:8q16	0x100762e0c	offset	_offset	16	8	True	argument	esign_scalar_0204
+YYYOffsetNode	shouldSwap	-	B16@0:8	0x100762e38	shouldSwap	_shouldSwap	8	1	False	(value != 0)	esign_scalar_0205
+YYYOffsetNode	setShouldSwap:	-	v20@0:8B16	0x100762e6c	shouldSwap	_shouldSwap	8	1	True	argument	esign_scalar_0206
+YYYBlob	magic	-	I16@0:8	0x100772780	magic	_magic	8	4	False	value	esign_scalar_0207
+YYYBlob	setMagic:	-	v20@0:8I16	0x1007727a0	magic	_magic	8	4	True	argument	esign_scalar_0208
+YYYBlobIndex	type	-	I16@0:8	0x100772c08	type	_type	8	4	False	value	esign_scalar_0209
+YYYBlobIndex	setType:	-	v20@0:8I16	0x100772c28	type	_type	8	4	True	argument	esign_scalar_0210
+YYYBlobIndex	offset	-	I16@0:8	0x100772c58	offset	_offset	12	4	False	value	esign_scalar_0211
+YYYBlobIndex	setOffset:	-	v20@0:8I16	0x100772c78	offset	_offset	12	4	True	argument	esign_scalar_0212
+YYYSuperBlob	magic	-	I16@0:8	0x1007745fc	magic	_magic	8	4	False	value	esign_scalar_0213
+YYYSuperBlob	setMagic:	-	v20@0:8I16	0x100774628	magic	_magic	8	4	True	argument	esign_scalar_0214

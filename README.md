@@ -2,7 +2,7 @@
 
 An unofficial recovery of a cached ESign 5.0.2 IPA, with native pseudocode, Objective-C declarations, original resources, and reproducible analysis tools.
 
-**Input notice (18 October 2026):** the requested [Pixeldrain link](https://pixeldrain.com/u/4wWjv3LF) is inaccessible from this session. This recovery is verified against the cached IPA identified below, which matches a public compiled-IPA mirror. Its byte identity with the new Pixeldrain link remains **unconfirmed**. See [input provenance](docs/INPUT-PROVENANCE.md).
+**Exact input confirmed (18 October 2026):** the newly supplied [Filebin IPA](https://filebin.net/64tq7btmi8iixpru/esign_5.0.2_unsigned.ipa) downloaded successfully and matches this recovery's baseline byte-for-byte. Its SHA-256 is `f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29`. The earlier inaccessible Pixeldrain link is no longer the input-verification blocker. See [input provenance](docs/INPUT-PROVENANCE.md).
 
 **This is not ESign's official source release. The native app cannot yet be built entirely from this repository.** No verified original native source release was found. Generated pseudocode needs substantial reconstruction, dependency work, and testing before it becomes a usable source project. No app features or UI changes are added in this recovery pass.
 
@@ -15,6 +15,8 @@ The current build request requires the **original implementation only**. No repl
 [Expanded original-code analysis](docs/DISPATCH-RECOVERY.md) traces all 3,396 indexed app-candidate method entries, reaching 358,448 distinct original instructions under the static model. It maps 12,244 call sites to original selector stubs and retains 419 unresolved indirect-jump occurrences. All 8,999 selector stubs are decoded from preserved original bytes; receiver classes and return values remain unverified.
 
 ## What is available
+
+The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller original-byte method decompilation and **215 machine-level C accessor implementations across 39 classes**. Compiled C was compared with original ARM64 instruction execution in an emulator for **35,840 fixtures**. These narrow source fragments require the original object layout; they do not define an app target or verify complete signing behavior.
 
 | Material | Verified scope | Start here |
 |---|---|---|
@@ -38,15 +40,18 @@ Fork the repository and use the [code-navigation guide](docs/NAVIGATION.md) and 
 
 ```sh
 python3 scripts/unpack_evidence.py
+python3 scripts/unpack_native_methods.py
 python3 scripts/verify_repository.py
 python3 scripts/verify_original_flow.py
 python3 scripts/verify_app_analysis.py
+python3 scripts/verify_native_methods.py
+python3 scripts/recover_scalar_accessors.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
 These check recovery integrity. **They do not compile ESign or test signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-recovery.txt` in a virtual environment to run the expanded analysis verifier and all 29 tool tests; 17 analysis tests are skipped when Capstone is absent. No app runtime dependency is added by these analysis tests.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 32 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 

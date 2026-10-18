@@ -1,26 +1,32 @@
-# Which IPA this recovery describes
+# Exact user-supplied IPA identity
 
-The request received on 18 October 2026 supplies <https://pixeldrain.com/u/4wWjv3LF>. Both a direct download/metadata attempt and the browser displayed an unavailable-site result. No bytes, filename, or trustworthy checksum were obtained from that link. Its version and identity remain unconfirmed.
+On 18 October 2026 the user supplied this accessible file:
 
-An existing local analysis input, `esign_5.0.2_unsigned 2.ipa`, is available from the earlier recovery. A second cached copy has exactly the same bytes. The recovery was independently checked against those bytes on 18 October 2026.
+<https://filebin.net/64tq7btmi8iixpru/esign_5.0.2_unsigned.ipa>
 
-| Property | Cached baseline |
+It was downloaded through Filebin's normal file-download flow. The downloaded file is a valid ZIP with all entry CRCs passing. It is byte-for-byte identical to the earlier recovery baseline and to the independently downloaded secondary mirror. This resolves the earlier uncertainty about which IPA the recovery describes.
+
+| Property | Exact downloaded Filebin input |
 |---|---|
+| Filename | `esign_5.0.2_unsigned.ipa` |
 | Size | 7,522,792 bytes |
 | SHA-256 | `f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29` |
 | Git blob SHA-1 | `a21c4b8b95f3bef2535e32f4ccf59b83fcc9ae85` |
 | Bundle identifier | `p3.xyz.yyyue.esign` |
-| App version / build | 5.0.2 / 1 |
+| Version / build | 5.0.2 / 1 |
 | Executable SHA-256 | `809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154` |
-| New Pixeldrain file matches | Unconfirmed |
+| Match to published recovery baseline | Confirmed |
 
-The public compiled-IPA mirror at [nooptr/esign](https://github.com/nooptr/esign/tree/e48b19239ea1b1c725134350db8ab1a15ce3ff88) records the same Git blob and size. A mirror match identifies bytes, not official developer provenance or a source release.
+The earlier Pixeldrain URL was inaccessible from this environment. No claim is made about the bytes served by that URL itself. Filebin now supplies the exact user-selected input used for verification.
 
-To compare the newly linked file once it is available:
+Both the complete baseline comparison and expanded native dispatch comparison were rerun against the Filebin download. They passed. Source reconstruction and runtime equivalence remain separate, incomplete tasks; matching an IPA does not obtain its original project or authenticate the file as an original developer release.
+
+To repeat the comparison locally:
 
 ```sh
 python3 scripts/unpack_evidence.py
 python3 scripts/verify_against_ipa.py /path/to/esign_5.0.2_unsigned.ipa
+python3 scripts/verify_app_analysis.py --ipa /path/to/esign_5.0.2_unsigned.ipa
 ```
 
-A mismatching SHA-256 stops the verifier. Preserve this baseline and create a separate evidence snapshot for a different input. Do not replace the expected hash just to make the check pass.
+Keep the original IPA and signing/profile inputs outside Git. Preserve the existing baseline if a different version is inspected later.

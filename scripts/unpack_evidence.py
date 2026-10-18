@@ -14,8 +14,8 @@ from audit_evidence import contained, require
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
-def unpack(root=ROOT):
-    manifest = json.loads((root / 'evidence/archive-manifest.json').read_text())
+def unpack(root=ROOT, manifest_path='evidence/archive-manifest.json', allowed_prefix='recovered/'):
+    manifest = json.loads(contained(root, manifest_path).read_text())
     parts = []
     for item in manifest['parts']:
         data = contained(root, item['path']).read_bytes()
@@ -32,7 +32,7 @@ def unpack(root=ROOT):
         require(len({v.filename for v in entries}) == len(entries), 'Duplicate archive paths')
         # Validate every path and every existing file before writing anything.
         for item in entries:
-            require(item.filename.startswith('recovered/'), 'Unexpected archive root')
+            require(item.filename.startswith(allowed_prefix), 'Unexpected archive root')
             require((item.external_attr >> 16) & 0o170000 == 0o100000, 'Archive entry is not a regular file')
             destination = contained(root, item.filename)
             require(not destination.is_symlink(), 'Symlink in recovery destination')

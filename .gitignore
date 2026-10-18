@@ -27,3 +27,5 @@ recovered/disassembly/
 recovered/resources/
 recovered/objc/objc-metadata.json
 recovered/objc/constant-strings.json
+analysis/native-methods/methods/
+analysis/native-methods/status/

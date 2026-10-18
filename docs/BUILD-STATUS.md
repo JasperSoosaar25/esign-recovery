@@ -12,7 +12,9 @@ The current request is a buildable original ESign application, preserving the or
 | Produce a verified source-built IPA | Not achieved |
 | Run the original app on iPhone/iOS 27 | Not run |
 | Supply screenshots proving original/rebuilt UI equivalence | Not available |
-| Match the newly supplied Pixeldrain file | Unconfirmed; cached input remains the baseline |
+| Match the exact user-selected IPA | Confirmed: the Filebin download matches the published baseline byte-for-byte |
+
+The [native reconstruction follow-up](NATIVE-RECONSTRUCTION.md) adds fuller method pseudocode and 215 compiled C accessor fragments, checked against original ARM64 instructions for 35,840 fixtures. This is a narrow source-recovery result, not an original ESign app build. Original class definitions, initialization, most method source bodies, dependencies, and a complete app project are still missing.
 
 ## Why compilation is still blocked
 
