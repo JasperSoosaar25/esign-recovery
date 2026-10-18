@@ -31,7 +31,7 @@ static id Hex(NSData *data) {
     for (NSArray *pair in self.pairs) [keys addObject:pair[0]];
     return keys.objectEnumerator;
 }
-- (void)enumerateKeysAndObjectsUsingBlock:(void (^)(id, id, BOOL *))block {
+- (void)enumerateKeysAndObjectsUsingBlock:(void (NS_NOESCAPE ^)(id, id, BOOL *))block {
     BOOL stop = NO;
     for (NSArray *pair in self.pairs) { block(pair[0], pair[1], &stop); if (stop) break; }
 }
