@@ -97,7 +97,19 @@ static id Evaluate(NSDictionary *input) {
         YYYSuperBlob *parsed = [YYYSuperBlob superBlobWithSuperBlobData:Unhex(built[@"serialized"])];
         return @{@"built": built, @"parsed": Describe(parsed)};
     } else if ([op isEqual:@"parse_super"]) {
-        object = [YYYSuperBlob superBlobWithSuperBlobData:Unhex(input[@"data"])];
+        NSData *data = Unhex(input[@"data"]);
+        const unsigned char *bytes = data.bytes;
+        BOOL incompleteMagic = data.length < 4;
+        BOOL incompleteMatchingHeader = data.length >= 4 && data.length < 12 &&
+            bytes[0] == 0xfa && bytes[1] == 0xde && bytes[2] == 0x0c && bytes[3] == 0xc0;
+        if (incompleteMagic || incompleteMatchingHeader) {
+            unsigned char buffer[12];
+            memset(buffer, 0xa5, sizeof buffer);
+            [data getBytes:buffer length:sizeof buffer];
+            return @{@"original_parser_result_unverified": @"incomplete-original-header",
+                     @"foundation_partial_copy": Hex([NSData dataWithBytes:buffer length:sizeof buffer])};
+        }
+        object = [YYYSuperBlob superBlobWithSuperBlobData:data];
     } else if ([op isEqual:@"length"]) {
         TestLengthOnly *data = [TestLengthOnly new];
         data.fakeLength = [input[@"length"] unsignedLongLongValue];

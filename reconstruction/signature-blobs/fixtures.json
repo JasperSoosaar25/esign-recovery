@@ -3167,14 +3167,17 @@
       "op": "parse_super",
       "data": ""
     },
-    "exception": "NSRangeException"
+    "result": {
+      "original_parser_result_unverified": "incomplete-original-header",
+      "foundation_partial_copy": "a5a5a5a5a5a5a5a5a5a5a5a5"
+    }
   },
   {
     "input": {
       "op": "parse_super",
       "data": "0000000000000000000000"
     },
-    "exception": "NSRangeException"
+    "result": null
   },
   {
     "input": {

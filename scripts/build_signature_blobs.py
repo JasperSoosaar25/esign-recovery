@@ -57,6 +57,10 @@ def build(output):
     command(['xcrun', 'libtool', '-static', '-o', str(library), str(obj)])
     report = {'result': 'PASS', 'component': 'ESign original-derived signature containers', 'classes': 3,
               'original_methods': 38, 'foundation_fixture_comparisons': len(fixtures),
+              'source_behavior_fixture_comparisons': sum(not isinstance(r.get('result'), dict) or
+                  'original_parser_result_unverified' not in r['result'] for r in fixtures),
+              'indeterminate_original_parser_inputs': sum(isinstance(r.get('result'), dict) and
+                  'original_parser_result_unverified' in r['result'] for r in fixtures),
               'original_class_layout_and_method_abis_verified': True,
               'toolchain': command(['xcrun', 'clang', '--version']).stdout.strip(),
               'xcode': command(['xcodebuild', '-version']).stdout.strip(),

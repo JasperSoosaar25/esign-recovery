@@ -103,9 +103,9 @@ static uint32_t FourReadSwap(uint32_t a, uint32_t b, uint32_t c, uint32_t d) {
     YYYSuperBlob *result = [YYYSuperBlob new];
     if (result.magic != ReadBE32(header.magic)) return nil;
     uint32_t count = ReadBE32(header.count);
-    int32_t position = 12;
+    uint32_t position = 12;
     for (uint32_t i = 0; i < count; i++) {
-        NSRange range = NSMakeRange((NSUInteger)(int64_t)position, 8);
+        NSRange range = NSMakeRange(position, 8);
         if (NSMaxRange(range) > [data length]) return nil;
         ESignBlobIndexHeader indexHeader;
         [data getBytes:&indexHeader range:range];
@@ -113,7 +113,7 @@ static uint32_t FourReadSwap(uint32_t a, uint32_t b, uint32_t c, uint32_t d) {
         index.type = ReadBE32(indexHeader.type);
         index.offset = ReadBE32(indexHeader.offset);
         [result.blobs addObject:index];
-        position = (int32_t)((uint32_t)position + 8);
+        position += 8;
     }
     for (uint32_t i = 0; i < count; i++) {
         YYYBlobIndex *index = result.blobs[i];

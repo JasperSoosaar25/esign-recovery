@@ -10,6 +10,8 @@ This component reads and writes code-signature container bytes. It does **not** 
 
 The input-memory verifier checks class identities, selector stubs, runtime imports, branch table values, and instructions against independently preserved baseline evidence. An optional exact-IPA check compares every saved original data input with that executable. Four negative tests reject forged method, class, runtime, and jump-table evidence.
 
+The first Apple runtime run rejected an incorrect short-read assumption in the analysis model. Apple's `NSData getBytes:length:` copies the lesser of the requested count and available data. The model now follows [Apple's API contract](https://developer.apple.com/documentation/foundation/nsdata/getbytes%28_%3Alength%3A%29?language=objc). The empty super-blob input leaves original header fields uninitialized: it remains explicitly marked as an unverified parser result. Its fixture checks the Foundation partial-copy contract using an initialized test buffer instead of claiming deterministic original parsing. The current 58 checks therefore comprise 57 source-behavior fixtures and one partial-copy API fixture. This is not a claim that all malformed-input behavior is recovered.
+
 The separate Apple SDK job compiles a real arm64 iOS static library and compares the reconstructed source's complete fixture results against the original-instruction results on macOS Foundation. It also compares all class instance sizes, ivar names/offsets/types, superclass identities, and method ABI encodings against original metadata. Consult that job's actual result and build report before making a compilation claim.
 
 ```sh
@@ -23,7 +25,7 @@ python3 scripts/build_signature_blobs.py
 
 ## Original behavior retained
 
-The blob parser uses all bytes after its eight-byte header, even when the declared header length differs. The super-blob parser checks the original embedded-signature magic, then uses adjacent slot offsets and the actual input length to delimit children. It does not validate the declared total length. Missing index records produce nil; a too-short non-nil super-blob input raises a range exception through Foundation. A child with an out-of-range offset can remain present with nil data. Serialization recalculates offsets from the currently stored index data. Index creation from a blob captures serialized bytes immediately; later changes to that blob do not replace the index's data snapshot.
+The blob parser uses all bytes after its eight-byte header, even when the declared header length differs. The super-blob parser checks the original embedded-signature magic, then uses adjacent slot offsets and the actual input length to delimit children. It does not validate the declared total length. Missing index records produce nil; an incompletely initialized short-input header can involve indeterminate state. A child with an out-of-range offset can remain present with nil data. Serialization recalculates offsets from the currently stored index data. Index creation from a blob captures serialized bytes immediately; later changes to that blob do not replace the index's data snapshot.
 
 These are recovery findings, not newly designed parsing rules. Nil super-blob input and mutated/malformed runtime objects can involve indeterminate original state and are outside the controlled fixtures. The source has not been presented as a hardened parser. Fixtures use invented payloads and team identifiers, and contain no real certificates or signing secrets.
 

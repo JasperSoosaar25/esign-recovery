@@ -130,6 +130,7 @@ class BlobMachine(Machine):
             if selector == 'getBytes:length:':
                 pointer, length = args[:2]
                 start = 0
+                length = min(length, len(value))
             elif selector == 'getBytes:range:':
                 pointer, start, length = args[:3]
             else:
@@ -343,6 +344,12 @@ def evaluate(machine, case):
             index, _ = call(cl['YYYBlobIndex'], 'blobIndexWithType:blob:', entry['type'], child)
             call(token, 'addBlobIndex:', index)
     elif case['op'] == 'parse_super':
+        data = bytes.fromhex(case['data'])
+        if len(data) < 4 or len(data) < 12 and data[:4] == bytes.fromhex('fade0cc0'):
+            # The original does not initialize the header before a partial copy.
+            # Do not assert a deterministic parser result for unread stack bytes.
+            return {'original_parser_result_unverified': 'incomplete-original-header',
+                    'foundation_partial_copy': (data[:12] + bytes([0xa5]) * max(0, 12 - len(data))).hex()}
         token, _ = call(cl['YYYSuperBlob'], 'superBlobWithSuperBlobData:', machine.obj(bytes.fromhex(case['data'])))
     elif case['op'] == 'length':
         token, _ = call(cl['YYYBlob'], 'blobWithMagic:data:', 0, machine.obj({'fake_length': case['length']}))
@@ -541,6 +548,10 @@ def run(ipa=None, original_ipa=None):
         (OUT / 'metadata.json').write_text(json.dumps(native_metadata(metadata), indent=2) + '\n')
         index = {'executable_sha256': EXPECTED_EXECUTABLE, 'classes': 3, 'methods': 38,
                  'fixtures': len(results), 'original_instructions_executed': len(machine.visited),
+                 'source_behavior_fixtures': sum(not isinstance(r.get('result'), dict) or
+                     'original_parser_result_unverified' not in r['result'] for r in results),
+                 'indeterminate_original_parser_inputs': sum(isinstance(r.get('result'), dict) and
+                     'original_parser_result_unverified' in r['result'] for r in results),
                  'foundation_arc_calls_are_models': True, 'complete_signing_pipeline': False,
                  'source_built_ipa': False, 'iphone_runtime_verified': False,
                  'files': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.is_file() and p.name != 'index.json'}}
