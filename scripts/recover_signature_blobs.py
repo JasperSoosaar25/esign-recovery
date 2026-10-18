@@ -257,7 +257,7 @@ class BlobMachine(Machine):
         for i, argument in enumerate(arguments, 2):
             self.uc.reg_write(getattr(arm, 'UC_ARM64_REG_X' + str(i)), argument)
         self.foundation_exception = None
-        self.uc.emu_start(entry, STOP, count=200000)
+        self.uc.emu_start(entry, STOP, count=getattr(self, 'instruction_limit', 200000))
         require(self.error is None, str(self.error))
         if self.foundation_exception:
             raise FoundationError(self.foundation_exception)

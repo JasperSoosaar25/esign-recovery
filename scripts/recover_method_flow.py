@@ -21,7 +21,14 @@ from recover_dispatch import Dispatch
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
-def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, decoder=None, dispatch=None):
+def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, decoder=None, dispatch=None,
+         call_return_values=None, max_union=16):
+    # Optional finite call-return hypotheses belong to separate analysis views.
+    # Defaults preserve the baseline's unknown call results exactly.
+    call_return_values = call_return_values or {}
+    require(1 <= max_union <= 256 and all(1 <= len(v) <= max_union and
+            all(isinstance(n, int) and 0 <= n < (1 << 64) for n in v)
+            for v in call_return_values.values()), 'Invalid finite call-return hypothesis')
     image = MachO(data) if image is None else image
     text = next(s for s in image.sections if s['name'] == '__text')
     lo, hi = text['address'], text['address'] + text['size']
@@ -58,7 +65,7 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                 other = incoming.get(k)
                 if other is not None:
                     union = tuple(sorted(set(value[0] + other[0])))
-                    if len(union) <= 16:
+                    if len(union) <= max_union:
                         merged[k] = (union, tuple(sorted(set(value[1] + other[1]))))
             if merged == states[address]:
                 continue
@@ -105,7 +112,7 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                              'eor': lambda x,y: x ^ y, 'lsl': lambda x,y: x << (y & 63),
                              'lsr': lambda x,y: x >> (y & 63)}
                 numbers = tuple(sorted({calculate[name](x,y) & ((1 << 64) - 1) for x in left[0] for y in right[0]}))
-                if len(numbers) <= 16:
+                if len(numbers) <= max_union:
                     result = (numbers, tuple(sorted(set(left[1] + right[1]))))
         elif name in ('ldr', 'ldur') and len(ops) == 2 and ops[1].type == CS_OP_MEM:
             mem = ops[1].mem
@@ -126,7 +133,7 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                             slots.append(slot)
                             loaded.append(image.u64(slot))
                     numbers = tuple(sorted(set(loaded)))
-                    if len(numbers) <= 16:
+                    if len(numbers) <= max_union:
                         result = (numbers, tuple(sorted(set(base[1] + index[1] + tuple(slots)))))
                 except (ValueError, IndexError, OverflowError, struct.error):
                     pass
@@ -175,6 +182,9 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                         row['objc_dispatch'] = observed
                 # AAPCS64 callee-saved registers only. Calls may clobber the rest.
                 values = {k: v for k, v in values.items() if k in {f'x{i}' for i in range(19, 30)}}
+                if address in call_return_values:
+                    row['finite_call_return_hypothesis'] = sorted(set(call_return_values[address]))
+                    values['x0'] = (tuple(row['finite_call_return_hypothesis']), ())
         row['successors'] = sorted(set(row['successors'] + [hex(v) for v in successors]), key=lambda v: int(v, 16))
         pending.extend((v, values.copy()) for v in successors)
     return {'entry': hex(entry), 'instruction_count': len(instructions), 'abstract_steps': processed,

@@ -1,0 +1,309 @@
+[
+  {
+    "name": "YYYEntitlementValue",
+    "superclass": "NSObject",
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_type",
+        "type_encoding": "C",
+        "offset": 8
+      },
+      {
+        "name": "_length",
+        "type_encoding": "C",
+        "offset": 9
+      },
+      {
+        "name": "_origValue",
+        "type_encoding": "@",
+        "offset": 16
+      },
+      {
+        "name": "_value",
+        "type_encoding": "@\"NSData\"",
+        "offset": 24
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "totalLength",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "data",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "type",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setType:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": "origValue",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setOrigValue:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "value",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setValue:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "length",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLength:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      },
+      {
+        "kind": "+",
+        "selector": "entitlementValueWithValue:",
+        "type_encoding": "@24@0:8@16"
+      }
+    ]
+  },
+  {
+    "name": "YYYEntitlementBlob",
+    "superclass": "NSObject",
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_padding",
+        "type_encoding": "C",
+        "offset": 8
+      },
+      {
+        "name": "_length",
+        "type_encoding": "C",
+        "offset": 9
+      },
+      {
+        "name": "_isArray",
+        "type_encoding": "B",
+        "offset": 10
+      },
+      {
+        "name": "_key",
+        "type_encoding": "@\"YYYEntitlementValue\"",
+        "offset": 16
+      },
+      {
+        "name": "_values",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 24
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "totalLenght",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "data",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "padding",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setPadding:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": "length",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLength:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": "key",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setKey:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "values",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setValues:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "isArray",
+        "type_encoding": "B16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setIsArray:",
+        "type_encoding": "v20@0:8B16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      },
+      {
+        "kind": "+",
+        "selector": "blobWithKey:value:",
+        "type_encoding": "@32@0:8@16@24"
+      }
+    ]
+  },
+  {
+    "name": "YYYEntitlementsSuperBlob",
+    "superclass": "NSObject",
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_byte1",
+        "type_encoding": "C",
+        "offset": 8
+      },
+      {
+        "name": "_byte2",
+        "type_encoding": "C",
+        "offset": 9
+      },
+      {
+        "name": "_blobsLength",
+        "type_encoding": "S",
+        "offset": 10
+      },
+      {
+        "name": "_magic",
+        "type_encoding": "I",
+        "offset": 12
+      },
+      {
+        "name": "_length",
+        "type_encoding": "I",
+        "offset": 16
+      },
+      {
+        "name": "_blobs",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 24
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "data",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "magic",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setMagic:",
+        "type_encoding": "v20@0:8I16"
+      },
+      {
+        "kind": "-",
+        "selector": "length",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLength:",
+        "type_encoding": "v20@0:8I16"
+      },
+      {
+        "kind": "-",
+        "selector": "byte1",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setByte1:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": "byte2",
+        "type_encoding": "C16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setByte2:",
+        "type_encoding": "v20@0:8C16"
+      },
+      {
+        "kind": "-",
+        "selector": "blobsLength",
+        "type_encoding": "S16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setBlobsLength:",
+        "type_encoding": "v20@0:8S16"
+      },
+      {
+        "kind": "-",
+        "selector": "blobs",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setBlobs:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      },
+      {
+        "kind": "+",
+        "selector": "supperBlobWithPlist:",
+        "type_encoding": "@24@0:8@16"
+      }
+    ]
+  }
+]

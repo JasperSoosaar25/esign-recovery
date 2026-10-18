@@ -1,0 +1,21 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "classes": 3,
+  "methods": 41,
+  "callbacks": 1,
+  "fixtures": 583,
+  "original_instructions_executed": 1807,
+  "foundation_arc_block_calls_are_models": true,
+  "dictionary_order_is_controlled": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "a31aaacb42a5a954d0dbe188b4fad22146bb0edcafd8581f2324180c254678b4",
+    "ESignEntitlements.m": "d9854761e23e645f4618e8821c4ba675c775f40fff57e06ba450d3103eb7f14d",
+    "README.md": "5a8a6e30cd93e4a38b602b5ec943c9c0d24f93d1743d1ded39881f04c270edb5",
+    "ESignEntitlements.h": "2e437479c89b6a37afab436528504e1832ec69da3dd8b7a15ec1635bbd2afc2c",
+    "metadata.json": "1e20718cbcc0425fa9fc040574fbb4e24ee7ae2b9eb8e0a7c1c3e14aec467e50",
+    "fixtures.json": "1025c466c2d2ebe0255bb3f7c7424b2e90fc9321af44114e7b852843759b4b4a"
+  }
+}
