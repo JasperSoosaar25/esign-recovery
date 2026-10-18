@@ -37,7 +37,7 @@ The [expanded analysis](DISPATCH-RECOVERY.md) covers all 3,396 indexed app-candi
 
 ## Not verified
 
-The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; 36 tool tests pass. These results do not establish complete app equivalence.
+The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; the current suite has 44 passing tool tests. These results do not establish complete app equivalence.
 
 | Claim | Status |
 |---|---|
@@ -53,3 +53,7 @@ The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,3
 The CI workflow validates the recovery repository. Its success does not turn any of these unverified app claims into a passed result.
 
 The localization source follow-up independently checks the exact input memory, original class and import identities, original instructions, all 3,812 dictionary pairs, and 7,931 lookups across 18 locales under explicit Foundation/ARC models. Four negative tests reject changed class, method, import, and Chinese-routing evidence. The separate Apple SDK CI job checks component compilation and macOS Foundation behavior and records its actual outcome/toolchain. These component checks do not establish a complete app build or an iPhone run.
+
+The signature-container follow-up independently checks the 38 original method records, helper instructions, class identities, imports, selector stubs, and initial jump inputs. All saved input reads also match the exact IPA. The Apple build passed native class layout/ABI comparisons and 58 fixtures: 57 source-behavior cases and one partial-copy API check, with one original short-header parser result explicitly unverified. See [its report](builds/signature-blobs-da8d0e0c.json).
+
+The Mach-O header follow-up independently checks all 17 original method records and initial inputs. It models the runtime's 16-byte subclass ivar slide instead of overwriting original saved offsets. All saved inputs match the exact IPA. The Apple build passed 67 fixtures, complete backing-header memory comparisons, and method/derived-layout ABI checks. The original device's realized layout remains unobserved. See [its report](builds/mach-header-11d8c9f9.json). Neither component establishes full signing/CMS correctness, app construction, or device compatibility.

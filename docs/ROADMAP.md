@@ -7,12 +7,20 @@ Current constraint: the runtime implementation must come from original ESign rec
 ## Available evidence
 
 - [x] Identify and hash the cached ESign 5.0.2 input.
-- [ ] Confirm the new Pixeldrain file has the same SHA-256 as this baseline.
+- [x] Confirm the later user-selected Filebin IPA has the same SHA-256 as this baseline. The earlier Pixeldrain URL remained inaccessible.
 - [x] Recover Objective-C class/category metadata and selector/ABI indexes.
 - [x] Export all functions identified in the completed Ghidra analysis, plus app-focused excerpts.
 - [x] Preserve all `__text` bytes in disassembly listings and compare them with the original.
 - [x] Preserve exact resources and readable plist/localization derivatives.
 - [x] Add static pointer-table jump evidence, contribution materials, and integrity CI.
+
+## Verified native source components
+
+- [x] Reconstruct all 10 localization classes and 13 methods; pass the Apple library build and 13,496 Foundation comparisons.
+- [x] Reconstruct all three signature-container classes and 38 methods; pass the Apple library build, 57 behavior fixtures, and one API check. Preserve the explicitly unverified short-header parser case.
+- [x] Reconstruct the two Mach-O header/base classes and 17 methods; pass the Apple library build and 67 native fixture comparisons, with non-fragile ivar realization explicitly modeled.
+
+These are components, not completed app features. Their reports are under `docs/builds/`. The [remaining signing dependency map](SIGNING-DEPENDENCIES.md) identifies unreconstructed original methods and unresolved static flow.
 
 ## Required for a source-only app
 

@@ -16,6 +16,8 @@ The current request is a buildable original ESign application, preserving the or
 
 The [native reconstruction follow-up](NATIVE-RECONSTRUCTION.md) adds fuller method pseudocode and 215 compiled C accessor fragments, checked against original ARM64 instructions for 35,840 fixtures. This is a narrow source-recovery result, not an original ESign app build. Most original class definitions, initialization, method source bodies, dependencies, and a complete app project are still missing. The localization component now has reconstructed Objective-C definitions for all 10 localization classes, 13 methods, and their initialization block. Its separate Apple SDK/host Foundation checks do not build or run the full application.
 
+Two signing dependencies now also have reconstructed Objective-C source: the three signature-container classes (38 methods), and the Mach-O header/base classes (17 methods). Their arm64 iOS libraries and separate macOS runtime fixture checks passed. They do not implement certificate/CMS generation, full Mach-O signing, archive handling, installation, or application UI. [The dependency map](SIGNING-DEPENDENCIES.md) records those remaining implementation boundaries.
+
 ## Why compilation is still blocked
 
 The IPA ships an arm64 device executable and compiled resources. It does not contain the original native source project, source-level debug information, or an Xcode build configuration. The baseline Ghidra output contains many short stubs because indirect jumps split control flow. Output coverage is not source completeness, and metadata headers cannot supply missing method implementations.
@@ -41,4 +43,8 @@ The absence of omitted archive entries does not imply that the original high-lev
 
 ## Verified native component build
 
-The localization component successfully compiled into an arm64 iOS static library in GitHub Actions. The macOS Foundation executable passed 13,496 comparisons against original-instruction/model results, with all 36 tool tests and recovery verifiers passing separately. The [recorded build report](builds/localization-4b365572.json) identifies source commit `4b365572d94337345143afd329c8559c298a8060`, Xcode 16.4, the iOS 18.5 SDK, and the component-library artifact hash. This does not change the incomplete full-app/IPA/iPhone status above; the SDK was not iOS 27.
+The localization component successfully compiled into an arm64 iOS static library in GitHub Actions. The macOS Foundation executable passed 13,496 comparisons against original-instruction/model results. Its [recorded build report](builds/localization-4b365572.json) identifies source commit `4b365572d94337345143afd329c8559c298a8060`, Xcode 16.4, the iOS 18.5 SDK, and the component-library artifact hash.
+
+The [signature-container report](builds/signature-blobs-da8d0e0c.json) records a successful Apple build and native layout/ABI checks for all 38 methods, 57 source-behavior fixtures, and one Foundation partial-copy API check. An incomplete original header parser result remains unverified. The [Mach-O header report](builds/mach-header-11d8c9f9.json) records a successful Apple build, 67 fixture comparisons, and native layout/ABI checks against an explicitly modeled ivar realization. Original-device layout has not been observed. Both builds also used Xcode 16.4/iOS 18.5.
+
+All 44 current tool tests pass. The [four-job verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39141557974) records the component jobs and full recovery checks. These results do not change the incomplete full-app/IPA/iPhone status above; no iOS 27 SDK or device result is claimed.

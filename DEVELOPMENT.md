@@ -68,3 +68,11 @@ Run `python3 scripts/unpack_native_methods.py` to restore individually indexed f
 ## Compilable localization component
 
 `reconstruction/localization/` now reconstructs all 13 original methods in the 10 `YYYLocalized*` classes and the one-time initialization block. Read its README for exact addresses, original-instruction fixtures, Foundation models, and limits. Run `python3 scripts/recover_localization.py --verify` after restoring the evidence. On macOS with Xcode, `python3 scripts/build_localization.py` compiles an arm64 iOS static library and tests the Objective-C component on Apple Foundation. Inspect the actual CI result and toolchain report before claiming compilation. A component library is not the ESign app target or an IPA.
+
+## Compilable signing dependencies
+
+`reconstruction/signature-blobs/` provides all 38 original methods of the three signature-container classes. Run `python3 scripts/recover_signature_blobs.py --verify`; an optional `--original-ipa /path/to/input.ipa` checks every saved original input read against the exact executable. `scripts/build_signature_blobs.py` builds the iOS library on a Mac and compares the source with original-instruction fixtures using Apple Foundation. One uninitialized short-header parser result is explicitly unverified; do not treat the API-contract fixture as proof of that original result.
+
+`reconstruction/mach-header/` provides all 17 original methods of `YYYOffsetNode` and `YYYMachHeader`. Run `python3 scripts/recover_mach_header.py --verify`, optionally with the same exact-IPA argument. Its README explains the modeled non-fragile ivar slide; stored initial offsets are not already-realized subclass offsets. `scripts/build_mach_header.py` compiles the iOS library and checks macOS runtime layout and complete backing-memory effects. Preserve that distinction when adding inherited classes.
+
+Both Apple builds have passed; their exact reports are under `docs/builds/`. Read [the remaining signing dependency map](docs/SIGNING-DEPENDENCIES.md) before reconstructing the crypto/certificate or full Mach-O pipeline. Passing these libraries does not supply an application target or device execution.

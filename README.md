@@ -29,6 +29,9 @@ The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller 
 | Native context | C strings, symbols, linked libraries, declared function starts, and static table-jump records | [Analysis context](recovered/analysis) |
 | Expanded method traces | All 3,396 indexed app-candidate method entries, with explicit unknown jumps | [Method index](analysis/app-methods/methods.tsv), [reading guide](docs/DISPATCH-RECOVERY.md) |
 | Original dispatch excerpts | 8,999 selector stubs; 901,266 exact native code/data section bytes | [Selector index](analysis/objc-dispatch/selector-stubs.tsv), [manifest](analysis/objc-dispatch/index.json) |
+| Compilable localization component | 10 original classes, 13 methods and initialization block; Apple build/runtime checks passed | [Source and evidence](reconstruction/localization/) |
+| Compilable signature containers | 3 original classes, 38 methods; 57 behavior fixtures and one API-contract check passed on Apple Foundation | [Source and evidence](reconstruction/signature-blobs/) |
+| Compilable Mach-O header component | 2 original classes, 17 methods; 67 fixtures and derived runtime-layout checks passed | [Source and evidence](reconstruction/mach-header/) |
 
 “Decompiler output” means the tool returned pseudocode, not that it recovered correct source. Many functions contain unresolved indirect jumps; source-level behavior, full function boundaries, and UI equivalence remain uncertain. The class prefix is a navigation heuristic, not proof of authorship. See [recovery limits](docs/RECOVERY.md) and [verification results](docs/VERIFICATION.md).
 
@@ -46,12 +49,15 @@ python3 scripts/verify_original_flow.py
 python3 scripts/verify_app_analysis.py
 python3 scripts/verify_native_methods.py
 python3 scripts/recover_scalar_accessors.py --verify
+python3 scripts/recover_localization.py --verify
+python3 scripts/recover_signature_blobs.py --verify
+python3 scripts/recover_mach_header.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
 These check recovery integrity. **They do not compile ESign or test signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 36 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 44 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 
@@ -80,3 +86,9 @@ New scripts, tests, and documentation are MIT-licensed. Recovered ESign material
 [`reconstruction/localization/`](reconstruction/localization/) contains the complete 10-class localization component: 13 Objective-C methods, the original initialization behavior, and 3,812 original dictionary entries. Original ARM64/model checks cover 18 locales and 7,931 lookups. A separate macOS CI job compiles the source for arm64 iOS and tests the component with Apple Foundation; check its actual result and build report. This component does not provide a complete ESign application or IPA.
 
 The native localization build and 13,496 Apple Foundation comparisons passed for source commit `4b365572`. See the [exact build report](docs/builds/localization-4b365572.json) and its workflow/artifact reference. The compiler used Xcode 16.4/iOS 18.5; no full app or iOS 27 device run is claimed.
+
+### Native signing dependencies
+
+[`reconstruction/signature-blobs/`](reconstruction/signature-blobs/) reconstructs `YYYBlob`, `YYYBlobIndex`, and `YYYSuperBlob`, including original byte order, index offsets, parsing quirks, accessors, and destruction. The [Apple build report](docs/builds/signature-blobs-da8d0e0c.json) records a successful arm64 iOS library build, 57 behavior fixtures, one partial-copy API check, and original layout/ABI comparisons. One incomplete original parser input remains explicitly unverified.
+
+[`reconstruction/mach-header/`](reconstruction/mach-header/) reconstructs `YYYOffsetNode` and `YYYMachHeader`. The [Apple build report](docs/builds/mach-header-11d8c9f9.json) records a successful arm64 iOS library build and 67 runtime fixture comparisons. Its non-fragile ivar slide is an explicit runtime model; original-device layout has not been observed. Both components used Xcode 16.4/iOS 18.5. They do not generate CMS signatures or sign/install whole apps. [The remaining dependency map](docs/SIGNING-DEPENDENCIES.md) identifies the next original implementation requirements.

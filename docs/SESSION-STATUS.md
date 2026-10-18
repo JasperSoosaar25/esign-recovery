@@ -18,7 +18,7 @@ The complete saved recovery was restored into a separate checkout. Its verifiers
 - All 57,245 identified native functions have indexed pseudocode output. This is export coverage, not semantic correctness or source completeness.
 - All 3,396 selected app-method entries across 182 classes are covered by the expanded static traces. Their 358,448 unique instructions and 12,244 selector-call observations pass integrity checks.
 - All 8,999 selector stubs and 901,266 bytes of native dispatch sections/binding data match the secondary input.
-- All 36 recovery-tool tests pass, including corruption, identity, selector, control-flow, and scalar-provenance rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
+- All 44 recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, signature-container, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
 
 The traces retain 419 unresolved jump records. Mutable runtime state, incomplete function boundaries, missing initialization, and decompiler type guesses remain reconstruction concerns. Do not present the counts as a percentage of recovered behavior.
 
@@ -33,3 +33,11 @@ Contribution guides, issue/PR templates, integrity CI, a feature-ideas document,
 ## Native localization component follow-up
 
 All 10 original localization classes now have reconstructed Objective-C source for their 13 methods and one-time initialization block. Original-instruction/model checks cover 3,812 dictionary pairs, 18 locale configurations, and 7,931 lookups. The separate `native-localization` CI job compiles an arm64 iOS component library and tests the component on macOS Foundation; inspect its actual result and artifact report for a build claim. A successful component build does not supply the unreconstructed signing/UI/application implementation or a source-built IPA. Real iPhone runtime access remains unavailable in this session.
+
+## Signing dependency follow-up
+
+`YYYBlob`, `YYYBlobIndex`, and `YYYSuperBlob` now have all 38 methods reconstructed. The [Apple build and report](builds/signature-blobs-da8d0e0c.json) passed 57 source-behavior fixtures plus one Foundation API-contract check, with exact class-layout/method-ABI comparisons. The first native run caught an incorrect short-read assumption in the model; it was corrected, and the original empty-header parser result remains explicitly unverified.
+
+`YYYOffsetNode` and `YYYMachHeader` now have all 17 methods reconstructed. Their [Apple build and report](builds/mach-header-11d8c9f9.json) passed 67 fixtures covering direct header memory effects and signed offset limits. Original metadata requires a non-fragile ivar slide; the model explicitly applies it and the new source's native layout matches that derived layout. This does not claim original-device observation.
+
+The [verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39141557974) builds all three native components and checks the full recovery snapshot. The two new source components' saved input reads also pass direct comparison with the exact selected IPA. Read [the remaining signing dependency map](SIGNING-DEPENDENCIES.md) before continuing crypto/certificate, entitlements, or whole-app reconstruction. No complete signer or app target, source-built IPA, iPhone installation, or genuine running-app screenshot has been produced.
