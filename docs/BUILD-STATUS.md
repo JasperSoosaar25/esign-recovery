@@ -38,3 +38,7 @@ Historical web screenshots can be reference material, but cannot prove this cach
 4. Run original and rebuilt apps on the same supported physical-device setup, test the core flows, and collect genuine screenshots.
 
 The absence of omitted archive entries does not imply that the original high-level source is recoverable in full. The audit deliberately keeps executable/signature/profile inputs separate from published recovered resources.
+
+## Verified native component build
+
+The localization component successfully compiled into an arm64 iOS static library in GitHub Actions. The macOS Foundation executable passed 13,496 comparisons against original-instruction/model results, with all 36 tool tests and recovery verifiers passing separately. The [recorded build report](builds/localization-4b365572.json) identifies source commit `4b365572d94337345143afd329c8559c298a8060`, Xcode 16.4, the iOS 18.5 SDK, and the component-library artifact hash. This does not change the incomplete full-app/IPA/iPhone status above; the SDK was not iOS 27.

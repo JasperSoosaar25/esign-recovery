@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "component": "original-derived ESign localization",
+  "classes": 10,
+  "dictionary_pairs": 3812,
+  "locale_fixtures": 18,
+  "foundation_comparisons": 13496,
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "library_sha256": "63ae2ecd2de5deb9b376ed558b4cc0617f1326ed2c70ddc993acfe27115ac029",
+  "source_files": {
+    "ESignLocalization.m": "75efcbbff8f142ef70dd1dbb56c2ca672e7aed64230bda36785e4c6a350db9b0",
+    "ESignLocalizationTables.m": "93d08a0573cfde0110863fc8832de0c40aca802995483b392893ec9c44b8612e"
+  },
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "4b365572d94337345143afd329c8559c298a8060",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39116492090",
+  "artifact_id": 12132736739
+}

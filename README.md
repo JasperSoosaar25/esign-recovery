@@ -78,3 +78,5 @@ New scripts, tests, and documentation are MIT-licensed. Recovered ESign material
 ### Native localization reconstruction
 
 [`reconstruction/localization/`](reconstruction/localization/) contains the complete 10-class localization component: 13 Objective-C methods, the original initialization behavior, and 3,812 original dictionary entries. Original ARM64/model checks cover 18 locales and 7,931 lookups. A separate macOS CI job compiles the source for arm64 iOS and tests the component with Apple Foundation; check its actual result and build report. This component does not provide a complete ESign application or IPA.
+
+The native localization build and 13,496 Apple Foundation comparisons passed for source commit `4b365572`. See the [exact build report](docs/builds/localization-4b365572.json) and its workflow/artifact reference. The compiler used Xcode 16.4/iOS 18.5; no full app or iOS 27 device run is claimed.
