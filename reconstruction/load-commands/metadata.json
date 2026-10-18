@@ -1,0 +1,231 @@
+[
+  {
+    "name": "YYYOffsetNode",
+    "superclass": "NSObject",
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_shouldSwap",
+        "type_encoding": "B",
+        "offset": 8
+      },
+      {
+        "name": "_offset",
+        "type_encoding": "q",
+        "offset": 16
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "init",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "offset",
+        "type_encoding": "q16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setOffset:",
+        "type_encoding": "v24@0:8q16"
+      },
+      {
+        "kind": "-",
+        "selector": "shouldSwap",
+        "type_encoding": "B16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setShouldSwap:",
+        "type_encoding": "v20@0:8B16"
+      }
+    ]
+  },
+  {
+    "name": "YYYLoadCommand",
+    "superclass": "YYYOffsetNode",
+    "instance_size": 32,
+    "ivars": [
+      {
+        "name": "_loadCmd",
+        "type_encoding": "^{load_command=II}",
+        "offset": 24
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "cmd",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "cmdSize",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "loadCmd",
+        "type_encoding": "^{load_command=II}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLoadCmd:",
+        "type_encoding": "v24@0:8^{load_command=II}16"
+      }
+    ]
+  },
+  {
+    "name": "YYYDylibCommand",
+    "superclass": "YYYLoadCommand",
+    "instance_size": 48,
+    "ivars": [
+      {
+        "name": "_linkName",
+        "type_encoding": "@\"NSString\"",
+        "offset": 32
+      },
+      {
+        "name": "_dylibCmd",
+        "type_encoding": "^{dylib_command=II{dylib=(lc_str=I)III}}",
+        "offset": 40
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "linkName",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLinkName:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "dylibCmd",
+        "type_encoding": "^{dylib_command=II{dylib=(lc_str=I)III}}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setDylibCmd:",
+        "type_encoding": "v24@0:8^{dylib_command=II{dylib=(lc_str=I)III}}16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      }
+    ]
+  },
+  {
+    "name": "YYYRPathCommand",
+    "superclass": "YYYLoadCommand",
+    "instance_size": 48,
+    "ivars": [
+      {
+        "name": "_path",
+        "type_encoding": "@\"NSString\"",
+        "offset": 32
+      },
+      {
+        "name": "_rpathCmd",
+        "type_encoding": "^{rpath_command=II(lc_str=I)}",
+        "offset": 40
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "path",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setPath:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "rpathCmd",
+        "type_encoding": "^{rpath_command=II(lc_str=I)}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setRpathCmd:",
+        "type_encoding": "v24@0:8^{rpath_command=II(lc_str=I)}16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      }
+    ]
+  },
+  {
+    "name": "YYYlinkeditDataCommand",
+    "superclass": "YYYLoadCommand",
+    "instance_size": 40,
+    "ivars": [
+      {
+        "name": "_linkeditDataCommand",
+        "type_encoding": "^{linkedit_data_command=IIII}",
+        "offset": 32
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "linkeditDataCommand",
+        "type_encoding": "^{linkedit_data_command=IIII}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setLinkeditDataCommand:",
+        "type_encoding": "v24@0:8^{linkedit_data_command=IIII}16"
+      }
+    ]
+  },
+  {
+    "name": "YYYSegmentCommand",
+    "superclass": "YYYLoadCommand",
+    "instance_size": 48,
+    "ivars": [
+      {
+        "name": "_segmentCommand",
+        "type_encoding": "^{segment_command=II[16c]IIIIiiII}",
+        "offset": 32
+      },
+      {
+        "name": "_segmentCommand64",
+        "type_encoding": "^{segment_command_64=II[16c]QQQQiiII}",
+        "offset": 40
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "segmentCommand",
+        "type_encoding": "^{segment_command=II[16c]IIIIiiII}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setSegmentCommand:",
+        "type_encoding": "v24@0:8^{segment_command=II[16c]IIIIiiII}16"
+      },
+      {
+        "kind": "-",
+        "selector": "segmentCommand64",
+        "type_encoding": "^{segment_command_64=II[16c]QQQQiiII}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setSegmentCommand64:",
+        "type_encoding": "v24@0:8^{segment_command_64=II[16c]QQQQiiII}16"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2267 @@
+[
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYLoadCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYDylibCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYRPathCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYlinkeditDataCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 0,
+      "cmdSize": 1,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 0,
+        "cmdSize": 1
+      },
+      "after": {
+        "cmd": 4294967295,
+        "cmdSize": 305419897
+      },
+      "loadBytes": "ffffffff79563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 1,
+      "cmdSize": 305419896,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 1,
+        "cmdSize": 305419896
+      },
+      "after": {
+        "cmd": 4294967294,
+        "cmdSize": 0
+      },
+      "loadBytes": "feffffff00000000",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 305419896,
+      "cmdSize": 2147483648,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 305419896,
+        "cmdSize": 2147483648
+      },
+      "after": {
+        "cmd": 3989547399,
+        "cmdSize": 2452903544
+      },
+      "loadBytes": "87a9cbed78563492",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 2147483648,
+      "cmdSize": 4294967294,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 2147483648,
+        "cmdSize": 4294967294
+      },
+      "after": {
+        "cmd": 2147483647,
+        "cmdSize": 3989547398
+      },
+      "loadBytes": "ffffff7f86a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 4294967294,
+      "cmdSize": 4294967295,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 4294967294,
+        "cmdSize": 4294967295
+      },
+      "after": {
+        "cmd": 1,
+        "cmdSize": 3989547399
+      },
+      "loadBytes": "0100000087a9cbed",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "command",
+      "class": "YYYSegmentCommand",
+      "cmd": 4294967295,
+      "cmdSize": 0,
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "pointers": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "before": {
+        "cmd": 4294967295,
+        "cmdSize": 0
+      },
+      "after": {
+        "cmd": 0,
+        "cmdSize": 305419896
+      },
+      "loadBytes": "0000000078563412",
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "null_pointers",
+      "class": "YYYLoadCommand"
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "nulls": {
+        "loadCmd": true
+      },
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "null_pointers",
+      "class": "YYYDylibCommand"
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "nulls": {
+        "loadCmd": true,
+        "dylibCmd": true
+      },
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "null_pointers",
+      "class": "YYYRPathCommand"
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "nulls": {
+        "loadCmd": true,
+        "rpathCmd": true
+      },
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "null_pointers",
+      "class": "YYYlinkeditDataCommand"
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "nulls": {
+        "loadCmd": true,
+        "linkeditDataCommand": true
+      },
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "null_pointers",
+      "class": "YYYSegmentCommand"
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "nulls": {
+        "loadCmd": true,
+        "segmentCommand": true,
+        "segmentCommand64": true
+      },
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": null,
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": null,
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": null,
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": null,
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "before",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "before",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "before",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "before",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "\u00f6\ud83d\udc99",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "\u00f6\ud83d\udc99",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "\u00f6\ud83d\udc99",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "\u00f6\ud83d\udc99",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYDylibCommand",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": null,
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": null,
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": null,
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": null,
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "before",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "before",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "before",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "before",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "\u00f6\ud83d\udc99",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "\u00f6\ud83d\udc99",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "\u00f6\ud83d\udc99",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "\u00f6\ud83d\udc99",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mutable": false
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "copy",
+      "class": "YYYRPathCommand",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "mutable": true
+    },
+    "result": {
+      "initial": {
+        "offset": 0,
+        "swap": 0
+      },
+      "copied": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "cleared": true,
+      "offset": 4886718345,
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "destructors"
+    },
+    "result": {
+      "YYYDylibCommand": {
+        "cleared": true,
+        "offset": 4886718345
+      },
+      "YYYRPathCommand": {
+        "cleared": true,
+        "offset": 4886718345
+      }
+    }
+  }
+]

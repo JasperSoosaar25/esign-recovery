@@ -1,0 +1,22 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "new_classes": 5,
+  "new_methods": 20,
+  "reused_parent_classes": 1,
+  "reused_parent_methods": 5,
+  "fixtures": 86,
+  "original_instructions_executed": 389,
+  "runtime_and_copy_calls_are_models": true,
+  "ivar_slides_modeled": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "044e0232c023dfc895c420e7599f301bc86faff38a92e74990ac3b095e157f5d",
+    "README.md": "3aef320a335c5d9cc32fe808232d1ae851de69d790163adf09c7546b44d88bca",
+    "metadata.json": "c80d2196113e7f364484a1f93d7d153a8a59510222a8b3e6a64b1569fb53e105",
+    "fixtures.json": "8bd69c58cac921d47bc113aae7cab49429a81934c6e4e2b58f223b198ea97c3a",
+    "ESignLoadCommands.m": "252ad4b5a6bb4df1fff90499f96aa04fc11ff0ddc3202bec8d064dbffb8ea93f",
+    "ESignLoadCommands.h": "88d18015da14a1ae076e06c1710370f0503a7c001e9cac2c7ebd61c40acd3ab4"
+  }
+}
