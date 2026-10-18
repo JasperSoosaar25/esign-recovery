@@ -1,0 +1,125 @@
+[
+  {
+    "name": "YYYOffsetNode",
+    "superclass": "NSObject",
+    "instance_size": 24,
+    "ivars": [
+      {
+        "name": "_shouldSwap",
+        "type_encoding": "B",
+        "offset": 8
+      },
+      {
+        "name": "_offset",
+        "type_encoding": "q",
+        "offset": 16
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "init",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "offset",
+        "type_encoding": "q16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setOffset:",
+        "type_encoding": "v24@0:8q16"
+      },
+      {
+        "kind": "-",
+        "selector": "shouldSwap",
+        "type_encoding": "B16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setShouldSwap:",
+        "type_encoding": "v20@0:8B16"
+      }
+    ]
+  },
+  {
+    "name": "YYYMachHeader",
+    "superclass": "YYYOffsetNode",
+    "instance_size": 40,
+    "ivars": [
+      {
+        "name": "_machHeader",
+        "type_encoding": "^{mach_header=IiiIIII}",
+        "offset": 24
+      },
+      {
+        "name": "_machHeader64",
+        "type_encoding": "^{mach_header_64=IiiIIIII}",
+        "offset": 32
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "magic",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "filetype",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "ncmds",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setNcmds:",
+        "type_encoding": "v20@0:8I16"
+      },
+      {
+        "kind": "-",
+        "selector": "sizeofcmds",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setSizeofcmds:",
+        "type_encoding": "v20@0:8I16"
+      },
+      {
+        "kind": "-",
+        "selector": "load_commands_offset",
+        "type_encoding": "q16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "header_size",
+        "type_encoding": "I16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "machHeader",
+        "type_encoding": "^{mach_header=IiiIIII}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setMachHeader:",
+        "type_encoding": "v24@0:8^{mach_header=IiiIIII}16"
+      },
+      {
+        "kind": "-",
+        "selector": "machHeader64",
+        "type_encoding": "^{mach_header_64=IiiIIIII}16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setMachHeader64:",
+        "type_encoding": "v24@0:8^{mach_header_64=IiiIIIII}16"
+      }
+    ]
+  }
+]

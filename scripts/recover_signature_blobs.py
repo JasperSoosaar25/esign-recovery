@@ -43,7 +43,7 @@ def original_flows():
 
 
 class BlobMachine(Machine):
-    def __init__(self, chunks, records, bindings, classes, external, metadata):
+    def __init__(self, chunks, records, bindings, classes, external, metadata, names=NAMES):
         super().__init__(chunks, records, bindings, classes, {})
         self.uc.mem_map(HEAP, HEAP_SIZE)
         self.uc.reg_write(arm.UC_ARM64_REG_CPACR_EL1, 3 << 20)
@@ -52,7 +52,8 @@ class BlobMachine(Machine):
         self.external = external
         self.instruments, self.sequences = {}, {}
         self.foundation_exception = None
-        self.layout = {name: {v['name']: v for v in metadata[name]['ivars']} for name in NAMES}
+        self.names = names
+        self.layout = {name: {v['name']: v for v in metadata[name]['ivars']} for name in names}
         self.runtime_pointers = {}
         for address, symbol in bindings.items():
             if symbol.startswith('_objc_') or symbol == '___stack_chk_fail':
@@ -109,7 +110,7 @@ class BlobMachine(Machine):
             name = value['class_name']
         if (name, kind, selector) in self.entries:
             return ('enter', self.entries[(name, kind, selector)], receiver, args)
-        if kind == '+' and selector == 'new' and name in NAMES:
+        if kind == '+' and selector == 'new' and name in self.names:
             token = self.allocate(name)
             if (name, '-', 'init') in self.entries:
                 return ('enter', self.entries[(name, '-', 'init')], token, [])
@@ -425,11 +426,11 @@ def native_metadata(metadata):
     return result
 
 
-def validate_inputs(evidence, metadata, ipa=None):
+def validate_inputs(evidence, metadata, ipa=None, *, names=NAMES, class_slots=None, extra_inputs=None):
     from verify_app_analysis import dispatch_evidence, check_call
     dispatch, _ = dispatch_evidence(ROOT)
     image, cs = dispatch.image, dispatch.cs
-    require(evidence['classes'] == {name: int(metadata[name]['address'], 16) for name in NAMES},
+    require(evidence['classes'] == {name: int(metadata[name]['address'], 16) for name in names},
             'Changed original signing-container class identity')
     for address, symbol in evidence['bindings'].items():
         require(image.binds.get(int(address, 16)) == symbol, 'Changed original signing-container import')
@@ -449,8 +450,9 @@ def validate_inputs(evidence, metadata, ipa=None):
                 check_call(row, dispatch, wanted, cs)
             for slot in row.get('pointer_slots', []):
                 pointer_slots.setdefault(int(slot, 16), set()).update(int(v, 16) for v in row['successors'])
-    class_slots = {0x100c730c8: 'YYYBlob', 0x100c730d0: 'YYYBlobIndex', 0x100c730d8: 'YYYSuperBlob',
-                   0x100c74be8: 'YYYSuperBlob'}
+    if class_slots is None:
+        class_slots = {0x100c730c8: 'YYYBlob', 0x100c730d0: 'YYYBlobIndex', 0x100c730d8: 'YYYSuperBlob',
+                       0x100c74be8: 'YYYSuperBlob'}
     for row in evidence['memory']:
         address, raw = int(row['address'], 16), bytes.fromhex(row['bytes'])
         if address in pointer_slots:
@@ -458,6 +460,8 @@ def validate_inputs(evidence, metadata, ipa=None):
         elif address in class_slots:
             require(len(raw) == 8 and int.from_bytes(raw, 'little') == int(metadata[class_slots[address]]['address'], 16),
                     'Changed original container class reference')
+        elif address in (extra_inputs or {}):
+            require(raw == extra_inputs[address], 'Changed original component data input')
         elif address in image.binds:
             require(raw == bytes(len(raw)) and evidence['bindings'].get(hex(address)) == image.binds[address],
                     'Changed original imported class/guard input')

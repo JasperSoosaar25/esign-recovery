@@ -1,0 +1,2307 @@
+[
+  {
+    "input": {
+      "op": "node",
+      "offset": "0",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "0",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "1",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "1",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-1",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-1",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-32",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-32",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "4886718345",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "4886718345",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-9223372036854775808",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "-9223372036854775808",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "9223372036854775807",
+      "swap": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "9223372036854775807",
+      "swap": 0
+    }
+  },
+  {
+    "input": {
+      "op": "node",
+      "offset": "9223372036854775807",
+      "swap": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "9223372036854775807",
+      "swap": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "0",
+      "h32": "cefaedfe070000000300000000000000010000007856341267452381",
+      "h64": "cffaedfe0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "28",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 0,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "cefaedfe070000000300000000000000000000000100000067452381",
+      "h64_after": "cffaedfe0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "1",
+      "h32": "cefaedfe070000000300000001000000785634120000008067452381",
+      "h64": "cffaedfe0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "29",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 1,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "cefaedfe070000000300000001000000010000007856341267452381",
+      "h64_after": "cffaedfe0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "-1",
+      "h32": "cefaedfe07000000030000007856341200000080feffffff67452381",
+      "h64": "cffaedfe0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "27",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 305419896,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "cefaedfe070000000300000078563412785634120000008067452381",
+      "h64_after": "cffaedfe0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "-32",
+      "h32": "cefaedfe070000000300000000000080feffffffffffffff67452381",
+      "h64": "cffaedfe0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-4",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 2147483648,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "cefaedfe07000000030000000000008000000080feffffff67452381",
+      "h64_after": "cffaedfe0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "4886718345",
+      "h32": "cefaedfe0700000003000000feffffffffffffff0000000067452381",
+      "h64": "cffaedfe0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "4886718373",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 4294967294,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "cefaedfe0700000003000000fefffffffeffffffffffffff67452381",
+      "h64_after": "cffaedfe0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "-9223372036854775808",
+      "h32": "cefaedfe0700000003000000ffffffff000000000100000067452381",
+      "h64": "cffaedfe0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-9223372036854775780",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 4294967295,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "cefaedfe0700000003000000ffffffffffffffff0000000067452381",
+      "h64_after": "cffaedfe0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "0",
+      "h32": "feedface070000000300000000000000010000007856341267452381",
+      "h64": "feedfacf0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "28",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 0,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "feedface070000000300000000000000000000000100000067452381",
+      "h64_after": "feedfacf0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "1",
+      "h32": "feedface070000000300000001000000785634120000008067452381",
+      "h64": "feedfacf0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "29",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 1,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "feedface070000000300000001000000010000007856341267452381",
+      "h64_after": "feedfacf0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "-1",
+      "h32": "feedface07000000030000007856341200000080feffffff67452381",
+      "h64": "feedfacf0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "27",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 305419896,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "feedface070000000300000078563412785634120000008067452381",
+      "h64_after": "feedfacf0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "-32",
+      "h32": "feedface070000000300000000000080feffffffffffffff67452381",
+      "h64": "feedfacf0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-4",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 2147483648,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "feedface07000000030000000000008000000080feffffff67452381",
+      "h64_after": "feedfacf0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "4886718345",
+      "h32": "feedface0700000003000000feffffffffffffff0000000067452381",
+      "h64": "feedfacf0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "4886718373",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 4294967294,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "feedface0700000003000000fefffffffeffffffffffffff67452381",
+      "h64_after": "feedfacf0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "-9223372036854775808",
+      "h32": "feedface0700000003000000ffffffff000000000100000067452381",
+      "h64": "feedfacf0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-9223372036854775780",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 4294967295,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "feedface0700000003000000ffffffffffffffff0000000067452381",
+      "h64_after": "feedfacf0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "0",
+      "h32": "cefaedfe070000000300000000000000010000007856341267452381",
+      "h64": "cffaedfe0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "32",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 2147483648,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "cefaedfe070000000300000000000000010000007856341267452381",
+      "h64_after": "cffaedfe0c0000010000000000000080000000000100000098badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "1",
+      "h32": "cefaedfe070000000300000001000000785634120000008067452381",
+      "h64": "cffaedfe0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "33",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 4294967294,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "cefaedfe070000000300000001000000785634120000008067452381",
+      "h64_after": "cffaedfe0c00000100000000feffffff010000007856341298badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-1",
+      "h32": "cefaedfe07000000030000007856341200000080feffffff67452381",
+      "h64": "cffaedfe0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "31",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 4294967295,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "cefaedfe07000000030000007856341200000080feffffff67452381",
+      "h64_after": "cffaedfe0c00000100000000ffffffff785634120000008098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-32",
+      "h32": "cefaedfe070000000300000000000080feffffffffffffff67452381",
+      "h64": "cffaedfe0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "0",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 0,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "cefaedfe070000000300000000000080feffffffffffffff67452381",
+      "h64_after": "cffaedfe0c000001000000000000000000000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "4886718345",
+      "h32": "cefaedfe0700000003000000feffffffffffffff0000000067452381",
+      "h64": "cffaedfe0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "4886718377",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 1,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "cefaedfe0700000003000000feffffffffffffff0000000067452381",
+      "h64_after": "cffaedfe0c0000010000000001000000feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-9223372036854775808",
+      "h32": "cefaedfe0700000003000000ffffffff000000000100000067452381",
+      "h64": "cffaedfe0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-9223372036854775776",
+      "before": {
+        "magic": 4277009103,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 4277009103,
+        "filetype": 305419896,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "cefaedfe0700000003000000ffffffff000000000100000067452381",
+      "h64_after": "cffaedfe0c0000010000000078563412ffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "0",
+      "h32": "feedface070000000300000000000000010000007856341267452381",
+      "h64": "feedfacf0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "32",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 2147483648,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "feedface070000000300000000000000010000007856341267452381",
+      "h64_after": "feedfacf0c0000010000000000000080000000000100000098badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "1",
+      "h32": "feedface070000000300000001000000785634120000008067452381",
+      "h64": "feedfacf0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "33",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 4294967294,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "feedface070000000300000001000000785634120000008067452381",
+      "h64_after": "feedfacf0c00000100000000feffffff010000007856341298badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "-1",
+      "h32": "feedface07000000030000007856341200000080feffffff67452381",
+      "h64": "feedfacf0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "31",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 4294967295,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "feedface07000000030000007856341200000080feffffff67452381",
+      "h64_after": "feedfacf0c00000100000000ffffffff785634120000008098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "-32",
+      "h32": "feedface070000000300000000000080feffffffffffffff67452381",
+      "h64": "feedfacf0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "0",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 0,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "feedface070000000300000000000080feffffffffffffff67452381",
+      "h64_after": "feedfacf0c000001000000000000000000000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "4886718345",
+      "h32": "feedface0700000003000000feffffffffffffff0000000067452381",
+      "h64": "feedfacf0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "4886718377",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 1,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "feedface0700000003000000feffffffffffffff0000000067452381",
+      "h64_after": "feedfacf0c0000010000000001000000feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "-9223372036854775808",
+      "h32": "feedface0700000003000000ffffffff000000000100000067452381",
+      "h64": "feedfacf0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-9223372036854775776",
+      "before": {
+        "magic": 3489328638,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 3489328638,
+        "filetype": 305419896,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "feedface0700000003000000ffffffff000000000100000067452381",
+      "h64_after": "feedfacf0c0000010000000078563412ffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "0",
+      "h32": "cefaedfe070000000300000000000000010000007856341267452381",
+      "h64": "cffaedfe0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "28",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 0,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "cefaedfe070000000300000000000000000000000100000067452381",
+      "h64_after": "cffaedfe0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "1",
+      "h32": "cefaedfe070000000300000001000000785634120000008067452381",
+      "h64": "cffaedfe0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "29",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 1,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "cefaedfe070000000300000001000000010000007856341267452381",
+      "h64_after": "cffaedfe0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "-1",
+      "h32": "cefaedfe07000000030000007856341200000080feffffff67452381",
+      "h64": "cffaedfe0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "27",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 305419896,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "cefaedfe070000000300000078563412785634120000008067452381",
+      "h64_after": "cffaedfe0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "-32",
+      "h32": "cefaedfe070000000300000000000080feffffffffffffff67452381",
+      "h64": "cffaedfe0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-4",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 2147483648,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "cefaedfe07000000030000000000008000000080feffffff67452381",
+      "h64_after": "cffaedfe0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "4886718345",
+      "h32": "cefaedfe0700000003000000feffffffffffffff0000000067452381",
+      "h64": "cffaedfe0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "4886718373",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 4294967294,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "cefaedfe0700000003000000fefffffffeffffffffffffff67452381",
+      "h64_after": "cffaedfe0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "-9223372036854775808",
+      "h32": "cefaedfe0700000003000000ffffffff000000000100000067452381",
+      "h64": "cffaedfe0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-9223372036854775780",
+      "before": {
+        "magic": 4277009102,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 4277009102,
+        "filetype": 4294967295,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "cefaedfe0700000003000000ffffffffffffffff0000000067452381",
+      "h64_after": "cffaedfe0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "0",
+      "h32": "feedface070000000300000000000000010000007856341267452381",
+      "h64": "feedfacf0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "ncmds": 0,
+      "sizeofcmds": 1
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "0",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "28",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 0,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 0,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "h32_after": "feedface070000000300000000000000000000000100000067452381",
+      "h64_after": "feedfacf0c0000010000000000000080feffffffffffffff98badcfea5a5a5a5",
+      "offset_after": "0",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "1",
+      "h32": "feedface070000000300000001000000785634120000008067452381",
+      "h64": "feedfacf0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "ncmds": 1,
+      "sizeofcmds": 305419896
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "1",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "29",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 1,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 1,
+        "ncmds": 1,
+        "sizeofcmds": 305419896
+      },
+      "h32_after": "feedface070000000300000001000000010000007856341267452381",
+      "h64_after": "feedfacf0c00000100000000feffffffffffffff0000000098badcfea5a5a5a5",
+      "offset_after": "1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "-1",
+      "h32": "feedface07000000030000007856341200000080feffffff67452381",
+      "h64": "feedfacf0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "ncmds": 305419896,
+      "sizeofcmds": 2147483648
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "27",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 305419896,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 305419896,
+        "ncmds": 305419896,
+        "sizeofcmds": 2147483648
+      },
+      "h32_after": "feedface070000000300000078563412785634120000008067452381",
+      "h64_after": "feedfacf0c00000100000000ffffffff000000000100000098badcfea5a5a5a5",
+      "offset_after": "-1",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "-32",
+      "h32": "feedface070000000300000000000080feffffffffffffff67452381",
+      "h64": "feedfacf0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "ncmds": 2147483648,
+      "sizeofcmds": 4294967294
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-32",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-4",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 2147483648,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 2147483648,
+        "ncmds": 2147483648,
+        "sizeofcmds": 4294967294
+      },
+      "h32_after": "feedface07000000030000000000008000000080feffffff67452381",
+      "h64_after": "feedfacf0c0000010000000000000000010000007856341298badcfea5a5a5a5",
+      "offset_after": "-32",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "4886718345",
+      "h32": "feedface0700000003000000feffffffffffffff0000000067452381",
+      "h64": "feedfacf0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "ncmds": 4294967294,
+      "sizeofcmds": 4294967295
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "4886718345",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "4886718373",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 4294967294,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 4294967294,
+        "ncmds": 4294967294,
+        "sizeofcmds": 4294967295
+      },
+      "h32_after": "feedface0700000003000000fefffffffeffffffffffffff67452381",
+      "h64_after": "feedfacf0c0000010000000001000000785634120000008098badcfea5a5a5a5",
+      "offset_after": "4886718345",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "-9223372036854775808",
+      "h32": "feedface0700000003000000ffffffff000000000100000067452381",
+      "h64": "feedfacf0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "ncmds": 4294967295,
+      "sizeofcmds": 0
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-9223372036854775808",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-9223372036854775780",
+      "before": {
+        "magic": 3472551422,
+        "filetype": 4294967295,
+        "ncmds": 0,
+        "sizeofcmds": 1
+      },
+      "after": {
+        "magic": 3472551422,
+        "filetype": 4294967295,
+        "ncmds": 4294967295,
+        "sizeofcmds": 0
+      },
+      "h32_after": "feedface0700000003000000ffffffffffffffff0000000067452381",
+      "h64_after": "feedfacf0c000001000000007856341200000080feffffff98badcfea5a5a5a5",
+      "offset_after": "-9223372036854775808",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "2401777400915512384",
+      "h32": "8b2fecba3db6a2ce3ac113bc0c2ba0b2e43aa3f7e5f4732bcb097af5",
+      "h64": "0ca2e9e21c353f6d571d76dc9001deb58d297b0ada24e3db2efbfea413748cd7",
+      "ncmds": 1627860444,
+      "sizeofcmds": 2174172542
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "2401777400915512384",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "2401777400915512412",
+      "before": {
+        "magic": 3136040843,
+        "filetype": 2996841228,
+        "ncmds": 4154669796,
+        "sizeofcmds": 729019621
+      },
+      "after": {
+        "magic": 3136040843,
+        "filetype": 2996841228,
+        "ncmds": 1627860444,
+        "sizeofcmds": 2174172542
+      },
+      "h32_after": "8b2fecba3db6a2ce3ac113bc0c2ba0b2dc2d07617e3d9781cb097af5",
+      "h64_after": "0ca2e9e21c353f6d571d76dc9001deb58d297b0ada24e3db2efbfea413748cd7",
+      "offset_after": "2401777400915512384",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "6731536001625925186",
+      "h32": "db5e3a17c921e39c737d09b22eb6722c3b6f78329efd348643f60808",
+      "h64": "68dc88e5a81182f3797770978747dd0ce2149771addcd4f84cd2eb1973215b3d",
+      "ncmds": 539382698,
+      "sizeofcmds": 2177924908
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "6731536001625925186",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "6731536001625925214",
+      "before": {
+        "magic": 389701339,
+        "filetype": 745715246,
+        "ncmds": 846753595,
+        "sizeofcmds": 2251619742
+      },
+      "after": {
+        "magic": 389701339,
+        "filetype": 745715246,
+        "ncmds": 539382698,
+        "sizeofcmds": 2177924908
+      },
+      "h32_after": "db5e3a17c921e39c737d09b22eb6722caa5326202c7fd08143f60808",
+      "h64_after": "68dc88e5a81182f3797770978747dd0ce2149771addcd4f84cd2eb1973215b3d",
+      "offset_after": "6731536001625925186",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "8597190341402992481",
+      "h32": "dfd12a886db070cda71fd945615084ed60d50a89c467bc95394945e5",
+      "h64": "bb6ae11843274540eb62f662b6c9acc8fe4efa9f9c93e47e84e552d55133408c",
+      "ncmds": 471205333,
+      "sizeofcmds": 4027858010
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "8597190341402992481",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "8597190341402992509",
+      "before": {
+        "magic": 2284507615,
+        "filetype": 3984871521,
+        "ncmds": 2299188576,
+        "sizeofcmds": 2512152516
+      },
+      "after": {
+        "magic": 2284507615,
+        "filetype": 3984871521,
+        "ncmds": 471205333,
+        "sizeofcmds": 4027858010
+      },
+      "h32_after": "dfd12a886db070cda71fd945615084edd505161c5a3c14f0394945e5",
+      "h64_after": "bb6ae11843274540eb62f662b6c9acc8fe4efa9f9c93e47e84e552d55133408c",
+      "offset_after": "8597190341402992481",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "-3694125246115450429",
+      "h32": "3fcc9319675f23f76783f22b6d1eeea7718dcdddf21ba0e879514f08",
+      "h64": "575c77652f4b6df445bcf1cc1ef1345b232dd63266b22c9b8250c76fe38cf97d",
+      "ncmds": 384420488,
+      "sizeofcmds": 467836241
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-3694125246115450429",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-3694125246115450401",
+      "before": {
+        "magic": 429116479,
+        "filetype": 2817400429,
+        "ncmds": 3721235825,
+        "sizeofcmds": 3902807026
+      },
+      "after": {
+        "magic": 429116479,
+        "filetype": 2817400429,
+        "ncmds": 384420488,
+        "sizeofcmds": 467836241
+      },
+      "h32_after": "3fcc9319675f23f76783f22b6d1eeea788cae916519de21b79514f08",
+      "h64_after": "575c77652f4b6df445bcf1cc1ef1345b232dd63266b22c9b8250c76fe38cf97d",
+      "offset_after": "-3694125246115450429",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-5563087463843539942",
+      "h32": "575cb654164252c9eb5cec010de3dd5e07777c93c36f4712bffe303e",
+      "h64": "9cd059e71f48aaae0f1e6fe0bc841f8cbafe840677ef3ed77fbf19da81a05df5",
+      "ncmds": 111895942,
+      "sizeofcmds": 1370846088
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-5563087463843539942",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-5563087463843539910",
+      "before": {
+        "magic": 3881423004,
+        "filetype": 2350875836,
+        "ncmds": 109379258,
+        "sizeofcmds": 3611225975
+      },
+      "after": {
+        "magic": 3881423004,
+        "filetype": 2350875836,
+        "ncmds": 111895942,
+        "sizeofcmds": 1370846088
+      },
+      "h32_after": "575cb654164252c9eb5cec010de3dd5e07777c93c36f4712bffe303e",
+      "h64_after": "9cd059e71f48aaae0f1e6fe0bc841f8c8665ab068873b5517fbf19da81a05df5",
+      "offset_after": "-5563087463843539942",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-28661510726310323",
+      "h32": "a978b57fdd49a9e1714c77613e083b695f1642a47fa0ccaaf1f714fb",
+      "h64": "84ad7fbb7f955105fcce910a18820eafb64ae0c5220a83b9e0a3c657d933ae6c",
+      "ncmds": 378776366,
+      "sizeofcmds": 78836291
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-28661510726310323",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-28661510726310291",
+      "before": {
+        "magic": 3145706884,
+        "filetype": 2936963608,
+        "ncmds": 3319810742,
+        "sizeofcmds": 3112372770
+      },
+      "after": {
+        "magic": 3145706884,
+        "filetype": 2936963608,
+        "ncmds": 378776366,
+        "sizeofcmds": 78836291
+      },
+      "h32_after": "a978b57fdd49a9e1714c77613e083b695f1642a47fa0ccaaf1f714fb",
+      "h64_after": "84ad7fbb7f955105fcce910a18820eaf2eab931643f2b204e0a3c657d933ae6c",
+      "offset_after": "-28661510726310323",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "7654601894186345816",
+      "h32": "354378c273f1529cf29095add756413f4e4f73f08d3a9cd4322381e5",
+      "h64": "17d416a8853e5d03e3cd3b70963eae7115f1e025814e0eb39f170a58987547cc",
+      "ncmds": 2502622960,
+      "sizeofcmds": 2035954119
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "7654601894186345816",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "7654601894186345848",
+      "before": {
+        "magic": 2820068375,
+        "filetype": 1907244694,
+        "ncmds": 635498773,
+        "sizeofcmds": 3004059265
+      },
+      "after": {
+        "magic": 2820068375,
+        "filetype": 1907244694,
+        "ncmds": 2502622960,
+        "sizeofcmds": 2035954119
+      },
+      "h32_after": "354378c273f1529cf29095add756413f4e4f73f08d3a9cd4322381e5",
+      "h64_after": "17d416a8853e5d03e3cd3b70963eae71f0fe2a95c7315a799f170a58987547cc",
+      "offset_after": "7654601894186345816",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 0,
+      "offset": "-3500346442964307591",
+      "h32": "958d3c4dc7e4a107e7bfcee57c2d022fb0830be679693d2b358aa301",
+      "h64": "1d0beb7abca95915ecc95ed37ce9f7381185d627ae49e4f36e1d515980beb487",
+      "ncmds": 894955391,
+      "sizeofcmds": 3693559937
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-3500346442964307591",
+      "swap": 0,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-3500346442964307559",
+      "before": {
+        "magic": 2062224157,
+        "filetype": 955771260,
+        "ncmds": 668370193,
+        "sizeofcmds": 4091824558
+      },
+      "after": {
+        "magic": 2062224157,
+        "filetype": 955771260,
+        "ncmds": 894955391,
+        "sizeofcmds": 3693559937
+      },
+      "h32_after": "958d3c4dc7e4a107e7bfcee57c2d022fb0830be679693d2b358aa301",
+      "h64_after": "1d0beb7abca95915ecc95ed37ce9f7387fef5735814027dc6e1d515980beb487",
+      "offset_after": "-3500346442964307591",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 0,
+      "offset": "870587254143296844",
+      "h32": "e283cac6b1f5dbf9bad0a3f131070d33273577ea5d7e121d92ed4ff7",
+      "h64": "f6cbbef3481d73872b40bedd0069f6c61b72b12a4da5cc46a5f976acb36dcea5",
+      "ncmds": 2685400858,
+      "sizeofcmds": 3636039808
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "870587254143296844",
+      "swap": 0,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "870587254143296872",
+      "before": {
+        "magic": 3335160802,
+        "filetype": 856491825,
+        "ncmds": 3933680935,
+        "sizeofcmds": 487751261
+      },
+      "after": {
+        "magic": 3335160802,
+        "filetype": 856491825,
+        "ncmds": 2685400858,
+        "sizeofcmds": 3636039808
+      },
+      "h32_after": "e283cac6b1f5dbf9bad0a3f131070d331af70fa08090b9d892ed4ff7",
+      "h64_after": "f6cbbef3481d73872b40bedd0069f6c61b72b12a4da5cc46a5f976acb36dcea5",
+      "offset_after": "870587254143296844",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "5642785317290669686",
+      "h32": "543d38cce7314b7e7660229518c3cf263f2f26f40af485cc7f102f1b",
+      "h64": "59ff00d8eb601e5e24c7d21b2fbe44cdf9a03160d987bb793ce3d0e3e3cff337",
+      "ncmds": 1107861707,
+      "sizeofcmds": 4053039470
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "5642785317290669686",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "5642785317290669714",
+      "before": {
+        "magic": 3426237780,
+        "filetype": 651150104,
+        "ncmds": 4096143167,
+        "sizeofcmds": 3431330826
+      },
+      "after": {
+        "magic": 3426237780,
+        "filetype": 651150104,
+        "ncmds": 1107861707,
+        "sizeofcmds": 4053039470
+      },
+      "h32_after": "543d38cce7314b7e7660229518c3cf26cba008426e7994f17f102f1b",
+      "h64_after": "59ff00d8eb601e5e24c7d21b2fbe44cdf9a03160d987bb793ce3d0e3e3cff337",
+      "offset_after": "5642785317290669686",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "-5860497464311405877",
+      "h32": "e14c99cdc7cf5b145302fafb12c8251f0f0c97fce6fbaea3b0368763",
+      "h64": "a4eb4040f6007cb019a2563d2c95d0bbba8dd3f33bd8f8ffb9f28db026f41592",
+      "ncmds": 2132556592,
+      "sizeofcmds": 2025003615
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-5860497464311405877",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "-5860497464311405849",
+      "before": {
+        "magic": 3449375969,
+        "filetype": 522569746,
+        "ncmds": 4237757455,
+        "sizeofcmds": 2746153958
+      },
+      "after": {
+        "magic": 3449375969,
+        "filetype": 522569746,
+        "ncmds": 2132556592,
+        "sizeofcmds": 2025003615
+      },
+      "h32_after": "e14c99cdc7cf5b145302fafb12c8251f303b1c7f5f1ab378b0368763",
+      "h64_after": "a4eb4040f6007cb019a2563d2c95d0bbba8dd3f33bd8f8ffb9f28db026f41592",
+      "offset_after": "-5860497464311405877",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 1,
+      "offset": "-1639707645373808368",
+      "h32": "60fc5047391f8602e10cf72c07fb565fc4bb7fc11b8743a8d3a1c189",
+      "h64": "361b513ddcdb73850ef99ad07c3c797593838addcb6d94f894b9532dcf54cbfb",
+      "ncmds": 3248086579,
+      "sizeofcmds": 1876455933
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-1639707645373808368",
+      "swap": 1,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-1639707645373808340",
+      "before": {
+        "magic": 1196489824,
+        "filetype": 1599535879,
+        "ncmds": 3246373828,
+        "sizeofcmds": 2822997787
+      },
+      "after": {
+        "magic": 1196489824,
+        "filetype": 1599535879,
+        "ncmds": 3248086579,
+        "sizeofcmds": 1876455933
+      },
+      "h32_after": "60fc5047391f8602e10cf72c07fb565f33de99c1fd71d86fd3a1c189",
+      "h64_after": "361b513ddcdb73850ef99ad07c3c797593838addcb6d94f894b9532dcf54cbfb",
+      "offset_after": "-1639707645373808368",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "both",
+      "swap": 0,
+      "offset": "-2404047055079887485",
+      "h32": "651c4a4b12c8a6e19d110bd86886963ad1fc51eaafa23b983da4dfa8",
+      "h64": "269f0dfc8a38b8452fe40d5891e1ea799f68cb10401d00a96ec506e0e7afc6f7",
+      "ncmds": 3208824205,
+      "sizeofcmds": 1468852558
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-2404047055079887485",
+      "swap": 0,
+      "has32": true,
+      "has64": true,
+      "header_size": 28,
+      "load_commands_offset": "-2404047055079887457",
+      "before": {
+        "magic": 1263148133,
+        "filetype": 982943336,
+        "ncmds": 3931241681,
+        "sizeofcmds": 2554045103
+      },
+      "after": {
+        "magic": 1263148133,
+        "filetype": 982943336,
+        "ncmds": 3208824205,
+        "sizeofcmds": 1468852558
+      },
+      "h32_after": "651c4a4b12c8a6e19d110bd86886963a8dc542bf4ee98c573da4dfa8",
+      "h64_after": "269f0dfc8a38b8452fe40d5891e1ea799f68cb10401d00a96ec506e0e7afc6f7",
+      "offset_after": "-2404047055079887485",
+      "swap_after": 0
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "282800538560655074",
+      "h32": "76d07f91ade64fc0d47c138d05ac44122b7c835feb2c5479eb162e63",
+      "h64": "6cb74ea9b5795ab2f74737aafbb2e58e8176327ebd27b95d51cb67f3fde3b244",
+      "ncmds": 1462250471,
+      "sizeofcmds": 1101644532
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "282800538560655074",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "282800538560655102",
+      "before": {
+        "magic": 2441072758,
+        "filetype": 306490373,
+        "ncmds": 1602452523,
+        "sizeofcmds": 2035559659
+      },
+      "after": {
+        "magic": 2441072758,
+        "filetype": 306490373,
+        "ncmds": 1462250471,
+        "sizeofcmds": 1101644532
+      },
+      "h32_after": "76d07f91ade64fc0d47c138d05ac4412e72b2857f4c2a941eb162e63",
+      "h64_after": "6cb74ea9b5795ab2f74737aafbb2e58e8176327ebd27b95d51cb67f3fde3b244",
+      "offset_after": "282800538560655074",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "32",
+      "swap": 1,
+      "offset": "5566255356840330047",
+      "h32": "653f75e7cd3b386acfea827f3889b068ec0a85a9c6dcec6896c2e4b3",
+      "h64": "eb267d4173dcfb3df036a9676e3f066c967da812fea5e5975fb16c154deb6b1b",
+      "ncmds": 2889486098,
+      "sizeofcmds": 1293208045
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "5566255356840330047",
+      "swap": 1,
+      "has32": true,
+      "has64": false,
+      "header_size": 28,
+      "load_commands_offset": "5566255356840330075",
+      "before": {
+        "magic": 3883220837,
+        "filetype": 1756399928,
+        "ncmds": 2844068588,
+        "sizeofcmds": 1760353478
+      },
+      "after": {
+        "magic": 3883220837,
+        "filetype": 1756399928,
+        "ncmds": 2889486098,
+        "sizeofcmds": 1293208045
+      },
+      "h32_after": "653f75e7cd3b386acfea827f3889b068120f3aacedc9144d96c2e4b3",
+      "h64_after": "eb267d4173dcfb3df036a9676e3f066c967da812fea5e5975fb16c154deb6b1b",
+      "offset_after": "5566255356840330047",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "header",
+      "mode": "64",
+      "swap": 1,
+      "offset": "-2484487163573617087",
+      "h32": "ecd36004a1578595be176bbc589784b05ec06a8f964af4c6db1d1ca3",
+      "h64": "0baeaaba2b5d215080ec6ef610fbe6ad2da6d04018c11f453930788da259ed97",
+      "ncmds": 1180443647,
+      "sizeofcmds": 1491364451
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "offset": "-2484487163573617087",
+      "swap": 1,
+      "has32": false,
+      "has64": true,
+      "header_size": 32,
+      "load_commands_offset": "-2484487163573617055",
+      "before": {
+        "magic": 3131747851,
+        "filetype": 2917595920,
+        "ncmds": 1087415853,
+        "sizeofcmds": 1159708952
+      },
+      "after": {
+        "magic": 3131747851,
+        "filetype": 2917595920,
+        "ncmds": 1180443647,
+        "sizeofcmds": 1491364451
+      },
+      "h32_after": "ecd36004a1578595be176bbc589784b05ec06a8f964af4c6db1d1ca3",
+      "h64_after": "0baeaaba2b5d215080ec6ef610fbe6adff235c46636ae4583930788da259ed97",
+      "offset_after": "-2484487163573617087",
+      "swap_after": 1
+    }
+  },
+  {
+    "input": {
+      "op": "empty_header"
+    },
+    "result": {
+      "initial": {
+        "offset": "0",
+        "swap": 0
+      },
+      "header_size": 32,
+      "load_commands_offset": "32",
+      "has32": false,
+      "has64": false
+    }
+  }
+]
