@@ -32,6 +32,9 @@ The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller 
 | Compilable localization component | 10 original classes, 13 methods and initialization block; Apple build/runtime checks passed | [Source and evidence](reconstruction/localization/) |
 | Compilable signature containers | 3 original classes, 38 methods; 57 behavior fixtures and one API-contract check passed on Apple Foundation | [Source and evidence](reconstruction/signature-blobs/) |
 | Compilable Mach-O header component | 2 original classes, 17 methods; 67 fixtures and derived runtime-layout checks passed | [Source and evidence](reconstruction/mach-header/) |
+| Compilable entitlement classes | 3 original classes, 41 methods and enumeration callback; 583 native fixtures passed | [Source and evidence](reconstruction/entitlements/) |
+| Compilable load-command hierarchy | 5 additional original classes, 20 methods; 86 native fixtures and inherited-layout checks passed | [Source and evidence](reconstruction/load-commands/) |
+| Main signing-path DER functions | 2 original native helper translations; 269 native fixtures passed, one original zero-number probe remains unverified | [Source and evidence](reconstruction/recursive-der/) |
 
 “Decompiler output” means the tool returned pseudocode, not that it recovered correct source. Many functions contain unresolved indirect jumps; source-level behavior, full function boundaries, and UI equivalence remain uncertain. The class prefix is a navigation heuristic, not proof of authorship. See [recovery limits](docs/RECOVERY.md) and [verification results](docs/VERIFICATION.md).
 
@@ -52,12 +55,15 @@ python3 scripts/recover_scalar_accessors.py --verify
 python3 scripts/recover_localization.py --verify
 python3 scripts/recover_signature_blobs.py --verify
 python3 scripts/recover_mach_header.py --verify
+python3 scripts/recover_entitlements.py --verify
+python3 scripts/recover_load_commands.py --verify
+python3 scripts/recover_recursive_der.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
 These check recovery integrity. **They do not compile ESign or test signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 44 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 56 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 
@@ -92,3 +98,9 @@ The native localization build and 13,496 Apple Foundation comparisons passed for
 [`reconstruction/signature-blobs/`](reconstruction/signature-blobs/) reconstructs `YYYBlob`, `YYYBlobIndex`, and `YYYSuperBlob`, including original byte order, index offsets, parsing quirks, accessors, and destruction. The [Apple build report](docs/builds/signature-blobs-da8d0e0c.json) records a successful arm64 iOS library build, 57 behavior fixtures, one partial-copy API check, and original layout/ABI comparisons. One incomplete original parser input remains explicitly unverified.
 
 [`reconstruction/mach-header/`](reconstruction/mach-header/) reconstructs `YYYOffsetNode` and `YYYMachHeader`. The [Apple build report](docs/builds/mach-header-11d8c9f9.json) records a successful arm64 iOS library build and 67 runtime fixture comparisons. Its non-fragile ivar slide is an explicit runtime model; original-device layout has not been observed. Both components used Xcode 16.4/iOS 18.5. They do not generate CMS signatures or sign/install whole apps. [The remaining dependency map](docs/SIGNING-DEPENDENCIES.md) identifies the next original implementation requirements.
+
+[`reconstruction/entitlements/`](reconstruction/entitlements/) adds all 41 methods and the enumeration callback of the original three-class entitlement encoder. Its [Apple report](docs/builds/entitlements-39df227c.json) records 583 successful native comparisons, including byte-length limits and the original 16-bit overflow behavior. [`reconstruction/load-commands/`](reconstruction/load-commands/) adds all 20 methods in five original command classes; its [Apple report](docs/builds/load-commands-28f7142b.json) records 86 successful native fixtures, string-copy behavior, and derived inherited-layout checks. The five parent methods are reused and not counted again.
+
+The actual `YYYArchO` DER-slot method calls a separate recursive function. [`reconstruction/recursive-der/`](reconstruction/recursive-der/) translates that function and its length writer, with the original caller preserved as evidence. Its [Apple report](docs/builds/recursive-der-26a3ef3a.json) records 269 successful native comparisons. A zero-number input did not complete the bounded original probe and remains explicitly outside native parity claims. Original numeric/Unicode encoding quirks are retained. No complete `YYYArchO` implementation is supplied by these two helpers.
+
+Across these source components there are 23 original class definitions and 129 original metadata methods, plus two native helper translations. Scalar fragments overlap some of those methods and are not added to that count. Six component-library builds and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.

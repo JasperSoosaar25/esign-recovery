@@ -18,7 +18,7 @@ The complete saved recovery was restored into a separate checkout. Its verifiers
 - All 57,245 identified native functions have indexed pseudocode output. This is export coverage, not semantic correctness or source completeness.
 - All 3,396 selected app-method entries across 182 classes are covered by the expanded static traces. Their 358,448 unique instructions and 12,244 selector-call observations pass integrity checks.
 - All 8,999 selector stubs and 901,266 bytes of native dispatch sections/binding data match the secondary input.
-- All 44 recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, signature-container, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
+- All 56 recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, finite-return, callback, signature-container, runtime import, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
 
 The traces retain 419 unresolved jump records. Mutable runtime state, incomplete function boundaries, missing initialization, and decompiler type guesses remain reconstruction concerns. Do not present the counts as a percentage of recovered behavior.
 
@@ -40,4 +40,14 @@ All 10 original localization classes now have reconstructed Objective-C source f
 
 `YYYOffsetNode` and `YYYMachHeader` now have all 17 methods reconstructed. Their [Apple build and report](builds/mach-header-11d8c9f9.json) passed 67 fixtures covering direct header memory effects and signed offset limits. Original metadata requires a non-fragile ivar slide; the model explicitly applies it and the new source's native layout matches that derived layout. This does not claim original-device observation.
 
-The [verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39141557974) builds all three native components and checks the full recovery snapshot. The two new source components' saved input reads also pass direct comparison with the exact selected IPA. Read [the remaining signing dependency map](SIGNING-DEPENDENCIES.md) before continuing crypto/certificate, entitlements, or whole-app reconstruction. No complete signer or app target, source-built IPA, iPhone installation, or genuine running-app screenshot has been produced.
+The [earlier verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39141557974) builds those three native components and checks the full recovery snapshot. Their saved input reads also pass direct comparison with the exact selected IPA.
+
+## Further signing recovery in this continuation
+
+The three original entitlement classes now have all 41 methods and their dictionary callback reconstructed. Explicit Boolean/byte return hypotheses resolve the separate analysis view; the baseline traces remain intact. All 583 original-instruction fixtures passed against the compiled source on Apple Foundation, with exact original class metadata checks. See [the report](builds/entitlements-39df227c.json).
+
+The five load-command wrappers now have all 20 original methods reconstructed, reusing the existing parent's five methods. All 86 native cases passed, including live backing-memory reads, independent pointer fields, mutable-string copying, and derived non-fragile inherited layouts. See [the report](builds/load-commands-28f7142b.json).
+
+Tracing the actual `YYYArchO` DER-slot caller revealed a separate recursive encoder and length writer. Both original native functions now have source translations and 269 successful native comparisons. The numeric/Unicode/length quirks are retained. Integer zero did not return within a 10,000-instruction original probe; the result and native zero parity remain explicitly unverified, and it is excluded from native tests. See [the report](builds/recursive-der-26a3ef3a.json).
+
+This continuation adds 61 original Objective-C methods and two native functions, with 938 successful native comparisons. The cumulative class-source scope is 23 original classes and 129 metadata methods, plus two native functions; this is not complete app recovery. The [seven-job run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39145448661) checks all six native components and the recovery snapshot. Read [the updated dependency map](SIGNING-DEPENDENCIES.md) for the remaining P12/CMS, code-directory, signing orchestration, application, and device work. No complete signer or app target, source-built IPA, iPhone installation, or genuine running-app screenshot has been produced.

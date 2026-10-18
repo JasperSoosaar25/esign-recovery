@@ -19,6 +19,9 @@ Current constraint: the runtime implementation must come from original ESign rec
 - [x] Reconstruct all 10 localization classes and 13 methods; pass the Apple library build and 13,496 Foundation comparisons.
 - [x] Reconstruct all three signature-container classes and 38 methods; pass the Apple library build, 57 behavior fixtures, and one API check. Preserve the explicitly unverified short-header parser case.
 - [x] Reconstruct the two Mach-O header/base classes and 17 methods; pass the Apple library build and 67 native fixture comparisons, with non-fragile ivar realization explicitly modeled.
+- [x] Reconstruct the three entitlement classes, 41 methods, and original callback; pass 583 native comparisons and exact class/ABI checks.
+- [x] Reconstruct five load-command wrapper classes and 20 additional methods; pass 86 native comparisons, original copy semantics, and derived inherited-layout checks.
+- [x] Translate the separate recursive DER function actually called by the signing-slot method and its length writer; pass 269 native comparisons. Preserve the explicitly unverified integer-zero probe.
 
 These are components, not completed app features. Their reports are under `docs/builds/`. The [remaining signing dependency map](SIGNING-DEPENDENCIES.md) identifies unreconstructed original methods and unresolved static flow.
 

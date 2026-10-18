@@ -9,8 +9,13 @@ This map uses the exact ESign 5.0.2 method metadata and expanded original-byte t
 | Localization | 10 classes, 13 methods and initialization block | iOS static library; 13,496 macOS Foundation comparisons |
 | Signature containers | `YYYBlob`, `YYYBlobIndex`, `YYYSuperBlob`; 38 methods | iOS static library; 57 behavior fixtures plus one Foundation API check; original class/ABI checks |
 | Mach-O header | `YYYOffsetNode`, `YYYMachHeader`; 17 methods | iOS static library; 67 fixtures and derived runtime-layout/ABI checks |
+| Entitlement classes | `YYYEntitlementValue`, `YYYEntitlementBlob`, `YYYEntitlementsSuperBlob`; 41 methods and callback | iOS static library; 583 native fixtures and exact class/ABI checks |
+| Load-command hierarchy | Five new command classes; 20 methods, reusing the parent | iOS static library; 86 native fixtures, string copies and derived inherited layouts |
+| Actual signing-path DER helpers | Original functions at `0x100776830` and `0x10077f534`, with the original signing caller retained | iOS static library; 269 native fixtures; zero-number probe remains unverified |
 
-See the exact reports under [builds/](builds/). The container parser's incomplete-header result remains unverified. The header subclass's ivar slide is an explicit runtime model, not observed original-device state. Scalar accessor fragments are separate restricted C translations and can overlap these classes; do not add their count to these methods as if all were distinct recovered app behavior.
+See the exact reports under [builds/](builds/). The container parser's incomplete-header result and recursive DER integer-zero result remain unverified. The header/command ivar slides are explicit runtime models, not observed original-device state. Scalar accessor fragments are separate restricted C translations and can overlap these classes; do not add their count to these methods as if all were distinct recovered app behavior.
+
+The main `YYYArchO` DER-slot method calls the recursive helper directly; it does not call the three-class encoder in that trace. Preserve the distinction when integrating recovered code. Both original paths retain encoding quirks and are not interchangeable standards-based encoders. The C helpers have newly assigned navigation symbols; they do not supply the entire `YYYArchO` implementation.
 
 ## Next implementation boundaries
 
@@ -19,16 +24,13 @@ See the exact reports under [builds/](builds/). The container parser's incomplet
 | `YYYP12` | 37 | 4 | P12/certificate initialization, native crypto ownership/layout, subject-name helpers, exact dependency identification |
 | `YYYMobileprovision` | 38 | 2 | Data/profile extraction, plist/model population, certificate membership and formatting |
 | `YYYSignAsset` | 22 | 4 | Certificate/profile composition, entitlement selection, ASN.1/CMS generation and dependent crypto routines |
-| `YYYEntitlementValue` | 12 | 1 | Type conversion and original byte encoding |
-| `YYYEntitlementBlob` | 14 | 3 | Original key/value/array encoding and variable lengths |
-| `YYYEntitlementsSuperBlob` | 15 | 1 | Plist-to-encoded-entitlements construction and serialization |
-| `YYYLoadCommand` | 4 | 0 | Reviewed source, parent layout integration, direct-memory behavior checks |
+| `YYYArchO` | 49 | 13 | Code directories/hashes, requirements and CMS slot generation, signature placement, file edits, orchestration; two DER callees now translated separately |
 | `YYYMachO` | 34 | 8 | Mapping/slice selection, load-command editing, code directory/hash/signature placement, full signing integration |
 | `YYYSignHelper` | 17 | 8 | Original preflight, archive/bundle coordination, signing options, completion/install orchestration |
 
 The original `YYYSignAsset` CMS method has statically traced Objective-C flow, but that does not reconstruct its native cryptographic callees. Replacing those callees with current upstream routines without verifying the original implementation/version would break the current original-only constraint. Exact native crypto dependency versions, structure layouts, local changes, initialization, and ownership remain unresolved.
 
-For each class, open its `.jsonl.gz` trace and [class-focused decompilation](../analysis/native-methods/classes/), then follow the original entry/selector/ABI. `scripts/read_method_trace.py` prints an individual annotated method. Unresolved examples include `YYYP12 setup`, `YYYMobileprovision containsCertificate:`, `YYYEntitlementValue entitlementValueWithValue:`, `YYYMachO signWithSignAsset:bundleId:infoPlistData:codeResourcesData:error:`, and `YYYSignHelper signWithSignOptions:delegate:`. Follow incomplete computed branches from original instructions; do not fill them with guessed return values.
+For each class, open its `.jsonl.gz` trace and [class-focused decompilation](../analysis/native-methods/classes/), then follow the original entry/selector/ABI. `scripts/read_method_trace.py` prints an individual annotated method. Unresolved examples include `YYYP12 setup`, `YYYMobileprovision containsCertificate:`, `YYYArchO generateSlotBuildCodeDirectoryWithSHA256:bundleId:teamId:infoPlistData:requirementsSlot:codeResources:entitlementsSlot:entitlementsSlotDER:execSegFlags:`, `YYYMachO signWithSignAsset:bundleId:infoPlistData:codeResourcesData:error:`, and `YYYSignHelper signWithSignOptions:delegate:`. The baseline still retains the old unknown entitlement branches; the new component records its separate finite-return assumptions and original execution checks. Follow incomplete computed branches from original instructions; do not fill them with guessed return values.
 
 ## Evidence needed for a usable app
 
