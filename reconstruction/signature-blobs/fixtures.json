@@ -1,0 +1,3437 @@
+[
+  {
+    "input": {
+      "op": "blob",
+      "magic": 0,
+      "payload": ""
+    },
+    "result": {
+      "magic": 0,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "0000000000000008",
+      "serialized": "0000000000000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 0,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 0,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "000000000000000b",
+      "serialized": "000000000000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 0,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 0,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "0000000000000108",
+      "serialized": "0000000000000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 1,
+      "payload": ""
+    },
+    "result": {
+      "magic": 1,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "0000000100000008",
+      "serialized": "0000000100000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 1,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 1,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "000000010000000b",
+      "serialized": "000000010000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 1,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 1,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "0000000100000108",
+      "serialized": "0000000100000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 305419896,
+      "payload": ""
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "1234567800000008",
+      "serialized": "1234567800000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 305419896,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "123456780000000b",
+      "serialized": "123456780000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 305419896,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "1234567800000108",
+      "serialized": "1234567800000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208856066,
+      "payload": ""
+    },
+    "result": {
+      "magic": 4208856066,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "fade0c0200000008",
+      "serialized": "fade0c0200000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208856066,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 4208856066,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "fade0c020000000b",
+      "serialized": "fade0c020000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208856066,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 4208856066,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "fade0c0200000108",
+      "serialized": "fade0c0200000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208855809,
+      "payload": ""
+    },
+    "result": {
+      "magic": 4208855809,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "fade0b0100000008",
+      "serialized": "fade0b0100000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208855809,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 4208855809,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "fade0b010000000b",
+      "serialized": "fade0b010000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4208855809,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 4208855809,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "fade0b0100000108",
+      "serialized": "fade0b0100000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4294967295,
+      "payload": ""
+    },
+    "result": {
+      "magic": 4294967295,
+      "length": 8,
+      "data": "",
+      "entitlements": null,
+      "header": "ffffffff00000008",
+      "serialized": "ffffffff00000008"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4294967295,
+      "payload": "616263"
+    },
+    "result": {
+      "magic": 4294967295,
+      "length": 11,
+      "data": "616263",
+      "entitlements": null,
+      "header": "ffffffff0000000b",
+      "serialized": "ffffffff0000000b616263"
+    }
+  },
+  {
+    "input": {
+      "op": "blob",
+      "magic": 4294967295,
+      "payload": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "magic": 4294967295,
+      "length": 264,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+      "entitlements": null,
+      "header": "ffffffff00000108",
+      "serialized": "ffffffff00000108000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": ""
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5a5a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5a5a5a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "a5a5a5a5a5a5a5"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "12345678000000007061796c6f61642d776974682d70616464696e670000"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 30,
+      "data": "7061796c6f61642d776974682d70616464696e670000",
+      "entitlements": null,
+      "header": "123456780000001e",
+      "serialized": "123456780000001e7061796c6f61642d776974682d70616464696e670000"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "12345678000000017061796c6f61642d776974682d70616464696e670000"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 30,
+      "data": "7061796c6f61642d776974682d70616464696e670000",
+      "entitlements": null,
+      "header": "123456780000001e",
+      "serialized": "123456780000001e7061796c6f61642d776974682d70616464696e670000"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "12345678000000087061796c6f61642d776974682d70616464696e670000"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 30,
+      "data": "7061796c6f61642d776974682d70616464696e670000",
+      "entitlements": null,
+      "header": "123456780000001e",
+      "serialized": "123456780000001e7061796c6f61642d776974682d70616464696e670000"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "12345678ffffffff7061796c6f61642d776974682d70616464696e670000"
+    },
+    "result": {
+      "magic": 305419896,
+      "length": 30,
+      "data": "7061796c6f61642d776974682d70616464696e670000",
+      "entitlements": null,
+      "header": "123456780000001e",
+      "serialized": "123456780000001e7061796c6f61642d776974682d70616464696e670000"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "fade7171000001383c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c646963743e0a093c6b65793e6170706c69636174696f6e2d6964656e7469666965723c2f6b65793e0a093c737472696e673e544553545445414d2e6578616d706c652e7265636f766572793c2f737472696e673e0a093c6b65793e6765742d7461736b2d616c6c6f773c2f6b65793e0a093c66616c73652f3e0a3c2f646963743e0a3c2f706c6973743e0a"
+    },
+    "result": {
+      "magic": 4208882033,
+      "length": 312,
+      "data": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c646963743e0a093c6b65793e6170706c69636174696f6e2d6964656e7469666965723c2f6b65793e0a093c737472696e673e544553545445414d2e6578616d706c652e7265636f766572793c2f737472696e673e0a093c6b65793e6765742d7461736b2d616c6c6f773c2f6b65793e0a093c66616c73652f3e0a3c2f646963743e0a3c2f706c6973743e0a",
+      "entitlements": {
+        "application-identifier": "TESTTEAM.example.recovery",
+        "get-task-allow": false
+      },
+      "header": "fade717100000138",
+      "serialized": "fade7171000001383c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c646963743e0a093c6b65793e6170706c69636174696f6e2d6964656e7469666965723c2f6b65793e0a093c737472696e673e544553545445414d2e6578616d706c652e7265636f766572793c2f737472696e673e0a093c6b65793e6765742d7461736b2d616c6c6f773c2f6b65793e0a093c66616c73652f3e0a3c2f646963743e0a3c2f706c6973743e0a"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "fade7171000000fd3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c61727261793e0a093c737472696e673e61727261793c2f737472696e673e0a093c696e74656765723e313c2f696e74656765723e0a093c747275652f3e0a3c2f61727261793e0a3c2f706c6973743e0a"
+    },
+    "result": {
+      "magic": 4208882033,
+      "length": 253,
+      "data": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c61727261793e0a093c737472696e673e61727261793c2f737472696e673e0a093c696e74656765723e313c2f696e74656765723e0a093c747275652f3e0a3c2f61727261793e0a3c2f706c6973743e0a",
+      "entitlements": [
+        "array",
+        1,
+        true
+      ],
+      "header": "fade7171000000fd",
+      "serialized": "fade7171000000fd3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d38223f3e0a3c21444f435459504520706c697374205055424c494320222d2f2f4170706c652f2f44544420504c49535420312e302f2f454e222022687474703a2f2f7777772e6170706c652e636f6d2f445444732f50726f70657274794c6973742d312e302e647464223e0a3c706c6973742076657273696f6e3d22312e30223e0a3c61727261793e0a093c737472696e673e61727261793c2f737472696e673e0a093c696e74656765723e313c2f696e74656765723e0a093c747275652f3e0a3c2f61727261793e0a3c2f706c6973743e0a"
+    }
+  },
+  {
+    "input": {
+      "op": "parse_blob",
+      "data": "fade7171000000136e6f74206120706c697374"
+    },
+    "result": {
+      "magic": 4208882033,
+      "length": 19,
+      "data": "6e6f74206120706c697374",
+      "entitlements": null,
+      "header": "fade717100000013",
+      "serialized": "fade7171000000136e6f74206120706c697374"
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": []
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 0,
+        "length": 12,
+        "indexes_before_serialization": [],
+        "header": "fade0cc00000000c00000000",
+        "serialized": "fade0cc00000000c00000000",
+        "offsets_after": []
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 0,
+        "length": 12,
+        "indexes_before_serialization": [],
+        "header": "fade0cc00000000c00000000",
+        "serialized": "fade0cc00000000c00000000",
+        "offsets_after": []
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 1,
+        "length": 28,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 20,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000014"
+          }
+        ],
+        "header": "fade0cc00000001c00000001",
+        "serialized": "fade0cc00000001c000000010000000000000014fade0c0200000008",
+        "offsets_after": [
+          20
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 1,
+        "length": 28,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 20,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000014"
+          }
+        ],
+        "header": "fade0cc00000001c00000001",
+        "serialized": "fade0cc00000001c000000010000000000000014fade0c0200000008",
+        "offsets_after": [
+          20
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        },
+        {
+          "type": 1,
+          "magic": 4208855809,
+          "payload": "ba"
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 2,
+        "length": 45,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 28,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "000000000000001c"
+          },
+          {
+            "type": 1,
+            "offset": 36,
+            "data": "fade0b0100000009ba",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "ba",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009ba"
+            },
+            "header": "0000000100000024"
+          }
+        ],
+        "header": "fade0cc00000002d00000002",
+        "serialized": "fade0cc00000002d00000002000000000000001c0000000100000024fade0c0200000008fade0b0100000009ba",
+        "offsets_after": [
+          28,
+          36
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 2,
+        "length": 45,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 28,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "000000000000001c"
+          },
+          {
+            "type": 1,
+            "offset": 36,
+            "data": "fade0b0100000009ba",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "ba",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009ba"
+            },
+            "header": "0000000100000024"
+          }
+        ],
+        "header": "fade0cc00000002d00000002",
+        "serialized": "fade0cc00000002d00000002000000000000001c0000000100000024fade0c0200000008fade0b0100000009ba",
+        "offsets_after": [
+          28,
+          36
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        },
+        {
+          "type": 1,
+          "magic": 4208855809,
+          "payload": "56"
+        },
+        {
+          "type": 2,
+          "magic": 4208855809,
+          "payload": "b456"
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 3,
+        "length": 63,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 36,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000024"
+          },
+          {
+            "type": 1,
+            "offset": 44,
+            "data": "fade0b010000000956",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "56",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000956"
+            },
+            "header": "000000010000002c"
+          },
+          {
+            "type": 2,
+            "offset": 53,
+            "data": "fade0b010000000ab456",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "b456",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ab456"
+            },
+            "header": "0000000200000035"
+          }
+        ],
+        "header": "fade0cc00000003f00000003",
+        "serialized": "fade0cc00000003f000000030000000000000024000000010000002c0000000200000035fade0c0200000008fade0b010000000956fade0b010000000ab456",
+        "offsets_after": [
+          36,
+          44,
+          53
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 3,
+        "length": 63,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 36,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000024"
+          },
+          {
+            "type": 1,
+            "offset": 44,
+            "data": "fade0b010000000956",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "56",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000956"
+            },
+            "header": "000000010000002c"
+          },
+          {
+            "type": 2,
+            "offset": 53,
+            "data": "fade0b010000000ab456",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "b456",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ab456"
+            },
+            "header": "0000000200000035"
+          }
+        ],
+        "header": "fade0cc00000003f00000003",
+        "serialized": "fade0cc00000003f000000030000000000000024000000010000002c0000000200000035fade0c0200000008fade0b010000000956fade0b010000000ab456",
+        "offsets_after": [
+          36,
+          44,
+          53
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        },
+        {
+          "type": 1,
+          "magic": 4208855809,
+          "payload": "da"
+        },
+        {
+          "type": 2,
+          "magic": 4208855809,
+          "payload": "14c2"
+        },
+        {
+          "type": 3,
+          "magic": 4208855809,
+          "payload": "277ea3"
+        },
+        {
+          "type": 4,
+          "magic": 4208855809,
+          "payload": "6437a477"
+        },
+        {
+          "type": 5,
+          "magic": 4208855809,
+          "payload": "7e2013232e"
+        },
+        {
+          "type": 6,
+          "magic": 4208855809,
+          "payload": "58641019e333"
+        },
+        {
+          "type": 7,
+          "magic": 4208855809,
+          "payload": "7a407e0856184d"
+        },
+        {
+          "type": 8,
+          "magic": 4208855809,
+          "payload": "8b3180c5fd386d05"
+        },
+        {
+          "type": 9,
+          "magic": 4208855809,
+          "payload": "6a99bc335710cab665"
+        },
+        {
+          "type": 10,
+          "magic": 4208855809,
+          "payload": "dffb2d379f7e2e6537a9"
+        },
+        {
+          "type": 11,
+          "magic": 4208855809,
+          "payload": ""
+        },
+        {
+          "type": 12,
+          "magic": 4208855809,
+          "payload": "03"
+        },
+        {
+          "type": 13,
+          "magic": 4208855809,
+          "payload": "bd24"
+        },
+        {
+          "type": 14,
+          "magic": 4208855809,
+          "payload": "7c0d0d"
+        },
+        {
+          "type": 15,
+          "magic": 4208855809,
+          "payload": "a3b3529b"
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 16,
+        "length": 333,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 140,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "000000000000008c"
+          },
+          {
+            "type": 1,
+            "offset": 148,
+            "data": "fade0b0100000009da",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "da",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009da"
+            },
+            "header": "0000000100000094"
+          },
+          {
+            "type": 2,
+            "offset": 157,
+            "data": "fade0b010000000a14c2",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "14c2",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a14c2"
+            },
+            "header": "000000020000009d"
+          },
+          {
+            "type": 3,
+            "offset": 167,
+            "data": "fade0b010000000b277ea3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "277ea3",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b277ea3"
+            },
+            "header": "00000003000000a7"
+          },
+          {
+            "type": 4,
+            "offset": 178,
+            "data": "fade0b010000000c6437a477",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "6437a477",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c6437a477"
+            },
+            "header": "00000004000000b2"
+          },
+          {
+            "type": 5,
+            "offset": 190,
+            "data": "fade0b010000000d7e2013232e",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "7e2013232e",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d7e2013232e"
+            },
+            "header": "00000005000000be"
+          },
+          {
+            "type": 6,
+            "offset": 203,
+            "data": "fade0b010000000e58641019e333",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "58641019e333",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000e58641019e333"
+            },
+            "header": "00000006000000cb"
+          },
+          {
+            "type": 7,
+            "offset": 217,
+            "data": "fade0b010000000f7a407e0856184d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "7a407e0856184d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f7a407e0856184d"
+            },
+            "header": "00000007000000d9"
+          },
+          {
+            "type": 8,
+            "offset": 232,
+            "data": "fade0b01000000108b3180c5fd386d05",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "8b3180c5fd386d05",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000108b3180c5fd386d05"
+            },
+            "header": "00000008000000e8"
+          },
+          {
+            "type": 9,
+            "offset": 248,
+            "data": "fade0b01000000116a99bc335710cab665",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "6a99bc335710cab665",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b01000000116a99bc335710cab665"
+            },
+            "header": "00000009000000f8"
+          },
+          {
+            "type": 10,
+            "offset": 265,
+            "data": "fade0b0100000012dffb2d379f7e2e6537a9",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "dffb2d379f7e2e6537a9",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012dffb2d379f7e2e6537a9"
+            },
+            "header": "0000000a00000109"
+          },
+          {
+            "type": 11,
+            "offset": 283,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b0000011b"
+          },
+          {
+            "type": 12,
+            "offset": 291,
+            "data": "fade0b010000000903",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "03",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000903"
+            },
+            "header": "0000000c00000123"
+          },
+          {
+            "type": 13,
+            "offset": 300,
+            "data": "fade0b010000000abd24",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "bd24",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000abd24"
+            },
+            "header": "0000000d0000012c"
+          },
+          {
+            "type": 14,
+            "offset": 310,
+            "data": "fade0b010000000b7c0d0d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "7c0d0d",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b7c0d0d"
+            },
+            "header": "0000000e00000136"
+          },
+          {
+            "type": 15,
+            "offset": 321,
+            "data": "fade0b010000000ca3b3529b",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "a3b3529b",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000ca3b3529b"
+            },
+            "header": "0000000f00000141"
+          }
+        ],
+        "header": "fade0cc00000014d00000010",
+        "serialized": "fade0cc00000014d00000010000000000000008c0000000100000094000000020000009d00000003000000a700000004000000b200000005000000be00000006000000cb00000007000000d900000008000000e800000009000000f80000000a000001090000000b0000011b0000000c000001230000000d0000012c0000000e000001360000000f00000141fade0c0200000008fade0b0100000009dafade0b010000000a14c2fade0b010000000b277ea3fade0b010000000c6437a477fade0b010000000d7e2013232efade0b010000000e58641019e333fade0b010000000f7a407e0856184dfade0b01000000108b3180c5fd386d05fade0b01000000116a99bc335710cab665fade0b0100000012dffb2d379f7e2e6537a9fade0b0100000008fade0b010000000903fade0b010000000abd24fade0b010000000b7c0d0dfade0b010000000ca3b3529b",
+        "offsets_after": [
+          140,
+          148,
+          157,
+          167,
+          178,
+          190,
+          203,
+          217,
+          232,
+          248,
+          265,
+          283,
+          291,
+          300,
+          310,
+          321
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 16,
+        "length": 333,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 140,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "000000000000008c"
+          },
+          {
+            "type": 1,
+            "offset": 148,
+            "data": "fade0b0100000009da",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "da",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009da"
+            },
+            "header": "0000000100000094"
+          },
+          {
+            "type": 2,
+            "offset": 157,
+            "data": "fade0b010000000a14c2",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "14c2",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a14c2"
+            },
+            "header": "000000020000009d"
+          },
+          {
+            "type": 3,
+            "offset": 167,
+            "data": "fade0b010000000b277ea3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "277ea3",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b277ea3"
+            },
+            "header": "00000003000000a7"
+          },
+          {
+            "type": 4,
+            "offset": 178,
+            "data": "fade0b010000000c6437a477",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "6437a477",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c6437a477"
+            },
+            "header": "00000004000000b2"
+          },
+          {
+            "type": 5,
+            "offset": 190,
+            "data": "fade0b010000000d7e2013232e",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "7e2013232e",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d7e2013232e"
+            },
+            "header": "00000005000000be"
+          },
+          {
+            "type": 6,
+            "offset": 203,
+            "data": "fade0b010000000e58641019e333",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "58641019e333",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000e58641019e333"
+            },
+            "header": "00000006000000cb"
+          },
+          {
+            "type": 7,
+            "offset": 217,
+            "data": "fade0b010000000f7a407e0856184d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "7a407e0856184d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f7a407e0856184d"
+            },
+            "header": "00000007000000d9"
+          },
+          {
+            "type": 8,
+            "offset": 232,
+            "data": "fade0b01000000108b3180c5fd386d05",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "8b3180c5fd386d05",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000108b3180c5fd386d05"
+            },
+            "header": "00000008000000e8"
+          },
+          {
+            "type": 9,
+            "offset": 248,
+            "data": "fade0b01000000116a99bc335710cab665",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "6a99bc335710cab665",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b01000000116a99bc335710cab665"
+            },
+            "header": "00000009000000f8"
+          },
+          {
+            "type": 10,
+            "offset": 265,
+            "data": "fade0b0100000012dffb2d379f7e2e6537a9",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "dffb2d379f7e2e6537a9",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012dffb2d379f7e2e6537a9"
+            },
+            "header": "0000000a00000109"
+          },
+          {
+            "type": 11,
+            "offset": 283,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b0000011b"
+          },
+          {
+            "type": 12,
+            "offset": 291,
+            "data": "fade0b010000000903",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "03",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000903"
+            },
+            "header": "0000000c00000123"
+          },
+          {
+            "type": 13,
+            "offset": 300,
+            "data": "fade0b010000000abd24",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "bd24",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000abd24"
+            },
+            "header": "0000000d0000012c"
+          },
+          {
+            "type": 14,
+            "offset": 310,
+            "data": "fade0b010000000b7c0d0d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "7c0d0d",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b7c0d0d"
+            },
+            "header": "0000000e00000136"
+          },
+          {
+            "type": 15,
+            "offset": 321,
+            "data": "fade0b010000000ca3b3529b",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "a3b3529b",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000ca3b3529b"
+            },
+            "header": "0000000f00000141"
+          }
+        ],
+        "header": "fade0cc00000014d00000010",
+        "serialized": "fade0cc00000014d00000010000000000000008c0000000100000094000000020000009d00000003000000a700000004000000b200000005000000be00000006000000cb00000007000000d900000008000000e800000009000000f80000000a000001090000000b0000011b0000000c000001230000000d0000012c0000000e000001360000000f00000141fade0c0200000008fade0b0100000009dafade0b010000000a14c2fade0b010000000b277ea3fade0b010000000c6437a477fade0b010000000d7e2013232efade0b010000000e58641019e333fade0b010000000f7a407e0856184dfade0b01000000108b3180c5fd386d05fade0b01000000116a99bc335710cab665fade0b0100000012dffb2d379f7e2e6537a9fade0b0100000008fade0b010000000903fade0b010000000abd24fade0b010000000b7c0d0dfade0b010000000ca3b3529b",
+        "offsets_after": [
+          140,
+          148,
+          157,
+          167,
+          178,
+          190,
+          203,
+          217,
+          232,
+          248,
+          265,
+          283,
+          291,
+          300,
+          310,
+          321
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        },
+        {
+          "type": 1,
+          "magic": 4208855809,
+          "payload": "2f"
+        },
+        {
+          "type": 2,
+          "magic": 4208855809,
+          "payload": "b1fa"
+        },
+        {
+          "type": 3,
+          "magic": 4208855809,
+          "payload": "04ffd5"
+        },
+        {
+          "type": 4,
+          "magic": 4208855809,
+          "payload": "ffc2d20a"
+        },
+        {
+          "type": 5,
+          "magic": 4208855809,
+          "payload": "15afd92d09"
+        },
+        {
+          "type": 6,
+          "magic": 4208855809,
+          "payload": "e1895b7e06e0"
+        },
+        {
+          "type": 7,
+          "magic": 4208855809,
+          "payload": "e34bb0f2b721ff"
+        },
+        {
+          "type": 8,
+          "magic": 4208855809,
+          "payload": "9ed29a0f5e5603f5"
+        },
+        {
+          "type": 9,
+          "magic": 4208855809,
+          "payload": "2a714fb26a41564766"
+        },
+        {
+          "type": 10,
+          "magic": 4208855809,
+          "payload": "3a558d7794677bd972fc"
+        },
+        {
+          "type": 11,
+          "magic": 4208855809,
+          "payload": ""
+        },
+        {
+          "type": 12,
+          "magic": 4208855809,
+          "payload": "4d"
+        },
+        {
+          "type": 13,
+          "magic": 4208855809,
+          "payload": "36bc"
+        },
+        {
+          "type": 14,
+          "magic": 4208855809,
+          "payload": "37c0f3"
+        },
+        {
+          "type": 15,
+          "magic": 4208855809,
+          "payload": "6f8448ea"
+        },
+        {
+          "type": 16,
+          "magic": 4208855809,
+          "payload": "e9cf815de0"
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 17,
+        "length": 354,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 148,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000094"
+          },
+          {
+            "type": 1,
+            "offset": 156,
+            "data": "fade0b01000000092f",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "2f",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b01000000092f"
+            },
+            "header": "000000010000009c"
+          },
+          {
+            "type": 2,
+            "offset": 165,
+            "data": "fade0b010000000ab1fa",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "b1fa",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ab1fa"
+            },
+            "header": "00000002000000a5"
+          },
+          {
+            "type": 3,
+            "offset": 175,
+            "data": "fade0b010000000b04ffd5",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "04ffd5",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b04ffd5"
+            },
+            "header": "00000003000000af"
+          },
+          {
+            "type": 4,
+            "offset": 186,
+            "data": "fade0b010000000cffc2d20a",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "ffc2d20a",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cffc2d20a"
+            },
+            "header": "00000004000000ba"
+          },
+          {
+            "type": 5,
+            "offset": 198,
+            "data": "fade0b010000000d15afd92d09",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "15afd92d09",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d15afd92d09"
+            },
+            "header": "00000005000000c6"
+          },
+          {
+            "type": 6,
+            "offset": 211,
+            "data": "fade0b010000000ee1895b7e06e0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "e1895b7e06e0",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ee1895b7e06e0"
+            },
+            "header": "00000006000000d3"
+          },
+          {
+            "type": 7,
+            "offset": 225,
+            "data": "fade0b010000000fe34bb0f2b721ff",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "e34bb0f2b721ff",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000fe34bb0f2b721ff"
+            },
+            "header": "00000007000000e1"
+          },
+          {
+            "type": 8,
+            "offset": 240,
+            "data": "fade0b01000000109ed29a0f5e5603f5",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "9ed29a0f5e5603f5",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000109ed29a0f5e5603f5"
+            },
+            "header": "00000008000000f0"
+          },
+          {
+            "type": 9,
+            "offset": 256,
+            "data": "fade0b01000000112a714fb26a41564766",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "2a714fb26a41564766",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b01000000112a714fb26a41564766"
+            },
+            "header": "0000000900000100"
+          },
+          {
+            "type": 10,
+            "offset": 273,
+            "data": "fade0b01000000123a558d7794677bd972fc",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "3a558d7794677bd972fc",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b01000000123a558d7794677bd972fc"
+            },
+            "header": "0000000a00000111"
+          },
+          {
+            "type": 11,
+            "offset": 291,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b00000123"
+          },
+          {
+            "type": 12,
+            "offset": 299,
+            "data": "fade0b01000000094d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "4d",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b01000000094d"
+            },
+            "header": "0000000c0000012b"
+          },
+          {
+            "type": 13,
+            "offset": 308,
+            "data": "fade0b010000000a36bc",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "36bc",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a36bc"
+            },
+            "header": "0000000d00000134"
+          },
+          {
+            "type": 14,
+            "offset": 318,
+            "data": "fade0b010000000b37c0f3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "37c0f3",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b37c0f3"
+            },
+            "header": "0000000e0000013e"
+          },
+          {
+            "type": 15,
+            "offset": 329,
+            "data": "fade0b010000000c6f8448ea",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "6f8448ea",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c6f8448ea"
+            },
+            "header": "0000000f00000149"
+          },
+          {
+            "type": 16,
+            "offset": 341,
+            "data": "fade0b010000000de9cf815de0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "e9cf815de0",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000de9cf815de0"
+            },
+            "header": "0000001000000155"
+          }
+        ],
+        "header": "fade0cc00000016200000011",
+        "serialized": "fade0cc000000162000000110000000000000094000000010000009c00000002000000a500000003000000af00000004000000ba00000005000000c600000006000000d300000007000000e100000008000000f000000009000001000000000a000001110000000b000001230000000c0000012b0000000d000001340000000e0000013e0000000f000001490000001000000155fade0c0200000008fade0b01000000092ffade0b010000000ab1fafade0b010000000b04ffd5fade0b010000000cffc2d20afade0b010000000d15afd92d09fade0b010000000ee1895b7e06e0fade0b010000000fe34bb0f2b721fffade0b01000000109ed29a0f5e5603f5fade0b01000000112a714fb26a41564766fade0b01000000123a558d7794677bd972fcfade0b0100000008fade0b01000000094dfade0b010000000a36bcfade0b010000000b37c0f3fade0b010000000c6f8448eafade0b010000000de9cf815de0",
+        "offsets_after": [
+          148,
+          156,
+          165,
+          175,
+          186,
+          198,
+          211,
+          225,
+          240,
+          256,
+          273,
+          291,
+          299,
+          308,
+          318,
+          329,
+          341
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 17,
+        "length": 354,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 148,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000094"
+          },
+          {
+            "type": 1,
+            "offset": 156,
+            "data": "fade0b01000000092f",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "2f",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b01000000092f"
+            },
+            "header": "000000010000009c"
+          },
+          {
+            "type": 2,
+            "offset": 165,
+            "data": "fade0b010000000ab1fa",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "b1fa",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ab1fa"
+            },
+            "header": "00000002000000a5"
+          },
+          {
+            "type": 3,
+            "offset": 175,
+            "data": "fade0b010000000b04ffd5",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "04ffd5",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b04ffd5"
+            },
+            "header": "00000003000000af"
+          },
+          {
+            "type": 4,
+            "offset": 186,
+            "data": "fade0b010000000cffc2d20a",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "ffc2d20a",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cffc2d20a"
+            },
+            "header": "00000004000000ba"
+          },
+          {
+            "type": 5,
+            "offset": 198,
+            "data": "fade0b010000000d15afd92d09",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "15afd92d09",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d15afd92d09"
+            },
+            "header": "00000005000000c6"
+          },
+          {
+            "type": 6,
+            "offset": 211,
+            "data": "fade0b010000000ee1895b7e06e0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "e1895b7e06e0",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ee1895b7e06e0"
+            },
+            "header": "00000006000000d3"
+          },
+          {
+            "type": 7,
+            "offset": 225,
+            "data": "fade0b010000000fe34bb0f2b721ff",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "e34bb0f2b721ff",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000fe34bb0f2b721ff"
+            },
+            "header": "00000007000000e1"
+          },
+          {
+            "type": 8,
+            "offset": 240,
+            "data": "fade0b01000000109ed29a0f5e5603f5",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "9ed29a0f5e5603f5",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000109ed29a0f5e5603f5"
+            },
+            "header": "00000008000000f0"
+          },
+          {
+            "type": 9,
+            "offset": 256,
+            "data": "fade0b01000000112a714fb26a41564766",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "2a714fb26a41564766",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b01000000112a714fb26a41564766"
+            },
+            "header": "0000000900000100"
+          },
+          {
+            "type": 10,
+            "offset": 273,
+            "data": "fade0b01000000123a558d7794677bd972fc",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "3a558d7794677bd972fc",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b01000000123a558d7794677bd972fc"
+            },
+            "header": "0000000a00000111"
+          },
+          {
+            "type": 11,
+            "offset": 291,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b00000123"
+          },
+          {
+            "type": 12,
+            "offset": 299,
+            "data": "fade0b01000000094d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "4d",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b01000000094d"
+            },
+            "header": "0000000c0000012b"
+          },
+          {
+            "type": 13,
+            "offset": 308,
+            "data": "fade0b010000000a36bc",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "36bc",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a36bc"
+            },
+            "header": "0000000d00000134"
+          },
+          {
+            "type": 14,
+            "offset": 318,
+            "data": "fade0b010000000b37c0f3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "37c0f3",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b37c0f3"
+            },
+            "header": "0000000e0000013e"
+          },
+          {
+            "type": 15,
+            "offset": 329,
+            "data": "fade0b010000000c6f8448ea",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "6f8448ea",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c6f8448ea"
+            },
+            "header": "0000000f00000149"
+          },
+          {
+            "type": 16,
+            "offset": 341,
+            "data": "fade0b010000000de9cf815de0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "e9cf815de0",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000de9cf815de0"
+            },
+            "header": "0000001000000155"
+          }
+        ],
+        "header": "fade0cc00000016200000011",
+        "serialized": "fade0cc000000162000000110000000000000094000000010000009c00000002000000a500000003000000af00000004000000ba00000005000000c600000006000000d300000007000000e100000008000000f000000009000001000000000a000001110000000b000001230000000c0000012b0000000d000001340000000e0000013e0000000f000001490000001000000155fade0c0200000008fade0b01000000092ffade0b010000000ab1fafade0b010000000b04ffd5fade0b010000000cffc2d20afade0b010000000d15afd92d09fade0b010000000ee1895b7e06e0fade0b010000000fe34bb0f2b721fffade0b01000000109ed29a0f5e5603f5fade0b01000000112a714fb26a41564766fade0b01000000123a558d7794677bd972fcfade0b0100000008fade0b01000000094dfade0b010000000a36bcfade0b010000000b37c0f3fade0b010000000c6f8448eafade0b010000000de9cf815de0",
+        "offsets_after": [
+          148,
+          156,
+          165,
+          175,
+          186,
+          198,
+          211,
+          225,
+          240,
+          256,
+          273,
+          291,
+          299,
+          308,
+          318,
+          329,
+          341
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "super",
+      "entries": [
+        {
+          "type": 0,
+          "magic": 4208856066,
+          "payload": ""
+        },
+        {
+          "type": 1,
+          "magic": 4208855809,
+          "payload": "28"
+        },
+        {
+          "type": 2,
+          "magic": 4208855809,
+          "payload": "3ec7"
+        },
+        {
+          "type": 3,
+          "magic": 4208855809,
+          "payload": "807afe"
+        },
+        {
+          "type": 4,
+          "magic": 4208855809,
+          "payload": "f1e90c39"
+        },
+        {
+          "type": 5,
+          "magic": 4208855809,
+          "payload": "d2dc8e0559"
+        },
+        {
+          "type": 6,
+          "magic": 4208855809,
+          "payload": "be7aea5adf28"
+        },
+        {
+          "type": 7,
+          "magic": 4208855809,
+          "payload": "aa83cbfa01bdf0"
+        },
+        {
+          "type": 8,
+          "magic": 4208855809,
+          "payload": "96758bb0f321af03"
+        },
+        {
+          "type": 9,
+          "magic": 4208855809,
+          "payload": "b3484ad252d6f824bf"
+        },
+        {
+          "type": 10,
+          "magic": 4208855809,
+          "payload": "f2c6fcbb89ae8329edf3"
+        },
+        {
+          "type": 11,
+          "magic": 4208855809,
+          "payload": ""
+        },
+        {
+          "type": 12,
+          "magic": 4208855809,
+          "payload": "c4"
+        },
+        {
+          "type": 13,
+          "magic": 4208855809,
+          "payload": "d4ff"
+        },
+        {
+          "type": 14,
+          "magic": 4208855809,
+          "payload": "d1d182"
+        },
+        {
+          "type": 15,
+          "magic": 4208855809,
+          "payload": "7bcfd825"
+        },
+        {
+          "type": 16,
+          "magic": 4208855809,
+          "payload": "2a369afaa7"
+        },
+        {
+          "type": 17,
+          "magic": 4208855809,
+          "payload": "bb3608a0818a"
+        },
+        {
+          "type": 18,
+          "magic": 4208855809,
+          "payload": "8cb14086464e8d"
+        },
+        {
+          "type": 19,
+          "magic": 4208855809,
+          "payload": "ca29647f2b4fbdfa"
+        },
+        {
+          "type": 20,
+          "magic": 4208855809,
+          "payload": "891bb3f3eedca41da3"
+        },
+        {
+          "type": 21,
+          "magic": 4208855809,
+          "payload": "c4538231a85eaf91d4ee"
+        },
+        {
+          "type": 22,
+          "magic": 4208855809,
+          "payload": ""
+        },
+        {
+          "type": 23,
+          "magic": 4208855809,
+          "payload": "27"
+        },
+        {
+          "type": 24,
+          "magic": 4208855809,
+          "payload": "3947"
+        },
+        {
+          "type": 25,
+          "magic": 4208855809,
+          "payload": "ec1cc8"
+        },
+        {
+          "type": 26,
+          "magic": 4208855809,
+          "payload": "ea6cab06"
+        },
+        {
+          "type": 27,
+          "magic": 4208855809,
+          "payload": "c99bc9af00"
+        },
+        {
+          "type": 28,
+          "magic": 4208855809,
+          "payload": "27bb0b3af6d1"
+        },
+        {
+          "type": 29,
+          "magic": 4208855809,
+          "payload": "341e51bcc5131d"
+        },
+        {
+          "type": 30,
+          "magic": 4208855809,
+          "payload": "7595a307f4244ed8"
+        },
+        {
+          "type": 31,
+          "magic": 4208855809,
+          "payload": "acd0263559be534f93"
+        },
+        {
+          "type": 32,
+          "magic": 4208855809,
+          "payload": "aa29b42d5ad6abcbd534"
+        }
+      ]
+    },
+    "result": {
+      "built": {
+        "magic": 4208856256,
+        "count": 33,
+        "length": 705,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 276,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000114"
+          },
+          {
+            "type": 1,
+            "offset": 284,
+            "data": "fade0b010000000928",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "28",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000928"
+            },
+            "header": "000000010000011c"
+          },
+          {
+            "type": 2,
+            "offset": 293,
+            "data": "fade0b010000000a3ec7",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "3ec7",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a3ec7"
+            },
+            "header": "0000000200000125"
+          },
+          {
+            "type": 3,
+            "offset": 303,
+            "data": "fade0b010000000b807afe",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "807afe",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b807afe"
+            },
+            "header": "000000030000012f"
+          },
+          {
+            "type": 4,
+            "offset": 314,
+            "data": "fade0b010000000cf1e90c39",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "f1e90c39",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cf1e90c39"
+            },
+            "header": "000000040000013a"
+          },
+          {
+            "type": 5,
+            "offset": 326,
+            "data": "fade0b010000000dd2dc8e0559",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "d2dc8e0559",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000dd2dc8e0559"
+            },
+            "header": "0000000500000146"
+          },
+          {
+            "type": 6,
+            "offset": 339,
+            "data": "fade0b010000000ebe7aea5adf28",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "be7aea5adf28",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ebe7aea5adf28"
+            },
+            "header": "0000000600000153"
+          },
+          {
+            "type": 7,
+            "offset": 353,
+            "data": "fade0b010000000faa83cbfa01bdf0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "aa83cbfa01bdf0",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000faa83cbfa01bdf0"
+            },
+            "header": "0000000700000161"
+          },
+          {
+            "type": 8,
+            "offset": 368,
+            "data": "fade0b010000001096758bb0f321af03",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "96758bb0f321af03",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b010000001096758bb0f321af03"
+            },
+            "header": "0000000800000170"
+          },
+          {
+            "type": 9,
+            "offset": 384,
+            "data": "fade0b0100000011b3484ad252d6f824bf",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "b3484ad252d6f824bf",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011b3484ad252d6f824bf"
+            },
+            "header": "0000000900000180"
+          },
+          {
+            "type": 10,
+            "offset": 401,
+            "data": "fade0b0100000012f2c6fcbb89ae8329edf3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "f2c6fcbb89ae8329edf3",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012f2c6fcbb89ae8329edf3"
+            },
+            "header": "0000000a00000191"
+          },
+          {
+            "type": 11,
+            "offset": 419,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b000001a3"
+          },
+          {
+            "type": 12,
+            "offset": 427,
+            "data": "fade0b0100000009c4",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "c4",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009c4"
+            },
+            "header": "0000000c000001ab"
+          },
+          {
+            "type": 13,
+            "offset": 436,
+            "data": "fade0b010000000ad4ff",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "d4ff",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ad4ff"
+            },
+            "header": "0000000d000001b4"
+          },
+          {
+            "type": 14,
+            "offset": 446,
+            "data": "fade0b010000000bd1d182",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "d1d182",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000bd1d182"
+            },
+            "header": "0000000e000001be"
+          },
+          {
+            "type": 15,
+            "offset": 457,
+            "data": "fade0b010000000c7bcfd825",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "7bcfd825",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c7bcfd825"
+            },
+            "header": "0000000f000001c9"
+          },
+          {
+            "type": 16,
+            "offset": 469,
+            "data": "fade0b010000000d2a369afaa7",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "2a369afaa7",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d2a369afaa7"
+            },
+            "header": "00000010000001d5"
+          },
+          {
+            "type": 17,
+            "offset": 482,
+            "data": "fade0b010000000ebb3608a0818a",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "bb3608a0818a",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ebb3608a0818a"
+            },
+            "header": "00000011000001e2"
+          },
+          {
+            "type": 18,
+            "offset": 496,
+            "data": "fade0b010000000f8cb14086464e8d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "8cb14086464e8d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f8cb14086464e8d"
+            },
+            "header": "00000012000001f0"
+          },
+          {
+            "type": 19,
+            "offset": 511,
+            "data": "fade0b0100000010ca29647f2b4fbdfa",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "ca29647f2b4fbdfa",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b0100000010ca29647f2b4fbdfa"
+            },
+            "header": "00000013000001ff"
+          },
+          {
+            "type": 20,
+            "offset": 527,
+            "data": "fade0b0100000011891bb3f3eedca41da3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "891bb3f3eedca41da3",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011891bb3f3eedca41da3"
+            },
+            "header": "000000140000020f"
+          },
+          {
+            "type": 21,
+            "offset": 544,
+            "data": "fade0b0100000012c4538231a85eaf91d4ee",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "c4538231a85eaf91d4ee",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012c4538231a85eaf91d4ee"
+            },
+            "header": "0000001500000220"
+          },
+          {
+            "type": 22,
+            "offset": 562,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000001600000232"
+          },
+          {
+            "type": 23,
+            "offset": 570,
+            "data": "fade0b010000000927",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "27",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000927"
+            },
+            "header": "000000170000023a"
+          },
+          {
+            "type": 24,
+            "offset": 579,
+            "data": "fade0b010000000a3947",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "3947",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a3947"
+            },
+            "header": "0000001800000243"
+          },
+          {
+            "type": 25,
+            "offset": 589,
+            "data": "fade0b010000000bec1cc8",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "ec1cc8",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000bec1cc8"
+            },
+            "header": "000000190000024d"
+          },
+          {
+            "type": 26,
+            "offset": 600,
+            "data": "fade0b010000000cea6cab06",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "ea6cab06",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cea6cab06"
+            },
+            "header": "0000001a00000258"
+          },
+          {
+            "type": 27,
+            "offset": 612,
+            "data": "fade0b010000000dc99bc9af00",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "c99bc9af00",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000dc99bc9af00"
+            },
+            "header": "0000001b00000264"
+          },
+          {
+            "type": 28,
+            "offset": 625,
+            "data": "fade0b010000000e27bb0b3af6d1",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "27bb0b3af6d1",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000e27bb0b3af6d1"
+            },
+            "header": "0000001c00000271"
+          },
+          {
+            "type": 29,
+            "offset": 639,
+            "data": "fade0b010000000f341e51bcc5131d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "341e51bcc5131d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f341e51bcc5131d"
+            },
+            "header": "0000001d0000027f"
+          },
+          {
+            "type": 30,
+            "offset": 654,
+            "data": "fade0b01000000107595a307f4244ed8",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "7595a307f4244ed8",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000107595a307f4244ed8"
+            },
+            "header": "0000001e0000028e"
+          },
+          {
+            "type": 31,
+            "offset": 670,
+            "data": "fade0b0100000011acd0263559be534f93",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "acd0263559be534f93",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011acd0263559be534f93"
+            },
+            "header": "0000001f0000029e"
+          },
+          {
+            "type": 32,
+            "offset": 687,
+            "data": "fade0b0100000012aa29b42d5ad6abcbd534",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "aa29b42d5ad6abcbd534",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012aa29b42d5ad6abcbd534"
+            },
+            "header": "00000020000002af"
+          }
+        ],
+        "header": "fade0cc0000002c100000021",
+        "serialized": "fade0cc0000002c1000000210000000000000114000000010000011c0000000200000125000000030000012f000000040000013a000000050000014600000006000001530000000700000161000000080000017000000009000001800000000a000001910000000b000001a30000000c000001ab0000000d000001b40000000e000001be0000000f000001c900000010000001d500000011000001e200000012000001f000000013000001ff000000140000020f00000015000002200000001600000232000000170000023a0000001800000243000000190000024d0000001a000002580000001b000002640000001c000002710000001d0000027f0000001e0000028e0000001f0000029e00000020000002affade0c0200000008fade0b010000000928fade0b010000000a3ec7fade0b010000000b807afefade0b010000000cf1e90c39fade0b010000000dd2dc8e0559fade0b010000000ebe7aea5adf28fade0b010000000faa83cbfa01bdf0fade0b010000001096758bb0f321af03fade0b0100000011b3484ad252d6f824bffade0b0100000012f2c6fcbb89ae8329edf3fade0b0100000008fade0b0100000009c4fade0b010000000ad4fffade0b010000000bd1d182fade0b010000000c7bcfd825fade0b010000000d2a369afaa7fade0b010000000ebb3608a0818afade0b010000000f8cb14086464e8dfade0b0100000010ca29647f2b4fbdfafade0b0100000011891bb3f3eedca41da3fade0b0100000012c4538231a85eaf91d4eefade0b0100000008fade0b010000000927fade0b010000000a3947fade0b010000000bec1cc8fade0b010000000cea6cab06fade0b010000000dc99bc9af00fade0b010000000e27bb0b3af6d1fade0b010000000f341e51bcc5131dfade0b01000000107595a307f4244ed8fade0b0100000011acd0263559be534f93fade0b0100000012aa29b42d5ad6abcbd534",
+        "offsets_after": [
+          276,
+          284,
+          293,
+          303,
+          314,
+          326,
+          339,
+          353,
+          368,
+          384,
+          401,
+          419,
+          427,
+          436,
+          446,
+          457,
+          469,
+          482,
+          496,
+          511,
+          527,
+          544,
+          562,
+          570,
+          579,
+          589,
+          600,
+          612,
+          625,
+          639,
+          654,
+          670,
+          687
+        ]
+      },
+      "parsed": {
+        "magic": 4208856256,
+        "count": 33,
+        "length": 705,
+        "indexes_before_serialization": [
+          {
+            "type": 0,
+            "offset": 276,
+            "data": "fade0c0200000008",
+            "blob": {
+              "magic": 4208856066,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0c0200000008",
+              "serialized": "fade0c0200000008"
+            },
+            "header": "0000000000000114"
+          },
+          {
+            "type": 1,
+            "offset": 284,
+            "data": "fade0b010000000928",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "28",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000928"
+            },
+            "header": "000000010000011c"
+          },
+          {
+            "type": 2,
+            "offset": 293,
+            "data": "fade0b010000000a3ec7",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "3ec7",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a3ec7"
+            },
+            "header": "0000000200000125"
+          },
+          {
+            "type": 3,
+            "offset": 303,
+            "data": "fade0b010000000b807afe",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "807afe",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000b807afe"
+            },
+            "header": "000000030000012f"
+          },
+          {
+            "type": 4,
+            "offset": 314,
+            "data": "fade0b010000000cf1e90c39",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "f1e90c39",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cf1e90c39"
+            },
+            "header": "000000040000013a"
+          },
+          {
+            "type": 5,
+            "offset": 326,
+            "data": "fade0b010000000dd2dc8e0559",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "d2dc8e0559",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000dd2dc8e0559"
+            },
+            "header": "0000000500000146"
+          },
+          {
+            "type": 6,
+            "offset": 339,
+            "data": "fade0b010000000ebe7aea5adf28",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "be7aea5adf28",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ebe7aea5adf28"
+            },
+            "header": "0000000600000153"
+          },
+          {
+            "type": 7,
+            "offset": 353,
+            "data": "fade0b010000000faa83cbfa01bdf0",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "aa83cbfa01bdf0",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000faa83cbfa01bdf0"
+            },
+            "header": "0000000700000161"
+          },
+          {
+            "type": 8,
+            "offset": 368,
+            "data": "fade0b010000001096758bb0f321af03",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "96758bb0f321af03",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b010000001096758bb0f321af03"
+            },
+            "header": "0000000800000170"
+          },
+          {
+            "type": 9,
+            "offset": 384,
+            "data": "fade0b0100000011b3484ad252d6f824bf",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "b3484ad252d6f824bf",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011b3484ad252d6f824bf"
+            },
+            "header": "0000000900000180"
+          },
+          {
+            "type": 10,
+            "offset": 401,
+            "data": "fade0b0100000012f2c6fcbb89ae8329edf3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "f2c6fcbb89ae8329edf3",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012f2c6fcbb89ae8329edf3"
+            },
+            "header": "0000000a00000191"
+          },
+          {
+            "type": 11,
+            "offset": 419,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000000b000001a3"
+          },
+          {
+            "type": 12,
+            "offset": 427,
+            "data": "fade0b0100000009c4",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "c4",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b0100000009c4"
+            },
+            "header": "0000000c000001ab"
+          },
+          {
+            "type": 13,
+            "offset": 436,
+            "data": "fade0b010000000ad4ff",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "d4ff",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000ad4ff"
+            },
+            "header": "0000000d000001b4"
+          },
+          {
+            "type": 14,
+            "offset": 446,
+            "data": "fade0b010000000bd1d182",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "d1d182",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000bd1d182"
+            },
+            "header": "0000000e000001be"
+          },
+          {
+            "type": 15,
+            "offset": 457,
+            "data": "fade0b010000000c7bcfd825",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "7bcfd825",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000c7bcfd825"
+            },
+            "header": "0000000f000001c9"
+          },
+          {
+            "type": 16,
+            "offset": 469,
+            "data": "fade0b010000000d2a369afaa7",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "2a369afaa7",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000d2a369afaa7"
+            },
+            "header": "00000010000001d5"
+          },
+          {
+            "type": 17,
+            "offset": 482,
+            "data": "fade0b010000000ebb3608a0818a",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "bb3608a0818a",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000ebb3608a0818a"
+            },
+            "header": "00000011000001e2"
+          },
+          {
+            "type": 18,
+            "offset": 496,
+            "data": "fade0b010000000f8cb14086464e8d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "8cb14086464e8d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f8cb14086464e8d"
+            },
+            "header": "00000012000001f0"
+          },
+          {
+            "type": 19,
+            "offset": 511,
+            "data": "fade0b0100000010ca29647f2b4fbdfa",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "ca29647f2b4fbdfa",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b0100000010ca29647f2b4fbdfa"
+            },
+            "header": "00000013000001ff"
+          },
+          {
+            "type": 20,
+            "offset": 527,
+            "data": "fade0b0100000011891bb3f3eedca41da3",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "891bb3f3eedca41da3",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011891bb3f3eedca41da3"
+            },
+            "header": "000000140000020f"
+          },
+          {
+            "type": 21,
+            "offset": 544,
+            "data": "fade0b0100000012c4538231a85eaf91d4ee",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "c4538231a85eaf91d4ee",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012c4538231a85eaf91d4ee"
+            },
+            "header": "0000001500000220"
+          },
+          {
+            "type": 22,
+            "offset": 562,
+            "data": "fade0b0100000008",
+            "blob": {
+              "magic": 4208855809,
+              "length": 8,
+              "data": "",
+              "entitlements": null,
+              "header": "fade0b0100000008",
+              "serialized": "fade0b0100000008"
+            },
+            "header": "0000001600000232"
+          },
+          {
+            "type": 23,
+            "offset": 570,
+            "data": "fade0b010000000927",
+            "blob": {
+              "magic": 4208855809,
+              "length": 9,
+              "data": "27",
+              "entitlements": null,
+              "header": "fade0b0100000009",
+              "serialized": "fade0b010000000927"
+            },
+            "header": "000000170000023a"
+          },
+          {
+            "type": 24,
+            "offset": 579,
+            "data": "fade0b010000000a3947",
+            "blob": {
+              "magic": 4208855809,
+              "length": 10,
+              "data": "3947",
+              "entitlements": null,
+              "header": "fade0b010000000a",
+              "serialized": "fade0b010000000a3947"
+            },
+            "header": "0000001800000243"
+          },
+          {
+            "type": 25,
+            "offset": 589,
+            "data": "fade0b010000000bec1cc8",
+            "blob": {
+              "magic": 4208855809,
+              "length": 11,
+              "data": "ec1cc8",
+              "entitlements": null,
+              "header": "fade0b010000000b",
+              "serialized": "fade0b010000000bec1cc8"
+            },
+            "header": "000000190000024d"
+          },
+          {
+            "type": 26,
+            "offset": 600,
+            "data": "fade0b010000000cea6cab06",
+            "blob": {
+              "magic": 4208855809,
+              "length": 12,
+              "data": "ea6cab06",
+              "entitlements": null,
+              "header": "fade0b010000000c",
+              "serialized": "fade0b010000000cea6cab06"
+            },
+            "header": "0000001a00000258"
+          },
+          {
+            "type": 27,
+            "offset": 612,
+            "data": "fade0b010000000dc99bc9af00",
+            "blob": {
+              "magic": 4208855809,
+              "length": 13,
+              "data": "c99bc9af00",
+              "entitlements": null,
+              "header": "fade0b010000000d",
+              "serialized": "fade0b010000000dc99bc9af00"
+            },
+            "header": "0000001b00000264"
+          },
+          {
+            "type": 28,
+            "offset": 625,
+            "data": "fade0b010000000e27bb0b3af6d1",
+            "blob": {
+              "magic": 4208855809,
+              "length": 14,
+              "data": "27bb0b3af6d1",
+              "entitlements": null,
+              "header": "fade0b010000000e",
+              "serialized": "fade0b010000000e27bb0b3af6d1"
+            },
+            "header": "0000001c00000271"
+          },
+          {
+            "type": 29,
+            "offset": 639,
+            "data": "fade0b010000000f341e51bcc5131d",
+            "blob": {
+              "magic": 4208855809,
+              "length": 15,
+              "data": "341e51bcc5131d",
+              "entitlements": null,
+              "header": "fade0b010000000f",
+              "serialized": "fade0b010000000f341e51bcc5131d"
+            },
+            "header": "0000001d0000027f"
+          },
+          {
+            "type": 30,
+            "offset": 654,
+            "data": "fade0b01000000107595a307f4244ed8",
+            "blob": {
+              "magic": 4208855809,
+              "length": 16,
+              "data": "7595a307f4244ed8",
+              "entitlements": null,
+              "header": "fade0b0100000010",
+              "serialized": "fade0b01000000107595a307f4244ed8"
+            },
+            "header": "0000001e0000028e"
+          },
+          {
+            "type": 31,
+            "offset": 670,
+            "data": "fade0b0100000011acd0263559be534f93",
+            "blob": {
+              "magic": 4208855809,
+              "length": 17,
+              "data": "acd0263559be534f93",
+              "entitlements": null,
+              "header": "fade0b0100000011",
+              "serialized": "fade0b0100000011acd0263559be534f93"
+            },
+            "header": "0000001f0000029e"
+          },
+          {
+            "type": 32,
+            "offset": 687,
+            "data": "fade0b0100000012aa29b42d5ad6abcbd534",
+            "blob": {
+              "magic": 4208855809,
+              "length": 18,
+              "data": "aa29b42d5ad6abcbd534",
+              "entitlements": null,
+              "header": "fade0b0100000012",
+              "serialized": "fade0b0100000012aa29b42d5ad6abcbd534"
+            },
+            "header": "00000020000002af"
+          }
+        ],
+        "header": "fade0cc0000002c100000021",
+        "serialized": "fade0cc0000002c1000000210000000000000114000000010000011c0000000200000125000000030000012f000000040000013a000000050000014600000006000001530000000700000161000000080000017000000009000001800000000a000001910000000b000001a30000000c000001ab0000000d000001b40000000e000001be0000000f000001c900000010000001d500000011000001e200000012000001f000000013000001ff000000140000020f00000015000002200000001600000232000000170000023a0000001800000243000000190000024d0000001a000002580000001b000002640000001c000002710000001d0000027f0000001e0000028e0000001f0000029e00000020000002affade0c0200000008fade0b010000000928fade0b010000000a3ec7fade0b010000000b807afefade0b010000000cf1e90c39fade0b010000000dd2dc8e0559fade0b010000000ebe7aea5adf28fade0b010000000faa83cbfa01bdf0fade0b010000001096758bb0f321af03fade0b0100000011b3484ad252d6f824bffade0b0100000012f2c6fcbb89ae8329edf3fade0b0100000008fade0b0100000009c4fade0b010000000ad4fffade0b010000000bd1d182fade0b010000000c7bcfd825fade0b010000000d2a369afaa7fade0b010000000ebb3608a0818afade0b010000000f8cb14086464e8dfade0b0100000010ca29647f2b4fbdfafade0b0100000011891bb3f3eedca41da3fade0b0100000012c4538231a85eaf91d4eefade0b0100000008fade0b010000000927fade0b010000000a3947fade0b010000000bec1cc8fade0b010000000cea6cab06fade0b010000000dc99bc9af00fade0b010000000e27bb0b3af6d1fade0b010000000f341e51bcc5131dfade0b01000000107595a307f4244ed8fade0b0100000011acd0263559be534f93fade0b0100000012aa29b42d5ad6abcbd534",
+        "offsets_after": [
+          276,
+          284,
+          293,
+          303,
+          314,
+          326,
+          339,
+          353,
+          368,
+          384,
+          401,
+          419,
+          427,
+          436,
+          446,
+          457,
+          469,
+          482,
+          496,
+          511,
+          527,
+          544,
+          562,
+          570,
+          579,
+          589,
+          600,
+          612,
+          625,
+          639,
+          654,
+          670,
+          687
+        ]
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": ""
+    },
+    "exception": "NSRangeException"
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "0000000000000000000000"
+    },
+    "exception": "NSRangeException"
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "123456780000000c00000000"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "fade0cc00000000000000000"
+    },
+    "result": {
+      "magic": 4208856256,
+      "count": 0,
+      "length": 12,
+      "indexes_before_serialization": [],
+      "header": "fade0cc00000000c00000000",
+      "serialized": "fade0cc00000000c00000000",
+      "offsets_after": []
+    }
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "fade0cc0ffffffff00000002"
+    },
+    "result": null
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "fade0cc00000000c0000000100000007000003e7"
+    },
+    "result": {
+      "magic": 4208856256,
+      "count": 1,
+      "length": 20,
+      "indexes_before_serialization": [
+        {
+          "type": 7,
+          "offset": 999,
+          "data": null,
+          "blob": null,
+          "header": "00000007000003e7"
+        }
+      ],
+      "header": "fade0cc00000001400000001",
+      "serialized": "fade0cc000000014000000010000000700000014",
+      "offsets_after": [
+        20
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "fade0cc000000000000000010000000300000014fade0b0100000001747261696c696e67"
+    },
+    "result": {
+      "magic": 4208856256,
+      "count": 1,
+      "length": 36,
+      "indexes_before_serialization": [
+        {
+          "type": 3,
+          "offset": 20,
+          "data": "fade0b0100000001747261696c696e67",
+          "blob": {
+            "magic": 4208855809,
+            "length": 16,
+            "data": "747261696c696e67",
+            "entitlements": null,
+            "header": "fade0b0100000010",
+            "serialized": "fade0b0100000010747261696c696e67"
+          },
+          "header": "0000000300000014"
+        }
+      ],
+      "header": "fade0cc00000002400000001",
+      "serialized": "fade0cc000000024000000010000000300000014fade0b0100000001747261696c696e67",
+      "offsets_after": [
+        20
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "parse_super",
+      "data": "fade0cc000000000000000020000000300000028000000090000001c0000000000000000000000000000000000000000"
+    },
+    "result": {
+      "magic": 4208856256,
+      "count": 2,
+      "length": 48,
+      "indexes_before_serialization": [
+        {
+          "type": 3,
+          "offset": 40,
+          "data": null,
+          "blob": null,
+          "header": "0000000300000028"
+        },
+        {
+          "type": 9,
+          "offset": 28,
+          "data": "0000000000000000000000000000000000000000",
+          "blob": {
+            "magic": 0,
+            "length": 20,
+            "data": "000000000000000000000000",
+            "entitlements": null,
+            "header": "0000000000000014",
+            "serialized": "0000000000000014000000000000000000000000"
+          },
+          "header": "000000090000001c"
+        }
+      ],
+      "header": "fade0cc00000003000000002",
+      "serialized": "fade0cc00000003000000002000000030000001c000000090000001c0000000000000000000000000000000000000000",
+      "offsets_after": [
+        28,
+        28
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 0
+    },
+    "result": {
+      "length": 8
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 4294967287
+    },
+    "result": {
+      "length": 4294967295
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 4294967288
+    },
+    "result": {
+      "length": 0
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 4294967295
+    },
+    "result": {
+      "length": 7
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 4294967296
+    },
+    "result": {
+      "length": 8
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "length": 18446744073709551615
+    },
+    "result": {
+      "length": 7
+    }
+  },
+  {
+    "input": {
+      "op": "snapshot"
+    },
+    "result": {
+      "type": 7,
+      "offset": 0,
+      "data": "123456780000000e6265666f7265",
+      "blob": {
+        "magic": 305419896,
+        "length": 13,
+        "data": "6166746572",
+        "entitlements": null,
+        "header": "123456780000000d",
+        "serialized": "123456780000000d6166746572"
+      },
+      "header": "0000000700000000"
+    }
+  },
+  {
+    "input": {
+      "op": "header_reads"
+    },
+    "result": {
+      "YYYBlob": {
+        "bytes": "12ab338812ab3388",
+        "reads": {
+          "magic": 4,
+          "length": 4
+        }
+      },
+      "YYYBlobIndex": {
+        "bytes": "12ab338812ab3388",
+        "reads": {
+          "type": 4,
+          "offset": 4
+        }
+      },
+      "YYYSuperBlob": {
+        "bytes": "12ab338812ab338812ab3388",
+        "reads": {
+          "magic": 4,
+          "length": 4,
+          "count": 4
+        }
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "destructors"
+    },
+    "result": {
+      "YYYBlob": {
+        "_data": 0,
+        "_entitlements": 0
+      },
+      "YYYBlobIndex": {
+        "_blob": 0,
+        "_data": 0
+      },
+      "YYYSuperBlob": {
+        "_blobs": 0
+      }
+    }
+  },
+  {
+    "input": {
+      "op": "raw_index"
+    },
+    "result": {
+      "type": 4294967295,
+      "offset": 2166572391,
+      "data": "726177",
+      "blob": null,
+      "header": "ffffffff81234567"
+    }
+  }
+]

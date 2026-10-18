@@ -32,6 +32,8 @@ jobs:
         run: python3 scripts/recover_scalar_accessors.py --verify
       - name: Execute original localization instructions with explicit Foundation models
         run: python3 scripts/recover_localization.py --verify
+      - name: Execute original signature-container methods and verify source fixtures
+        run: python3 scripts/recover_signature_blobs.py --verify
       - name: Test audit rejection of corrupted evidence
         run: python3 -m unittest discover -s tests -v
   native-localization:
@@ -48,4 +50,19 @@ jobs:
           path: |
             build/localization/libESignLocalization.a
             build/localization/build-report.json
+          if-no-files-found: error
+  native-signature-blobs:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Compile original-derived signing containers and check native ABI and Foundation behavior
+        run: python3 scripts/build_signature_blobs.py
+      - name: Preserve the component library and exact toolchain report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: original-derived-signature-blobs-library
+          path: |
+            build/signature-blobs/libESignSignatureBlobs.a
+            build/signature-blobs/build-report.json
           if-no-files-found: error
