@@ -475,8 +475,15 @@ def validate_inputs(evidence, metadata, ipa=None, *, names=NAMES, class_slots=No
         require(hashlib.sha256(original.data).hexdigest() == EXPECTED_EXECUTABLE, 'Wrong original IPA')
         for row in evidence['memory']:
             raw = bytes.fromhex(row['bytes'])
-            off = original.fileoff(int(row['address'], 16))
-            require(original.data[off:off + len(raw)] == raw, 'Saved container input differs from exact IPA')
+            address = int(row['address'], 16)
+            segment = next((s for s in original.segments if s['vmaddr'] <= address and
+                            address + len(raw) <= s['vmaddr'] + s['vmsize']), None)
+            require(segment is not None, 'Saved input is outside original segments')
+            offset = address - segment['vmaddr']
+            backed = max(0, min(len(raw), segment['filesize'] - offset))
+            expected = original.data[segment['fileoff'] + offset:segment['fileoff'] + offset + backed]
+            expected += bytes(len(raw) - backed)
+            require(expected == raw, 'Saved container input differs from exact IPA')
 
 
 def run(ipa=None, original_ipa=None):

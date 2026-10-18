@@ -1,0 +1,19 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "translated_original_method_bodies": 1,
+  "original_block_invocations": 3,
+  "fixtures": 117,
+  "original_instructions_executed": 1983,
+  "foundation_arc_calls_are_models": true,
+  "full_YYYArchO_class_reconstructed": false,
+  "complete_signing_pipeline": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "b6b2d7deb02d34ca859ece7cb2f53e078897d2f7dc303e5bb2738a60f07111ce",
+    "ESignRequirementsSlot.h": "218f50d1f08ae9a49725599e495364907b0fa9cff9161804b7ff909da19f34df",
+    "README.md": "a76401a69192463c1e01fb2b49ef69c06e886232c7750ea503b821eda32cbe5f",
+    "fixtures.json": "7bbfbdb22294907403601c4bb1d07c36788bbcbe7e74ddf105caf90bacb36c8b",
+    "ESignRequirementsSlot.m": "56b2020a58e386fe6c25a20f8956683f29453cc19518527eaae124dd4d6641ba"
+  }
+}

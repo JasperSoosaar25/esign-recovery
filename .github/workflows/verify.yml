@@ -42,6 +42,8 @@ jobs:
         run: python3 scripts/recover_load_commands.py --verify
       - name: Execute original recursive DER helpers and preserve the unresolved zero probe
         run: python3 scripts/recover_recursive_der.py --verify
+      - name: Execute original requirement-slot method and native byte-writing blocks
+        run: python3 scripts/recover_requirements_slot.py --verify
       - name: Test audit rejection of corrupted evidence
         run: python3 -m unittest discover -s tests -v
   native-localization:
@@ -133,4 +135,19 @@ jobs:
           path: |
             build/recursive-der/libESignRecursiveDER.a
             build/recursive-der/build-report.json
+          if-no-files-found: error
+  native-requirements-slot:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Compile original requirements construction and compare exact native slot bytes
+        run: python3 scripts/build_requirements_slot.py
+      - name: Preserve the component library and exact toolchain report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: original-derived-requirements-slot-library
+          path: |
+            build/requirements-slot/libESignRequirementsSlot.a
+            build/requirements-slot/build-report.json
           if-no-files-found: error
