@@ -1,0 +1,21 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "native_functions": 2,
+  "original_signing_caller_preserved": true,
+  "fixtures": 270,
+  "source_behavior_fixtures": 269,
+  "unverified_original_inputs": 1,
+  "original_instructions_executed": 782,
+  "foundation_cf_arc_calls_are_models": true,
+  "dictionary_order_controlled": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "10c80374df922561134235dc3735e7d801d14e1fe975972dab06f329ac254930",
+    "README.md": "bb3d4d6d4e81d9c202f7bebc4fc272ca93c45988b56803be374edc0e527fe17d",
+    "ESignRecursiveDER.h": "0fd8b341f96ac7d3c4cfdd98493a3f59b037606ae5c57f3cc6147276a3954dbb",
+    "fixtures.json": "df43e2445341327af317ad12627269d42ec66c03ee150948dc18669d3a38073d",
+    "ESignRecursiveDER.m": "33cb401215a06fec8619ed3175d9ccd5ba43be60c813e07ad7e760b4d0c4ed88"
+  }
+}

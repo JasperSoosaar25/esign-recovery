@@ -296,6 +296,10 @@ def validate_records(records):
     factory = next(r for r in records if r.get('selector') == 'supperBlobWithPlist:')
     require(any(r['mnemonic'] == 'adr' and r['operands'] == 'x25, #0x10070d5b0' for r in factory['instructions']),
             'Entitlement callback is not referenced by original factory')
+    validate_instruction_bytes(records)
+
+
+def validate_instruction_bytes(records):
     wanted = {int(r['address'], 16): r['bytes'] for f in records for r in f['instructions']}
     found = set()
     manifest = json.loads((ROOT / 'recovered/disassembly/manifest.json').read_text())

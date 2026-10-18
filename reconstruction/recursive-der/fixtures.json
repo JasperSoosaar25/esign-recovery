@@ -1,0 +1,3595 @@
+[
+  {
+    "input": {
+      "op": "length",
+      "value": "0"
+    },
+    "result": {
+      "data": "00"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1"
+    },
+    "result": {
+      "data": "01"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2"
+    },
+    "result": {
+      "data": "02"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "3"
+    },
+    "result": {
+      "data": "03"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4"
+    },
+    "result": {
+      "data": "04"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "5"
+    },
+    "result": {
+      "data": "05"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "7"
+    },
+    "result": {
+      "data": "07"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8"
+    },
+    "result": {
+      "data": "08"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9"
+    },
+    "result": {
+      "data": "09"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "15"
+    },
+    "result": {
+      "data": "0f"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16"
+    },
+    "result": {
+      "data": "10"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17"
+    },
+    "result": {
+      "data": "11"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "31"
+    },
+    "result": {
+      "data": "1f"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "32"
+    },
+    "result": {
+      "data": "20"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "33"
+    },
+    "result": {
+      "data": "21"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "63"
+    },
+    "result": {
+      "data": "3f"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "64"
+    },
+    "result": {
+      "data": "40"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "65"
+    },
+    "result": {
+      "data": "41"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "127"
+    },
+    "result": {
+      "data": "7f"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "128"
+    },
+    "result": {
+      "data": "8180"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "129"
+    },
+    "result": {
+      "data": "8181"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "255"
+    },
+    "result": {
+      "data": "81ff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "256"
+    },
+    "result": {
+      "data": "820100"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "257"
+    },
+    "result": {
+      "data": "820101"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "511"
+    },
+    "result": {
+      "data": "8201ff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "512"
+    },
+    "result": {
+      "data": "820200"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "513"
+    },
+    "result": {
+      "data": "820201"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1023"
+    },
+    "result": {
+      "data": "8203ff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1024"
+    },
+    "result": {
+      "data": "820400"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1025"
+    },
+    "result": {
+      "data": "820401"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2047"
+    },
+    "result": {
+      "data": "8207ff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2048"
+    },
+    "result": {
+      "data": "820800"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2049"
+    },
+    "result": {
+      "data": "820801"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4095"
+    },
+    "result": {
+      "data": "820fff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4096"
+    },
+    "result": {
+      "data": "821000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4097"
+    },
+    "result": {
+      "data": "821001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8191"
+    },
+    "result": {
+      "data": "821fff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8192"
+    },
+    "result": {
+      "data": "822000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8193"
+    },
+    "result": {
+      "data": "822001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16383"
+    },
+    "result": {
+      "data": "823fff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16384"
+    },
+    "result": {
+      "data": "824000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16385"
+    },
+    "result": {
+      "data": "824001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "32767"
+    },
+    "result": {
+      "data": "827fff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "32768"
+    },
+    "result": {
+      "data": "828000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "32769"
+    },
+    "result": {
+      "data": "828001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "65535"
+    },
+    "result": {
+      "data": "82ffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "65536"
+    },
+    "result": {
+      "data": "83010000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "65537"
+    },
+    "result": {
+      "data": "83010001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "131071"
+    },
+    "result": {
+      "data": "8301ffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "131072"
+    },
+    "result": {
+      "data": "83020000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "131073"
+    },
+    "result": {
+      "data": "83020001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "262143"
+    },
+    "result": {
+      "data": "8303ffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "262144"
+    },
+    "result": {
+      "data": "83040000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "262145"
+    },
+    "result": {
+      "data": "83040001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "524287"
+    },
+    "result": {
+      "data": "8307ffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "524288"
+    },
+    "result": {
+      "data": "83080000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "524289"
+    },
+    "result": {
+      "data": "83080001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1048575"
+    },
+    "result": {
+      "data": "830fffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1048576"
+    },
+    "result": {
+      "data": "83100000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1048577"
+    },
+    "result": {
+      "data": "83100001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2097151"
+    },
+    "result": {
+      "data": "831fffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2097152"
+    },
+    "result": {
+      "data": "83200000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2097153"
+    },
+    "result": {
+      "data": "83200001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4194303"
+    },
+    "result": {
+      "data": "833fffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4194304"
+    },
+    "result": {
+      "data": "83400000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4194305"
+    },
+    "result": {
+      "data": "83400001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8388607"
+    },
+    "result": {
+      "data": "837fffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8388608"
+    },
+    "result": {
+      "data": "83800000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8388609"
+    },
+    "result": {
+      "data": "83800001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16777215"
+    },
+    "result": {
+      "data": "83ffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16777216"
+    },
+    "result": {
+      "data": "8401000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "16777217"
+    },
+    "result": {
+      "data": "8401000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "33554431"
+    },
+    "result": {
+      "data": "8401ffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "33554432"
+    },
+    "result": {
+      "data": "8402000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "33554433"
+    },
+    "result": {
+      "data": "8402000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "67108863"
+    },
+    "result": {
+      "data": "8403ffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "67108864"
+    },
+    "result": {
+      "data": "8404000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "67108865"
+    },
+    "result": {
+      "data": "8404000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "134217727"
+    },
+    "result": {
+      "data": "8407ffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "134217728"
+    },
+    "result": {
+      "data": "8408000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "134217729"
+    },
+    "result": {
+      "data": "8408000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "268435455"
+    },
+    "result": {
+      "data": "840fffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "268435456"
+    },
+    "result": {
+      "data": "8410000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "268435457"
+    },
+    "result": {
+      "data": "8410000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "536870911"
+    },
+    "result": {
+      "data": "841fffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "536870912"
+    },
+    "result": {
+      "data": "8420000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "536870913"
+    },
+    "result": {
+      "data": "8420000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1073741823"
+    },
+    "result": {
+      "data": "843fffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1073741824"
+    },
+    "result": {
+      "data": "8440000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1073741825"
+    },
+    "result": {
+      "data": "8440000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2147483647"
+    },
+    "result": {
+      "data": "847fffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2147483648"
+    },
+    "result": {
+      "data": "8480000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2147483649"
+    },
+    "result": {
+      "data": "8480000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4294967295"
+    },
+    "result": {
+      "data": "84ffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4294967296"
+    },
+    "result": {
+      "data": "850100000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4294967297"
+    },
+    "result": {
+      "data": "850100000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8589934591"
+    },
+    "result": {
+      "data": "8501ffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8589934592"
+    },
+    "result": {
+      "data": "850200000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8589934593"
+    },
+    "result": {
+      "data": "850200000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17179869183"
+    },
+    "result": {
+      "data": "8503ffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17179869184"
+    },
+    "result": {
+      "data": "850400000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17179869185"
+    },
+    "result": {
+      "data": "850400000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "34359738367"
+    },
+    "result": {
+      "data": "8507ffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "34359738368"
+    },
+    "result": {
+      "data": "850800000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "34359738369"
+    },
+    "result": {
+      "data": "850800000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "68719476735"
+    },
+    "result": {
+      "data": "850fffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "68719476736"
+    },
+    "result": {
+      "data": "851000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "68719476737"
+    },
+    "result": {
+      "data": "851000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "137438953471"
+    },
+    "result": {
+      "data": "851fffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "137438953472"
+    },
+    "result": {
+      "data": "852000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "137438953473"
+    },
+    "result": {
+      "data": "852000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "274877906943"
+    },
+    "result": {
+      "data": "853fffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "274877906944"
+    },
+    "result": {
+      "data": "854000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "274877906945"
+    },
+    "result": {
+      "data": "854000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "549755813887"
+    },
+    "result": {
+      "data": "857fffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "549755813888"
+    },
+    "result": {
+      "data": "858000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "549755813889"
+    },
+    "result": {
+      "data": "858000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1099511627775"
+    },
+    "result": {
+      "data": "85ffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1099511627776"
+    },
+    "result": {
+      "data": "86010000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1099511627777"
+    },
+    "result": {
+      "data": "86010000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2199023255551"
+    },
+    "result": {
+      "data": "8601ffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2199023255552"
+    },
+    "result": {
+      "data": "86020000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2199023255553"
+    },
+    "result": {
+      "data": "86020000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4398046511103"
+    },
+    "result": {
+      "data": "8603ffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4398046511104"
+    },
+    "result": {
+      "data": "86040000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4398046511105"
+    },
+    "result": {
+      "data": "86040000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8796093022207"
+    },
+    "result": {
+      "data": "8607ffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8796093022208"
+    },
+    "result": {
+      "data": "86080000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "8796093022209"
+    },
+    "result": {
+      "data": "86080000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17592186044415"
+    },
+    "result": {
+      "data": "860fffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17592186044416"
+    },
+    "result": {
+      "data": "86100000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17592186044417"
+    },
+    "result": {
+      "data": "86100000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "35184372088831"
+    },
+    "result": {
+      "data": "861fffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "35184372088832"
+    },
+    "result": {
+      "data": "86200000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "35184372088833"
+    },
+    "result": {
+      "data": "86200000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "70368744177663"
+    },
+    "result": {
+      "data": "863fffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "70368744177664"
+    },
+    "result": {
+      "data": "86400000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "70368744177665"
+    },
+    "result": {
+      "data": "86400000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "140737488355327"
+    },
+    "result": {
+      "data": "867fffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "140737488355328"
+    },
+    "result": {
+      "data": "86800000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "140737488355329"
+    },
+    "result": {
+      "data": "86800000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "281474976710655"
+    },
+    "result": {
+      "data": "86ffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "281474976710656"
+    },
+    "result": {
+      "data": "8701000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "281474976710657"
+    },
+    "result": {
+      "data": "8701000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "562949953421311"
+    },
+    "result": {
+      "data": "8701ffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "562949953421312"
+    },
+    "result": {
+      "data": "8702000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "562949953421313"
+    },
+    "result": {
+      "data": "8702000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1125899906842623"
+    },
+    "result": {
+      "data": "8703ffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1125899906842624"
+    },
+    "result": {
+      "data": "8704000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1125899906842625"
+    },
+    "result": {
+      "data": "8704000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2251799813685247"
+    },
+    "result": {
+      "data": "8707ffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2251799813685248"
+    },
+    "result": {
+      "data": "8708000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2251799813685249"
+    },
+    "result": {
+      "data": "8708000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4503599627370495"
+    },
+    "result": {
+      "data": "870fffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4503599627370496"
+    },
+    "result": {
+      "data": "8710000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4503599627370497"
+    },
+    "result": {
+      "data": "8710000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9007199254740991"
+    },
+    "result": {
+      "data": "871fffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9007199254740992"
+    },
+    "result": {
+      "data": "8720000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9007199254740993"
+    },
+    "result": {
+      "data": "8720000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "18014398509481983"
+    },
+    "result": {
+      "data": "873fffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "18014398509481984"
+    },
+    "result": {
+      "data": "8740000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "18014398509481985"
+    },
+    "result": {
+      "data": "8740000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "36028797018963967"
+    },
+    "result": {
+      "data": "877fffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "36028797018963968"
+    },
+    "result": {
+      "data": "8780000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "36028797018963969"
+    },
+    "result": {
+      "data": "8780000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "72057594037927935"
+    },
+    "result": {
+      "data": "87ffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "72057594037927936"
+    },
+    "result": {
+      "data": "880100000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "72057594037927937"
+    },
+    "result": {
+      "data": "880100000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "144115188075855871"
+    },
+    "result": {
+      "data": "8801ffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "144115188075855872"
+    },
+    "result": {
+      "data": "880200000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "144115188075855873"
+    },
+    "result": {
+      "data": "880200000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "288230376151711743"
+    },
+    "result": {
+      "data": "8803ffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "288230376151711744"
+    },
+    "result": {
+      "data": "880400000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "288230376151711745"
+    },
+    "result": {
+      "data": "880400000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "291315185936821387"
+    },
+    "result": {
+      "data": "88040af59e3f70ec8b"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "576460752303423487"
+    },
+    "result": {
+      "data": "8807ffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "576460752303423488"
+    },
+    "result": {
+      "data": "880800000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "576460752303423489"
+    },
+    "result": {
+      "data": "880800000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "578983321991970206"
+    },
+    "result": {
+      "data": "880808f6438634fd9e"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "926975745995077497"
+    },
+    "result": {
+      "data": "880cdd478797707779"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1152921504606846975"
+    },
+    "result": {
+      "data": "880fffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1152921504606846976"
+    },
+    "result": {
+      "data": "881000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1152921504606846977"
+    },
+    "result": {
+      "data": "881000000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1185205612294839917"
+    },
+    "result": {
+      "data": "881072b23992a21e6d"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "1673754506510228212"
+    },
+    "result": {
+      "data": "88173a5edb11c05af4"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2305843009213693951"
+    },
+    "result": {
+      "data": "881fffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2305843009213693952"
+    },
+    "result": {
+      "data": "882000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "2305843009213693953"
+    },
+    "result": {
+      "data": "882000000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "3634813064285273363"
+    },
+    "result": {
+      "data": "883271733951ac3d13"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "3636778999041144366"
+    },
+    "result": {
+      "data": "8832786f3b2c72b62e"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4421164237434114636"
+    },
+    "result": {
+      "data": "883d5b217319ebd24c"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4540518036131531816"
+    },
+    "result": {
+      "data": "883f032918dfdfcc28"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4557141514649872549"
+    },
+    "result": {
+      "data": "883f3e381013e428a5"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4611686018427387903"
+    },
+    "result": {
+      "data": "883fffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4611686018427387904"
+    },
+    "result": {
+      "data": "884000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "4611686018427387905"
+    },
+    "result": {
+      "data": "884000000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "6704775617191657344"
+    },
+    "result": {
+      "data": "885d0c25e68168bf80"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "7872069071849234956"
+    },
+    "result": {
+      "data": "886d3f351ce2e9a20c"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9223372036854775807"
+    },
+    "result": {
+      "data": "887fffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9223372036854775808"
+    },
+    "result": {
+      "data": "888000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9223372036854775809"
+    },
+    "result": {
+      "data": "888000000000000001"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9337999965379046876"
+    },
+    "result": {
+      "data": "8881973d7e61072ddc"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9354116253543191466"
+    },
+    "result": {
+      "data": "8881d07f2c202653aa"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "9927955398879950981"
+    },
+    "result": {
+      "data": "8889c72ed5b0293885"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "11625149437770288192"
+    },
+    "result": {
+      "data": "88a154d3d22b214c40"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "12209194032613050490"
+    },
+    "result": {
+      "data": "88a96fc5491bb8487a"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "12828922949048410569"
+    },
+    "result": {
+      "data": "88b2097d739ce321c9"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "13104913687380368727"
+    },
+    "result": {
+      "data": "88b5de0190dc761d57"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "13228762906366741821"
+    },
+    "result": {
+      "data": "88b79601c63bda8d3d"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "13469192861116480148"
+    },
+    "result": {
+      "data": "88baec2f8b5a133a94"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "13552388162006988349"
+    },
+    "result": {
+      "data": "88bc13c13acea2b63d"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "14143921908065893159"
+    },
+    "result": {
+      "data": "88c4494e09a521fb27"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "14164494142894904083"
+    },
+    "result": {
+      "data": "88c4926460525a1313"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "15531916842615372590"
+    },
+    "result": {
+      "data": "88d78c7413a4fefb2e"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "15844548432916851085"
+    },
+    "result": {
+      "data": "88dbe324da0a7b298d"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "15954908038480700994"
+    },
+    "result": {
+      "data": "88dd6b385409aaa642"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17546606515292003432"
+    },
+    "result": {
+      "data": "88f38211a8e588dc68"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17688461254663075045"
+    },
+    "result": {
+      "data": "88f57a09cb2b73f4e5"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17799937218711302501"
+    },
+    "result": {
+      "data": "88f7061497a18ab165"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17844170902495832844"
+    },
+    "result": {
+      "data": "88f7a33ae4b2a02b0c"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "17930198653961966818"
+    },
+    "result": {
+      "data": "88f8d4dcad719714e2"
+    }
+  },
+  {
+    "input": {
+      "op": "length",
+      "value": "18446744073709551615"
+    },
+    "result": {
+      "data": "88ffffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "nil"
+      }
+    },
+    "result": {
+      "data": ""
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "bool",
+        "value": false
+      }
+    },
+    "result": {
+      "data": "010100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "bool",
+        "value": true
+      }
+    },
+    "result": {
+      "data": "010101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "unsupported"
+      }
+    },
+    "result": {
+      "data": ""
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "1"
+      }
+    },
+    "result": {
+      "data": "020101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "2"
+      }
+    },
+    "result": {
+      "data": "020202"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "5"
+      }
+    },
+    "result": {
+      "data": "020505"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "127"
+      }
+    },
+    "result": {
+      "data": "027f7f"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "128"
+      }
+    },
+    "result": {
+      "data": "02818080"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "255"
+      }
+    },
+    "result": {
+      "data": "0281ffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "256"
+      }
+    },
+    "result": {
+      "data": "028201000100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "65535"
+      }
+    },
+    "result": {
+      "data": "0282ffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "65536"
+      }
+    },
+    "result": {
+      "data": "0283010000010000"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "2147483647"
+      }
+    },
+    "result": {
+      "data": "02847fffffff7fffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "2147483648"
+      }
+    },
+    "result": {
+      "data": "02848000000080000000"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "9223372036854775807"
+      }
+    },
+    "result": {
+      "data": "02887fffffffffffffff7fffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "9223372036854775808"
+      }
+    },
+    "result": {
+      "data": "028880000000000000008000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "18446744073709551615"
+      }
+    },
+    "result": {
+      "data": "0288ffffffffffffffffffffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "-1"
+      }
+    },
+    "result": {
+      "data": "0288ffffffffffffffffffffffffffffffff"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "number",
+        "value": "-9223372036854775808"
+      }
+    },
+    "result": {
+      "data": "028880000000000000008000000000000000"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "fraction",
+        "value": 1.5
+      }
+    },
+    "result": {
+      "data": "020101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "fraction",
+        "value": 42.75
+      }
+    },
+    "result": {
+      "data": "022a2a"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": ""
+      }
+    },
+    "result": {
+      "data": "0c00"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "abc"
+      }
+    },
+    "result": {
+      "data": "0c03616263"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "\u00f6\ud83d\udc99"
+      }
+    },
+    "result": {
+      "data": "0c03c3b6f09f9299"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "a\u0000b"
+      }
+    },
+    "result": {
+      "data": "0c03610062"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "result": {
+      "data": "0c7f78787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "result": {
+      "data": "0c81807878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "result": {
+      "data": "0c81ff787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "result": {
+      "data": "0c82010078787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "string",
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    "result": {
+      "data": "0c82040078787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878787878"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": []
+      }
+    },
+    "result": {
+      "data": "3000"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": [
+          {
+            "kind": "string",
+            "value": "value.0"
+          }
+        ]
+      }
+    },
+    "result": {
+      "data": "30090c0776616c75652e30"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": [
+          {
+            "kind": "string",
+            "value": "value.0"
+          },
+          {
+            "kind": "string",
+            "value": "value.1"
+          },
+          {
+            "kind": "string",
+            "value": "value.2"
+          },
+          {
+            "kind": "string",
+            "value": "value.3"
+          },
+          {
+            "kind": "string",
+            "value": "value.4"
+          },
+          {
+            "kind": "string",
+            "value": "value.5"
+          },
+          {
+            "kind": "string",
+            "value": "value.6"
+          },
+          {
+            "kind": "string",
+            "value": "value.7"
+          },
+          {
+            "kind": "string",
+            "value": "value.8"
+          },
+          {
+            "kind": "string",
+            "value": "value.9"
+          },
+          {
+            "kind": "string",
+            "value": "value.10"
+          },
+          {
+            "kind": "string",
+            "value": "value.11"
+          },
+          {
+            "kind": "string",
+            "value": "value.12"
+          },
+          {
+            "kind": "string",
+            "value": "value.13"
+          },
+          {
+            "kind": "string",
+            "value": "value.14"
+          },
+          {
+            "kind": "string",
+            "value": "value.15"
+          }
+        ]
+      }
+    },
+    "result": {
+      "data": "3081960c0776616c75652e300c0776616c75652e310c0776616c75652e320c0776616c75652e330c0776616c75652e340c0776616c75652e350c0776616c75652e360c0776616c75652e370c0776616c75652e380c0776616c75652e390c0876616c75652e31300c0876616c75652e31310c0876616c75652e31320c0876616c75652e31330c0876616c75652e31340c0876616c75652e3135"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": [
+          {
+            "kind": "string",
+            "value": "value.0"
+          },
+          {
+            "kind": "string",
+            "value": "value.1"
+          },
+          {
+            "kind": "string",
+            "value": "value.2"
+          },
+          {
+            "kind": "string",
+            "value": "value.3"
+          },
+          {
+            "kind": "string",
+            "value": "value.4"
+          },
+          {
+            "kind": "string",
+            "value": "value.5"
+          },
+          {
+            "kind": "string",
+            "value": "value.6"
+          },
+          {
+            "kind": "string",
+            "value": "value.7"
+          },
+          {
+            "kind": "string",
+            "value": "value.8"
+          },
+          {
+            "kind": "string",
+            "value": "value.9"
+          },
+          {
+            "kind": "string",
+            "value": "value.10"
+          },
+          {
+            "kind": "string",
+            "value": "value.11"
+          },
+          {
+            "kind": "string",
+            "value": "value.12"
+          },
+          {
+            "kind": "string",
+            "value": "value.13"
+          },
+          {
+            "kind": "string",
+            "value": "value.14"
+          },
+          {
+            "kind": "string",
+            "value": "value.15"
+          },
+          {
+            "kind": "string",
+            "value": "value.16"
+          }
+        ]
+      }
+    },
+    "result": {
+      "data": "3081a00c0776616c75652e300c0776616c75652e310c0776616c75652e320c0776616c75652e330c0776616c75652e340c0776616c75652e350c0776616c75652e360c0776616c75652e370c0776616c75652e380c0776616c75652e390c0876616c75652e31300c0876616c75652e31310c0876616c75652e31320c0876616c75652e31330c0876616c75652e31340c0876616c75652e31350c0876616c75652e3136"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": [
+          {
+            "kind": "string",
+            "value": "value.0"
+          },
+          {
+            "kind": "string",
+            "value": "value.1"
+          },
+          {
+            "kind": "string",
+            "value": "value.2"
+          },
+          {
+            "kind": "string",
+            "value": "value.3"
+          },
+          {
+            "kind": "string",
+            "value": "value.4"
+          },
+          {
+            "kind": "string",
+            "value": "value.5"
+          },
+          {
+            "kind": "string",
+            "value": "value.6"
+          },
+          {
+            "kind": "string",
+            "value": "value.7"
+          },
+          {
+            "kind": "string",
+            "value": "value.8"
+          },
+          {
+            "kind": "string",
+            "value": "value.9"
+          },
+          {
+            "kind": "string",
+            "value": "value.10"
+          },
+          {
+            "kind": "string",
+            "value": "value.11"
+          },
+          {
+            "kind": "string",
+            "value": "value.12"
+          },
+          {
+            "kind": "string",
+            "value": "value.13"
+          },
+          {
+            "kind": "string",
+            "value": "value.14"
+          },
+          {
+            "kind": "string",
+            "value": "value.15"
+          },
+          {
+            "kind": "string",
+            "value": "value.16"
+          },
+          {
+            "kind": "string",
+            "value": "value.17"
+          },
+          {
+            "kind": "string",
+            "value": "value.18"
+          },
+          {
+            "kind": "string",
+            "value": "value.19"
+          },
+          {
+            "kind": "string",
+            "value": "value.20"
+          },
+          {
+            "kind": "string",
+            "value": "value.21"
+          },
+          {
+            "kind": "string",
+            "value": "value.22"
+          },
+          {
+            "kind": "string",
+            "value": "value.23"
+          },
+          {
+            "kind": "string",
+            "value": "value.24"
+          },
+          {
+            "kind": "string",
+            "value": "value.25"
+          },
+          {
+            "kind": "string",
+            "value": "value.26"
+          },
+          {
+            "kind": "string",
+            "value": "value.27"
+          },
+          {
+            "kind": "string",
+            "value": "value.28"
+          },
+          {
+            "kind": "string",
+            "value": "value.29"
+          },
+          {
+            "kind": "string",
+            "value": "value.30"
+          },
+          {
+            "kind": "string",
+            "value": "value.31"
+          },
+          {
+            "kind": "string",
+            "value": "value.32"
+          }
+        ]
+      }
+    },
+    "result": {
+      "data": "308201400c0776616c75652e300c0776616c75652e310c0776616c75652e320c0776616c75652e330c0776616c75652e340c0776616c75652e350c0776616c75652e360c0776616c75652e370c0776616c75652e380c0776616c75652e390c0876616c75652e31300c0876616c75652e31310c0876616c75652e31320c0876616c75652e31330c0876616c75652e31340c0876616c75652e31350c0876616c75652e31360c0876616c75652e31370c0876616c75652e31380c0876616c75652e31390c0876616c75652e32300c0876616c75652e32310c0876616c75652e32320c0876616c75652e32330c0876616c75652e32340c0876616c75652e32350c0876616c75652e32360c0876616c75652e32370c0876616c75652e32380c0876616c75652e32390c0876616c75652e33300c0876616c75652e33310c0876616c75652e3332"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "array",
+        "items": [
+          {
+            "kind": "array",
+            "items": [
+              {
+                "kind": "bool",
+                "value": true
+              }
+            ]
+          },
+          {
+            "kind": "unsupported"
+          }
+        ]
+      }
+    },
+    "result": {
+      "data": "30053003010101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": []
+      }
+    },
+    "result": {
+      "data": "3100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "key.0"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "310c300a0c056b65792e30010100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "key.0"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.1"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "3118300a0c056b65792e30010100300a0c056b65792e31010101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "key.0"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.1"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.2"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.3"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.4"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.5"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.6"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.7"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.8"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.9"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.10"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.11"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.12"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.13"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.14"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.15"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "3181c6300a0c056b65792e30010100300a0c056b65792e31010101300a0c056b65792e32010100300a0c056b65792e33010101300a0c056b65792e34010100300a0c056b65792e35010101300a0c056b65792e36010100300a0c056b65792e37010101300a0c056b65792e38010100300a0c056b65792e39010101300b0c066b65792e3130010100300b0c066b65792e3131010101300b0c066b65792e3132010100300b0c066b65792e3133010101300b0c066b65792e3134010100300b0c066b65792e3135010101"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "key.0"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.1"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.2"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.3"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.4"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.5"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.6"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.7"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.8"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.9"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.10"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.11"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.12"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.13"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.14"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.15"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.16"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "3181d3300a0c056b65792e30010100300a0c056b65792e31010101300a0c056b65792e32010100300a0c056b65792e33010101300a0c056b65792e34010100300a0c056b65792e35010101300a0c056b65792e36010100300a0c056b65792e37010101300a0c056b65792e38010100300a0c056b65792e39010101300b0c066b65792e3130010100300b0c066b65792e3131010101300b0c066b65792e3132010100300b0c066b65792e3133010101300b0c066b65792e3134010100300b0c066b65792e3135010101300b0c066b65792e3136010100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "key.0"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.1"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.2"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.3"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.4"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.5"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.6"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.7"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.8"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.9"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.10"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.11"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.12"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.13"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.14"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.15"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.16"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.17"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.18"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.19"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.20"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.21"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.22"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.23"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.24"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.25"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.26"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.27"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.28"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.29"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.30"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.31"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ],
+          [
+            {
+              "kind": "string",
+              "value": "key.32"
+            },
+            {
+              "kind": "bool",
+              "value": false
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "318201a3300a0c056b65792e30010100300a0c056b65792e31010101300a0c056b65792e32010100300a0c056b65792e33010101300a0c056b65792e34010100300a0c056b65792e35010101300a0c056b65792e36010100300a0c056b65792e37010101300a0c056b65792e38010100300a0c056b65792e39010101300b0c066b65792e3130010100300b0c066b65792e3131010101300b0c066b65792e3132010100300b0c066b65792e3133010101300b0c066b65792e3134010100300b0c066b65792e3135010101300b0c066b65792e3136010100300b0c066b65792e3137010101300b0c066b65792e3138010100300b0c066b65792e3139010101300b0c066b65792e3230010100300b0c066b65792e3231010101300b0c066b65792e3232010100300b0c066b65792e3233010101300b0c066b65792e3234010100300b0c066b65792e3235010101300b0c066b65792e3236010100300b0c066b65792e3237010101300b0c066b65792e3238010100300b0c066b65792e3239010101300b0c066b65792e3330010100300b0c066b65792e3331010101300b0c066b65792e3332010100"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "\u00f6\ud83d\udc99"
+            },
+            {
+              "kind": "string",
+              "value": "\u00f6\ud83d\udc99"
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "3112300d0c03c3b6f09f92990c03c3b6f09f9299"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+            },
+            {
+              "kind": "string",
+              "value": "\u00f6\ud83d\udc99"
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "31818c3081890c7f6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b0c03c3b6f09f9299"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "string",
+              "value": "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+            },
+            {
+              "kind": "string",
+              "value": "\u00f6\ud83d\udc99"
+            }
+          ]
+        ]
+      }
+    },
+    "result": {
+      "data": "31818e30818a0c81806b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6b0c03c3b6f09f9299"
+    }
+  },
+  {
+    "input": {
+      "op": "encode",
+      "value": {
+        "kind": "dictionary",
+        "pairs": [
+          [
+            {
+              "kind": "number",
+              "value": "5"
+            },
+            {
+              "kind": "bool",
+              "value": true
+            }
+          ]
+        ]
+      }
+    },
+    "exception": "NSInvalidArgumentException"
+  },
+  {
+    "input": {
+      "op": "zero_integer_probe",
+      "instruction_budget": 10000
+    },
+    "unverified_original_input": true,
+    "result": {
+      "function_result_unverified": "did-not-return-within-budget",
+      "instruction_budget": 10000
+    }
+  }
+]
