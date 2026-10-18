@@ -1,0 +1,28 @@
+name: Verify recovery evidence
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recovery-integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install the pinned analysis dependency for control-flow tests
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install -r requirements-recovery.txt
+          echo "$GITHUB_WORKSPACE/.venv/bin" >> "$GITHUB_PATH"
+      - name: Restore the hash-verified complete recovery snapshot
+        run: python3 scripts/unpack_evidence.py
+      - name: Verify recovery provenance and all byte listings
+        run: python3 scripts/verify_repository.py
+      - name: Compare separate flow studies with original instruction bytes
+        run: python3 scripts/verify_original_flow.py
+      - name: Verify every app-method trace and original selector-stub evidence
+        run: python3 scripts/verify_app_analysis.py
+      - name: Test audit rejection of corrupted evidence
+        run: python3 -m unittest discover -s tests -v
