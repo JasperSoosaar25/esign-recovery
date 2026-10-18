@@ -1,0 +1,21 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "classes": 10,
+  "methods": 13,
+  "initialization_blocks": 1,
+  "dictionary_pairs": 3812,
+  "locale_fixtures": 18,
+  "lookup_cases": 7931,
+  "visited_original_instructions": 23088,
+  "foundation_arc_calls_are_models": true,
+  "complete_app_built_or_run": false,
+  "files": {
+    "ESignLocalization.h": "f2d657e4a256c4aae2c5a4baaaa40306bd7b605ff4d53a11cab125b96758c190",
+    "dictionaries.json": "c50d6d3105ae27063517af0d157e5c63b1a2d6b201ae01a930aa763054e82ed1",
+    "README.md": "d8a5638f2664d827505806f4e55702a8770c339f05d954087aa1558be19aba71",
+    "ESignLocalization.m": "75efcbbff8f142ef70dd1dbb56c2ca672e7aed64230bda36785e4c6a350db9b0",
+    "ESignLocalizationTables.m": "93d08a0573cfde0110863fc8832de0c40aca802995483b392893ec9c44b8612e",
+    "runtime-fixtures.json": "b6112946e9ed85a7e332c6d15b6a4fbab8c9c279263e908a31d2b151f3f808cd",
+    "evidence.json.gz": "df1b2446a826319757489e4b1164c77ac69396e6233cad02de541e48d6423bf0"
+  }
+}

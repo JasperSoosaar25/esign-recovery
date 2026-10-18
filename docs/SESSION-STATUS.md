@@ -18,7 +18,7 @@ The complete saved recovery was restored into a separate checkout. Its verifiers
 - All 57,245 identified native functions have indexed pseudocode output. This is export coverage, not semantic correctness or source completeness.
 - All 3,396 selected app-method entries across 182 classes are covered by the expanded static traces. Their 358,448 unique instructions and 12,244 selector-call observations pass integrity checks.
 - All 8,999 selector stubs and 901,266 bytes of native dispatch sections/binding data match the secondary input.
-- All 32 recovery-tool tests pass, including corruption, identity, selector, control-flow, and scalar-provenance rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
+- All 36 recovery-tool tests pass, including corruption, identity, selector, control-flow, and scalar-provenance rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
 
 The traces retain 419 unresolved jump records. Mutable runtime state, incomplete function boundaries, missing initialization, and decompiler type guesses remain reconstruction concerns. Do not present the counts as a percentage of recovered behavior.
 
@@ -29,3 +29,7 @@ There is no complete source-built app target, source-built IPA, attached iPhone,
 Exact-input verification is complete. The [native follow-up](NATIVE-RECONSTRUCTION.md) adds fuller decompilation and 215 source fragments with 35,840 original-instruction comparisons. Remaining source reconstruction needs most address-level method implementations, recovered initialization and globals, dependency reconciliation, an actual Xcode target, and behavior tests. Only a real app build followed by physical-device testing can support app equivalence and iOS 27 compatibility claims.
 
 Contribution guides, issue/PR templates, integrity CI, a feature-ideas document, and a native Liquid Glass plan are provided. These prepare collaboration on the recovery; they do not turn it into the original developer's open-source project. New script/documentation licensing does not relicense ESign materials.
+
+## Native localization component follow-up
+
+All 10 original localization classes now have reconstructed Objective-C source for their 13 methods and one-time initialization block. Original-instruction/model checks cover 3,812 dictionary pairs, 18 locale configurations, and 7,931 lookups. The separate `native-localization` CI job compiles an arm64 iOS component library and tests the component on macOS Foundation; inspect its actual result and artifact report for a build claim. A successful component build does not supply the unreconstructed signing/UI/application implementation or a source-built IPA. Real iPhone runtime access remains unavailable in this session.

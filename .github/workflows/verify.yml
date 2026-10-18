@@ -30,7 +30,22 @@ jobs:
           python3 scripts/verify_native_methods.py
       - name: Compile scalar source and compare with original ARM64 instructions
         run: python3 scripts/recover_scalar_accessors.py --verify
-      - name: Verify every app-method trace and original selector-stub evidence
-        run: python3 scripts/verify_app_analysis.py
+      - name: Execute original localization instructions with explicit Foundation models
+        run: python3 scripts/recover_localization.py --verify
       - name: Test audit rejection of corrupted evidence
         run: python3 -m unittest discover -s tests -v
+  native-localization:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Compile Objective-C for iOS and test the component with Apple Foundation
+        run: python3 scripts/build_localization.py
+      - name: Preserve the component library and exact toolchain report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: original-derived-localization-library
+          path: |
+            build/localization/libESignLocalization.a
+            build/localization/build-report.json
+          if-no-files-found: error

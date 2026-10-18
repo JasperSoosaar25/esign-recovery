@@ -14,7 +14,7 @@ The current request is a buildable original ESign application, preserving the or
 | Supply screenshots proving original/rebuilt UI equivalence | Not available |
 | Match the exact user-selected IPA | Confirmed: the Filebin download matches the published baseline byte-for-byte |
 
-The [native reconstruction follow-up](NATIVE-RECONSTRUCTION.md) adds fuller method pseudocode and 215 compiled C accessor fragments, checked against original ARM64 instructions for 35,840 fixtures. This is a narrow source-recovery result, not an original ESign app build. Original class definitions, initialization, most method source bodies, dependencies, and a complete app project are still missing.
+The [native reconstruction follow-up](NATIVE-RECONSTRUCTION.md) adds fuller method pseudocode and 215 compiled C accessor fragments, checked against original ARM64 instructions for 35,840 fixtures. This is a narrow source-recovery result, not an original ESign app build. Most original class definitions, initialization, method source bodies, dependencies, and a complete app project are still missing. The localization component now has reconstructed Objective-C definitions for all 10 localization classes, 13 methods, and their initialization block. Its separate Apple SDK/host Foundation checks do not build or run the full application.
 
 ## Why compilation is still blocked
 

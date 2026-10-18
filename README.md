@@ -51,7 +51,7 @@ python3 -m unittest discover -s tests -v
 
 These check recovery integrity. **They do not compile ESign or test signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 32 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 36 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 
@@ -74,3 +74,7 @@ The input matches a [public compiled-IPA mirror](https://github.com/nooptr/esign
 ## Ownership
 
 New scripts, tests, and documentation are MIT-licensed. Recovered ESign materials retain their original ownership and applicable terms; this repository does not make ESign an open-source-licensed application. Preserve bundled dependency notices. Read [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before reuse or redistribution. The original IPA, executable, provisioning/configuration profiles, and private signing inputs are excluded from Git.
+
+### Native localization reconstruction
+
+[`reconstruction/localization/`](reconstruction/localization/) contains the complete 10-class localization component: 13 Objective-C methods, the original initialization behavior, and 3,812 original dictionary entries. Original ARM64/model checks cover 18 locales and 7,931 lookups. A separate macOS CI job compiles the source for arm64 iOS and tests the component with Apple Foundation; check its actual result and build report. This component does not provide a complete ESign application or IPA.

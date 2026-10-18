@@ -81,7 +81,8 @@ def dispatch_evidence(root):
     stored = json.loads(blobs['selector-stubs.json.gz'])
     require(stored == list(dispatch.stubs.values()) and len(stored) == index['decoded_selector_stubs'],
             'Selector-stub decoding differs from original excerpts')
-    rows = list(csv.DictReader((base / 'selector-stubs.tsv').open(), delimiter='\t'))
+    with (base / 'selector-stubs.tsv').open() as stream:
+        rows = list(csv.DictReader(stream, delimiter='\t'))
     require(rows == [{k: s[k] for k in ['address', 'selector', 'selector_slot', 'message_send_slot']} for s in stored],
             'Selector TSV differs from decoded evidence')
     return dispatch, index

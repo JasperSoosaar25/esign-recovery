@@ -13,3 +13,5 @@ Original native excerpts in `analysis/objc-dispatch/` and original instruction b
 ## Additional native reconstruction outputs
 
 The `analysis/native-methods/` pseudocode and `reconstruction/scalar-accessors/` C fragments derive from ESign native instructions. They retain the same ownership/provenance boundaries as other recovered ESign material. New tooling/documentation licensing does not relicense these app-derived outputs or the original application. The C entry-point names are generated reconstruction names, not claims about the author's original source symbols.
+
+The reconstructed Objective-C localization classes, dictionaries, and original-instruction fixtures in `reconstruction/localization/` are also ESign-derived material, not a relicensed original project. The surrounding analysis/build scripts and test harness are new tooling.

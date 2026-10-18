@@ -37,7 +37,7 @@ The [expanded analysis](DISPATCH-RECOVERY.md) covers all 3,396 indexed app-candi
 
 ## Not verified
 
-The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; 32 tool tests pass. These results do not establish complete app equivalence.
+The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; 36 tool tests pass. These results do not establish complete app equivalence.
 
 | Claim | Status |
 |---|---|
@@ -51,3 +51,5 @@ The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,3
 | Full dependency version/license reconciliation | Incomplete |
 
 The CI workflow validates the recovery repository. Its success does not turn any of these unverified app claims into a passed result.
+
+The localization source follow-up independently checks the exact input memory, original class and import identities, original instructions, all 3,812 dictionary pairs, and 7,931 lookups across 18 locales under explicit Foundation/ARC models. Four negative tests reject changed class, method, import, and Chinese-routing evidence. The separate Apple SDK CI job checks component compilation and macOS Foundation behavior and records its actual outcome/toolchain. These component checks do not establish a complete app build or an iPhone run.
