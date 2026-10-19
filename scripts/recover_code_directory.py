@@ -23,6 +23,7 @@ OUT=ROOT/'reconstruction/code-directory'
 METHOD=0x10077473c
 SHA256,SHA1=0x100776104,0x100776324
 CAPTURED,GLOBAL,LENGTH=0x100775ef4,0x100776570,0x10076aa20
+FLAG=0x10077cb50
 TABLES={METHOD:{0x100774890:0x100e35128,0x1007752f0:0x100e355b8,0x1007755d0:0x100e35798},CAPTURED:{0x100775f38:0x100e35958}}
 EXTRA={'0x10097b0e0': '000000c000000000', '0x10099c630': 'fade0c0200000000', '0x100b27018': '7065770001000000', '0x100e35128': 'a448770001000000', '0x100e35130': 'c448770001000000', '0x100e355b8': 'f852770001000000', '0x100e355c0': '1053770001000000', '0x100e35798': 'd855770001000000', '0x100e357a0': '3456770001000000', '0x100e35958': '405f770001000000', '0x100e35960': '945f770001000000'}
 
@@ -30,10 +31,15 @@ EXTRA={'0x10097b0e0': '000000c000000000', '0x10099c630': 'fade0c0200000000', '0x
 def records(image,dispatch):
     boundaries,branches=boundaries_and_branches()
     result=[]
-    for entry,role in [(METHOD,'original-CodeDirectory-method'),(SHA256,'original-SHA256-helper'),(SHA1,'original-SHA1-helper'),(CAPTURED,'original-captured-hash-block'),(GLOBAL,'original-global-hash-block'),(LENGTH,'original-NSString-Code-y_length')]:
+    for entry,role in [(METHOD,'original-CodeDirectory-method'),(SHA256,'original-SHA256-helper'),(SHA1,'original-SHA1-helper'),(CAPTURED,'original-captured-hash-block'),(GLOBAL,'original-global-hash-block'),(LENGTH,'original-NSString-Code-y_length'),(FLAG,'original-signature-entitlement-flag-block')]:
         tables=TABLES.get(entry,{})
         loads={address:[image.u64(slot),image.u64(slot+8)] for address,slot in tables.items()}
-        record=walk(image.data,entry,boundaries,branches,image=image,dispatch=dispatch,load_result_values=loads)
+        returns={}
+        for _ in range(4):
+            record=walk(image.data,entry,boundaries,branches,image=image,dispatch=dispatch,load_result_values=loads,call_return_values=returns)
+            updated={int(r['address'],16):[0,1] for r in record['instructions'] if entry==FLAG and r.get('objc_dispatch',{}).get('selector') in ['isKindOfClass:','boolValue']}
+            if updated==returns:break
+            returns=updated
         require(not record['unresolved_indirect_jumps'] and not record['boundary_stops'],'Incomplete CodeDirectory flow')
         record.update(role=role,finite_load_hypothesis_pointer_tables={hex(a):[hex(s),hex(s+8)] for a,s in tables.items()})
         result.append(record)
@@ -142,11 +148,23 @@ def cases():
     for sha in [False,True]:
         for payload in [None,'','00','616263',bytes(range(256)).hex()]:result.append({'op':'digest','sha256':sha,'data':payload})
     for value in [None,'','ö💙','a\0b','x'*128]:result.append({'op':'byte_length','value':value})
+    values=[{'kind':'bool','value':v} for v in [False,True]]
+    values += [{'kind':'number','value':str(v)} for v in [0,1,-1,255,256,(1<<64)-1]]
+    values += [{'kind':'fraction','value':v} for v in [0.0,0.5,-0.5]]
+    values += [{'kind':'string','value':s} for s in ['','YES','1','ö💙']]
+    values += [{'kind':'array','items':[]},{'kind':'dictionary','pairs':[]},{'kind':'unsupported'}]
+    result += [{'op':'flag','value':v,'key':'entitlement.key'} for v in values]
+    result += [{'op':'flag','value':{'kind':'bool','value':True},'key':'entitlement.key',**option} for option in [{'missing':True},{'nil_dictionary':True}]]
     return result
 
 
 def evaluate(machine,case):
     machine.effects=[]
+    if case['op']=='flag':
+        key=machine.obj(case['key']);value=machine.make_input(case['value'])
+        dictionary=0 if case.get('nil_dictionary') else machine.obj({'ordered_pairs':[] if case.get('missing') else [(key,value)]})
+        block=machine.obj(('controlled-original-flag-block',machine.next_token));machine.put64(block+32,dictionary)
+        return {'flag':bool(machine.invoke(FLAG,[block,key]))}
     if case['op']=='digest':
         token=machine.invoke(SHA256 if case['sha256'] else SHA1,[machine.obj(None if case['data'] is None else bytes.fromhex(case['data']))])
         return {'data':bytes(machine.value(token)).hex(),'effects':machine.effects}
@@ -164,7 +182,7 @@ def evaluate(machine,case):
 
 
 def validate(evidence,metadata,ipa=None):
-    require([r['entry'] for r in evidence['records']]==[hex(v) for v in [METHOD,SHA256,SHA1,CAPTURED,GLOBAL,LENGTH]],'Changed CodeDirectory entry identities')
+    require([r['entry'] for r in evidence['records']]==[hex(v) for v in [METHOD,SHA256,SHA1,CAPTURED,GLOBAL,LENGTH,FLAG]],'Changed CodeDirectory entry identities')
     validate_instruction_bytes(evidence['records'])
     extra={int(k,16):bytes.fromhex(v) for k,v in EXTRA.items()}
     # Every finite target is read from an explicit original two-entry table.
@@ -212,7 +230,7 @@ def run(ipa=None,original_ipa=None):
         except FoundationError as ex:row={'input':case,'exception':str(ex)}
         except Exception as ex:raise ValueError('CodeDirectory fixture '+str(number)+': '+str(ex)) from ex
         results.append(row)
-    require(all(e in machine.visited for e in [METHOD,SHA256,SHA1,CAPTURED,GLOBAL,LENGTH]),'Unexercised original CodeDirectory dependency')
+    require(all(e in machine.visited for e in [METHOD,SHA256,SHA1,CAPTURED,GLOBAL,LENGTH,FLAG]),'Unexercised original CodeDirectory dependency')
     if ipa:
         reads=set(machine.reads)|{(int(s,16),8) for f in flows for r in f['instructions'] for s in r.get('pointer_slots',[])}
         reads|={(s+i,8) for tables in TABLES.values() for s in tables.values() for i in (0,8)}
@@ -223,7 +241,7 @@ def run(ipa=None,original_ipa=None):
         (OUT/'evidence.json.gz').write_bytes(gzip.compress(json.dumps(evidence,separators=(',',':')).encode(),mtime=0));(OUT/'fixtures.json').write_text(json.dumps(results,indent=2)+'\n')
         if EXTRA:validate(evidence,metadata,ipa)
         else:print(json.dumps({'static_inputs_to_pin':[r for r in memory if int(r['address'],16) in [0x10099c630,0x10097b0e0] or 0x100b26000<=int(r['address'],16)<0x100b28000]},indent=2))
-        index={'executable_sha256':EXPECTED_EXECUTABLE,'translated_original_method_bodies':2,'native_digest_helpers':2,'native_block_invocations':2,'fixtures':len(results),'original_instructions_executed':len(machine.visited),'foundation_arc_crypto_file_calls_are_explicit_models':True,'BOOL_index_domain':[0,1],'full_YYYArchO_class_reconstructed':False,'complete_signing_pipeline':False,'source_built_ipa':False,'iphone_runtime_verified':False,'files':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.is_file() and p.name!='index.json'}}
+        index={'executable_sha256':EXPECTED_EXECUTABLE,'translated_original_method_bodies':2,'native_digest_helpers':2,'native_block_invocations':3,'fixtures':len(results),'code_directory_and_digest_fixtures':sum(r['input']['op']!='flag' for r in results),'signing_flag_fixtures':sum(r['input']['op']=='flag' for r in results),'original_instructions_executed':len(machine.visited),'foundation_arc_crypto_file_calls_are_explicit_models':True,'BOOL_index_domain':[0,1],'full_YYYArchO_class_reconstructed':False,'complete_signing_pipeline':False,'source_built_ipa':False,'iphone_runtime_verified':False,'files':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.is_file() and p.name!='index.json'}}
         (OUT/'index.json').write_text(json.dumps(index,indent=2)+'\n')
     else:require(results==json.loads((OUT/'fixtures.json').read_text()),'Changed original CodeDirectory fixture behavior')
     print(json.dumps({'result':'PASS','fixtures':len(results),'original_instructions_executed':len(machine.visited),'full_app_built_or_run':False},indent=2));machine.close()

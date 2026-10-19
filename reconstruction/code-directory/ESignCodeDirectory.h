@@ -10,6 +10,7 @@
 FOUNDATION_EXPORT NSData *ESignRecoveredSHA1(NSData *data);
 FOUNDATION_EXPORT NSData *ESignRecoveredSHA256(NSData *data);
 FOUNDATION_EXPORT NSUInteger ESignRecoveredUTF8Length(NSString *string);
+FOUNDATION_EXPORT BOOL ESignRecoveredEntitlementFlag(NSDictionary *entitlements, NSString *key);
 FOUNDATION_EXPORT NSData *ESignRecoveredCodeDirectory(id<ESignRecoveredArchitectureInputs> architecture,
     BOOL sha256, NSString *bundleID, NSString *teamID, NSData *infoPlist,
     NSData *requirements, NSData *resources, NSData *entitlements, NSData *derEntitlements,

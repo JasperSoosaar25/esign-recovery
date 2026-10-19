@@ -21,6 +21,13 @@ NSData *ESignRecoveredSHA256(NSData *data) {
 NSUInteger ESignRecoveredUTF8Length(NSString *string) {
     return [[string dataUsingEncoding:NSUTF8StringEncoding] length];
 }
+// Original signature-assembly captured block invoke 0x10077cb50. Its original
+// block captures the dictionary at +32 and receives the key in x1.
+BOOL ESignRecoveredEntitlementFlag(NSDictionary *entitlements, NSString *key) {
+    id value = entitlements[key];
+    if (value && [value isKindOfClass:[NSNumber class]]) return [value boolValue];
+    return NO;
+}
 static void word(uint8_t *bytes, uint32_t value) {
     bytes[0] = value >> 24; bytes[1] = value >> 16;
     bytes[2] = value >> 8; bytes[3] = value;

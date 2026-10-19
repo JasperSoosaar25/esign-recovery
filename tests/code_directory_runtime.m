@@ -27,6 +27,15 @@ static NSData *unhex(id value) {
     return data;
 }
 static id nullable(id value){return value==[NSNull null]?nil:value;}
+static id flagValue(NSDictionary *spec) {
+    NSString *kind=spec[@"kind"];
+    if([kind isEqual:@"bool"])return @([spec[@"value"] boolValue]);
+    if([kind isEqual:@"number"]){NSString *v=spec[@"value"];return [v hasPrefix:@"-"]?@([v longLongValue]):@(strtoull([v UTF8String],NULL,10));}
+    if([kind isEqual:@"fraction"] || [kind isEqual:@"string"])return spec[@"value"];
+    if([kind isEqual:@"array"])return @[];
+    if([kind isEqual:@"dictionary"])return @{};
+    return [NSNull null];
+}
 @interface TestDirectoryFile:NSObject
 @property(nonatomic,strong)NSFileHandle *actual;
 @end
@@ -68,7 +77,10 @@ int main(int argc,const char **argv){
         NSDictionary *input=fixture[@"input"];NSMutableDictionary *row=[@{@"input":input} mutableCopy];effects=[NSMutableArray array];
         @try{
             NSString *op=input[@"op"];
-            if([op isEqual:@"digest"]){
+            if([op isEqual:@"flag"]){
+                NSDictionary *dictionary=[input[@"nil_dictionary"] boolValue]?nil:([input[@"missing"] boolValue]?@{}:@{input[@"key"]:flagValue(input[@"value"])});
+                row[@"result"]=@{@"flag":@(ESignRecoveredEntitlementFlag(dictionary,input[@"key"]))};
+            }else if([op isEqual:@"digest"]){
                 NSData *data=[input[@"sha256"] boolValue]?ESignRecoveredSHA256(unhex(input[@"data"])):ESignRecoveredSHA1(unhex(input[@"data"]));
                 row[@"result"]=@{@"data":hex(data),@"effects":effects};
             }else if([op isEqual:@"byte_length"]){

@@ -30,3 +30,9 @@ class CodeDirectoryEvidenceTests(unittest.TestCase):
         evidence=copy.deepcopy(self.evidence)
         evidence['records'][1]['instructions'][0]['bytes']='00000000'
         with self.assertRaises(ValueError):validate(evidence,self.metadata)
+
+    def test_reject_non_boolean_flag_hypothesis(self):
+        evidence=copy.deepcopy(self.evidence)
+        row=next(r for r in evidence['records'][-1]['instructions'] if 'finite_call_return_hypothesis' in r)
+        row['finite_call_return_hypothesis']=[0,2]
+        with self.assertRaises(ValueError):validate(evidence,self.metadata)

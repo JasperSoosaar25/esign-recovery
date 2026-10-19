@@ -6855,5 +6855,266 @@
     "result": {
       "length": 128
     }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "bool",
+        "value": false
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "bool",
+        "value": true
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "0"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "1"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "-1"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "255"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "256"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "number",
+        "value": "18446744073709551615"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "fraction",
+        "value": 0.0
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "fraction",
+        "value": 0.5
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "fraction",
+        "value": -0.5
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": true
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "string",
+        "value": ""
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "string",
+        "value": "YES"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "string",
+        "value": "1"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "string",
+        "value": "\u00f6\ud83d\udc99"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "array",
+        "items": []
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "dictionary",
+        "pairs": []
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "unsupported"
+      },
+      "key": "entitlement.key"
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "bool",
+        "value": true
+      },
+      "key": "entitlement.key",
+      "missing": true
+    },
+    "result": {
+      "flag": false
+    }
+  },
+  {
+    "input": {
+      "op": "flag",
+      "value": {
+        "kind": "bool",
+        "value": true
+      },
+      "key": "entitlement.key",
+      "nil_dictionary": true
+    },
+    "result": {
+      "flag": false
+    }
   }
 ]

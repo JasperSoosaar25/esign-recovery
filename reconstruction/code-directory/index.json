@@ -2,9 +2,11 @@
   "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
   "translated_original_method_bodies": 2,
   "native_digest_helpers": 2,
-  "native_block_invocations": 2,
-  "fixtures": 65,
-  "original_instructions_executed": 1466,
+  "native_block_invocations": 3,
+  "fixtures": 85,
+  "code_directory_and_digest_fixtures": 65,
+  "signing_flag_fixtures": 20,
+  "original_instructions_executed": 1544,
   "foundation_arc_crypto_file_calls_are_explicit_models": true,
   "BOOL_index_domain": [
     0,
@@ -15,10 +17,10 @@
   "source_built_ipa": false,
   "iphone_runtime_verified": false,
   "files": {
-    "evidence.json.gz": "2540925f594586a1e276073433a8fe243d2a49396579dfe7242e58b15bac7091",
-    "ESignCodeDirectory.h": "2a83acc1a0e7f309fa6bccc93a4ed1dad89911c98b5dee08da310a6489312088",
-    "fixtures.json": "01e797da5a2257958799e93885d1dcf88cf05abcf2d223d4d6a3402e179e942a",
-    "README.md": "5d4213ca3dca9f5b548a50d93080fbaa55fa595e5bbde91c47bbd9ef0fff5c39",
-    "ESignCodeDirectory.m": "c189ae3a9b0ecb3a066be9171143547847fd2b766f360aae0b94800a5ac6e5af"
+    "evidence.json.gz": "31bbaa70f36fc5f2a30172a7a16e1b291b84429d8d50fd912f6dd5e18caed0e8",
+    "ESignCodeDirectory.h": "962323f2f3b251765341104e978fd6b7add27fa3b45b23456769fa2fd9db1a96",
+    "fixtures.json": "05f27c9534029a7c969636f3aff0ff3abcdce332382f9fb5abd39efa69931603",
+    "README.md": "1bc7356594e006113f52d76609f75eeed2d2036263072874b4423b048a9eb00a",
+    "ESignCodeDirectory.m": "40360b5b84032e3400e5c0086f0d995d5af66f35ce5e4db4b27122bb7524ec7c"
   }
 }
