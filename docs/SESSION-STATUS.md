@@ -1,4 +1,4 @@
-# Independently verified recovery status — 18 October 2026
+# Independently verified recovery status — 19 October 2026
 
 The current request authorizes native reverse engineering and decompilation, preserving original behavior where recoverable, and preparing a community development repository. New app features and the iOS 27 Liquid Glass redesign remain future work.
 
@@ -18,7 +18,7 @@ The complete saved recovery was restored into a separate checkout. Its verifiers
 - All 57,245 identified native functions have indexed pseudocode output. This is export coverage, not semantic correctness or source completeness.
 - All 3,396 selected app-method entries across 182 classes are covered by the expanded static traces. Their 358,448 unique instructions and 12,244 selector-call observations pass integrity checks.
 - All 8,999 selector stubs and 901,266 bytes of native dispatch sections/binding data match the secondary input.
-- All 56 recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, finite-return, callback, signature-container, runtime import, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
+- All 67 recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, finite-return, callback, signature-container, runtime import, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
 
 The traces retain 419 unresolved jump records. Mutable runtime state, incomplete function boundaries, missing initialization, and decompiler type guesses remain reconstruction concerns. Do not present the counts as a percentage of recovered behavior.
 
@@ -51,3 +51,14 @@ The five load-command wrappers now have all 20 original methods reconstructed, r
 Tracing the actual `YYYArchO` DER-slot caller revealed a separate recursive encoder and length writer. Both original native functions now have source translations and 269 successful native comparisons. The numeric/Unicode/length quirks are retained. Integer zero did not return within a 10,000-instruction original probe; the result and native zero parity remain explicitly unverified, and it is excluded from native tests. See [the report](builds/recursive-der-26a3ef3a.json).
 
 This continuation adds 61 original Objective-C methods and two native functions, with 938 successful native comparisons. The cumulative class-source scope is 23 original classes and 129 metadata methods, plus two native functions; this is not complete app recovery. The [seven-job run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39145448661) checks all six native components and the recovery snapshot. Read [the updated dependency map](SIGNING-DEPENDENCIES.md) for the remaining P12/CMS, code-directory, signing orchestration, application, and device work. No complete signer or app target, source-built IPA, iPhone installation, or genuine running-app screenshot has been produced.
+
+
+## Requirements and code-directory continuation — 19 October
+
+The requirements-slot method at `0x100777638` and its three native byte-writing block invocations now have reviewed source. All 117 original-instruction fixtures passed on Apple Foundation, and the source compiled into an arm64 iOS library. The original missing-input `strlen` truncation returns four bytes `fade0c01`; that behavior is deliberately retained. See [the exact report](builds/requirements-slot-7b0973dc.json).
+
+The code-directory method at `0x10077473c`, two digest helpers, two hash block invocations, and the NSString UTF-8-length method body now have source translations. All 85 comparisons (65 code-directory/digest/string cases and 20 signature entitlement-flag cases) passed on Apple Foundation/CommonCrypto with real temporary-file reads/seeks, comparing bytes and getter/digest/file effects. Cases cover both hash modes, empty/nil inputs, Unicode/NUL identifiers, page boundaries, short files, a large file offset, and varying successive getter values. See [the exact report](builds/code-directory-fb1e67be.json).
+
+These two components execute 1,983 and 1,544 distinct original instructions respectively in their explicit host models; these sets can overlap and are not added as distinct app coverage. New C names make the bodies compilable without inventing a full `YYYArchO` class. Four finite pointer-load hypotheses in the code-directory analysis are restricted to original BOOL indexes 0/1 and checked against exact table bytes. The baseline trace counts remain unchanged.
+
+There are now 23 class definitions with 129 original metadata methods, three additional method-body translations, and four native function translations, plus the documented block translations. All 67 recovery-tool tests and all [nine CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39321304662) passed. Eight jobs build component libraries; one verifies the recovery. Xcode 16.4/iOS 18.5 was used for the two new Apple builds. Complete CMS/certificate processing, signing orchestration, application/UI reconstruction, an app target, an IPA, and physical iPhone execution remain unfinished.

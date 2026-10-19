@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "component": "ESign original CodeDirectory generation",
+  "translated_original_method_bodies": 2,
+  "original_native_digest_helpers": 2,
+  "original_native_block_invocations": 2,
+  "source_behavior_fixture_comparisons": 65,
+  "exact_output_and_getter_file_crypto_effects_compared": true,
+  "native_Apple_CommonCrypto_used": true,
+  "digest_test_adapters_record_and_forward_to_real_Apple_functions": true,
+  "native_file_handle_reads_and_seeks_used": true,
+  "source_built_with_original_deprecated_digest_APIs": true,
+  "BOOL_index_domain": [
+    0,
+    1
+  ],
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "source_sha256": "c189ae3a9b0ecb3a066be9171143547847fd2b766f360aae0b94800a5ac6e5af",
+  "library_sha256": "6bca6c88bfe6150b5a8d6c1642dcc8c2cff05e96eb1059fd0d487805cb9f4f42",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "full_YYYArchO_class_reconstructed": false,
+  "complete_signing_pipeline": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "3057b4399a84648022a152d45d53a30ff18f388e",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39320434424",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39320434424/artifacts/12219439382"
+}

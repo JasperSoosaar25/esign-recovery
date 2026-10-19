@@ -273,7 +273,8 @@ def boundaries_and_branches():
     boundaries = {int(v, 16) if isinstance(v, str) else v for v in native['declared_function_starts']}
     for cl in metadata['classes'] + metadata['categories']:
         boundaries.update(int(v['implementation'], 16) for v in cl['methods'])
-    branches = {int(v['branch'], 16): v for v in csv.DictReader((ROOT / 'recovered/analysis/static-branches.tsv').open(), delimiter='\t')}
+    with (ROOT / 'recovered/analysis/static-branches.tsv').open() as source:
+        branches = {int(v['branch'], 16): v for v in csv.DictReader(source, delimiter='\t')}
     return boundaries, branches
 
 

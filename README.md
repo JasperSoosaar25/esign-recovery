@@ -34,6 +34,8 @@ The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller 
 | Compilable Mach-O header component | 2 original classes, 17 methods; 67 fixtures and derived runtime-layout checks passed | [Source and evidence](reconstruction/mach-header/) |
 | Compilable entitlement classes | 3 original classes, 41 methods and enumeration callback; 583 native fixtures passed | [Source and evidence](reconstruction/entitlements/) |
 | Compilable load-command hierarchy | 5 additional original classes, 20 methods; 86 native fixtures and inherited-layout checks passed | [Source and evidence](reconstruction/load-commands/) |
+| Original requirements-slot body | Method body and three native block translations; 117 native byte comparisons passed | [Source and evidence](reconstruction/requirements-slot/) |
+| Original code-directory generation | Two method-body translations, two digest helpers and three block invocations; 85 native comparisons passed | [Source and evidence](reconstruction/code-directory/) |
 | Main signing-path DER functions | 2 original native helper translations; 269 native fixtures passed, one original zero-number probe remains unverified | [Source and evidence](reconstruction/recursive-der/) |
 
 “Decompiler output” means the tool returned pseudocode, not that it recovered correct source. Many functions contain unresolved indirect jumps; source-level behavior, full function boundaries, and UI equivalence remain uncertain. The class prefix is a navigation heuristic, not proof of authorship. See [recovery limits](docs/RECOVERY.md) and [verification results](docs/VERIFICATION.md).
@@ -58,12 +60,14 @@ python3 scripts/recover_mach_header.py --verify
 python3 scripts/recover_entitlements.py --verify
 python3 scripts/recover_load_commands.py --verify
 python3 scripts/recover_recursive_der.py --verify
+python3 scripts/recover_requirements_slot.py --verify
+python3 scripts/recover_code_directory.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
-These check recovery integrity. **They do not compile ESign or test signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
+These check recovery integrity and recovered component behavior. **They do not compile the complete ESign app or verify complete signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 56 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 67 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 
@@ -103,4 +107,6 @@ The native localization build and 13,496 Apple Foundation comparisons passed for
 
 The actual `YYYArchO` DER-slot method calls a separate recursive function. [`reconstruction/recursive-der/`](reconstruction/recursive-der/) translates that function and its length writer, with the original caller preserved as evidence. Its [Apple report](docs/builds/recursive-der-26a3ef3a.json) records 269 successful native comparisons. A zero-number input did not complete the bounded original probe and remains explicitly outside native parity claims. Original numeric/Unicode encoding quirks are retained. No complete `YYYArchO` implementation is supplied by these two helpers.
 
-Across these source components there are 23 original class definitions and 129 original metadata methods, plus two native helper translations. Scalar fragments overlap some of those methods and are not added to that count. Six component-library builds and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.
+The original requirements-slot method body and its three byte-writing blocks now have [compilable source](reconstruction/requirements-slot/) and [117 successful native comparisons](docs/builds/requirements-slot-7b0973dc.json). The original four-byte nil fallback and UTF-8/padding behavior are retained. [Code-directory generation](reconstruction/code-directory/) now has source for its original method body, two digest helpers, two hash blocks, and the original NSString UTF-8-length method body. Its [85 native comparisons](docs/builds/code-directory-fb1e67be.json) check exact bytes, repeated getters, real file reads/seeks, Apple CommonCrypto calls in both hash modes, and the separately recovered signature entitlement-flag block.
+
+Across these source components there are 23 original class definitions with 129 metadata methods, three additional metadata-method body translations with new C navigation names, and four native helper translations. Those C bodies do not create a replacement `YYYArchO` class. Scalar fragments overlap some methods and are not added to that count. Eight component-library builds and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.
