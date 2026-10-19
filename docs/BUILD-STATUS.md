@@ -51,6 +51,17 @@ The [entitlement-class report](builds/entitlements-39df227c.json) records 583 na
 
 The [requirements report](builds/requirements-slot-7b0973dc.json) adds 117 native comparisons for the original requirements method body and its three byte-writing blocks. The [code-directory report](builds/code-directory-fb1e67be.json) adds 85 native comparisons: 65 for code-directory construction, its digest helpers and hash blocks, and the NSString byte-length body; 20 for the original signature entitlement-flag block. Exact bytes, repeated getters, Apple CommonCrypto calls, real file operations, and final file position agree with the original-instruction models. Both iOS libraries compiled with Xcode 16.4/iOS 18.5.
 
-Current totals are 23 original class definitions with 129 methods, three additional original metadata-method body translations exposed as C navigation symbols, and four native helper translations, plus documented blocks. This does not supply the full `YYYArchO` class.
+Current totals are 23 original class definitions with 129 methods, three additional original metadata-method body translations exposed as C navigation symbols, and 13 native helper/wrapper translations, plus documented blocks. This does not supply the full `YYYArchO` class.
 
-All 67 current tool tests pass. The [nine-job verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39321304662) records eight native component jobs and full recovery checks. These results do not change the incomplete full-app/IPA/iPhone status above; no iOS 27 SDK or device result is claimed.
+The [earlier nine-job verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39321304662) passed 67 tool tests and recorded eight native component builds and full recovery checks. The current continuation adds the crypto helpers and RSA wrapper described below. These results do not change the incomplete full-app/IPA/iPhone status above; no iOS 27 SDK or device result is claimed.
+
+
+## Original crypto continuation
+
+Eight native legacy-crypto bodies now have original-instruction translations with 355 native Apple comparisons and arm64 iOS compilation. The [exact report](builds/legacy-crypto-c7190909.json) records Xcode 16.4/iOS 18.5. The accessed LP64 prefixes use original 32-bit BN limbs. Source-family identification is narrowed, but the exact OpenSSL patch release and complete backend remain unresolved.
+
+The alternate-CMS RSA wrapper at `0x100778fa0` now has source that reuses those helpers. Twenty original return-value cases cover allocation, length truncation/sign extension, diagnostics and cleanup; three original null-read probes remain excluded from native comparison. The embedded key provider is intentionally unresolved and no private-key bytes are supplied. Actual RSA operations and PEM parsing remain explicit unreconstructed dependencies. All 75 current tool tests pass. The [wrapper report](builds/rsa-wrapper-9ce17389.json) records 20 passing native boundary-behavior comparisons and arm64 iOS compilation with Xcode 16.4/iOS 18.5.
+
+These additions bring the separately translated native function bodies to 13; they do not add new complete Objective-C classes or metadata-method definitions. The full-app/IPA/iPhone requirements in the table above remain unmet.
+
+All [11 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39327012074) passed for source commit `9ce17389`: ten native component jobs and the complete recovery-integrity job, including 75 tool tests. The [verification record](builds/verification-9ce17389.json) records the exact jobs. The two new components pass 355 and 20 native boundary-behavior comparisons respectively; three wrapper fault probes remain excluded. No complete crypto backend, source-built app/IPA, or iPhone runtime result is established.

@@ -1,0 +1,71 @@
+{
+  "result": "PASS",
+  "source_commit": "9ce173899c9d29d25d5c0f8cfbc0c2bed3395e09",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39327012074",
+  "tool_tests_passed": 75,
+  "native_component_jobs_passed": 10,
+  "jobs": [
+    {
+      "id": 118315363461,
+      "name": "native-localization",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363630,
+      "name": "native-rsa-wrapper",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363663,
+      "name": "native-requirements-slot",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363673,
+      "name": "native-code-directory",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363678,
+      "name": "native-mach-header",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363718,
+      "name": "recovery-integrity",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363776,
+      "name": "native-load-commands",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363785,
+      "name": "native-recursive-der",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363818,
+      "name": "native-signature-blobs",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315363849,
+      "name": "native-legacy-crypto",
+      "conclusion": "success"
+    },
+    {
+      "id": 118315364050,
+      "name": "native-entitlements",
+      "conclusion": "success"
+    }
+  ],
+  "new_original_native_bodies_this_continuation": 9,
+  "new_component_native_boundary_comparisons": 375,
+  "original_RSA_wrapper_fault_probes_excluded_from_native_parity": 3,
+  "full_app_built": false,
+  "complete_crypto_backend": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false
+}
