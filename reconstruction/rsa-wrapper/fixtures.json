@@ -1,0 +1,2309 @@
+[
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "file_failure": true
+    },
+    "result": {
+      "returned": null,
+      "out_length": "unchanged",
+      "rsa_references": 1,
+      "pkey_references": 1,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "bio_failure": true
+    },
+    "unverified_source_input": true,
+    "original_fault_probe": {
+      "kind": "invalid-memory-read",
+      "pc": "0x10060c850",
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "error",
+          "library": 9,
+          "function": 124,
+          "reason": 7,
+          "file": "pem_pkey.c",
+          "line": 222
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "fprintf",
+          "message": "Error: failed to read private key file.\n",
+          "stream": "stderr"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "parse_failure": true
+    },
+    "unverified_source_input": true,
+    "original_fault_probe": {
+      "kind": "invalid-memory-read",
+      "pc": "0x10060c850",
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "fprintf",
+          "message": "Error: failed to read private key file.\n",
+          "stream": "stderr"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "type": 28
+    },
+    "unverified_source_input": true,
+    "original_fault_probe": {
+      "kind": "invalid-memory-read",
+      "pc": "0x1005f50fc",
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "error",
+          "library": 6,
+          "function": 121,
+          "reason": 127,
+          "file": "p_lib.c",
+          "line": 287
+        },
+        {
+          "call": "printf",
+          "message": "Error: failed to get RSA key from private key.\n"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "allocation_failure": true
+    },
+    "result": {
+      "returned": null,
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "printf",
+          "message": "Error: failed to allocate memory.\n"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": null,
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": -1
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "-1",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "printf",
+          "message": "Error: failed to sign the data.\n"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 0
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "0",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 64
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "64",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": -2147483648
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "-2147483648",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 4,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": -1,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": -1,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 0,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 0,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 2147483647,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 2147483647,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 2147483648,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": -2147483648,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 4294967347,
+      "key_length": "1704",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1",
+      "callback_result": 16
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "references": 2
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 2,
+      "pkey_references": 1,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 4,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 16,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "16",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "16"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "engine_finish",
+          "object": "pkey_engine"
+        },
+        {
+          "call": "attributes_pop_free",
+          "object": "attributes",
+          "callback": "attribute_free_callback"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        2147483648
+      ],
+      "top": 1,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 4
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "4",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "4"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 8,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 32
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "32",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "32"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 64,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 256
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "256",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "256"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_wrapper",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 128,
+      "flags": 0,
+      "length": 51,
+      "key_length": "1704",
+      "callback_result": 512
+    },
+    "result": {
+      "returned": "allocation",
+      "out_length": "512",
+      "rsa_references": 1,
+      "pkey_references": 0,
+      "effects": [
+        {
+          "call": "fmemopen",
+          "buffer": "embedded-key",
+          "size": "1704",
+          "mode": "r"
+        },
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        },
+        {
+          "call": "fclose",
+          "object": "stream"
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        },
+        {
+          "call": "malloc",
+          "size": "512"
+        },
+        {
+          "call": "private_encrypt_callback",
+          "length": 51,
+          "input": "input",
+          "output": "allocation",
+          "rsa": "rsa",
+          "padding": 1
+        },
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ]
+    }
+  }
+]

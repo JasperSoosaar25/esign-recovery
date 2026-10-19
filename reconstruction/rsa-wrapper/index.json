@@ -1,0 +1,21 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "new_original_native_functions": 1,
+  "reused_original_native_functions": 8,
+  "fixtures": 23,
+  "source_behavior_fixtures": 20,
+  "original_fault_probes": 3,
+  "original_instructions_executed": 1101,
+  "native_crypto_and_stdio_allocator_callees_are_controlled_test_boundaries": true,
+  "embedded_key_bytes_included": false,
+  "complete_crypto_backend": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "29c708d9095b149a4582e18e8de749c1b2e6b087af139b4621bc9b5d887127dc",
+    "ESignRSASignWrapper.c": "444804567c7607d65be9e68009f426ed859669e5e056d67b991a2c36e1485e42",
+    "fixtures.json": "e6526e17de7e8abdb2787aa4cb5a58715e53a95da944d28601ef656eb3418fc5",
+    "README.md": "c0d21ef878b6eaa57b77fb62777a8fea0b55a7e4f0bbcbbc4d0db670ce39767f",
+    "ESignRSASignWrapper.h": "008e0bd544c91e2524e3ab2cadf1c92bd222097dd73644535ead852b8b8e2ab5"
+  }
+}

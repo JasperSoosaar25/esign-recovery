@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "component": "ESign selected original legacy-crypto helpers",
+  "original_native_functions": 8,
+  "source_behavior_fixture_comparisons": 355,
+  "BN_limb_bits": 32,
+  "LP64_field_offsets_checked_at_compile_time": true,
+  "native_callbacks_reference_state_and_cleanup_order_compared": true,
+  "unreconstructed_native_callees_are_controlled_test_boundaries": true,
+  "actual_RSA_PEM_parsing_or_signing_implementation_tested": false,
+  "complete_crypto_backend": false,
+  "exact_bundled_OpenSSL_release_identified": false,
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "source_files_sha256": {
+    "ESignLegacyCrypto.c": "30867f84655670607bb4feee84abcaae35b32f06acb86d9429b596cea8944461",
+    "ESignLegacyCrypto.h": "184b2ded8179188d32989f4abba744478297778e4a886bf6e8914eaa8a666083",
+    "ESignLegacyCryptoDependencies.h": "5f56afec8698a134db77d9c123bed9825290ad5c69b3451fecce0eda06310343"
+  },
+  "library_sha256": "5fa30663328366612fdb82a17e0bece90c23fa36d8c46363487f59ab745e1241",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_signing_pipeline": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "c71909091150b91f62a9112150657329799aafd6",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39324139656",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39324139656/artifacts/12221657492"
+}
