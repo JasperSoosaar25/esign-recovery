@@ -1,0 +1,22 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_native_functions": 8,
+  "fixtures": 355,
+  "original_instructions_executed": 301,
+  "native_dependency_implementations_are_controlled_test_boundaries": true,
+  "BN_limb_bits": 32,
+  "complete_crypto_backend": false,
+  "complete_signing_pipeline": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "e4d0cb087cbca0899fedcd0b4cacc7bd57897cf1cc55f2eadd7cde22d598c27f",
+    "ESignLegacyCryptoDependencies.h": "5f56afec8698a134db77d9c123bed9825290ad5c69b3451fecce0eda06310343",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "ESignLegacyCrypto.c": "30867f84655670607bb4feee84abcaae35b32f06acb86d9429b596cea8944461",
+    "fixtures.json": "33454318c9e22ff2e0f39ee4f6f572a4e53d17ea6dbb13fd87fae7519927fa26",
+    "README.md": "ae15fcf4c13d24aae05d6ea55ed91976ff1423a725002e14574908bf6d1b28c7",
+    "ESignLegacyCrypto.h": "184b2ded8179188d32989f4abba744478297778e4a886bf6e8914eaa8a666083",
+    "reference-research.json": "cf5f9276618b75b28f11e91d3ecfce94e81beb7063a627dec956b138c8b779d3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "purpose": "Frozen upstream comparison references, not a selected replacement runtime dependency",
+  "exact_bundled_release_identified": false,
+  "reference_hash_normalization": "Retrieved UTF-8 text with trailing whitespace trimmed and one final LF",
+  "files": [
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/evp/p_lib.c","sha256":"02e6dc81eb16688e5b1773e42bbf3702945c992e5ed6564596ad2f8d40837991","observed_original_lines":[287,391]},
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/rsa/rsa_lib.c","sha256":"fd53bb668a289076d2461d4212027793a652beb5be69dd4c9b48f8986c5ab1d8","observed_original_lines":[216,265]},
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/pem/pem_pkey.c","sha256":"34c476bd00b4a47a88174975f7d58842b8eef9d54d907b5bddd6ddcc768c5797","observed_original_lines":[222]},
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/bn/bn_lib.c","sha256":"e987249b00f1c2792086e66d6ad5d3ea8353f7468b10a6889f748e171c22be3e","match":"BN_num_bits and its capacity-wide branch, compiled with 32-bit limbs"},
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_2a/crypto/evp/p_lib.c","sha256":"319b314cbd1967868a52aa23dda245a0cb45ea523637820f1eab40d2c24395f1","different_lines":[279,383]},
+    {"url":"https://github.com/openssl/openssl/blob/OpenSSL_1_0_1u/crypto/evp/p_lib.c","sha256":"2a6da43cc758f1726be76154a5ca4312b5e64b0992f11d72b95e2ba29a596900","different_lines":[279,383]}
+  ]
+}

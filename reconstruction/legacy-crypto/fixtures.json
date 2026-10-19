@@ -1,0 +1,7351 @@
+[
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        0
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        5
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        7
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        9
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        15
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        17
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        31
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        63
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        64
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        127
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        128
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        129
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        255
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        256
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        257
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        511
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        512
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        513
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1023
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1024
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1025
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2047
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2048
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2049
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4095
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4096
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4097
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8191
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8192
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8193
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16383
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16384
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16385
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32767
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32768
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32769
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65535
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65536
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65537
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131071
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131072
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131073
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262143
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262144
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262145
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524287
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524288
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524289
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048575
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048576
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048577
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097151
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097152
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097153
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194303
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194304
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194305
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388607
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388608
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388609
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777215
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777216
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777217
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554431
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554432
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554433
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108863
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108864
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108865
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217727
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217728
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217729
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435455
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435456
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435457
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870911
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870912
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870913
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741823
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741824
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741825
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483647
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483648
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483649
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4294967295
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [],
+      "top": 0,
+      "capacity": 0,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2171125632
+      ],
+      "top": 0,
+      "capacity": 1,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2171125632
+      ],
+      "top": 1,
+      "capacity": 1,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1561077222,
+        723602496
+      ],
+      "top": 0,
+      "capacity": 2,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1561077222,
+        723602496
+      ],
+      "top": 1,
+      "capacity": 2,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1561077222,
+        723602496
+      ],
+      "top": 2,
+      "capacity": 2,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 62,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2706691026,
+        1511209620,
+        3136040843,
+        3466769981
+      ],
+      "top": 0,
+      "capacity": 4,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2706691026,
+        1511209620,
+        3136040843,
+        3466769981
+      ],
+      "top": 1,
+      "capacity": 4,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2706691026,
+        1511209620,
+        3136040843,
+        3466769981
+      ],
+      "top": 2,
+      "capacity": 4,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 63,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2706691026,
+        1511209620,
+        3136040843,
+        3466769981
+      ],
+      "top": 3,
+      "capacity": 4,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 96,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2706691026,
+        1511209620,
+        3136040843,
+        3466769981
+      ],
+      "top": 4,
+      "capacity": 4,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 128,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 0,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 1,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 2,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 64,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 3,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 96,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 4,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 126,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 5,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 160,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 6,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 192,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 7,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 223,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3155411258,
+        2996841228,
+        4154669796,
+        729019621,
+        4118415819,
+        3806962188,
+        1832858908,
+        3698728279
+      ],
+      "top": 8,
+      "capacity": 8,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 256,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 0,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 1,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 2,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 60,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 3,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 96,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 4,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 128,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 5,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 160,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 6,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 191,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 7,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 224,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 8,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 253,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 9,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 286,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 10,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 319,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 11,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 350,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 12,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 384,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 13,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 416,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 14,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 445,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 15,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 480,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3051225488,
+        175843725,
+        3689096410,
+        2768173870,
+        3616306195,
+        1627860444,
+        2174172542,
+        333719717,
+        1061042192,
+        1370242323,
+        846295865,
+        2770467623,
+        3293138441,
+        465062010,
+        2842674505,
+        1381634835
+      ],
+      "top": 16,
+      "capacity": 16,
+      "flags": 0,
+      "negative": 1
+    },
+    "result": {
+      "returned": 511,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [],
+      "top": 0,
+      "flags": 0
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        1
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        128
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        256
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        1073741824
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        2147483648
+      ],
+      "top": 1,
+      "flags": 0
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        1
+      ],
+      "top": 2,
+      "flags": 0
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1073741824
+      ],
+      "top": 8,
+      "flags": 0
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 8,
+      "flags": 0
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "top": 9,
+      "flags": 0
+    },
+    "result": {
+      "returned": 33,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 32,
+      "flags": 0
+    },
+    "result": {
+      "returned": 128,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 64,
+      "flags": 0
+    },
+    "result": {
+      "returned": 256,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 128,
+      "flags": 0
+    },
+    "result": {
+      "returned": 512,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        0
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        5
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        7
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 3,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        9
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        15
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        17
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        31
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        63
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 6,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        64
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        127
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 7,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        128
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        129
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        255
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 8,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        256
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        257
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        511
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 9,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        512
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        513
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1023
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 10,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1024
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1025
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2047
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 11,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2048
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2049
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4095
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 12,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4096
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4097
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8191
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 13,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8192
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8193
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16383
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 14,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16384
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16385
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32767
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 15,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32768
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        32769
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65535
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 16,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65536
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        65537
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131071
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 17,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131072
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        131073
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262143
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 18,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262144
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        262145
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524287
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 19,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524288
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        524289
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048575
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 20,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048576
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1048577
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097151
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 21,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097152
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2097153
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194303
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 22,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194304
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4194305
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388607
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 23,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388608
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        8388609
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777215
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 24,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777216
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        16777217
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554431
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 25,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554432
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        33554433
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108863
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 26,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108864
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        67108865
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217727
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 27,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217728
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        134217729
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435455
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 28,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435456
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        268435457
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870911
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 29,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870912
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        536870913
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741823
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741824
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1073741825
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483647
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 31,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483648
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2147483649
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        4294967295
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [],
+      "top": 0,
+      "capacity": 0,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3297928288
+      ],
+      "top": 0,
+      "capacity": 1,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        3297928288
+      ],
+      "top": 1,
+      "capacity": 1,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2955491461,
+        2311532245
+      ],
+      "top": 0,
+      "capacity": 2,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2955491461,
+        2311532245
+      ],
+      "top": 1,
+      "capacity": 2,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2955491461,
+        2311532245
+      ],
+      "top": 2,
+      "capacity": 2,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 64,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1004178749,
+        3080061382,
+        3755985960,
+        1057171736
+      ],
+      "top": 0,
+      "capacity": 4,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1004178749,
+        3080061382,
+        3755985960,
+        1057171736
+      ],
+      "top": 1,
+      "capacity": 4,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 30,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1004178749,
+        3080061382,
+        3755985960,
+        1057171736
+      ],
+      "top": 2,
+      "capacity": 4,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 64,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1004178749,
+        3080061382,
+        3755985960,
+        1057171736
+      ],
+      "top": 3,
+      "capacity": 4,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 96,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        1004178749,
+        3080061382,
+        3755985960,
+        1057171736
+      ],
+      "top": 4,
+      "capacity": 4,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 126,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 0,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 1,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 2,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 61,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 3,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 96,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 4,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 128,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 5,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 156,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 6,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 192,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 7,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 221,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2460098157,
+        275952185,
+        2710221157,
+        4144370839,
+        162178626,
+        3714791508,
+        297818868,
+        389701339
+      ],
+      "top": 8,
+      "capacity": 8,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 253,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 0,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 1,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 2,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 64,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 3,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 94,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 4,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 126,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 5,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 160,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 6,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 188,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 7,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 224,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 8,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 256,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 9,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 288,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 10,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 316,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 11,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 351,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 12,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 384,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 13,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 413,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 14,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 446,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 15,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 478,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "bn_bits",
+      "limbs": [
+        2632131017,
+        2986966387,
+        745715246,
+        846753595,
+        2251619742,
+        134805059,
+        3850951784,
+        4085387688,
+        2540730233,
+        215828359,
+        1905726690,
+        4174699693,
+        434885196,
+        1029382515,
+        539382698,
+        2177924908
+      ],
+      "top": 16,
+      "capacity": 16,
+      "flags": 4,
+      "negative": 1
+    },
+    "result": {
+      "returned": 512,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [],
+      "top": 0,
+      "flags": 4
+    },
+    "result": {
+      "returned": 0,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        1
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        128
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 1,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        256
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 2,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        1073741824
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        2147483648
+      ],
+      "top": 1,
+      "flags": 4
+    },
+    "result": {
+      "returned": 4,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        1
+      ],
+      "top": 2,
+      "flags": 4
+    },
+    "result": {
+      "returned": 5,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1073741824
+      ],
+      "top": 8,
+      "flags": 4
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 8,
+      "flags": 4
+    },
+    "result": {
+      "returned": 32,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "top": 9,
+      "flags": 4
+    },
+    "result": {
+      "returned": 33,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 32,
+      "flags": 4
+    },
+    "result": {
+      "returned": 128,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 64,
+      "flags": 4
+    },
+    "result": {
+      "returned": 256,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_size",
+      "limbs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2147483648
+      ],
+      "top": 128,
+      "flags": 4
+    },
+    "result": {
+      "returned": 512,
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": -1
+    },
+    "result": {
+      "returned": 0,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 0
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": 0
+    },
+    "result": {
+      "returned": 0,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": 1
+    },
+    "result": {
+      "returned": 1,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": 2
+    },
+    "result": {
+      "returned": 1,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 3
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": 3
+    },
+    "result": {
+      "returned": 1,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 4
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_up_ref",
+      "references": 2147483647
+    },
+    "result": {
+      "returned": 0,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": -2147483648
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": -1
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 0
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": 0
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": 1
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 2
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": 2
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 3
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": 3
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": 4
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "references": 2147483647
+    },
+    "result": {
+      "returned": "rsa",
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": 1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 265
+        }
+      ],
+      "rsa_references": -2147483648
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": -1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": -1,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "engine_finish",
+          "object": "rsa_engine"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "n"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": -1,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 0
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 0,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "engine_finish",
+          "object": "rsa_engine"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "n"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 0,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": -1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": 0
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 1,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "engine_finish",
+          "object": "rsa_engine"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "n"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": 0
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 1,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        },
+        {
+          "call": "rsa_finish",
+          "object": "rsa"
+        },
+        {
+          "call": "free_ex_data",
+          "index": 6,
+          "object": "rsa"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "e"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "d"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "p"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "q"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmp1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "dmq1"
+        },
+        {
+          "call": "bn_clear_free",
+          "object": "iqmp"
+        },
+        {
+          "call": "blinding_free",
+          "object": "blinding"
+        },
+        {
+          "call": "blinding_free",
+          "object": "mt_blinding"
+        },
+        {
+          "call": "bignum_data_free",
+          "object": "bignum_data"
+        },
+        {
+          "call": "free",
+          "object": "rsa"
+        }
+      ],
+      "rsa_references": 0
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 3
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 3,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 3,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2147483647
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2147483646
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2147483647,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2147483646
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "references": 2147483647,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "rsa",
+          "amount": -1,
+          "lock": 9,
+          "file": "rsa_lib.c",
+          "line": 216
+        }
+      ],
+      "rsa_references": 2147483646
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": -1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -2,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": -1,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "engine_finish",
+          "object": "pkey_engine"
+        },
+        {
+          "call": "attributes_pop_free",
+          "object": "attributes",
+          "callback": "attribute_free_callback"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -2,
+      "key": null,
+      "engine": null,
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": -1,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -2,
+      "key": null,
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 0
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -1,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 0,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "engine_finish",
+          "object": "pkey_engine"
+        },
+        {
+          "call": "attributes_pop_free",
+          "object": "attributes",
+          "callback": "attribute_free_callback"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -1,
+      "key": null,
+      "engine": null,
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 0,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": -1,
+      "key": null,
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": 0,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 1,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "engine_finish",
+          "object": "pkey_engine"
+        },
+        {
+          "call": "attributes_pop_free",
+          "object": "attributes",
+          "callback": "attribute_free_callback"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": 0,
+      "key": null,
+      "engine": null,
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 1,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "pkey_free_callback",
+          "object": "pkey"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": 0,
+      "key": null,
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 1,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 1,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 1,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 3
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 3,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 3,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2147483647
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2147483646,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2147483647,
+      "finish": true,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2147483646,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "references": 2147483647,
+      "finish": true,
+      "populated": true,
+      "mutate_callback": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        }
+      ],
+      "pkey_references": 2147483646,
+      "key": "rsa",
+      "engine": "pkey_engine",
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "type": 0
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "error",
+          "library": 6,
+          "function": 121,
+          "reason": 127,
+          "file": "p_lib.c",
+          "line": 287
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "type": 1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "error",
+          "library": 6,
+          "function": 121,
+          "reason": 127,
+          "file": "p_lib.c",
+          "line": 287
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "type": 28
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "error",
+          "library": 6,
+          "function": 121,
+          "reason": 127,
+          "file": "p_lib.c",
+          "line": 287
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "get1_rsa",
+      "type": -1
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "error",
+          "library": 6,
+          "function": 121,
+          "reason": 127,
+          "file": "p_lib.c",
+          "line": 287
+        }
+      ],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "rsa_free",
+      "nil": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [],
+      "rsa_references": 1
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "nil": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [],
+      "pkey_references": 1,
+      "key": "rsa",
+      "engine": null,
+      "attributes": null
+    }
+  },
+  {
+    "input": {
+      "op": "pkey_free",
+      "method": false,
+      "populated": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "crypto_add",
+          "object": "pkey",
+          "amount": -1,
+          "lock": 10,
+          "file": "p_lib.c",
+          "line": 391
+        },
+        {
+          "call": "engine_finish",
+          "object": "pkey_engine"
+        },
+        {
+          "call": "attributes_pop_free",
+          "object": "attributes",
+          "callback": "attribute_free_callback"
+        },
+        {
+          "call": "free",
+          "object": "pkey"
+        }
+      ],
+      "pkey_references": 0,
+      "key": "rsa",
+      "engine": null,
+      "attributes": "attributes"
+    }
+  },
+  {
+    "input": {
+      "op": "private_encrypt",
+      "length": 0,
+      "padding": 1,
+      "callback_result": 0
+    },
+    "result": {
+      "returned": 0,
+      "effects": [
+        {
+          "call": "private_encrypt_callback",
+          "length": 0,
+          "input": "input",
+          "output": "output",
+          "rsa": "rsa",
+          "padding": 1
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "private_encrypt",
+      "length": 7,
+      "padding": 1,
+      "callback_result": 256
+    },
+    "result": {
+      "returned": 256,
+      "effects": [
+        {
+          "call": "private_encrypt_callback",
+          "length": 7,
+          "input": "input",
+          "output": "output",
+          "rsa": "rsa",
+          "padding": 1
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "private_encrypt",
+      "length": -1,
+      "padding": 4,
+      "callback_result": -1
+    },
+    "result": {
+      "returned": -1,
+      "effects": [
+        {
+          "call": "private_encrypt_callback",
+          "length": -1,
+          "input": "input",
+          "output": "output",
+          "rsa": "rsa",
+          "padding": 4
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "private_encrypt",
+      "length": 2147483647,
+      "padding": 3,
+      "callback_result": -2147483648
+    },
+    "result": {
+      "returned": -2147483648,
+      "effects": [
+        {
+          "call": "private_encrypt_callback",
+          "length": 2147483647,
+          "input": "input",
+          "output": "output",
+          "rsa": "rsa",
+          "padding": 3
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "private_encrypt",
+      "length": 12,
+      "padding": 6,
+      "callback_result": 2147483647
+    },
+    "result": {
+      "returned": 2147483647,
+      "effects": [
+        {
+          "call": "private_encrypt_callback",
+          "length": 12,
+          "input": "input",
+          "output": "output",
+          "rsa": "rsa",
+          "padding": 6
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key"
+    },
+    "result": {
+      "returned": "pkey",
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        }
+      ],
+      "output": "rsa"
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "bio_failure": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "error",
+          "library": 9,
+          "function": 124,
+          "reason": 7,
+          "file": "pem_pkey.c",
+          "line": 222
+        }
+      ],
+      "output": "rsa"
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "parse_failure": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        }
+      ],
+      "output": "rsa"
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "output_pointer": true
+    },
+    "result": {
+      "returned": "pkey",
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": "output",
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        }
+      ],
+      "output": "pkey"
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "output_pointer": true,
+      "parse_failure": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": "output",
+          "password_callback": null,
+          "password_data": null
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        }
+      ],
+      "output": null
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "output_pointer": true,
+      "bio_failure": true
+    },
+    "result": {
+      "returned": null,
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "error",
+          "library": 9,
+          "function": 124,
+          "reason": 7,
+          "file": "pem_pkey.c",
+          "line": 222
+        }
+      ],
+      "output": "rsa"
+    }
+  },
+  {
+    "input": {
+      "op": "read_private_key",
+      "password": true
+    },
+    "result": {
+      "returned": "pkey",
+      "effects": [
+        {
+          "call": "bio_s_file"
+        },
+        {
+          "call": "bio_new",
+          "method": "bio_method"
+        },
+        {
+          "call": "bio_ctrl",
+          "object": "bio",
+          "command": 106,
+          "number": "0",
+          "pointer": "stream"
+        },
+        {
+          "call": "pem_read_bio",
+          "object": "bio",
+          "output": null,
+          "password_callback": "password_callback",
+          "password_data": "password_data"
+        },
+        {
+          "call": "bio_free",
+          "object": "bio"
+        }
+      ],
+      "output": "rsa"
+    }
+  }
+]
