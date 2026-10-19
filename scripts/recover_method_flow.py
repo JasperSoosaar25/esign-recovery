@@ -22,13 +22,17 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, decoder=None, dispatch=None,
-         call_return_values=None, max_union=16):
+         call_return_values=None, max_union=16, load_result_values=None):
     # Optional finite call-return hypotheses belong to separate analysis views.
     # Defaults preserve the baseline's unknown call results exactly.
     call_return_values = call_return_values or {}
+    load_result_values = load_result_values or {}
     require(1 <= max_union <= 256 and all(1 <= len(v) <= max_union and
             all(isinstance(n, int) and 0 <= n < (1 << 64) for n in v)
             for v in call_return_values.values()), 'Invalid finite call-return hypothesis')
+    require(all(isinstance(k, int) and 1 <= len(v) <= max_union and
+            all(isinstance(n, int) and 0 <= n < (1 << 64) for n in v)
+            for k, v in load_result_values.items()), 'Invalid finite load-result hypothesis')
     image = MachO(data) if image is None else image
     text = next(s for s in image.sections if s['name'] == '__text')
     lo, hi = text['address'], text['address'] + text['size']
@@ -137,6 +141,11 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                         result = (numbers, tuple(sorted(set(base[1] + index[1] + tuple(slots)))))
                 except (ValueError, IndexError, OverflowError, struct.error):
                     pass
+        if address in load_result_values:
+            require(name in ('ldr', 'ldur', 'ldrb') and len(ops) == 2 and ops[0].type == CS_OP_REG,
+                    'Finite load-result hypothesis is not a supported load')
+            row['finite_load_result_hypothesis'] = sorted(set(load_result_values[address]))
+            result = (tuple(row['finite_load_result_hypothesis']), ())
         _, writes = ins.regs_access()
         for register in writes:
             values.pop(reg(ins, register), None)

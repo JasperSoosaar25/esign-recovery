@@ -69,6 +69,24 @@ class OriginalFlowTests(unittest.TestCase):
         self.assertEqual(result['unresolved_indirect_jumps'], 1)
         self.assertIn('objc_dispatch', result['instructions'][0])
 
+    def test_explicit_load_hypothesis_is_tagged_and_default_is_unchanged(self):
+        # ldr x8,[x9]; br x8; ret. Unknown x9 stays unknown by default.
+        data = bytes.fromhex('280140f900011fd6c0035fd6')
+        with patch('recover_method_flow.MachO', self.image):
+            baseline = walk(data, self.start, set(), {})
+            finite = walk(data, self.start, set(), {},
+                          load_result_values={self.start: [self.start + 8]})
+        self.assertEqual(baseline['unresolved_indirect_jumps'], 1)
+        self.assertEqual(finite['unresolved_indirect_jumps'], 0)
+        self.assertEqual(finite['instructions'][0]['finite_load_result_hypothesis'], [self.start + 8])
+        self.assertNotIn('finite_load_result_hypothesis', baseline['instructions'][0])
+
+    def test_load_hypothesis_cannot_relabel_a_branch(self):
+        with patch('recover_method_flow.MachO', self.image):
+            with self.assertRaises(ValueError):
+                walk(bytes.fromhex('00011fd6'), self.start, set(), {},
+                     load_result_values={self.start: [0]})
+
 
 if __name__ == '__main__':
     unittest.main()

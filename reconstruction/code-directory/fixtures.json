@@ -1,0 +1,6859 @@
+[
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 0,
+      "file_length": 37,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000101000204000000000000000101000000580000000700000000000000001401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e889",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        }
+      ],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 1,
+      "file_length": 38,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000115000204000000000000000101000000580000000700000001000000011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e889320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "8"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4095,
+      "file_length": 4132,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000011500020400000000000000010100000058000000070000000100000fff1401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8890b973a890fc129fbdd8d942c976272361358c6d5",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4095",
+          "returned": 4095
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4095
+        }
+      ],
+      "file_position": "4102"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4096,
+      "file_length": 4133,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000115000204000000000000000101000000580000000700000001000010001401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 4134,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 8191,
+      "file_length": 8228,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000012900020400000000000000010100000058000000070000000200001fff1401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e80b973a890fc129fbdd8d942c976272361358c6d5",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4095",
+          "returned": 4095
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4095
+        }
+      ],
+      "file_position": "8198"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 8192,
+      "file_length": 8229,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000020001401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e8",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        }
+      ],
+      "file_position": "8199"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 8193,
+      "file_length": 8230,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000013d000204000000000000000101000000580000000700000003000020011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "8199"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "8200"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 69639,
+      "file_length": 69676,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000269000204000000000000000101000000580000000700000012000110071401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e86442964d96d07b24add0318da9cce6d33f9181e826b2df678914763d158631f9192f9ecb1d9e08eb",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "8199"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "12295"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "16391"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "20487"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "24583"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "28679"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "32775"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "36871"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "40967"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "45063"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "49159"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "53255"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "57351"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "61447"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "65543"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "69639"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "7",
+          "returned": 7
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 7
+        }
+      ],
+      "file_position": "69646"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": null,
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": null,
+      "effects": [],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c02000001220002040000000000000000fa000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c00007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": null,
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c02000001150002040000000000000000ed000000580000000700000002000010011401000c000000000000000000000059000000000000000000000000000000000000000000000000000020000000000000000001005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c02000001150002040000000000000000ed000000580000000700000002000010011401000c000000000000000000000059000000000000000000000000000000000000000000000000000020000000000000000001005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "\u00f6\ud83d\udc99",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000011b0002040000000000000000f3000000580000000700000002000010011401000c00000000000000000000005f000000000000000000000000000000000000000000000000000020000000000000000001c3b6f09f9299005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "\u00d6\u0000\ud83d\udc99",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c00c39600f09f9299007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 0,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e889da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 8,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e889320355ced694aa69924f6bb82e7b74f420303fd9da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ],
+      "nil_handle": true
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e88900000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "getter": "machoFileHandle"
+        }
+      ],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "18446744073709551615",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d0000000000000000000000000000000000000000ffffffffffffffff0000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1311768467463790320",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d00000000000000000000000000000000000000000000000000002000123456789abcdef0636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "4294967297",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e889da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4294967297"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4294971393"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        }
+      ],
+      "file_position": "4294971393"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d3132330000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d31323300da39a3ee5e6b4b0d3255bfef95601890afd807090000000000000000000000000000000000000000da39a3ee5e6b4b0d3255bfef95601890afd807090000000000000000000000000000000000000000da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd807096442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "00",
+        null,
+        "01",
+        null,
+        "0203"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002000010011401000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233002215d90c8d9b57557cdd6c736ba44d5fd5b41869000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000bf8b4530d8d246dd74ac53a13471bba17941dff700000000000000000000000000000000000000005ba93c9db0cff93f52b521d7420e43f6eda2784f6442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 2
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": false,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ],
+      "code_values": [
+        "16909060",
+        "287454020",
+        "1432778632",
+        "2578103244",
+        "4096",
+        "4097"
+      ],
+      "exec_values": [
+        "72057594037927936",
+        "562949953421312",
+        "3298534883328",
+        "17179869184",
+        "83886080",
+        "393216",
+        "1792",
+        "8"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000129000204000000000000000101000000580000000700000002012277cc1401000c00000000000000000000006d000000000000000000000000000000000000000001020304050607080000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233007d44c33cf9a82ab9bd5300d266784504e9772177000000000000000000000000000000000000000079a64683552f47f211d562f155533929b31cc4c60000000000000000000000000000000000000000dee1ebcd105d3d47adf43aba6fd674e80d1dc35ff1c19a73fcf0eb72e4ea598af1b7c05b3cdf7b3259bd0a3ff43b32849b319e645d4798d8a5d1e8896442964d96d07b24add0318da9cce6d33f9181e8320355ced694aa69924f6bb82e7b74f420303fd9",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 0,
+      "file_length": 37,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000155000204000000000000000155000000580000000700000000000000002002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e1",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        }
+      ],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 1,
+      "file_length": 38,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000175000204000000000000000155000000580000000700000001000000012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e14d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "8"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4095,
+      "file_length": 4132,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000017500020400000000000000015500000058000000070000000100000fff2002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e1497a492f872db912bfbc9d2e6492bfc016e9fd6cca088b69ed44ef1d63d0f83c",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4095",
+          "returned": 4095
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4095
+        }
+      ],
+      "file_position": "4102"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4096,
+      "file_length": 4133,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000175000204000000000000000155000000580000000700000001000010002002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d0",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 4134,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 8191,
+      "file_length": 8228,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000019500020400000000000000015500000058000000070000000200001fff2002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d0497a492f872db912bfbc9d2e6492bfc016e9fd6cca088b69ed44ef1d63d0f83c",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4095",
+          "returned": 4095
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4095
+        }
+      ],
+      "file_position": "8198"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 8192,
+      "file_length": 8229,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000020002002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d0",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        }
+      ],
+      "file_position": "8199"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 8193,
+      "file_length": 8230,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c02000001b5000204000000000000000155000000580000000700000003000020012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "8199"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "8200"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 69639,
+      "file_length": 69676,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000395000204000000000000000155000000580000000700000012000110072002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d063efa12bcb851d4a101d6d58da4556b151cb02971b1d4c2902bd80b2b4f4c440",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "8199"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "12295"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "16391"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "20487"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "24583"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "28679"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "32775"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "36871"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "40967"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "45063"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "49159"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "53255"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "57351"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "61447"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "65543"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "69639"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "7",
+          "returned": 7
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 7
+        }
+      ],
+      "file_position": "69646"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": null,
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": null,
+      "effects": [],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c020000018e00020400000000000000014e000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c00005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": null,
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000181000204000000000000000141000000580000000700000002000010012002000c000000000000000000000059000000000000000000000000000000000000000000000000000020000000000000000001005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000181000204000000000000000141000000580000000700000002000010012002000c000000000000000000000059000000000000000000000000000000000000000000000000000020000000000000000001005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "\u00f6\ud83d\udc99",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000187000204000000000000000147000000580000000700000002000010012002000c00000000000000000000005f000000000000000000000000000000000000000000000000000020000000000000000001c3b6f09f9299005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "\u00d6\u0000\ud83d\udc99",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c00c39600f09f9299005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 0,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e1e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 8,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e14d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        }
+      ],
+      "file_position": "4103"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ],
+      "nil_handle": true
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "getter": "machoFileHandle"
+        }
+      ],
+      "file_position": "3"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "18446744073709551615",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d0000000000000000000000000000000000000000ffffffffffffffff0000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1311768467463790320",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d00000000000000000000000000000000000000000000000000002000123456789abcdef0636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "4294967297",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e1e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4294967297"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4294971393"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        }
+      ],
+      "file_position": "4294971393"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d31323300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d31323300e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b8550000000000000000000000000000000000000000000000000000000000000000e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b8550000000000000000000000000000000000000000000000000000000000000000e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85514421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "00",
+        null,
+        "01",
+        null,
+        "0203"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002000010012002000c00000000000000000000006d000000000000000000000000000000000000000000000000000020000000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d31323300ee9040f65c341855e070ff438eb0ea9d5b831b2a2c270fb7ef592d750408e3b30000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a00000000000000000000000000000000000000000000000000000000000000006e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d14421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 2
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "directory",
+      "sha256": true,
+      "code_length": 4097,
+      "file_length": 6000,
+      "offset": "7",
+      "initial_position": 3,
+      "bundle_id": "com.example.original",
+      "team_id": "TEAM123",
+      "exec_limit": "8192",
+      "exec_flags": "1",
+      "slots": [
+        "696e666f",
+        "726571",
+        "726573",
+        "656e74",
+        "646572"
+      ],
+      "code_values": [
+        "16909060",
+        "287454020",
+        "1432778632",
+        "2578103244",
+        "4096",
+        "4097"
+      ],
+      "exec_values": [
+        "72057594037927936",
+        "562949953421312",
+        "3298534883328",
+        "17179869184",
+        "83886080",
+        "393216",
+        "1792",
+        "8"
+      ]
+    },
+    "result": {
+      "data": "fade0c0200000195000204000000000000000155000000580000000700000002012277cc2002000c00000000000000000000006d000000000000000000000000000000000000000001020304050607080000000000000001636f6d2e6578616d706c652e6f726967696e616c005445414d313233005050d80d22ecd471ea55df7034042c1e041341ff4066e7f6ff38e20b720df8ea0000000000000000000000000000000000000000000000000000000000000000adc5877fb1da7d50eec1c7b392202f8f8203bdd6809a262968179dd16c8ad7e600000000000000000000000000000000000000000000000000000000000000006eeb55f76600d4ad08be72ad3ac13d969330e73d7ad53031557dab443eba22dbc3f7bdf537c46724392c4428e47e04c148c56966190c3c9ed92114800c9f35bb06271baf49532c879aa3c58b48671884bcc858f09197412d682750496c33e1e114421efe87939b2d2cf664b471a63c2d2791ef4c30ee98be93f83e3c4c82f2d04d7b3ef7300acf70c892d8327db8272f54434adbc61a4e130a563cb59a0d0f47",
+      "effects": [
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "getter": "execSegLimit"
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "codeLength"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "7"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "4096",
+          "returned": 4096
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 4096
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "getter": "offset"
+        },
+        {
+          "seek": "4103"
+        },
+        {
+          "getter": "machoFileHandle"
+        },
+        {
+          "read": "1",
+          "returned": 1
+        },
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ],
+      "file_position": "4104"
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": false,
+      "data": null
+    },
+    "result": {
+      "data": "0000000000000000000000000000000000000000",
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": false,
+      "data": ""
+    },
+    "result": {
+      "data": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "effects": [
+        {
+          "digest": "_CC_SHA1",
+          "length": 0
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": false,
+      "data": "00"
+    },
+    "result": {
+      "data": "5ba93c9db0cff93f52b521d7420e43f6eda2784f",
+      "effects": [
+        {
+          "digest": "_CC_SHA1",
+          "length": 1
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": false,
+      "data": "616263"
+    },
+    "result": {
+      "data": "a9993e364706816aba3e25717850c26c9cd0d89d",
+      "effects": [
+        {
+          "digest": "_CC_SHA1",
+          "length": 3
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": false,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "data": "4916d6bdb7f78e6803698cab32d1586ea457dfc8",
+      "effects": [
+        {
+          "digest": "_CC_SHA1",
+          "length": 256
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": true,
+      "data": null
+    },
+    "result": {
+      "data": "0000000000000000000000000000000000000000000000000000000000000000",
+      "effects": []
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": true,
+      "data": ""
+    },
+    "result": {
+      "data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "effects": [
+        {
+          "digest": "_CC_SHA256",
+          "length": 0
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": true,
+      "data": "00"
+    },
+    "result": {
+      "data": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "effects": [
+        {
+          "digest": "_CC_SHA256",
+          "length": 1
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": true,
+      "data": "616263"
+    },
+    "result": {
+      "data": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "effects": [
+        {
+          "digest": "_CC_SHA256",
+          "length": 3
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "digest",
+      "sha256": true,
+      "data": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    "result": {
+      "data": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "effects": [
+        {
+          "digest": "_CC_SHA256",
+          "length": 256
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "op": "byte_length",
+      "value": null
+    },
+    "result": {
+      "length": 0
+    }
+  },
+  {
+    "input": {
+      "op": "byte_length",
+      "value": ""
+    },
+    "result": {
+      "length": 0
+    }
+  },
+  {
+    "input": {
+      "op": "byte_length",
+      "value": "\u00f6\ud83d\udc99"
+    },
+    "result": {
+      "length": 6
+    }
+  },
+  {
+    "input": {
+      "op": "byte_length",
+      "value": "a\u0000b"
+    },
+    "result": {
+      "length": 3
+    }
+  },
+  {
+    "input": {
+      "op": "byte_length",
+      "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "result": {
+      "length": 128
+    }
+  }
+]
