@@ -3,13 +3,20 @@
 #import <objc/message.h>
 #import "ESignMobileprovision.h"
 #import "ESignMobileprovisionDependencies.h"
+#ifdef ESIGN_PROFILE_REAL_OID_LOOKUP
+#include "../reconstruction/oid-lookup/ESignOIDLookup.h"
+static ESignOIDObject cmsOID;
+#endif
 static NSDictionary *spec;
 static NSMutableArray *effects;
 static NSUInteger certificateIndex;
 static NSMapTable *serialNumbers;
 static NSData *payload;
 static ESignProfileASN1String octets,*content;
-static unsigned char bioMethodToken,bioToken,cmsToken;
+static unsigned char bioMethodToken,bioToken;
+#ifndef ESIGN_PROFILE_REAL_OID_LOOKUP
+static unsigned char cmsToken;
+#endif
 #ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
 static void *cmsFields[2],*signedFields[3],*encapFields[2];
 #endif
@@ -67,7 +74,9 @@ ESignProfileASN1String **ESignOriginal_10062edd8(void *cms){
 ESignProfileASN1String **ESignTestCMSContent(void *cms){
     if(cms!=CMSIdentity())abort();[effects addObject:@{@"call":@"CMS_get0_content",@"cms":@"cms"}];return ESignOriginal_10062edd8(cms);
 }
+#ifndef ESIGN_PROFILE_REAL_OID_LOOKUP
 int ESignOriginal_1005b3138(const void *object){if(object!=&cmsToken)abort();return 22;}
+#endif
 void ESignOriginal_100604c0c(int library,int function,int reason,const char *file,int line){
     (void)library;(void)function;(void)reason;(void)file;(void)line;abort();
 }
@@ -77,7 +86,12 @@ static void Configure(NSDictionary *input){
     payload=Unhex(spec[@"payload_hex"]?:@"");octets.length=(int32_t)payload.length;octets.type=4;octets.data=(unsigned char *)payload.bytes;
     content=[spec[@"octets_failure"] boolValue]?NULL:&octets;
 #ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
-    cmsFields[0]=&cmsToken;cmsFields[1]=signedFields;signedFields[2]=encapFields;encapFields[1]=content;
+#ifdef ESIGN_PROFILE_REAL_OID_LOOKUP
+    cmsOID=ESignOriginalOIDObjects[22];cmsOID.nid=0;cmsFields[0]=&cmsOID;
+#else
+    cmsFields[0]=&cmsToken;
+#endif
+    cmsFields[1]=signedFields;signedFields[2]=encapFields;encapFields[1]=content;
 #endif
 }
 static NSDictionary *Snapshot(YYYMobileprovision *object){

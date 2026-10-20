@@ -1,0 +1,24 @@
+{
+  "source_family_reference_only": "OpenSSL_1_0_2u",
+  "exact_linked_OpenSSL_patch_not_established": true,
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_object_records_matching_reference_names_nids_lengths_encoded_bytes_and_flags": 958,
+  "original_search_indexes_matching_reference": 890,
+  "reference_files": [
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/objects/obj_dat.c",
+      "sha256": "9b95ad81381440bf4c2e5a8b7b5d2af24f363e2cc3575b9d9758c794e54cf8cc"
+    },
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/objects/obj_dat.h",
+      "sha256": "27328fa75f04e9b4a1f21a1ed1cd1592491753834d83e33c3c17039d68dd7725"
+    },
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/lhash/lhash.c",
+      "sha256": "3f3baaff2148290d5bb3bf92148649dd8b87a58241dd9c7bad5b4b5aac7c8a77"
+    }
+  ],
+  "upstream_source_not_used_as_a_replacement_runtime": true,
+  "runtime_source_is_instruction_translation_and_IPA_constant_relocation": true,
+  "unrecovered_registry_factory_hash_and_compare_callbacks_remain_explicit": true
+}

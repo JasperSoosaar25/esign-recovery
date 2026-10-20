@@ -1106,6 +1106,18 @@
 			"path" = "libESignCMSContent.a";
 			"sourceTree" = "BUILT_PRODUCTS_DIR";
 		};
+		"5B9D79B00313831D4AC6AA73" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "74FC1F2B69368192FB8C8AA2";
+			"remoteInfo" = "ESignOIDLookup";
+		};
+		"F4FC54C1022DE8ACC546FAE8" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "74FC1F2B69368192FB8C8AA2";
+			"targetProxy" = "5B9D79B00313831D4AC6AA73";
+		};
 		"12403CBF5FBAB5E3574359E9" = {
 			"isa" = "XCBuildConfiguration";
 			"buildSettings" = {
@@ -1144,6 +1156,7 @@
 			"buildRules" = (
 			);
 			"dependencies" = (
+				"F4FC54C1022DE8ACC546FAE8",
 			);
 			"name" = "ESignCMSContent";
 			"productName" = "ESignCMSContent";
@@ -1262,6 +1275,117 @@
 			"productReference" = "1594781D2AB093C7EFE47442";
 			"productType" = "com.apple.product-type.library.static";
 		};
+		"086979C7547864650EB42120" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "ESignOIDLookup.c";
+			"sourceTree" = "<group>";
+		};
+		"816DD67B997FFA721153A4E1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "086979C7547864650EB42120";
+		};
+		"AC16A1744355F74EFDF8B982" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "ESignOIDData.c";
+			"sourceTree" = "<group>";
+		};
+		"ED6E011C08AF9C562C041AE0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AC16A1744355F74EFDF8B982";
+		};
+		"6BDD5151FF4A8C96919A45DC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "ESignOIDLookup.h";
+			"sourceTree" = "<group>";
+		};
+		"36535227C567A787D6243B56" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "OPENSSL-LICENSE.txt";
+			"sourceTree" = "<group>";
+		};
+		"37F4AF5E33C8BD662232000C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "README.md";
+			"sourceTree" = "<group>";
+		};
+		"41DF573DBA90DDEB2C1179D0" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"086979C7547864650EB42120",
+				"AC16A1744355F74EFDF8B982",
+				"6BDD5151FF4A8C96919A45DC",
+				"36535227C567A787D6243B56",
+				"37F4AF5E33C8BD662232000C",
+			);
+			"name" = "ESignOIDLookup";
+			"path" = "reconstruction/oid-lookup";
+			"sourceTree" = "<group>";
+		};
+		"510DB94AD341F91A558C2E99" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"816DD67B997FFA721153A4E1",
+				"ED6E011C08AF9C562C041AE0",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"D2788754ADE2969240BD61F0" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"includeInIndex" = 0;
+			"path" = "libESignOIDLookup.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"1A488024F252E15C994B616A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignOIDLookup";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Debug";
+		};
+		"68750D5010A8C58260535FCC" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignOIDLookup";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Release";
+		};
+		"FABCF218B88FA5CE870622D2" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"1A488024F252E15C994B616A",
+				"68750D5010A8C58260535FCC",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Debug";
+		};
+		"74FC1F2B69368192FB8C8AA2" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "FABCF218B88FA5CE870622D2";
+			"buildPhases" = (
+				"510DB94AD341F91A558C2E99",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "ESignOIDLookup";
+			"productName" = "ESignOIDLookup";
+			"productReference" = "D2788754ADE2969240BD61F0";
+			"productType" = "com.apple.product-type.library.static";
+		};
 		"41CF6794BA4200B839C53531" = {
 			"isa" = "PBXGroup";
 			"children" = (
@@ -1277,6 +1401,7 @@
 				"252A10D182A1B9EF9A2659E5",
 				"F57EC2BD431ECAEFB270CFD5",
 				"AD65DE3B631F02DC8A786E64",
+				"41DF573DBA90DDEB2C1179D0",
 			);
 			"name" = "Recovered source";
 			"sourceTree" = "<group>";
@@ -1296,6 +1421,7 @@
 				"1DE9B9BCC3CA989B9AEF6CBB",
 				"4A038F7A7547A85F7A4CD133",
 				"1594781D2AB093C7EFE47442",
+				"D2788754ADE2969240BD61F0",
 			);
 			"name" = "Products";
 			"sourceTree" = "<group>";
@@ -1339,6 +1465,7 @@
 				"FA56E80914921BA78A3E522D",
 				"A21B636E681FDD4FEFD25AB0",
 				"8D4D93BB5768CEBC8D9399EE",
+				"74FC1F2B69368192FB8C8AA2",
 			);
 		};
 	};

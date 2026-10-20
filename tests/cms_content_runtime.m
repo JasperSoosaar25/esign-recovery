@@ -1,6 +1,9 @@
 #import <Foundation/Foundation.h>
 #include "ESignCMSContent.h"
 #include <string.h>
+#ifdef ESIGN_CMS_REAL_OID_LOOKUP
+#include "../reconstruction/oid-lookup/ESignOIDLookup.h"
+#endif
 static NSMutableDictionary *labels;
 static NSMutableArray *effects;
 static NSDictionary *spec;
@@ -9,13 +12,22 @@ static void *Named(NSString *name){void *p=calloc(1,256);if(!p)abort();labels[@(
 static id Label(const void *p){if(!p)return [NSNull null];id name=labels[@((uintptr_t)p)];if(!name)abort();return name;}
 static void Store(void *p,const void *value){memcpy(p,&value,8);}
 static void *Load(const void *p){void *v;memcpy(&v,p,8);return v;}
+#ifdef ESIGN_CMS_REAL_OID_LOOKUP
+int ESignTestOBJ(const void *p){if(p!=typePointer)abort();[effects addObject:@{@"call":@"OBJ_obj2nid",@"object":@"type"}];return ESignOriginal_1005b3138(p);}
+#else
 int ESignOriginal_1005b3138(const void *p){if(p!=typePointer)abort();[effects addObject:@{@"call":@"OBJ_obj2nid",@"object":@"type"}];return [spec[@"nid"] intValue];}
+#endif
 void ESignOriginal_100604c0c(int library,int function,int reason,const char *file,int line){
     [effects addObject:@{@"call":@"error",@"library":@(library),@"function":@(function),@"reason":@(reason),@"file":@(file),@"line":@(line)}];
 }
 static NSDictionary *Evaluate(NSDictionary *input){
     spec=input;labels=[NSMutableDictionary dictionary];effects=[NSMutableArray array];NSMutableDictionary *fields=[NSMutableDictionary dictionary];
     void *cms=Named(@"cms");typePointer=Named(@"type");void *container=Named(@"container"),*content=Named(@"content"),*replacement=Named(@"replacement");
+#ifdef ESIGN_CMS_REAL_OID_LOOKUP
+    int32_t nid=[spec[@"nid"] intValue];ESignOIDObject *type=typePointer;
+    if(nid>0&&nid<958&&ESignOriginalOIDObjects[nid].length>0){*type=ESignOriginalOIDObjects[nid];type->nid=0;}
+    else type->nid=nid;
+#endif
     Store(cms,typePointer);Store((char *)cms+8,container);fields[@"cms.content"]=@((uintptr_t)((char *)cms+8));int32_t typ=[spec[@"other_type"] intValue];memcpy(container,&typ,4);
     for(NSNumber *n in @[@8,@16,@24,@40]){
         int offset=n.intValue;void *nested=Named([NSString stringWithFormat:@"nested-%d",offset]);Store((char *)container+offset,nested);fields[[NSString stringWithFormat:@"container[%d]",offset]]=@((uintptr_t)((char *)container+offset));

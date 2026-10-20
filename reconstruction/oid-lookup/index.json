@@ -1,0 +1,30 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "database_sha256": "92779c2c6a65b86188bbde99f56c0760f1d0fad1c29e0a71ccf0e85c8d4f4b03",
+  "original_native_functions": 5,
+  "original_instructions": 315,
+  "original_instructions_exercised": 314,
+  "all_original_instructions_exercised": false,
+  "zero_length_no_match_branch_not_exercised": [
+    "0x1005b3274"
+  ],
+  "static_objects": 958,
+  "binary_search_indexes": 890,
+  "fixtures": 5635,
+  "registry_callbacks_and_ERR_are_controlled_test_boundaries": true,
+  "original_hash_retrieval_body_is_executed": true,
+  "complete_crypto_backend": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "files": {
+    "ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "README.md": "4235665cf11c96766d094c0d266743ef9fc360bdced240712a065754ed523505",
+    "database.json.gz": "1788a3fea5ea050b2bed3d402d266696c63aa5146721df6899d4f713d80514f9",
+    "evidence.json.gz": "446f88b32d85a7b0deb48a4b1031ed1d8aee6a8a14847cc61030a233009ad44f",
+    "fixtures.json.gz": "c5bfde78adf56d0ffa6fb5b3c727f2eab1e00639c95f2625f2fe367363d0a045",
+    "reference-research.json": "caae3f3fbd807643640c4587cda53ccc7b8d2dfdb1485e0fbfb066fce5dcefbd"
+  }
+}

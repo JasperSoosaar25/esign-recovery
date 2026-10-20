@@ -133,7 +133,9 @@
         "reconstruction/cms-content/OPENSSL-LICENSE.txt",
         "reconstruction/cms-content/README.md"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "ESignOIDLookup"
+      ],
       "extra_cflags": []
     },
     {
@@ -148,6 +150,19 @@
       "dependencies": [
         "ESignCMSContent"
       ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignOIDLookup",
+      "directory": "reconstruction/oid-lookup",
+      "files": [
+        "reconstruction/oid-lookup/ESignOIDLookup.c",
+        "reconstruction/oid-lookup/ESignOIDData.c",
+        "reconstruction/oid-lookup/ESignOIDLookup.h",
+        "reconstruction/oid-lookup/OPENSSL-LICENSE.txt",
+        "reconstruction/oid-lookup/README.md"
+      ],
+      "dependencies": [],
       "extra_cflags": []
     }
   ]

@@ -38,6 +38,9 @@
       <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="8D4D93BB5768CEBC8D9399EE" BuildableName="libESignMobileprovision.a" BlueprintName="ESignMobileprovision" ReferencedContainer="container:ESignRecovery.xcodeproj" />
       </BuildActionEntry>
+      <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="74FC1F2B69368192FB8C8AA2" BuildableName="libESignOIDLookup.a" BlueprintName="ESignOIDLookup" ReferencedContainer="container:ESignRecovery.xcodeproj" />
+      </BuildActionEntry>
     </BuildActionEntries>
   </BuildAction>
 </Scheme>

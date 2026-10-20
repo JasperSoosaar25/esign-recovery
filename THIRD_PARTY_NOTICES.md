@@ -27,3 +27,6 @@ The additional classes in `reconstruction/entitlements/` and `reconstruction/loa
 `reconstruction/cms-content/` also reconstructs the original CMS content-slot accessor with the same source-family and ownership boundaries. Its [OpenSSL/SSLeay notices](reconstruction/cms-content/OPENSSL-LICENSE.txt) are preserved. Its explicit OID/ERR test boundaries do not implement a CMS backend.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). Analysis models and controlled test callees are separate tooling, not runtime backend implementations or proof of complete RSA/PEM/CMS operation.
+
+
+The original OID lookup, static object/name/OID tables and LHASH retrieval translations in `reconstruction/oid-lookup/` preserve the same legacy OpenSSL/SSLeay notices in `OPENSSL-LICENSE.txt`. Its primary source-family comparison is recorded in `reference-research.json`. These recovered materials are not relicensed by the MIT license for new recovery tools. The exact linked OpenSSL patch is not established.
