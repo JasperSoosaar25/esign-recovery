@@ -1,0 +1,34 @@
+{
+  "result": "PASS",
+  "component": "ESign original CMS content-slot accessor",
+  "original_native_functions": 1,
+  "source_behavior_fixture_comparisons": 71,
+  "original_instructions_exercised": 71,
+  "live_returned_field_identity_and_mutation_compared": true,
+  "OBJ_lookup_and_ERR_are_controlled_test_boundaries": true,
+  "additional_native_comparisons_using_actual_original_OID_source": 71,
+  "actual_original_OID_lookup_implementation_tested": true,
+  "actual_CMS_decoding_or_signing_tested": false,
+  "source_files_sha256": {
+    "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+    "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "tests/cms_content_runtime.m": "a644db23038c7c0f2846a766b9bca81e606e2c5240950a55ba402cfd2a027573"
+  },
+  "library_sha256": "a866497cf104bcf75cc34bc13ab7bc54f3e68fee2a28e6a7544864adf7bc4a3d",
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "9922c42eae15fc177919520a886ffb0fb266d357",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940/artifacts/12277777801"
+}
+

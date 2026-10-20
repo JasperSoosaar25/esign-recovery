@@ -12,7 +12,7 @@ This verifies project generation, asks Xcode to list and build all targets, chec
 
 This project is new build configuration for recovered components. It is not the author's project or an application target. It has no runnable UI or app bundle and produces no IPA. The compiler/archive stage does not resolve the missing original crypto/parser/global dependencies. The BIO/CMS decoder, certificate/P12 implementation, full signing orchestration and application/UI still need recovery before an original app can link and run. Harness substitutes and the original executable are excluded from these targets. The scalar-accessor evidence fragments are not complete runtime class implementations and are excluded too.
 
-Dependencies are built once: load commands use the Mach header/base library, requirements use signature containers, the RSA wrapper uses selected legacy crypto helpers, and the profile class uses the recovered CMS content accessor. A future app must link those archives once and supply the remaining original implementations. The static archives do not merge dependency archives or establish full-app linking/parity. Foundation/CommonCrypto calls remain original platform dependencies. Original deployment metadata requests iOS 11.0; only an actual tested OS/device result can establish compatibility.
+Dependencies are built once: load commands use the Mach header/base library, requirements use signature containers, the RSA wrapper uses selected legacy crypto helpers, the profile class uses the recovered CMS content accessor, and CMS content uses the recovered original OID lookup. A future app must link those archives once and supply the remaining original implementations. The static archives do not merge dependency archives or establish full-app linking/parity. Foundation/CommonCrypto calls remain original platform dependencies. Original deployment metadata requests iOS 11.0; only an actual tested OS/device result can establish compatibility.
 
 `components.json` is the reviewed source/target manifest. Update it when adding a verified component, then run:
 
@@ -22,3 +22,5 @@ python3 scripts/generate_component_project.py --verify
 ```
 
 The generated project contains no new app-runtime implementation. It preserves component source boundaries and uses the same unoptimized compiler mode as the existing behavior harnesses. Preserve each component's ownership, evidence and dependency notices. Read `DEVELOPMENT.md`, `docs/SIGNING-DEPENDENCIES.md` and `docs/BUILD-STATUS.md` before attempting app integration.
+
+The [verified thirteen-target build](../docs/builds/component-project-9922c42e.json) records source commit `9922c42e`, all arm64 archives, exact project/source hashes, Xcode 16.4/iOS 18.5 and the downloadable artifact. Individual OID, CMS and profile reports separately record native behavior and composition checks.

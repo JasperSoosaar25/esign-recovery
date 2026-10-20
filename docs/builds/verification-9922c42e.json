@@ -1,0 +1,108 @@
+{
+  "result": "PASS",
+  "source_commit": "9922c42eae15fc177919520a886ffb0fb266d357",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940",
+  "tool_tests_passed": 93,
+  "individual_native_component_jobs_passed": 13,
+  "combined_Xcode_project_jobs_passed": 1,
+  "recovery_integrity_jobs_passed": 1,
+  "new_original_native_helper_bodies_this_continuation": 5,
+  "new_original_static_OID_objects": 958,
+  "new_original_OID_search_indexes": 890,
+  "new_component_comparisons": {
+    "OID_lookup_and_hash_retrieval_native_cases": 5635,
+    "CMS_with_actual_original_OID_source": 71,
+    "profile_with_actual_original_CMS_and_OID_source": 146
+  },
+  "integration_cases_reuse_existing_component_fixtures": true,
+  "combined_arm64_iOS_libraries_built": 13,
+  "original_OID_instructions": 315,
+  "original_OID_instructions_exercised": 314,
+  "zero_length_no_match_branch_not_exercised": [
+    "0x1005b3274"
+  ],
+  "jobs": [
+    {
+      "id": 118726257024,
+      "name": "native-cms-content",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256548,
+      "name": "native-code-directory",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256670,
+      "name": "native-component-project",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256592,
+      "name": "native-entitlements",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726257053,
+      "name": "native-legacy-crypto",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256691,
+      "name": "native-load-commands",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256556,
+      "name": "native-localization",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256614,
+      "name": "native-mach-header",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256440,
+      "name": "native-mobileprovision",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256743,
+      "name": "native-oid-lookup",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256994,
+      "name": "native-recursive-der",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726257219,
+      "name": "native-requirements-slot",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256745,
+      "name": "native-rsa-wrapper",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256561,
+      "name": "native-signature-blobs",
+      "conclusion": "success"
+    },
+    {
+      "id": 118726256553,
+      "name": "recovery-integrity",
+      "conclusion": "success"
+    }
+  ],
+  "CMS_BIO_decoder_and_certificate_parser_still_unreconstructed": true,
+  "OID_registry_creation_hash_compare_callbacks_and_ERR_backend_still_unreconstructed": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "genuine_running_app_screenshots_produced": false
+}
+

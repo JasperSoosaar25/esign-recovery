@@ -23,3 +23,5 @@ Run `python3 scripts/recover_oid_lookup.py --verify` after unpacking the reposit
 The primary OpenSSL references in `reference-research.json` match all 958 semantic records and all 890 search indexes. Function structure and original diagnostic line numbers also match that source family. This does not identify the exact linked patch: the table and bodies may be shared by several releases. The runtime implementation is translated from original instructions and extracted constants; current upstream source is not substituted. Preserve `OPENSSL-LICENSE.txt` and the repository ownership boundaries.
 
 This component does not supply CMS/ASN.1 decoding, certificate parsing, a complete crypto backend, an ESign application, an IPA, or iPhone screenshots.
+
+The [Apple build report](../../docs/builds/oid-lookup-9922c42e.json) records all 5,635 passing native comparisons, all 958 static records and the arm64 iOS archive. The [combined project report](../../docs/builds/component-project-9922c42e.json) verifies all thirteen libraries.

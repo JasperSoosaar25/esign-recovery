@@ -1,0 +1,37 @@
+{
+  "result": "PASS",
+  "component": "ESign original OID lookup and LHASH retrieval",
+  "original_native_functions": 5,
+  "original_instructions": 315,
+  "original_instructions_exercised": 314,
+  "zero_length_no_match_branch_not_exercised": [
+    "0x1005b3274"
+  ],
+  "source_behavior_fixture_comparisons": 5635,
+  "complete_static_object_records_compared": 958,
+  "original_static_pointer_aliases_compared": true,
+  "actual_original_static_OID_lookup_implemented": true,
+  "registry_hash_comparator_and_ERR_are_controlled_test_boundaries": true,
+  "original_hash_retrieval_body_is_compiled_and_tested": true,
+  "source_files_sha256": {
+    "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "tests/oid_lookup_runtime.py": "80336d18add5c665727172d4cf001ae16f136d6b4a667fb10ef5b1c8be043d6e",
+    "tests/oid_lookup_test_adapter.c": "8e7604b37360f3a903f03f5acc5c21841c2b5d92aaac0b4fbe7903973c551596"
+  },
+  "library_sha256": "03664bf86af8b618e12790a4230fbb32834aa4b2d812c3ddd27847ca394f1af5",
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_crypto_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "9922c42eae15fc177919520a886ffb0fb266d357",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940/artifacts/12278276725"
+}
+
