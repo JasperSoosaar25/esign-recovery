@@ -1,0 +1,32 @@
+name: Original BIO recovery study
+on:
+  push:
+    branches: [recover-bio-input-20261020]
+    paths:
+      - scripts/research_bio_input.py
+      - .github/workflows/bio-recovery.yml
+      - reconstruction/bio-input/**
+      - scripts/recover_bio_input.py
+      - scripts/build_bio_input.py
+      - tests/bio_input_runtime.py
+permissions:
+  contents: read
+jobs:
+  inspect-original:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install pinned analysis packages and restore saved original evidence
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -r requirements-reconstruction.txt
+          .venv/bin/python scripts/unpack_evidence.py
+      - name: Inspect the hash-verified original BIO routines
+        run: .venv/bin/python scripts/research_bio_input.py
+      - name: Retain the selected public algorithm evidence
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: original-bio-study
+          path: build/bio-study.json
+          if-no-files-found: error
