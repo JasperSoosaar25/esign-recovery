@@ -1511,6 +1511,118 @@
 			"productReference" = "0C3C7D5935985D82C2A0E521";
 			"productType" = "com.apple.product-type.library.static";
 		};
+		"B406D9124A383E25D6BBE4E0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "ESignASN1Input.h";
+			"sourceTree" = "<group>";
+		};
+		"B6DF0405B14DD52036ED1B9A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "ESignASN1Input.c";
+			"sourceTree" = "<group>";
+		};
+		"FB32F52E2A08D01B3A07D3FF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B6DF0405B14DD52036ED1B9A";
+		};
+		"E28CC0BE4C082F876D73F176" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "OPENSSL-LICENSE.txt";
+			"sourceTree" = "<group>";
+		};
+		"9C15423CC10D403984A77791" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "README.md";
+			"sourceTree" = "<group>";
+		};
+		"60ABF6CA8E1E71DAAA99A57A" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"B406D9124A383E25D6BBE4E0",
+				"B6DF0405B14DD52036ED1B9A",
+				"E28CC0BE4C082F876D73F176",
+				"9C15423CC10D403984A77791",
+			);
+			"name" = "ESignASN1Input";
+			"path" = "reconstruction/asn1-input";
+			"sourceTree" = "<group>";
+		};
+		"E01EDF62CB55D21E94F34D98" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"FB32F52E2A08D01B3A07D3FF",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"A3584C4F690BA9F7F6CA790B" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"includeInIndex" = 0;
+			"path" = "libESignASN1Input.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"F39BA379EB242360052F9C15" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "8D0AC91CDEDD1C8375486274";
+			"remoteInfo" = "ESignBIOInput";
+		};
+		"3504990115174BEF5E15EA38" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8D0AC91CDEDD1C8375486274";
+			"targetProxy" = "F39BA379EB242360052F9C15";
+		};
+		"6D4AFFB7C323C1248B563201" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignASN1Input";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Debug";
+		};
+		"FE011B6C0E68D24A225882E3" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignASN1Input";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Release";
+		};
+		"FB2EEFDDD0BAF1C1408AAA16" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"6D4AFFB7C323C1248B563201",
+				"FE011B6C0E68D24A225882E3",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Debug";
+		};
+		"E475D6EDA2E96B60CF33374B" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "FB2EEFDDD0BAF1C1408AAA16";
+			"buildPhases" = (
+				"E01EDF62CB55D21E94F34D98",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"3504990115174BEF5E15EA38",
+			);
+			"name" = "ESignASN1Input";
+			"productName" = "ESignASN1Input";
+			"productReference" = "A3584C4F690BA9F7F6CA790B";
+			"productType" = "com.apple.product-type.library.static";
+		};
 		"41CF6794BA4200B839C53531" = {
 			"isa" = "PBXGroup";
 			"children" = (
@@ -1528,6 +1640,7 @@
 				"AD65DE3B631F02DC8A786E64",
 				"41DF573DBA90DDEB2C1179D0",
 				"89B9688380B5D7045E309E1F",
+				"60ABF6CA8E1E71DAAA99A57A",
 			);
 			"name" = "Recovered source";
 			"sourceTree" = "<group>";
@@ -1549,6 +1662,7 @@
 				"1594781D2AB093C7EFE47442",
 				"D2788754ADE2969240BD61F0",
 				"0C3C7D5935985D82C2A0E521",
+				"A3584C4F690BA9F7F6CA790B",
 			);
 			"name" = "Products";
 			"sourceTree" = "<group>";
@@ -1594,6 +1708,7 @@
 				"8D4D93BB5768CEBC8D9399EE",
 				"74FC1F2B69368192FB8C8AA2",
 				"8D0AC91CDEDD1C8375486274",
+				"E475D6EDA2E96B60CF33374B",
 			);
 		};
 	};
