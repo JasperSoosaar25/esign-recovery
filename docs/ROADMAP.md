@@ -23,6 +23,10 @@ Current constraint: the runtime implementation must come from original ESign rec
 - [x] Reconstruct five load-command wrapper classes and 20 additional methods; pass 86 native comparisons, original copy semantics, and derived inherited-layout checks.
 - [x] Translate the separate recursive DER function actually called by the signing-slot method and its length writer; pass 269 native comparisons. Preserve the explicitly unverified integer-zero probe.
 
+- [x] Reconstruct original BIO/memory-buffer source: 18 bodies, 603 native comparisons and all 666 instructions exercised.
+- [x] Reconstruct ASN.1 header/stream input and two item-entry wrappers: four bodies, 376 native comparisons, including 33 actual-memory-BIO compositions. Preserve the 30 unexercised instruction addresses and unresolved recursive decoder.
+- [x] Build fifteen component libraries through the shared Xcode project and retain exact source/toolchain reports.
+
 These are components, not completed app features. Their reports are under `docs/builds/`. The [remaining signing dependency map](SIGNING-DEPENDENCIES.md) identifies unreconstructed original methods and unresolved static flow.
 
 ## Required for a source-only app

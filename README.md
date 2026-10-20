@@ -1,24 +1,26 @@
 # ESign 5.0.2 — source recovery
 
-An unofficial recovery of a cached ESign 5.0.2 IPA, with native pseudocode, Objective-C declarations, original resources, and reproducible analysis tools.
+An unofficial reconstruction of the user's selected ESign 5.0.2 IPA, preserving original resources, metadata, code evidence and independently tested native source.
 
-**Exact input confirmed (18 October 2026):** the newly supplied [Filebin IPA](https://filebin.net/64tq7btmi8iixpru/esign_5.0.2_unsigned.ipa) downloaded successfully and matches this recovery's baseline byte-for-byte. Its SHA-256 is `f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29`. The earlier inaccessible Pixeldrain link is no longer the input-verification blocker. See [input provenance](docs/INPUT-PROVENANCE.md).
+**The full original app is not yet buildable from this repository.** There is no source-built IPA, real iPhone run, iOS 27 compatibility result or running-app screenshot. No official original source release was obtained. Most application/UI, signing orchestration and crypto/parser implementation still need reconstruction. [Build status](docs/BUILD-STATUS.md) lists the outstanding requirements.
 
-**This is not ESign's official source release. The native app cannot yet be built entirely from this repository.** No verified original native source release was found. Generated pseudocode needs substantial reconstruction, dependency work, and testing before it becomes a usable source project. No app features or UI changes are added in this recovery pass.
+[Get started](docs/GETTING-STARTED.md) · [Build in Xcode](xcode/README.md) · [Development](DEVELOPMENT.md) · [Dependency map](docs/SIGNING-DEPENDENCIES.md) · [Contribute](CONTRIBUTING.md)
 
-See [the latest independent verification and continuation status](docs/SESSION-STATUS.md) for what was checked against a fresh secondary-input download, what remains unresolved, and what is needed before producing an IPA or running-app screenshots.
+## Current verified result
 
-The current build request requires the **original implementation only**. No replacement app or signing engine has been added. [Build and screenshot status](docs/BUILD-STATUS.md) records the unresolved requirements. [Every one of the cached IPA's 100 entries is accounted for](docs/ipa-entry-audit.json); original source completeness is a separate question.
+The Xcode project builds **fifteen arm64 iOS static libraries** from recovered source. Open `ESignRecovery.xcodeproj`, select **RecoveredComponents** and build for a generic iOS device; or, on a Mac with Xcode:
 
-[Separate original-code flow studies](docs/ORIGINAL-FLOW.md) follow additional original instructions beyond some baseline decompiler stubs. They preserve the original input and make their static assumptions explicit. They remain research output, not a built app.
+```sh
+python3 scripts/build_component_project.py
+```
 
-[Expanded original-code analysis](docs/DISPATCH-RECOVERY.md) traces all 3,396 indexed app-candidate method entries, reaching 358,448 distinct original instructions under the static model. It maps 12,244 call sites to original selector stubs and retains 419 unresolved indirect-jump occurrences. All 8,999 selector stubs are decoded from preserved original bytes; receiver classes and return values remain unverified.
+The latest [combined project report](docs/builds/component-project-bfe2c88d.json) records all fifteen archives and their source/project hashes. All [17 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39486599989) passed for source commit `bfe2c88d`, including **105 tool tests**; [the verification record](docs/builds/verification-bfe2c88d.json) records exact jobs. Actual Apple builds use Xcode 16.4/iOS 18.5. These are component tests and library compilation, not an app link or iOS 27 device result.
 
-**Build recovered source in Xcode:** open [ESignRecovery.xcodeproj](ESignRecovery.xcodeproj/) and select **RecoveredComponents**. The [verified project build](docs/builds/component-project-d49c5f05.json) compiles all fourteen recovered libraries together for arm64 iOS. Read the [project guide](xcode/README.md) for outputs and remaining link dependencies. This project contains library targets; it does not provide an ESign application or IPA.
+Current reviewed source covers **24 original class definitions / 167 metadata methods**, **three additional metadata-method body translations**, and **41 native helper/wrapper bodies**, plus documented blocks. Scalar fragments overlap some methods and are not added to those counts. The libraries exclude test backends and the original executable.
 
-## What is available
+The latest addition is [original ASN.1 input source](reconstruction/asn1-input/): header/length parsing, encoded-object BIO reading and two item-entry wrappers. Its [Apple report](docs/builds/asn1-input-bfe2c88d.json) records **376 passing original-instruction/native C comparisons**, including **33 cases using actual recovered memory BIO source**. The fixtures exercise 337 of 367 original instructions; the other 30 addresses remain explicit. The recursive item decoder, CMS template graph and certificate/P12 processing remain missing; controlled test boundaries do not supply those implementations.
 
-The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller original-byte method decompilation and **215 machine-level C accessor implementations across 39 classes**. Compiled C was compared with original ARM64 instruction execution in an emulator for **35,840 fixtures**. These narrow source fragments require the original object layout; they do not define an app target or verify complete signing behavior.
+## Available source and evidence
 
 | Material | Verified scope | Start here |
 |---|---|---|
@@ -43,107 +45,46 @@ The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller 
 | Selected crypto helpers and RSA wrapper | Eight helpers and alternate-CMS RSA wrapper; 355 and 20 native boundary comparisons | [Crypto](reconstruction/legacy-crypto/), [wrapper](reconstruction/rsa-wrapper/) |
 | Original OID database and lookup | Five original bodies, 958 object records, 890 indexes; 5,635 native Apple comparisons passed | [Source and evidence](reconstruction/oid-lookup/) |
 | Original BIO input and memory buffers | 18 original bodies and method descriptor; all 666 instructions exercised; 603 native Apple comparisons passed | [Source and evidence](reconstruction/bio-input/) |
-| Combined Xcode project | All fourteen recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
+| Original ASN.1 input | Four original bodies; 376 native comparisons, including 33 actual-memory-BIO compositions; 337/367 instructions exercised | [Source and evidence](reconstruction/asn1-input/) |
+| Combined Xcode project | All fifteen recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
 | Main signing-path DER functions | 2 original native helper translations; 269 native fixtures passed, one original zero-number probe remains unverified | [Source and evidence](reconstruction/recursive-der/) |
 
-“Decompiler output” means the tool returned pseudocode, not that it recovered correct source. Many functions contain unresolved indirect jumps; source-level behavior, full function boundaries, and UI equivalence remain uncertain. The class prefix is a navigation heuristic, not proof of authorship. See [recovery limits](docs/RECOVERY.md) and [verification results](docs/VERIFICATION.md).
+Pseudocode export coverage is not source completeness or proven behavior. The separate static study traces all 3,396 selected app-method entries, reaching 358,448 unique instructions and identifying 12,244 selector call sites under its model. It preserves 419 unresolved jump occurrences. Initial pointers, incomplete function boundaries and decompiler types need review. See [recovery limits](docs/RECOVERY.md), [dispatch analysis](docs/DISPATCH-RECOVERY.md) and [native reconstruction](docs/NATIVE-RECONSTRUCTION.md).
 
-The complete snapshot is stored losslessly in [hash-verified archive parts](evidence/archive-manifest.json) to keep generated data manageable in Git. Headers, app-focused pseudocode, readable plists, the method index, and contribution materials are browsable directly. After cloning, restore every generated native file, original resource, and byte listing with `python3 scripts/unpack_evidence.py`. No download or extra package is needed. Existing modified files are preserved: unpacking stops if one differs from the snapshot.
+The separate 215 scalar C fragments across 39 classes pass 35,840 original-instruction comparisons. They require original object layouts and do not define complete runtime classes. Component READMEs preserve their individual assumptions and unverified cases, including the signature short-header result, recursive DER zero-number probe and OID no-match branch.
 
-## For you and future contributors
+## Exact original input
 
-Fork the repository and use the [code-navigation guide](docs/NAVIGATION.md) and [development guide](DEVELOPMENT.md) to find the original selector, ABI, resource, and implementation address relevant to your idea. [The roadmap](docs/ROADMAP.md) separates the unfinished source reconstruction from future features. [Ideas](docs/IDEAS.md) include cyan/light-blue appearance options, accessibility, safer certificate handling, and easier diagnostics. The [Liquid Glass plan](docs/LIQUID-GLASS.md) records the future native design work. These are proposals only.
+The supplied [Filebin IPA](https://filebin.net/64tq7btmi8iixpru/esign_5.0.2_unsigned.ipa) was downloaded and matched the baseline byte-for-byte. Its size is **7,522,792 bytes** and SHA-256 is:
+
+```text
+f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29
+```
+
+[The getting-started guide](docs/GETTING-STARTED.md#original-selected-ipa) provides a commit-pinned mirror of those exact compiled input bytes. That IPA was not built from this repository. A matching mirror establishes identity, not independent authentication of an original developer release. The earlier Pixeldrain URL remained inaccessible. See [input provenance](docs/INPUT-PROVENANCE.md) and [the audit of all 100 IPA entries](docs/ipa-entry-audit.json).
+
+## Reproduce verification
+
+Restore the generated snapshots from their [hash-verified archive parts](evidence/archive-manifest.json):
 
 ```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python3 -m pip install -r requirements-reconstruction.txt
 python3 scripts/unpack_evidence.py
 python3 scripts/unpack_native_methods.py
-python3 scripts/verify_repository.py
-python3 scripts/verify_original_flow.py
-python3 scripts/verify_app_analysis.py
-python3 scripts/verify_native_methods.py
-python3 scripts/recover_scalar_accessors.py --verify
-python3 scripts/recover_localization.py --verify
-python3 scripts/recover_signature_blobs.py --verify
-python3 scripts/recover_mach_header.py --verify
-python3 scripts/recover_entitlements.py --verify
-python3 scripts/recover_load_commands.py --verify
-python3 scripts/recover_recursive_der.py --verify
-python3 scripts/recover_requirements_slot.py --verify
-python3 scripts/recover_code_directory.py --verify
-python3 scripts/recover_legacy_crypto.py --verify
-python3 scripts/recover_rsa_wrapper.py --verify
-python3 scripts/recover_mobileprovision.py --verify
-python3 scripts/recover_cms_content.py --verify
-python3 scripts/recover_oid_lookup.py --verify
-python3 scripts/recover_bio_input.py --verify
-python3 scripts/generate_component_project.py --verify
+python3 scripts/recover_asn1_input.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
-These check recovery integrity and recovered component behavior. **They do not compile the complete ESign app or verify complete signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
+[CONTRIBUTING.md](CONTRIBUTING.md) lists the full verifier set, also run by [Actions](.github/workflows/verify.yml). Normal verification uses committed evidence and invented fixtures. The ASN.1 generation workflow downloads the pinned original into memory, checks IPA/executable hashes and does not commit the binary. Unpacking preserves existing changed files by stopping on a mismatch.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 99 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+The original binary's build metadata records iPhoneOS 16.2/Xcode 14.2 and a declared iOS 11.0 minimum. Metadata alone does not verify compatibility with a later OS.
 
-To check whether your local IPA matches this recovery's input:
+## Continue development
 
-```sh
-python3 scripts/verify_against_ipa.py '/path/to/ESign.ipa' --output /tmp/esign-verification.json
-```
+Use [the navigation guide](docs/NAVIGATION.md) and [dependency map](docs/SIGNING-DEPENDENCIES.md) to connect original selectors and addresses to missing source. The next decoder layer is `ASN1_item_ex_d2i` at `0x10061955c`, its type-specific helpers and the CMS schema graph.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md), [security reporting](SECURITY.md), and the [iOS 27 device-test checklist](docs/IOS27-TESTING.md). There is no installable source-built release yet. A device-only arm64 executable is not a simulator build, and no iOS 27 running-app screenshot or functional-equivalence result is claimed.
+[The roadmap](docs/ROADMAP.md) separates recovery from future features. [Community ideas](docs/IDEAS.md) and [the Liquid Glass plan](docs/LIQUID-GLASS.md) cover later appearance, accessibility, diagnostics and signing improvements. They remain proposals until original source recovery and the requested app work are complete. Read [the independent session status](docs/SESSION-STATUS.md) for detailed evidence and historical reports.
 
-## Input identity
-
-- ESign 5.0.2, build 1; bundle identifier `p3.xyz.yyyue.esign`.
-- Supplied filename: `esign_5.0.2_unsigned 2.ipa`; size 7,522,792 bytes.
-- IPA SHA-256: `f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29`.
-- Executable SHA-256: `809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154`.
-- Build metadata: iPhoneOS 16.2 SDK / Xcode 14.2; declared minimum iOS 11.0. These are original build facts, not iOS 27 compatibility evidence.
-
-The input matches a [public compiled-IPA mirror](https://github.com/nooptr/esign/tree/e48b19239ea1b1c725134350db8ab1a15ce3ff88). This match does not authenticate the mirror as a developer release. [Research notes](docs/RESEARCH.md) explain the other candidates examined.
-
-## Ownership
-
-New scripts, tests, and documentation are MIT-licensed. Recovered ESign materials retain their original ownership and applicable terms; this repository does not make ESign an open-source-licensed application. Preserve bundled dependency notices. Read [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before reuse or redistribution. The original IPA, executable, provisioning/configuration profiles, and private signing inputs are excluded from Git.
-
-### Native localization reconstruction
-
-[`reconstruction/localization/`](reconstruction/localization/) contains the complete 10-class localization component: 13 Objective-C methods, the original initialization behavior, and 3,812 original dictionary entries. Original ARM64/model checks cover 18 locales and 7,931 lookups. A separate macOS CI job compiles the source for arm64 iOS and tests the component with Apple Foundation; check its actual result and build report. This component does not provide a complete ESign application or IPA.
-
-The native localization build and 13,496 Apple Foundation comparisons passed for source commit `4b365572`. See the [exact build report](docs/builds/localization-4b365572.json) and its workflow/artifact reference. The compiler used Xcode 16.4/iOS 18.5; no full app or iOS 27 device run is claimed.
-
-### Native signing dependencies
-
-[`reconstruction/signature-blobs/`](reconstruction/signature-blobs/) reconstructs `YYYBlob`, `YYYBlobIndex`, and `YYYSuperBlob`, including original byte order, index offsets, parsing quirks, accessors, and destruction. The [Apple build report](docs/builds/signature-blobs-da8d0e0c.json) records a successful arm64 iOS library build, 57 behavior fixtures, one partial-copy API check, and original layout/ABI comparisons. One incomplete original parser input remains explicitly unverified.
-
-[`reconstruction/mach-header/`](reconstruction/mach-header/) reconstructs `YYYOffsetNode` and `YYYMachHeader`. The [Apple build report](docs/builds/mach-header-11d8c9f9.json) records a successful arm64 iOS library build and 67 runtime fixture comparisons. Its non-fragile ivar slide is an explicit runtime model; original-device layout has not been observed. Both components used Xcode 16.4/iOS 18.5. They do not generate CMS signatures or sign/install whole apps. [The remaining dependency map](docs/SIGNING-DEPENDENCIES.md) identifies the next original implementation requirements.
-
-[`reconstruction/entitlements/`](reconstruction/entitlements/) adds all 41 methods and the enumeration callback of the original three-class entitlement encoder. Its [Apple report](docs/builds/entitlements-39df227c.json) records 583 successful native comparisons, including byte-length limits and the original 16-bit overflow behavior. [`reconstruction/load-commands/`](reconstruction/load-commands/) adds all 20 methods in five original command classes; its [Apple report](docs/builds/load-commands-28f7142b.json) records 86 successful native fixtures, string-copy behavior, and derived inherited-layout checks. The five parent methods are reused and not counted again.
-
-The actual `YYYArchO` DER-slot method calls a separate recursive function. [`reconstruction/recursive-der/`](reconstruction/recursive-der/) translates that function and its length writer, with the original caller preserved as evidence. Its [Apple report](docs/builds/recursive-der-26a3ef3a.json) records 269 successful native comparisons. A zero-number input did not complete the bounded original probe and remains explicitly outside native parity claims. Original numeric/Unicode encoding quirks are retained. No complete `YYYArchO` implementation is supplied by these two helpers.
-
-The original requirements-slot method body and its three byte-writing blocks now have [compilable source](reconstruction/requirements-slot/) and [117 successful native comparisons](docs/builds/requirements-slot-7b0973dc.json). The original four-byte nil fallback and UTF-8/padding behavior are retained. [Code-directory generation](reconstruction/code-directory/) now has source for its original method body, two digest helpers, two hash blocks, and the original NSString UTF-8-length method body. Its [85 native comparisons](docs/builds/code-directory-fb1e67be.json) check exact bytes, repeated getters, real file reads/seeks, Apple CommonCrypto calls in both hash modes, and the separately recovered signature entitlement-flag block.
-
-[Selected legacy crypto helpers](reconstruction/legacy-crypto/) now reconstruct eight original bodies: BN bit count, RSA sizing/reference/free/method dispatch, EVP key access/free, and the FILE/BIO PEM wrapper. Their [Apple build report](docs/builds/legacy-crypto-c7190909.json) records 355 passing native comparisons and arm64 iOS SDK compilation. The original uses 32-bit BIGNUM limbs despite its arm64/LP64 ABI. Exact OpenSSL patch identity and the actual RSA/PEM/CMS backend remain unresolved; test implementations exist only at documented harness boundaries.
-
-The [alternate-CMS RSA wrapper](reconstruction/rsa-wrapper/) at `0x100778fa0` also has source tied to exact IPA instruction execution. Its 23 fixtures include 20 return-value cases and three original fault probes excluded from native comparison. It retains the original diagnostic/error fallthrough and the ignored key-pointer argument. No embedded key bytes are supplied. Its [Apple report](docs/builds/rsa-wrapper-9ce17389.json) records 20 passing native comparisons and arm64 iOS compilation; actual RSA/PEM dependencies remain unreconstructed.
-
-Across these source components there are 24 original class definitions with 167 metadata methods, three additional metadata-method body translations with new C navigation names, and 37 native helper/wrapper translations. Those C bodies do not create a replacement `YYYArchO` class. Scalar fragments overlap some methods and are not added to that count. Fourteen component-library builds, a combined Xcode project build and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.
-
-All [11 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39327012074) passed for source commit `9ce17389`: ten native component jobs and the complete recovery-integrity job, including 75 tool tests. The [verification record](docs/builds/verification-9ce17389.json) records the exact jobs. The two new components pass 355 and 20 native boundary-behavior comparisons respectively; three wrapper fault probes remain excluded. No complete crypto backend, source-built app/IPA, or iPhone runtime result is established.
-
-### Provisioning profiles and the shared Xcode project — 20 October
-
-The complete 38-method profile class has [reviewed source](reconstruction/mobileprovision/) and [148 passing native comparisons plus two sets of 146 composition checks](docs/builds/mobileprovision-9922c42e.json). The second composition uses the recovered CMS accessor and actual original OID lookup with encoded signed-data OID bytes. The accessor's [71 standalone and 71 OID-composition comparisons](docs/builds/cms-content-9922c42e.json) also pass. The BIO memory-input source is now recovered separately; ASN.1/CMS decoding and certificate parsing remain original implementation dependencies.
-
-The [original OID component](reconstruction/oid-lookup/) adds five native bodies, 958 object records and 890 search indexes. Its [Apple report](docs/builds/oid-lookup-9922c42e.json) records 5,635 passing compiled-source comparisons plus every static record and shared pointer identity. One zero-length no-match branch remains unexercised under the exact static table; the source retains it.
-
-The [Xcode project](xcode/README.md) builds all thirteen recovered libraries together, without test backends or the original executable. Its [exact build report and library artifact](docs/builds/component-project-d49c5f05.json) record the real arm64 iOS outputs. The full signer, application source/target, source-built IPA and physical-iPhone screenshots remain unfinished.
-
-All [15 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940) passed for source commit `9922c42e`: thirteen individual native component jobs, the combined Xcode library build and full recovery integrity, including 93 tool tests. The [verification record](docs/builds/verification-9922c42e.json) identifies every job and its exact scope. Original BIO/CMS decoding, certificate/P12 parsing, signing/archive/install orchestration and application/UI source remain unfinished; no source-built IPA or real iPhone screenshot has been produced.
-
-### Original BIO memory-input source
-
-The [BIO component](reconstruction/bio-input/) now reconstructs the original memory-buffer method, creation/release, read/write/control dispatch, seven memory callbacks and three buffer helpers. All 18 bodies pass [603 Apple native comparisons](docs/builds/bio-input-d49c5f05.json), exercising all 666 recovered instructions. This includes a create/write/read/reset/free sequence and preserves callback mutation, flag/counter behavior, failure state and buffer effects. Allocation, reference locking, ex-data, cleansing and ERR implementations remain original dependencies.
-
-All [16 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39457921121) passed for source commit `d49c5f05`, including 99 tool tests and the [fourteen-library Xcode build](docs/builds/component-project-d49c5f05.json). See the [verification record](docs/builds/verification-d49c5f05.json). The complete app, source-built IPA, original ASN.1/CMS and certificate backend, signing/app orchestration and real iPhone screenshots remain unfinished.
+New scripts, tests and documentation are MIT-licensed. Recovered ESign materials retain their original ownership and applicable terms; this repository does not relicense ESign as an open-source application. Preserve dependency notices. Read [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Original IPA/executable files, profiles, certificates, private keys and personal signing inputs are excluded from Git.

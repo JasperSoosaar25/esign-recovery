@@ -2,7 +2,7 @@
 
 ## Current capability
 
-This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for fourteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
+This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for fifteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
 
 The current user constraint requires original implementation under the hood. Do not substitute a different app, current upstream signing engine, replacement UI, or binary-backed wrapper. Read [the explicit build status](docs/BUILD-STATUS.md) before implementation work. A source-built lookalike would not meet the current request.
 
@@ -127,3 +127,10 @@ On macOS run `python3 scripts/build_oid_lookup.py`. The CMS builder adds 71 comp
 `reconstruction/bio-input/` supplies eighteen original bodies: BIO creation/release, read/write/control dispatch and flags, the complete memory method/callbacks, and BUF_MEM allocation/free/grow-clean. Its source and layout come from the exact original instructions and method descriptor. `python3 scripts/recover_bio_input.py --verify` replays 603 saved cases and compares local compiled C; all 666 recovered instructions are exercised. Six corruption/native-comparison tests bring the tool suite to 99. Normal verification uses committed evidence and restored baseline; `--generate` requires the exact pinned original bytes and is not a current-upstream substitute.
 
 On macOS run `python3 scripts/build_bio_input.py`. The [Apple report](docs/builds/bio-input-d49c5f05.json) records all 603 comparisons and the arm64 iOS archive, using Xcode 16.4/iOS 18.5. The [project report](docs/builds/component-project-d49c5f05.json) records all fourteen libraries. The legacy crypto and profile targets now declare their BIO input dependency, without merging libraries or claiming a complete app link. Refcount locking, allocation/reallocation, ex-data, cleansing, ERR storage and file BIO/PEM parsing remain original boundaries. ASN.1/CMS decoding and certificate processing are still missing.
+
+
+## Original ASN.1 input continuation
+
+`reconstruction/asn1-input/` supplies four original native bodies: ASN1_get_object with its inlined length parser, asn1_d2i_read_bio, ASN1_item_d2i_bio, and the ASN1_item_d2i entry wrapper. Run `python3 scripts/recover_asn1_input.py --verify`. All 376 original-instruction/compiled-C fixtures match; 337 of 367 original instructions execute, with the other 30 addresses retained in index.json. Thirty-three cases use the actual recovered memory BIO source. Six additional rejection/native-comparison tests bring the suite to 105.
+
+On macOS, run `python3 scripts/build_asn1_input.py`. The [Apple report](docs/builds/asn1-input-bfe2c88d.json) records native comparisons, source hashes and the separate arm64 archive. The [combined report](docs/builds/component-project-bfe2c88d.json) records fifteen libraries. These checks use controlled allocation, ERR and recursive-item-decoder boundaries; they do not decode CMS into real app objects. The original recursive decoder at `0x10061955c`, CMS template graph and certificate/P12 code remain missing. Preserve LP64 lengths, partial writes/cursor updates, truncated pointer deltas, nested indefinite lengths, chunked reads and cleanup order. No full-app, IPA, iPhone or iOS 27 result is established.

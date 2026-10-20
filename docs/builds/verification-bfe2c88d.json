@@ -1,0 +1,141 @@
+{
+  "result": "PASS",
+  "source_commit": "bfe2c88d5738cb70617ae49febba3f48b6ab40a3",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39486599989",
+  "original_ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "successful_jobs": 17,
+  "tool_tests": 105,
+  "jobs": [
+    {
+      "id": 118848507740,
+      "name": "native-localization",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508178,
+      "name": "native-signature-blobs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508194,
+      "name": "native-recursive-der",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508223,
+      "name": "recovery-integrity",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508251,
+      "name": "native-rsa-wrapper",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508266,
+      "name": "native-entitlements",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508284,
+      "name": "native-requirements-slot",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508358,
+      "name": "native-mach-header",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508370,
+      "name": "native-asn1-input",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508395,
+      "name": "native-component-project",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508478,
+      "name": "native-load-commands",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508491,
+      "name": "native-cms-content",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508501,
+      "name": "native-oid-lookup",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508563,
+      "name": "native-code-directory",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508621,
+      "name": "native-mobileprovision",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508647,
+      "name": "native-bio-input",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 118848508819,
+      "name": "native-legacy-crypto",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "new_original_native_functions": 4,
+  "new_native_fixture_comparisons": 376,
+  "new_original_instructions": 367,
+  "new_original_instructions_exercised": 337,
+  "new_unexercised_original_instructions": 30,
+  "real_memory_BIO_composition_cases": 33,
+  "native_static_libraries_built_together": 15,
+  "source_scope": {
+    "original_class_definitions": 24,
+    "metadata_methods_in_classes": 167,
+    "separate_metadata_method_body_translations": 3,
+    "native_helper_wrapper_bodies": 41
+  },
+  "apple_toolchain": {
+    "xcode": "Xcode 16.4\nBuild version 16F6",
+    "iphoneos_sdk": "18.5"
+  },
+  "controlled_boundaries": [
+    "original primitive allocation/reallocation, refcount, cleansing and ex-data",
+    "original ERR storage",
+    "recursive ASN1_item_ex_d2i body at 0x10061955c"
+  ],
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "ios27_runtime_tested": false,
+  "genuine_running_app_screenshots": false
+}
