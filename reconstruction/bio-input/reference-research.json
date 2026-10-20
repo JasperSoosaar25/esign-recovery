@@ -1,0 +1,32 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "source_family_reference": "OpenSSL_1_0_2u",
+  "exact_linked_patch_not_established": true,
+  "primary_references": [
+    "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/bio/bio_lib.c",
+    "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/bio/bss_mem.c",
+    "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/buffer/buffer.c"
+  ],
+  "runtime_source_is_original_instruction_translation": true,
+  "current_upstream_engine_not_substituted": true,
+  "original_memory_method_descriptor": "0x100e00fd0",
+  "original_control_table": "0x100999490",
+  "original_control_guard_inclusive": [
+    0,
+    11
+  ],
+  "original_BYTE_table": [
+    0,
+    16,
+    23,
+    27,
+    27,
+    27,
+    27,
+    31,
+    36,
+    38,
+    64,
+    64
+  ]
+}

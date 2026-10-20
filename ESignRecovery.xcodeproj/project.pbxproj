@@ -902,6 +902,18 @@
 			"path" = "libESignLegacyCrypto.a";
 			"sourceTree" = "BUILT_PRODUCTS_DIR";
 		};
+		"E466DE3BEA9E4ACEE112E2D3" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "8D0AC91CDEDD1C8375486274";
+			"remoteInfo" = "ESignBIOInput";
+		};
+		"248765F8A3394C3F36442801" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8D0AC91CDEDD1C8375486274";
+			"targetProxy" = "E466DE3BEA9E4ACEE112E2D3";
+		};
 		"454D52EB73F02A3CCEE0358D" = {
 			"isa" = "XCBuildConfiguration";
 			"buildSettings" = {
@@ -940,6 +952,7 @@
 			"buildRules" = (
 			);
 			"dependencies" = (
+				"248765F8A3394C3F36442801",
 			);
 			"name" = "ESignLegacyCrypto";
 			"productName" = "ESignLegacyCrypto";
@@ -1230,6 +1243,18 @@
 			"target" = "A21B636E681FDD4FEFD25AB0";
 			"targetProxy" = "4421F59C1A454A1F6C51D8BB";
 		};
+		"8CBCBF91C239DDDBDBDC739A" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "8D0AC91CDEDD1C8375486274";
+			"remoteInfo" = "ESignBIOInput";
+		};
+		"E4B073C5AB150D31CE5FD7C1" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8D0AC91CDEDD1C8375486274";
+			"targetProxy" = "8CBCBF91C239DDDBDBDC739A";
+		};
 		"DAEF2E3F06556F76F8828CC3" = {
 			"isa" = "XCBuildConfiguration";
 			"buildSettings" = {
@@ -1269,6 +1294,7 @@
 			);
 			"dependencies" = (
 				"DA96DAED7E18B67729238CDD",
+				"E4B073C5AB150D31CE5FD7C1",
 			);
 			"name" = "ESignMobileprovision";
 			"productName" = "ESignMobileprovision";
@@ -1386,6 +1412,105 @@
 			"productReference" = "D2788754ADE2969240BD61F0";
 			"productType" = "com.apple.product-type.library.static";
 		};
+		"A81E76B142EB848363A2CD8E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "ESignBIOInput.h";
+			"sourceTree" = "<group>";
+		};
+		"98392D04B6CAFC0630277041" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "ESignBIOInput.c";
+			"sourceTree" = "<group>";
+		};
+		"CEB3718E38CB053D917AE62F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "98392D04B6CAFC0630277041";
+		};
+		"A32DEAE8F0118E6415F1958E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "OPENSSL-LICENSE.txt";
+			"sourceTree" = "<group>";
+		};
+		"88E7CC9B1CFD7202B5311AEF" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "README.md";
+			"sourceTree" = "<group>";
+		};
+		"89B9688380B5D7045E309E1F" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"A81E76B142EB848363A2CD8E",
+				"98392D04B6CAFC0630277041",
+				"A32DEAE8F0118E6415F1958E",
+				"88E7CC9B1CFD7202B5311AEF",
+			);
+			"name" = "ESignBIOInput";
+			"path" = "reconstruction/bio-input";
+			"sourceTree" = "<group>";
+		};
+		"8B917CB2C98274F973A7B371" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"CEB3718E38CB053D917AE62F",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"0C3C7D5935985D82C2A0E521" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"includeInIndex" = 0;
+			"path" = "libESignBIOInput.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"3ED04B6AC0426D8DC2F7ACDC" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignBIOInput";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Debug";
+		};
+		"12DC74FE92FF8550ED10DE9E" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignBIOInput";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Release";
+		};
+		"F4E444DC21E8377CB9F44E9F" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"3ED04B6AC0426D8DC2F7ACDC",
+				"12DC74FE92FF8550ED10DE9E",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Debug";
+		};
+		"8D0AC91CDEDD1C8375486274" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "F4E444DC21E8377CB9F44E9F";
+			"buildPhases" = (
+				"8B917CB2C98274F973A7B371",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "ESignBIOInput";
+			"productName" = "ESignBIOInput";
+			"productReference" = "0C3C7D5935985D82C2A0E521";
+			"productType" = "com.apple.product-type.library.static";
+		};
 		"41CF6794BA4200B839C53531" = {
 			"isa" = "PBXGroup";
 			"children" = (
@@ -1402,6 +1527,7 @@
 				"F57EC2BD431ECAEFB270CFD5",
 				"AD65DE3B631F02DC8A786E64",
 				"41DF573DBA90DDEB2C1179D0",
+				"89B9688380B5D7045E309E1F",
 			);
 			"name" = "Recovered source";
 			"sourceTree" = "<group>";
@@ -1422,6 +1548,7 @@
 				"4A038F7A7547A85F7A4CD133",
 				"1594781D2AB093C7EFE47442",
 				"D2788754ADE2969240BD61F0",
+				"0C3C7D5935985D82C2A0E521",
 			);
 			"name" = "Products";
 			"sourceTree" = "<group>";
@@ -1466,6 +1593,7 @@
 				"A21B636E681FDD4FEFD25AB0",
 				"8D4D93BB5768CEBC8D9399EE",
 				"74FC1F2B69368192FB8C8AA2",
+				"8D0AC91CDEDD1C8375486274",
 			);
 		};
 	};

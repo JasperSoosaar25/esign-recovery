@@ -8,4 +8,4 @@ The verifier replays original instructions in Unicorn and compares compiled C ag
 
 Generation downloads an immutable public mirror and requires the exact selected IPA and executable hashes before extracting any input. It keeps the IPA in memory and publishes only the selected public algorithm code/data evidence and invented fixtures. It never exports embedded private signing inputs. Normal verification uses the committed evidence and restored baseline, without an IPA download.
 
-This source is still undergoing remote original-instruction/native verification on the recovery branch. No complete CMS decoder, ESign app, IPA, iPhone run or screenshot is claimed. Preserve OPENSSL-LICENSE.txt and the repository ownership boundaries.
+All 603 original-instruction fixtures pass against Linux-compiled C, exercising all 666 instructions. The create/write/read/reset/free sequence, the shared method descriptor and all eighteen function bodies are included. Apple SDK verification is the next check. No complete CMS decoder, ESign app, IPA, iPhone run or screenshot is claimed. Preserve OPENSSL-LICENSE.txt and the repository ownership boundaries.

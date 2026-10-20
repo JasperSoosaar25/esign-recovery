@@ -1,0 +1,25 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_native_functions": 18,
+  "fixtures": 603,
+  "original_instructions": 666,
+  "original_instructions_exercised": 666,
+  "unexercised_original_instruction_addresses": [],
+  "original_memory_method_descriptor_relocated": true,
+  "static_byte_dispatch_guard": [
+    0,
+    11
+  ],
+  "test_allocators_ex_data_refcount_and_ERR_are_controlled": true,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "files": {
+    "ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "25e978860303af44c0a84e9b6ca1dd25e733e65d2d76fcd84b1380951991425d",
+    "fixtures.json.gz": "24f3407e29af4cb080364f00e645fad9aa27c6f3ffc479c91e8f52cf60ac8d24"
+  }
+}
