@@ -108,7 +108,9 @@
         "reconstruction/legacy-crypto/OPENSSL-LICENSE.txt",
         "reconstruction/legacy-crypto/README.md"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "ESignBIOInput"
+      ],
       "extra_cflags": []
     },
     {
@@ -148,7 +150,8 @@
         "reconstruction/mobileprovision/README.md"
       ],
       "dependencies": [
-        "ESignCMSContent"
+        "ESignCMSContent",
+        "ESignBIOInput"
       ],
       "extra_cflags": []
     },
@@ -161,6 +164,18 @@
         "reconstruction/oid-lookup/ESignOIDLookup.h",
         "reconstruction/oid-lookup/OPENSSL-LICENSE.txt",
         "reconstruction/oid-lookup/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignBIOInput",
+      "directory": "reconstruction/bio-input",
+      "files": [
+        "reconstruction/bio-input/ESignBIOInput.h",
+        "reconstruction/bio-input/ESignBIOInput.c",
+        "reconstruction/bio-input/OPENSSL-LICENSE.txt",
+        "reconstruction/bio-input/README.md"
       ],
       "dependencies": [],
       "extra_cflags": []

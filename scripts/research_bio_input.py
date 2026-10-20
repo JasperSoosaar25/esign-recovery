@@ -36,7 +36,7 @@ def main():
                 if 0x1005fe000<=target<0x100601000 and target not in entries:
                     entries[target]="BIO_direct_dependency";queue.append(target)
     extra={0x100999480:image.data[image.fileoff(0x100999480):image.fileoff(0x100999480)+16],0x100999490:table,method:raw}
-    for address in [0x100a5acf5,0x100a5b0cc,0x100a5ac94,fields[1]]:extra[address]=image.cstr(address).encode()+b"\\0"
+    for address in [0x100a5acf5,0x100a5b0cc,0x100a5ac94,fields[1]]:extra[address]=image.cstr(address).encode()+bytes(1)
     result={"extra_original_inputs":{hex(a):b.hex() for a,b in extra.items()},"executable_sha256":EXPECTED_EXECUTABLE,"IPA_sha256":IPA_SHA256,"original_bytes_modified":False,"method":{"address":hex(method),"bytes":raw.hex(),"type":fields[0],"name":image.cstr(fields[1]),"callback_addresses":[hex(a) for a in callbacks]},"records":list(flows.values()),"complete_BIO_or_CMS_implementation":False,"full_app_built":False}
     output=ROOT/"build/bio-study.json";output.parent.mkdir(exist_ok=True);output.write_text(json.dumps(result,indent=2)+"\n")
     print("BIO_STUDY_JSON:"+json.dumps(result,separators=(",",":")))

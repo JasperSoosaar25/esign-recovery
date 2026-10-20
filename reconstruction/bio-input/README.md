@@ -1,0 +1,11 @@
+# Original BIO input and memory-buffer source
+
+This component reconstructs the original ESign BIO allocation, release, read/write/control dispatch, flag helpers, memory-buffer method descriptor and seven memory callbacks, plus three BUF_MEM helpers. It is translated from 18 original ARM64 bodies and the exact public algorithm constants in the pinned IPA. It is not a replacement crypto engine.
+
+The original memory control switch uses a guarded twelve-byte dispatch table. The source preserves reference-count and callback truncation, cached callback pointers, post-callback method reloads, unsigned counters, copy/shift behavior, read-only cursor/reset behavior, failure state, cleansing/free order and original diagnostics. Allocation, refcount locking, ex-data storage and ERR storage remain explicit original dependencies. Test implementations of those boundaries are excluded from iOS archives.
+
+The verifier replays original instructions in Unicorn and compares compiled C against the saved results. It also checks the relocated method descriptor's type, name and seven function pointers. Invented tests cover callback mutation, failures, buffer operations and composition. A few invalid-pointer or unbounded-memory inputs are deliberately excluded from native comparison. Consult the saved index for actual instruction coverage; unexercised addresses are never presented as executed.
+
+Generation downloads an immutable public mirror and requires the exact selected IPA and executable hashes before extracting any input. It keeps the IPA in memory and publishes only the selected public algorithm code/data evidence and invented fixtures. It never exports embedded private signing inputs. Normal verification uses the committed evidence and restored baseline, without an IPA download.
+
+This source is still undergoing remote original-instruction/native verification on the recovery branch. No complete CMS decoder, ESign app, IPA, iPhone run or screenshot is claimed. Preserve OPENSSL-LICENSE.txt and the repository ownership boundaries.
