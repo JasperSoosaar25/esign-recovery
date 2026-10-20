@@ -1,0 +1,24 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_native_functions": 1,
+  "original_instructions": 71,
+  "all_original_instructions_exercised": true,
+  "fixtures": 71,
+  "explicit_byte_dispatch_bounds": [
+    0,
+    5
+  ],
+  "table_address": "0x100999dd4",
+  "OBJ_lookup_and_ERR_are_controlled_test_boundaries": true,
+  "complete_CMS_backend": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "203a221e90a956f6af7eb6b6feea2e2e82e199abb14c0b29570e2b587e8fdefd",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "README.md": "cb5bbdc97c3a8d75c14e4196bc7f7e4353bc30c7cb01a00dc3ae557264e3cb1c",
+    "fixtures.json": "bb13b14bb87f59b8806832a38fe0a17ba11fca84e0d1032353d874d3d346c34d",
+    "ESignCMSContent.h": "8927f22dd7332799943bd4f29512f12777af5b1f52699c2965a63d4b42864769"
+  }
+}

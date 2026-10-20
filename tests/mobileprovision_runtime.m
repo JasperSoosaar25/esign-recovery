@@ -10,6 +10,16 @@ static NSMapTable *serialNumbers;
 static NSData *payload;
 static ESignProfileASN1String octets,*content;
 static unsigned char bioMethodToken,bioToken,cmsToken;
+#ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
+static void *cmsFields[2],*signedFields[3],*encapFields[2];
+#endif
+static void *CMSIdentity(void){
+#ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
+    return cmsFields;
+#else
+    return &cmsToken;
+#endif
+}
 static NSString *Hex(const void *bytes,NSUInteger length){
     const unsigned char *p=bytes;NSMutableString *s=[NSMutableString string];
     for(NSUInteger i=0;i<length;i++)[s appendFormat:@"%02x",p[i]];return s;
@@ -47,15 +57,28 @@ int ESignOriginal_1005ff090(void *bio,const void *data,int length){
     return spec[@"write_result"]?[spec[@"write_result"] intValue]:(int)Unhex(spec[@"data"]).length;
 }
 void *ESignOriginal_10062fb30(void *bio,void **output){
-    if(output)abort();[effects addObject:@{@"call":@"d2i_CMS_bio",@"bio":bio?@"bio":[NSNull null]}];return [spec[@"decode_failure"] boolValue]?NULL:&cmsToken;
+    if(output)abort();[effects addObject:@{@"call":@"d2i_CMS_bio",@"bio":bio?@"bio":[NSNull null]}];return [spec[@"decode_failure"] boolValue]?NULL:CMSIdentity();
 }
+#ifndef ESIGN_PROFILE_REAL_CMS_CONTENT
 ESignProfileASN1String **ESignOriginal_10062edd8(void *cms){
-    if(cms!=&cmsToken)abort();[effects addObject:@{@"call":@"CMS_get0_content",@"cms":@"cms"}];return [spec[@"content_failure"] boolValue]?NULL:&content;
+    if(cms!=CMSIdentity())abort();[effects addObject:@{@"call":@"CMS_get0_content",@"cms":@"cms"}];return [spec[@"content_failure"] boolValue]?NULL:&content;
 }
+#else
+ESignProfileASN1String **ESignTestCMSContent(void *cms){
+    if(cms!=CMSIdentity())abort();[effects addObject:@{@"call":@"CMS_get0_content",@"cms":@"cms"}];return ESignOriginal_10062edd8(cms);
+}
+int ESignOriginal_1005b3138(const void *object){if(object!=&cmsToken)abort();return 22;}
+void ESignOriginal_100604c0c(int library,int function,int reason,const char *file,int line){
+    (void)library;(void)function;(void)reason;(void)file;(void)line;abort();
+}
+#endif
 static void Configure(NSDictionary *input){
     spec=input;effects=[NSMutableArray array];certificateIndex=0;serialNumbers=[NSMapTable weakToStrongObjectsMapTable];
     payload=Unhex(spec[@"payload_hex"]?:@"");octets.length=(int32_t)payload.length;octets.type=4;octets.data=(unsigned char *)payload.bytes;
     content=[spec[@"octets_failure"] boolValue]?NULL:&octets;
+#ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
+    cmsFields[0]=&cmsToken;cmsFields[1]=signedFields;signedFields[2]=encapFields;encapFields[1]=content;
+#endif
 }
 static NSDictionary *Snapshot(YYYMobileprovision *object){
     NSMutableDictionary *d=[NSMutableDictionary dictionary];
@@ -124,7 +147,12 @@ int main(int argc, const char *argv[]) {
         if (argc != 2) return 2;
         NSArray *fixtures = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:@(argv[1])] options:0 error:NULL];
         NSMutableArray *results = [NSMutableArray array];
-        for (NSDictionary *fixture in fixtures) [results addObject:@{@"input": fixture[@"input"], @"result": Evaluate(fixture[@"input"])}];
+        for (NSDictionary *fixture in fixtures) {
+#ifdef ESIGN_PROFILE_REAL_CMS_CONTENT
+            if([fixture[@"input"][@"content_failure"] boolValue])continue;
+#endif
+            [results addObject:@{@"input": fixture[@"input"], @"result": Evaluate(fixture[@"input"])}];
+        }
         NSData *json = [NSJSONSerialization dataWithJSONObject:@{@"fixtures": results, @"metadata": RuntimeMetadata()}
                                                      options:NSJSONWritingSortedKeys error:NULL];
         if (!json) return 3;

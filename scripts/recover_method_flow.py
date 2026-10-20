@@ -22,11 +22,14 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, decoder=None, dispatch=None,
-         call_return_values=None, max_union=16, load_result_values=None):
+         call_return_values=None, max_union=16, load_result_values=None, shifted_add_addresses=None):
     # Optional finite call-return hypotheses belong to separate analysis views.
     # Defaults preserve the baseline's unknown call results exactly.
     call_return_values = call_return_values or {}
     load_result_values = load_result_values or {}
+    shifted_add_addresses = shifted_add_addresses or {}
+    require(all(isinstance(a, int) and isinstance(s, int) and 1 <= s < 64
+                for a, s in shifted_add_addresses.items()), 'Invalid explicit shifted-add analysis')
     require(1 <= max_union <= 256 and all(1 <= len(v) <= max_union and
             all(isinstance(n, int) and 0 <= n < (1 << 64) for n in v)
             for v in call_return_values.values()), 'Invalid finite call-return hypothesis')
@@ -92,6 +95,12 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
         name, ops = ins.mnemonic, ins.operands
         immediate = [o.imm for o in ops if o.type == CS_OP_IMM]
         result = None
+        if address in shifted_add_addresses:
+            require(name == 'add' and len(ops) == 3 and ops[2].type == CS_OP_REG
+                    and ops[2].shift.type == ARM64_SFT_LSL
+                    and ops[2].shift.value == shifted_add_addresses[address],
+                    'Explicit shifted-add analysis disagrees with original instruction')
+            row['explicit_shifted_add_analysis'] = shifted_add_addresses[address]
         if name in ('adr', 'adrp') and len(ops) == 2:
             result = operand(ins, ops[1], values)
         elif name in ('mov', 'movz') and len(ops) == 2:
@@ -110,7 +119,9 @@ def walk(data, entry, boundary_starts, branches, limit=20000, *, image=None, dec
                 result = (tuple(sorted(set(left[0] + second))), tuple(sorted(set(left[1] + right[1]))))
         elif name in ('add', 'sub', 'and', 'orr', 'eor', 'lsl', 'lsr') and len(ops) == 3:
             left, right = operand(ins, ops[1], values), operand(ins, ops[2], values)
-            if left and right and not ops[2].shift.value:
+            if left and right and (not ops[2].shift.value or address in shifted_add_addresses):
+                if address in shifted_add_addresses:
+                    right = (tuple(v << ops[2].shift.value for v in right[0]), right[1])
                 calculate = {'add': lambda x,y: x + y, 'sub': lambda x,y: x - y,
                              'and': lambda x,y: x & y, 'orr': lambda x,y: x | y,
                              'eor': lambda x,y: x ^ y, 'lsl': lambda x,y: x << (y & 63),

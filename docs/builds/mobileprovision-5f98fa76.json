@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "component": "ESign original provisioning-profile class",
+  "original_classes": 1,
+  "original_methods": 38,
+  "foundation_fixture_comparisons": 148,
+  "original_class_layout_and_method_ABIs_verified": true,
+  "CMS_BIO_decoder_and_certificate_parser_are_controlled_test_boundaries": true,
+  "actual_CMS_decoding_or_certificate_parsing_tested": false,
+  "property_population_serial_matching_copy_strong_and_failure_state_compared": true,
+  "test_standin_YYYP12_not_in_iOS_library": true,
+  "source_files_sha256": {
+    "reconstruction/mobileprovision/ESignMobileprovision.h": "9b84428f3557ce0aafd52b1d2d77a4fbd49f199a2d4185652c50106a8ca542f7",
+    "reconstruction/mobileprovision/ESignMobileprovision.m": "8f8aca12378effac3e69ff4db2644675758cbd5b8c9f3f8f58a3829cfc51d4e3",
+    "reconstruction/mobileprovision/ESignMobileprovisionDependencies.h": "b3f7595648f5788e9083a8c62da420c33572d6a31e4820ad2ba1ff4ff292b990",
+    "tests/mobileprovision_runtime.m": "7607fb33ef2e65f0e5e362d4a4f7604c9168f2a9191090e3912ae41963724f19"
+  },
+  "library_sha256": "d14142d77030fbbcf1914d8b35058a26b7f072c91027e2a719dd4cfdd95f9694",
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_signing_pipeline": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "5f98fa76045538ae1c41fd8ef38e44d8b3faf359",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39441548878",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39441548878/artifacts/12273557318"
+}

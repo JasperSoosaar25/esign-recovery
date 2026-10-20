@@ -22,10 +22,21 @@ def build(output):
         raise ValueError('Native profile source differs from original instruction/model fixtures')
     if canonical(runtime['metadata'])!=canonical(json.loads((SOURCE/'metadata.json').read_text())):
         print(json.dumps(runtime['metadata'],indent=2),file=sys.stderr);raise ValueError('Profile layout/method ABI differs from original metadata')
+    cms=ROOT/'reconstruction/cms-content/ESignCMSContent.c';cmsobj=output/'ESignCMSContent-host.o';profileobj=output/'ESignMobileprovision-integration.o'
+    command(['xcrun','--sdk','macosx','clang','-std=c11','-Wall','-Wextra','-Werror','-c',str(cms),'-o',str(cmsobj)])
+    command(['xcrun','--sdk','macosx','clang',*common,'-DESignOriginal_10062edd8=ESignTestCMSContent','-c',str(source),'-o',str(profileobj)])
+    integration=output/'profile-with-original-CMS-content-tests'
+    command(['xcrun','--sdk','macosx','clang',*common,'-DESIGN_PROFILE_REAL_CMS_CONTENT',str(ROOT/'tests/mobileprovision_runtime.m'),str(profileobj),str(cmsobj),'-framework','Foundation','-o',str(integration)])
+    integrated=json.loads(command([str(integration),str(SOURCE/'fixtures.json')]).stdout)['fixtures']
+    expected_integrated=[f for f in expected if not f['input'].get('content_failure')]
+    if integrated!=expected_integrated:
+        for i,(wanted,observed) in enumerate(zip(expected_integrated,integrated)):
+            if wanted!=observed:print(json.dumps({'integration_case':i,'expected':wanted,'observed':observed},indent=2),file=sys.stderr);break
+        raise ValueError('Profile/original CMS content-source integration differs from original fixtures')
     obj=output/'ESignMobileprovision.o';command(['xcrun','--sdk','iphoneos','clang','-target','arm64-apple-ios11.0',*common,'-c',str(source),'-o',str(obj)])
     library=output/'libESignMobileprovision.a';command(['xcrun','libtool','-static','-o',str(library),str(obj)])
-    sources=[*SOURCE.glob('ESignMobileprovision*'),ROOT/'tests/mobileprovision_runtime.m']
-    report={'result':'PASS','component':'ESign original provisioning-profile class','original_classes':1,'original_methods':38,'foundation_fixture_comparisons':len(expected),'original_class_layout_and_method_ABIs_verified':True,'CMS_BIO_decoder_and_certificate_parser_are_controlled_test_boundaries':True,'actual_CMS_decoding_or_certificate_parsing_tested':False,'property_population_serial_matching_copy_strong_and_failure_state_compared':True,'test_standin_YYYP12_not_in_iOS_library':True,'source_files_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(sources)},'library_sha256':hashlib.sha256(library.read_bytes()).hexdigest(),'toolchain':command(['xcrun','clang','--version']).stdout.strip(),'xcode':command(['xcodebuild','-version']).stdout.strip(),'iphoneos_sdk':command(['xcrun','--sdk','iphoneos','--show-sdk-version']).stdout.strip(),'host_runtime':platform.platform(),'target':'arm64-apple-ios11.0','complete_signing_pipeline':False,'full_app_built':False,'source_built_ipa':False,'iphone_runtime_tested':False}
+    sources=[*SOURCE.glob('ESignMobileprovision*'),*cms.parent.glob('ESignCMSContent*'),ROOT/'tests/mobileprovision_runtime.m']
+    report={'result':'PASS','component':'ESign original provisioning-profile class','original_classes':1,'original_methods':38,'foundation_fixture_comparisons':len(expected),'additional_native_comparisons_using_recovered_CMS_content_accessor':len(expected_integrated),'original_class_layout_and_method_ABIs_verified':True,'base_harness_BIO_CMS_and_certificate_parsers_are_controlled_test_boundaries':True,'integration_harness_uses_original_CMS_content_source_with_controlled_OID_lookup':True,'actual_CMS_decoding_or_certificate_parsing_tested':False,'property_population_serial_matching_copy_strong_and_failure_state_compared':True,'test_standin_YYYP12_not_in_iOS_library':True,'source_files_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(sources)},'library_sha256':hashlib.sha256(library.read_bytes()).hexdigest(),'toolchain':command(['xcrun','clang','--version']).stdout.strip(),'xcode':command(['xcodebuild','-version']).stdout.strip(),'iphoneos_sdk':command(['xcrun','--sdk','iphoneos','--show-sdk-version']).stdout.strip(),'host_runtime':platform.platform(),'target':'arm64-apple-ios11.0','complete_signing_pipeline':False,'full_app_built':False,'source_built_ipa':False,'iphone_runtime_tested':False}
     (output/'build-report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=ROOT/'build/mobileprovision');build(p.parse_args().output)

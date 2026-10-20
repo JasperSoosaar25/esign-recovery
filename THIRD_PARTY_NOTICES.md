@@ -24,4 +24,6 @@ The additional classes in `reconstruction/entitlements/` and `reconstruction/loa
 
 `reconstruction/legacy-crypto/` recovers eight original native helper bodies with evidence of OpenSSL 1.0.2-family provenance. Diagnostic source lines and implementation/layout details are compared with frozen upstream references; the exact bundled release and local changes remain unresolved. A complete upstream crypto library is not substituted. The applicable legacy OpenSSL/SSLeay license and acknowledgements are retained in [OPENSSL-LICENSE.txt](reconstruction/legacy-crypto/OPENSSL-LICENSE.txt).
 
+`reconstruction/cms-content/` also reconstructs the original CMS content-slot accessor with the same source-family and ownership boundaries. Its [OpenSSL/SSLeay notices](reconstruction/cms-content/OPENSSL-LICENSE.txt) are preserved. Its explicit OID/ERR test boundaries do not implement a CMS backend.
+
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). Analysis models and controlled test callees are separate tooling, not runtime backend implementations or proof of complete RSA/PEM/CMS operation.
