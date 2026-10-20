@@ -81,7 +81,7 @@ static NSDictionary *Evaluate(NSDictionary *input){
     }
     if([op isEqual:@"property"]){
         id value=input[@"value"]==[NSNull null]?nil:input[@"value"];if([input[@"mutable"] boolValue])value=[value mutableCopy];
-        [object setValue:value forKey:input[@"field"]];if([value isKindOfClass:[NSMutableString class]])[value setString:@"after"];
+        [object setValue:value forKey:input[@"field"]];if([input[@"mutable"] boolValue]&&value)[value setString:@"after"];
         id observed=Canon([object valueForKey:input[@"field"]]);[object setValue:nil forKey:input[@"field"]];return @{@"value":observed,@"cleared":@([object valueForKey:input[@"field"]]==nil)};
     }
     if([op isEqual:@"strong_properties"]){
