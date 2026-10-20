@@ -1,0 +1,20 @@
+{
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "new_classes": 1,
+  "original_methods": 38,
+  "fixtures": 148,
+  "original_instructions_executed": 2427,
+  "CMS_decoder_and_certificate_parser_are_unreconstructed_boundaries": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "files": {
+    "evidence.json.gz": "57cef3e21f37d9aa4bd5a873d3254c878ffcf7c51a8a3caa48ebb51dd8d4db00",
+    "metadata.json": "f34ae9812fde9af7316bb29138a6226a3ba43a46edb36be8d2d37c03946914d3",
+    "ESignMobileprovision.h": "9b84428f3557ce0aafd52b1d2d77a4fbd49f199a2d4185652c50106a8ca542f7",
+    "ESignMobileprovisionDependencies.h": "b3f7595648f5788e9083a8c62da420c33572d6a31e4820ad2ba1ff4ff292b990",
+    "README.md": "207e84dfbc1a85dd904376f5ffa4189fc10452e252b9bdbc9c656be78547e366",
+    "fixtures.json": "1562a8288ea243faaa4948617c3541af8a39c97e972e55df573502dc32d77dac",
+    "ESignMobileprovision.m": "8f8aca12378effac3e69ff4db2644675758cbd5b8c9f3f8f58a3829cfc51d4e3"
+  }
+}

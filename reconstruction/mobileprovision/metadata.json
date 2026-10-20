@@ -1,0 +1,286 @@
+[
+  {
+    "name": "YYYMobileprovision",
+    "superclass": "NSObject",
+    "instance_size": 144,
+    "ivars": [
+      {
+        "name": "_provisionsAllDevices",
+        "type_encoding": "B",
+        "offset": 8
+      },
+      {
+        "name": "_name",
+        "type_encoding": "@\"NSString\"",
+        "offset": 16
+      },
+      {
+        "name": "_appIDName",
+        "type_encoding": "@\"NSString\"",
+        "offset": 24
+      },
+      {
+        "name": "_appID",
+        "type_encoding": "@\"NSString\"",
+        "offset": 32
+      },
+      {
+        "name": "_teamName",
+        "type_encoding": "@\"NSString\"",
+        "offset": 40
+      },
+      {
+        "name": "_teamIdentifier",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 48
+      },
+      {
+        "name": "_platform",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 56
+      },
+      {
+        "name": "_UUID",
+        "type_encoding": "@\"NSString\"",
+        "offset": 64
+      },
+      {
+        "name": "_createDate",
+        "type_encoding": "@\"NSDate\"",
+        "offset": 72
+      },
+      {
+        "name": "_expirationDate",
+        "type_encoding": "@\"NSDate\"",
+        "offset": 80
+      },
+      {
+        "name": "_applicationIdentifierPrefix",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 88
+      },
+      {
+        "name": "_provisionedDevices",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 96
+      },
+      {
+        "name": "_developerCertificates",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 104
+      },
+      {
+        "name": "_developerCertificatesFormatter",
+        "type_encoding": "@\"NSArray\"",
+        "offset": 112
+      },
+      {
+        "name": "_entitlements",
+        "type_encoding": "@\"NSDictionary\"",
+        "offset": 120
+      },
+      {
+        "name": "_info",
+        "type_encoding": "@\"NSDictionary\"",
+        "offset": 128
+      },
+      {
+        "name": "_data",
+        "type_encoding": "@\"NSData\"",
+        "offset": 136
+      }
+    ],
+    "methods": [
+      {
+        "kind": "-",
+        "selector": "initWithData:",
+        "type_encoding": "@24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "setup",
+        "type_encoding": "B16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "containsCertificate:",
+        "type_encoding": "B24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "name",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setName:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "appIDName",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setAppIDName:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "appID",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setAppID:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "teamName",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setTeamName:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "teamIdentifier",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setTeamIdentifier:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "platform",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setPlatform:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "UUID",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setUUID:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "provisionsAllDevices",
+        "type_encoding": "B16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setProvisionsAllDevices:",
+        "type_encoding": "v20@0:8B16"
+      },
+      {
+        "kind": "-",
+        "selector": "createDate",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setCreateDate:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "expirationDate",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setExpirationDate:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "applicationIdentifierPrefix",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setApplicationIdentifierPrefix:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "provisionedDevices",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setProvisionedDevices:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "developerCertificates",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setDeveloperCertificates:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "developerCertificatesFormatter",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setDeveloperCertificatesFormatter:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "entitlements",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setEntitlements:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "info",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setInfo:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": "data",
+        "type_encoding": "@16@0:8"
+      },
+      {
+        "kind": "-",
+        "selector": "setData:",
+        "type_encoding": "v24@0:8@16"
+      },
+      {
+        "kind": "-",
+        "selector": ".cxx_destruct",
+        "type_encoding": "v16@0:8"
+      }
+    ]
+  }
+]
