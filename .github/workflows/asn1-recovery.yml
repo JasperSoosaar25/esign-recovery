@@ -24,6 +24,8 @@ jobs:
           .venv/bin/python scripts/unpack_evidence.py
       - name: Inspect the original ASN1 decoder dependencies
         run: .venv/bin/python scripts/research_asn1_input.py
+      - name: Generate and compare original ASN1 source evidence
+        run: .venv/bin/python scripts/recover_asn1_input.py --generate --emit-files
       - name: Retain selected public algorithm evidence
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:

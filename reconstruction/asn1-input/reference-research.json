@@ -1,0 +1,22 @@
+{
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "source_family": "OpenSSL 1.0.2",
+  "exact_linked_patch_identified": false,
+  "references": [
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/a_d2i_fp.c",
+      "role": "ASN1_item_d2i_bio and asn1_d2i_read_bio; checked against original ARM64 flow and diagnostic lines"
+    },
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/asn1_lib.c",
+      "role": "ASN1_get_object and inline length reader; checked original LP64 assembly and partial writes"
+    },
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/tasn_dec.c",
+      "role": "ASN1_item_d2i entry wrapper; recursive item decoder remains unresolved"
+    }
+  ],
+  "upstream_engine_substituted": false,
+  "CMS_item_descriptor_inspected_but_not_relocated": true,
+  "CMS_schema_and_decoder_recovered": false
+}

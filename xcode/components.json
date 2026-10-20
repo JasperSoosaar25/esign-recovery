@@ -179,6 +179,20 @@
       ],
       "dependencies": [],
       "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Input",
+      "directory": "reconstruction/asn1-input",
+      "files": [
+        "reconstruction/asn1-input/ESignASN1Input.h",
+        "reconstruction/asn1-input/ESignASN1Input.c",
+        "reconstruction/asn1-input/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-input/README.md"
+      ],
+      "dependencies": [
+        "ESignBIOInput"
+      ],
+      "extra_cflags": []
     }
   ]
 }
