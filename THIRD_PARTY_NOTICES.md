@@ -30,3 +30,6 @@ This product includes software developed by the OpenSSL Project for use in the O
 
 
 The original OID lookup, static object/name/OID tables and LHASH retrieval translations in `reconstruction/oid-lookup/` preserve the same legacy OpenSSL/SSLeay notices in `OPENSSL-LICENSE.txt`. Its primary source-family comparison is recorded in `reference-research.json`. These recovered materials are not relicensed by the MIT license for new recovery tools. The exact linked OpenSSL patch is not established.
+
+
+The eighteen BIO/memory-buffer translations and original memory-method descriptor in `reconstruction/bio-input/` preserve the legacy OpenSSL/SSLeay notices in its `OPENSSL-LICENSE.txt`. The runtime source is tied to original ESign instructions and exact public algorithm constants; source-family references are documented without identifying a unique linked patch. New analysis tools/tests do not relicense these recovered implementations.

@@ -18,7 +18,7 @@ The complete saved recovery was restored into a separate checkout. Its verifiers
 - All 57,245 identified native functions have indexed pseudocode output. This is export coverage, not semantic correctness or source completeness.
 - All 3,396 selected app-method entries across 182 classes are covered by the expanded static traces. Their 358,448 unique instructions and 12,244 selector-call observations pass integrity checks.
 - All 8,999 selector stubs and 901,266 bytes of native dispatch sections/binding data match the secondary input.
-- All 93 current recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, finite-return, callback, signature-container, runtime import, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
+- All 99 current recovery-tool tests pass, including corruption, identity, selector, control-flow, scalar-provenance, finite-return, callback, signature-container, runtime import, and Mach-O layout rejection cases. The 215 compiled C scalar fragments also pass 35,840 comparisons with original ARM64 instruction execution.
 
 The traces retain 419 unresolved jump records. Mutable runtime state, incomplete function boundaries, missing initialization, and decompiler type guesses remain reconstruction concerns. Do not present the counts as a percentage of recovered behavior.
 
@@ -93,3 +93,10 @@ Five additional original bodies now implement object/name lookup and hash retrie
 
 
 All [15 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940) passed for source commit `9922c42e`: thirteen individual native component jobs, the combined Xcode library build and full recovery integrity, including 93 tool tests. The [verification record](builds/verification-9922c42e.json) identifies every job and its exact scope. Original BIO/CMS decoding, certificate/P12 parsing, signing/archive/install orchestration and application/UI source remain unfinished; no source-built IPA or real iPhone screenshot has been produced.
+
+
+## Original BIO input recovery — 20 October
+
+The [new source](../reconstruction/bio-input/) reconstructs 18 original BIO/memory-buffer functions and their shared method descriptor. All 603 cases pass against compiled Apple C, exercising all 666 original instructions. The [native report](builds/bio-input-d49c5f05.json) covers creation, callbacks, read/write/reset/free sequences, buffer growth/failures, live state, truncation and 64-bit counters. The [combined project report](builds/component-project-d49c5f05.json) verifies all fourteen arm64 libraries with Xcode 16.4/iOS 18.5. All [16 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39457921121) and 99 tool tests passed; the [verification record](builds/verification-d49c5f05.json) identifies the exact source commit and jobs.
+
+Current source scope is 24 classes/167 metadata methods, three separately exposed method-body translations and 37 native helper/wrapper bodies, plus documented blocks. Memory BIO now has original source; allocation/refcount/ex-data/cleansing/ERR primitives and file BIO/PEM operations still need original implementations. Actual ASN.1/CMS decoding, P12/certificate processing, signing/archive/install orchestration and app/UI source remain unfinished. No full app, source-built IPA, real iPhone run or genuine running-app screenshot was produced.

@@ -28,5 +28,29 @@
     38,
     64,
     64
-  ]
+  ],
+  "original_diagnostic_lines_matching_reference": {
+    "bio_lib.c": [
+      70,
+      72,
+      114,
+      196,
+      206,
+      230,
+      239,
+      349
+    ],
+    "bss_mem.c": [
+      181,
+      186
+    ],
+    "buffer.c": [
+      74,
+      76,
+      150,
+      155,
+      157,
+      159
+    ]
+  }
 }

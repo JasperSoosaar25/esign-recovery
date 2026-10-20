@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "component": "ESign original BIO input and memory buffers",
+  "original_native_functions": 18,
+  "source_behavior_fixture_comparisons": 603,
+  "original_instructions": 666,
+  "original_instructions_exercised": 666,
+  "unexercised_original_instruction_addresses": [],
+  "original_memory_method_type_name_and_callback_relocations_verified": true,
+  "create_write_read_reset_free_sequence_compared": true,
+  "allocators_ex_data_refcount_ERR_and_cleanse_are_controlled_test_boundaries": true,
+  "test_adapters_excluded_from_iOS_archive": true,
+  "source_files_sha256": {
+    "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+    "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+  },
+  "library_sha256": "2fc94392f22ef981d95333b9697e9218ab34b61014b40416b39a6cefbbb31f4e",
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "d49c5f05989e0e446f7b7c43703f269f6e04badd",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39457921121",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39457921121/artifacts/12281098909"
+}

@@ -17,6 +17,7 @@ This map uses the exact ESign 5.0.2 method metadata and expanded original-byte t
 | Alternate-CMS RSA wrapper | Original `0x100778fa0`, reusing the eight helper bodies | iOS static library; 20 native boundary-behavior comparisons; three original fault probes excluded from native parity |
 | Provisioning-profile class | All 38 `YYYMobileprovision` metadata methods, including setup/membership/properties/destruction | iOS static library; 148 native Foundation fixtures and exact metadata/layout checks; parser boundaries remain controlled |
 | CMS content accessor | Original `CMS_get0_content` at `0x10062edd8`, 71 instructions | iOS library; 71 boundary checks and 71 real-OID composition checks |
+| BIO input and memory buffers | Eighteen original bodies and complete memory method descriptor | iOS library; 603 Apple comparisons, all 666 instructions; primitive crypto-runtime boundaries remain external |
 | OID lookup/database and registry retrieval | Five original bodies, 958 records and 890 search indexes | iOS library; 5,635 native comparisons; registry initialization/callbacks and ERR remain missing |
 | Actual signing-path DER helpers | Original functions at `0x100776830` and `0x10077f534`, with the original signing caller retained | iOS static library; 269 native fixtures; zero-number probe remains unverified |
 
@@ -29,7 +30,7 @@ The main `YYYArchO` DER-slot method calls the recursive helper directly; it does
 | Original class | Indexed methods | Methods retaining unresolved jumps | Work still needed |
 |---|---:|---:|---|
 | `YYYP12` | 37 | 4 | P12/certificate initialization, native crypto ownership/layout, subject-name helpers, exact dependency identification |
-| `YYYMobileprovision` | 38 | 2 | All class methods now translated; connect the actual BIO/CMS decoder and original P12 parser, then verify real profiles |
+| `YYYMobileprovision` | 38 | 2 | All class methods now translated; integrate recovered BIO input; recover actual ASN.1/CMS decoding and original P12 parsing, then verify real profiles |
 | `YYYSignAsset` | 22 | 4 | Certificate/profile composition, entitlement selection, ASN.1/CMS generation and dependent crypto routines |
 | `YYYArchO` | 49 | 13 | Requirements and code-directory bodies now translated separately; full class, XML/DER slot wrappers, CMS generation, signature placement, file edits, and orchestration still need integration/recovery |
 | `YYYMachO` | 34 | 8 | Mapping/slice selection, load-command editing, code directory/hash/signature placement, full signing integration |
@@ -72,3 +73,10 @@ A [new Xcode project](../xcode/README.md) builds the twelve recovered libraries 
 The original OID dependency now has source in [oid-lookup](../reconstruction/oid-lookup/): `OBJ_obj2nid` (`0x1005b3138`), `OBJ_nid2obj` (`0x1005b2eac`), `OBJ_nid2sn` (`0x1005b2f80`), `OBJ_nid2ln` (`0x1005b305c`), and `lh_retrieve` (`0x100602d34`). All 958 original records and 890 search indexes are relocated. Original-instruction replay and local compiled C match in 5,635 fixtures; 314/315 instructions execute, with the zero-length no-match branch retained but unexercised under the pinned table. Registry creation, its hash/comparison callback implementations, and ERR storage remain external. The [OID Apple report](builds/oid-lookup-9922c42e.json) records all 5,635 passing comparisons and all static records. The [CMS](builds/cms-content-9922c42e.json) and [profile](builds/mobileprovision-9922c42e.json) reports add 71 and 146 passing real-OID composition checks. The expanded [project report](builds/component-project-9922c42e.json) records all thirteen arm64 library archives.
 
 The profile decoder wrapper at `0x10062fb30` has five original instructions, forwards its BIO/output arguments to `0x100613354`, and uses the original ASN.1 descriptor at `0x100b24750`. Recovering only that wrapper would not reconstruct the ASN.1/CMS decoder behind it. These BIO/ASN.1 decoder dependencies and `YYYP12` certificate initialization remain the next missing backend layers.
+
+
+## BIO input boundary now supplied
+
+The [BIO input component](../reconstruction/bio-input/) supplies original `BIO_new` (`0x1005fedf0`), `BIO_free` (`0x1005feebc`), `BIO_read` (`0x1005fef88`), `BIO_write` (`0x1005ff090`), `BIO_ctrl` (`0x1005ff4e0`), `BIO_s_mem` (`0x1005ffa5c`), flags, all seven memory-method callbacks and three BUF_MEM helpers. It preserves the original shared descriptor at `0x100e00fd0` and bounded byte-control dispatch at `0x100999490`. Its [Apple report](builds/bio-input-d49c5f05.json) records 603 native comparisons and all 666 instructions. The [Xcode build](builds/component-project-d49c5f05.json) contains fourteen recovered libraries.
+
+The original allocator/reallocator, reference locking, ex-data, cleansing and ERR bodies remain unresolved external dependencies; test adapters are excluded from the archive. The next decoder layer is still `d2i_CMS_bio` (`0x10062fb30`) -> `ASN1_item_d2i_bio` (`0x100613354`) -> BIO ASN.1 reader (`0x10061300c`) and ASN.1 item decoder (`0x100619304`), with the original CMS descriptor at `0x100b24750`. Only the BIO input layer is now reconstructed; no full CMS or certificate decoding is claimed.

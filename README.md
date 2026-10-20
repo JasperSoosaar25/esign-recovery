@@ -14,7 +14,7 @@ The current build request requires the **original implementation only**. No repl
 
 [Expanded original-code analysis](docs/DISPATCH-RECOVERY.md) traces all 3,396 indexed app-candidate method entries, reaching 358,448 distinct original instructions under the static model. It maps 12,244 call sites to original selector stubs and retains 419 unresolved indirect-jump occurrences. All 8,999 selector stubs are decoded from preserved original bytes; receiver classes and return values remain unverified.
 
-**Build recovered source in Xcode:** open [ESignRecovery.xcodeproj](ESignRecovery.xcodeproj/) and select **RecoveredComponents**. The [verified project build](docs/builds/component-project-9922c42e.json) compiles all thirteen recovered libraries together for arm64 iOS. Read the [project guide](xcode/README.md) for outputs and remaining link dependencies. This project contains library targets; it does not provide an ESign application or IPA.
+**Build recovered source in Xcode:** open [ESignRecovery.xcodeproj](ESignRecovery.xcodeproj/) and select **RecoveredComponents**. The [verified project build](docs/builds/component-project-d49c5f05.json) compiles all fourteen recovered libraries together for arm64 iOS. Read the [project guide](xcode/README.md) for outputs and remaining link dependencies. This project contains library targets; it does not provide an ESign application or IPA.
 
 ## What is available
 
@@ -42,7 +42,8 @@ The [new native reconstruction pass](docs/NATIVE-RECONSTRUCTION.md) adds fuller 
 | CMS content accessor | Original 71-instruction body; 71 native live-field/mutation comparisons passed | [Source and evidence](reconstruction/cms-content/) |
 | Selected crypto helpers and RSA wrapper | Eight helpers and alternate-CMS RSA wrapper; 355 and 20 native boundary comparisons | [Crypto](reconstruction/legacy-crypto/), [wrapper](reconstruction/rsa-wrapper/) |
 | Original OID database and lookup | Five original bodies, 958 object records, 890 indexes; 5,635 native Apple comparisons passed | [Source and evidence](reconstruction/oid-lookup/) |
-| Combined Xcode project | All thirteen recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
+| Original BIO input and memory buffers | 18 original bodies and method descriptor; all 666 instructions exercised; 603 native Apple comparisons passed | [Source and evidence](reconstruction/bio-input/) |
+| Combined Xcode project | All fourteen recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
 | Main signing-path DER functions | 2 original native helper translations; 269 native fixtures passed, one original zero-number probe remains unverified | [Source and evidence](reconstruction/recursive-der/) |
 
 “Decompiler output” means the tool returned pseudocode, not that it recovered correct source. Many functions contain unresolved indirect jumps; source-level behavior, full function boundaries, and UI equivalence remain uncertain. The class prefix is a navigation heuristic, not proof of authorship. See [recovery limits](docs/RECOVERY.md) and [verification results](docs/VERIFICATION.md).
@@ -74,13 +75,14 @@ python3 scripts/recover_rsa_wrapper.py --verify
 python3 scripts/recover_mobileprovision.py --verify
 python3 scripts/recover_cms_content.py --verify
 python3 scripts/recover_oid_lookup.py --verify
+python3 scripts/recover_bio_input.py --verify
 python3 scripts/generate_component_project.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
 These check recovery integrity and recovered component behavior. **They do not compile the complete ESign app or verify complete signing.** The [Actions workflow](.github/workflows/verify.yml) runs the same checks on pushes and pull requests, including forks, without signing secrets.
 
-Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 93 tool tests. These packages are analysis dependencies, not app runtime dependencies.
+Install the pinned `requirements-reconstruction.txt` in a virtual environment to run the compiled-C/original-ARM64 comparisons and all 99 tool tests. These packages are analysis dependencies, not app runtime dependencies.
 
 To check whether your local IPA matches this recovery's input:
 
@@ -126,16 +128,22 @@ The original requirements-slot method body and its three byte-writing blocks now
 
 The [alternate-CMS RSA wrapper](reconstruction/rsa-wrapper/) at `0x100778fa0` also has source tied to exact IPA instruction execution. Its 23 fixtures include 20 return-value cases and three original fault probes excluded from native comparison. It retains the original diagnostic/error fallthrough and the ignored key-pointer argument. No embedded key bytes are supplied. Its [Apple report](docs/builds/rsa-wrapper-9ce17389.json) records 20 passing native comparisons and arm64 iOS compilation; actual RSA/PEM dependencies remain unreconstructed.
 
-Across these source components there are 24 original class definitions with 167 metadata methods, three additional metadata-method body translations with new C navigation names, and 19 native helper/wrapper translations. Those C bodies do not create a replacement `YYYArchO` class. Scalar fragments overlap some methods and are not added to that count. Thirteen component-library builds, a combined Xcode project build and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.
+Across these source components there are 24 original class definitions with 167 metadata methods, three additional metadata-method body translations with new C navigation names, and 37 native helper/wrapper translations. Those C bodies do not create a replacement `YYYArchO` class. Scalar fragments overlap some methods and are not added to that count. Fourteen component-library builds, a combined Xcode project build and the recovery job run in CI. Complete CMS/certificate, signing orchestration, application/UI, app-target, and physical-device work remain unfinished.
 
 All [11 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39327012074) passed for source commit `9ce17389`: ten native component jobs and the complete recovery-integrity job, including 75 tool tests. The [verification record](docs/builds/verification-9ce17389.json) records the exact jobs. The two new components pass 355 and 20 native boundary-behavior comparisons respectively; three wrapper fault probes remain excluded. No complete crypto backend, source-built app/IPA, or iPhone runtime result is established.
 
 ### Provisioning profiles and the shared Xcode project — 20 October
 
-The complete 38-method profile class has [reviewed source](reconstruction/mobileprovision/) and [148 passing native comparisons plus two sets of 146 composition checks](docs/builds/mobileprovision-9922c42e.json). The second composition uses the recovered CMS accessor and actual original OID lookup with encoded signed-data OID bytes. The accessor's [71 standalone and 71 OID-composition comparisons](docs/builds/cms-content-9922c42e.json) also pass. BIO/CMS decoding and certificate parsing remain original implementation dependencies.
+The complete 38-method profile class has [reviewed source](reconstruction/mobileprovision/) and [148 passing native comparisons plus two sets of 146 composition checks](docs/builds/mobileprovision-9922c42e.json). The second composition uses the recovered CMS accessor and actual original OID lookup with encoded signed-data OID bytes. The accessor's [71 standalone and 71 OID-composition comparisons](docs/builds/cms-content-9922c42e.json) also pass. The BIO memory-input source is now recovered separately; ASN.1/CMS decoding and certificate parsing remain original implementation dependencies.
 
 The [original OID component](reconstruction/oid-lookup/) adds five native bodies, 958 object records and 890 search indexes. Its [Apple report](docs/builds/oid-lookup-9922c42e.json) records 5,635 passing compiled-source comparisons plus every static record and shared pointer identity. One zero-length no-match branch remains unexercised under the exact static table; the source retains it.
 
-The [Xcode project](xcode/README.md) builds all thirteen recovered libraries together, without test backends or the original executable. Its [exact build report and library artifact](docs/builds/component-project-9922c42e.json) record the real arm64 iOS outputs. The full signer, application source/target, source-built IPA and physical-iPhone screenshots remain unfinished.
+The [Xcode project](xcode/README.md) builds all thirteen recovered libraries together, without test backends or the original executable. Its [exact build report and library artifact](docs/builds/component-project-d49c5f05.json) record the real arm64 iOS outputs. The full signer, application source/target, source-built IPA and physical-iPhone screenshots remain unfinished.
 
 All [15 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39451228940) passed for source commit `9922c42e`: thirteen individual native component jobs, the combined Xcode library build and full recovery integrity, including 93 tool tests. The [verification record](docs/builds/verification-9922c42e.json) identifies every job and its exact scope. Original BIO/CMS decoding, certificate/P12 parsing, signing/archive/install orchestration and application/UI source remain unfinished; no source-built IPA or real iPhone screenshot has been produced.
+
+### Original BIO memory-input source
+
+The [BIO component](reconstruction/bio-input/) now reconstructs the original memory-buffer method, creation/release, read/write/control dispatch, seven memory callbacks and three buffer helpers. All 18 bodies pass [603 Apple native comparisons](docs/builds/bio-input-d49c5f05.json), exercising all 666 recovered instructions. This includes a create/write/read/reset/free sequence and preserves callback mutation, flag/counter behavior, failure state and buffer effects. Allocation, reference locking, ex-data, cleansing and ERR implementations remain original dependencies.
+
+All [16 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39457921121) passed for source commit `d49c5f05`, including 99 tool tests and the [fourteen-library Xcode build](docs/builds/component-project-d49c5f05.json). See the [verification record](docs/builds/verification-d49c5f05.json). The complete app, source-built IPA, original ASN.1/CMS and certificate backend, signing/app orchestration and real iPhone screenshots remain unfinished.
