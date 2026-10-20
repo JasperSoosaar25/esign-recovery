@@ -1,0 +1,95 @@
+{
+  "result": "PASS",
+  "source_commit": "a8f0b93037b926039ad6acb3059db16d02241084",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39444090360",
+  "tool_tests_passed": 87,
+  "individual_native_component_jobs_passed": 12,
+  "combined_Xcode_project_jobs_passed": 1,
+  "recovery_integrity_jobs_passed": 1,
+  "new_original_class_methods_this_continuation": 38,
+  "new_original_native_helper_bodies_this_continuation": 1,
+  "new_component_comparisons": {
+    "profile_boundary_cases": 148,
+    "profile_composed_with_recovered_CMS_accessor": 146,
+    "CMS_content_native_cases": 71
+  },
+  "integration_cases_reuse_profile_fixtures": true,
+  "combined_arm64_iOS_libraries_built": 12,
+  "jobs": [
+    {
+      "id": 118701272367,
+      "name": "recovery-integrity",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272774,
+      "name": "native-cms-content",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272804,
+      "name": "native-legacy-crypto",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272806,
+      "name": "native-mach-header",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272831,
+      "name": "native-requirements-slot",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272837,
+      "name": "native-recursive-der",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272859,
+      "name": "native-mobileprovision",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272870,
+      "name": "native-localization",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701272903,
+      "name": "native-component-project",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701273003,
+      "name": "native-signature-blobs",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701273060,
+      "name": "native-entitlements",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701273074,
+      "name": "native-code-directory",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701273087,
+      "name": "native-rsa-wrapper",
+      "conclusion": "success"
+    },
+    {
+      "id": 118701273403,
+      "name": "native-load-commands",
+      "conclusion": "success"
+    }
+  ],
+  "CMS_BIO_decoder_certificate_parser_and_OID_lookup_still_unreconstructed": true,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_verified": false,
+  "genuine_running_app_screenshots_produced": false
+}

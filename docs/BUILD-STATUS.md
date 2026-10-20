@@ -8,6 +8,7 @@ The current request is a buildable original ESign application, preserving the or
 | Account for every cached IPA entry | All 100 accounted for in [the entry audit](ipa-entry-audit.json) |
 | Preserve original code evidence | Original code-section bytes, metadata, baseline pseudocode, and separate initial-pointer analysis |
 | Obtain original native source/project | Not obtained |
+| Build recovered components in Xcode | Twelve arm64 iOS libraries build together; [exact report](builds/component-project-a8f0b930.json) |
 | Compile the complete original app from native source | Not achieved |
 | Produce a verified source-built IPA | Not achieved |
 | Run the original app on iPhone/iOS 27 | Not run |
@@ -16,7 +17,7 @@ The current request is a buildable original ESign application, preserving the or
 
 The [native reconstruction follow-up](NATIVE-RECONSTRUCTION.md) adds fuller method pseudocode and 215 compiled C accessor fragments, checked against original ARM64 instructions for 35,840 fixtures. This is a narrow source-recovery result, not an original ESign app build. Most original class definitions, initialization, method source bodies, dependencies, and a complete app project are still missing. The localization component now has reconstructed Objective-C definitions for all 10 localization classes, 13 methods, and their initialization block. Its separate Apple SDK/host Foundation checks do not build or run the full application.
 
-Signing dependencies now also have reconstructed source for the signature containers (38 methods), Mach-O header/base classes (17 methods), entitlement classes (41 methods and callback), and five load-command wrappers (20 additional methods). Two native functions directly used by the main DER signing-slot path are translated separately. The class-source scope is 23 original class definitions and 129 metadata methods; the separate method-body and native-function additions are recorded below. Reused parent methods and overlapping scalar fragments are not counted twice. Their arm64 iOS libraries and separate macOS runtime checks passed. They do not implement complete certificate/CMS generation, full Mach-O signing, archive handling, installation, or application UI. [The dependency map](SIGNING-DEPENDENCIES.md) records the remaining implementation boundaries.
+Signing dependencies now also have reconstructed source for the signature containers (38 methods), Mach-O header/base classes (17 methods), entitlement classes (41 methods and callback), and five load-command wrappers (20 additional methods). Two native functions directly used by the main DER signing-slot path are translated separately. The current class-source scope, including the profile class, is 24 original class definitions and 167 metadata methods; the separate method-body and native-function additions are recorded below. Reused parent methods and overlapping scalar fragments are not counted twice. Their arm64 iOS libraries and separate macOS runtime checks passed. They do not implement complete certificate/CMS generation, full Mach-O signing, archive handling, installation, or application UI. [The dependency map](SIGNING-DEPENDENCIES.md) records the remaining implementation boundaries.
 
 ## Why compilation is still blocked
 
@@ -51,7 +52,7 @@ The [entitlement-class report](builds/entitlements-39df227c.json) records 583 na
 
 The [requirements report](builds/requirements-slot-7b0973dc.json) adds 117 native comparisons for the original requirements method body and its three byte-writing blocks. The [code-directory report](builds/code-directory-fb1e67be.json) adds 85 native comparisons: 65 for code-directory construction, its digest helpers and hash blocks, and the NSString byte-length body; 20 for the original signature entitlement-flag block. Exact bytes, repeated getters, Apple CommonCrypto calls, real file operations, and final file position agree with the original-instruction models. Both iOS libraries compiled with Xcode 16.4/iOS 18.5.
 
-Current totals are 23 original class definitions with 129 methods, three additional original metadata-method body translations exposed as C navigation symbols, and 13 native helper/wrapper translations, plus documented blocks. This does not supply the full `YYYArchO` class.
+Current totals are 24 original class definitions with 167 methods, three additional original metadata-method body translations exposed as C navigation symbols, and 14 native helper/wrapper translations, plus documented blocks. This does not supply the full `YYYArchO` class.
 
 The [earlier nine-job verification run](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39321304662) passed 67 tool tests and recorded eight native component builds and full recovery checks. The current continuation adds the crypto helpers and RSA wrapper described below. These results do not change the incomplete full-app/IPA/iPhone status above; no iOS 27 SDK or device result is claimed.
 
@@ -65,3 +66,12 @@ The alternate-CMS RSA wrapper at `0x100778fa0` now has source that reuses those 
 These additions bring the separately translated native function bodies to 13; they do not add new complete Objective-C classes or metadata-method definitions. The full-app/IPA/iPhone requirements in the table above remain unmet.
 
 All [11 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39327012074) passed for source commit `9ce17389`: ten native component jobs and the complete recovery-integrity job, including 75 tool tests. The [verification record](builds/verification-9ce17389.json) records the exact jobs. The two new components pass 355 and 20 native boundary-behavior comparisons respectively; three wrapper fault probes remain excluded. No complete crypto backend, source-built app/IPA, or iPhone runtime result is established.
+
+
+## Profile/CMS source and the component project — 20 October
+
+The profile class now has all 38 methods translated and 148 passing native Foundation/layout/ABI comparisons. The original CMS content-slot accessor has all 71 instructions reconstructed and 71 passing native live-pointer/mutation comparisons. The profile builder also checks composition with that recovered accessor; actual BIO/CMS decoding, OID lookup and certificate/P12 parsing remain unresolved outside their explicit test boundaries.
+
+The new `ESignRecovery.xcodeproj` builds all twelve recovered libraries directly from source, without test implementations or the original executable. [The exact project report](builds/component-project-a8f0b930.json) records the twelve arm64 iOS archives, their hashes and Xcode 16.4/iOS 18.5. This is a new component build project, not the missing original author project or an application target. There is still no complete app link, source-built IPA, physical iPhone execution or genuine running-app screenshot. Current source totals are 24 classes/167 metadata methods, three separate method-body translations and 14 native helper/wrapper bodies, plus documented blocks. All 87 current tool tests pass.
+
+The [integrated profile report](builds/mobileprovision-a8f0b930.json) records 148 boundary comparisons plus 146 passing native composition comparisons using the recovered CMS accessor; the [CMS report](builds/cms-content-d505e438.json) records its 71 native cases. All [14 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39444090360) passed for source commit `a8f0b930`, including the twelve individual component jobs, the combined Xcode library build, and 87 tool tests in recovery integrity. See [the exact verification record](builds/verification-a8f0b930.json). These results do not close the complete-app requirements above.

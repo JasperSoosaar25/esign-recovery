@@ -15,6 +15,8 @@ This map uses the exact ESign 5.0.2 method metadata and expanded original-byte t
 | Code-directory generation | Original method `0x10077473c`, NSString byte-length method body, two digest helpers and three block invocations | iOS static library; 65 native byte/getter/file/CommonCrypto cases plus 20 signature entitlement-flag cases |
 | Selected legacy-crypto helpers | Eight original native bodies: BN bit count, RSA size/reference/free/dispatch, EVP key access/free, FILE/BIO PEM wrapper | iOS static library; 355 native boundary-behavior comparisons; actual RSA/PEM backend remains unreconstructed |
 | Alternate-CMS RSA wrapper | Original `0x100778fa0`, reusing the eight helper bodies | iOS static library; 20 native boundary-behavior comparisons; three original fault probes excluded from native parity |
+| Provisioning-profile class | All 38 `YYYMobileprovision` metadata methods, including setup/membership/properties/destruction | iOS static library; 148 native Foundation fixtures and exact metadata/layout checks; parser boundaries remain controlled |
+| CMS content accessor | Original `CMS_get0_content` at `0x10062edd8`, 71 instructions | iOS static library; 71 native returned-field/mutation checks; OID/ERR boundaries controlled |
 | Actual signing-path DER helpers | Original functions at `0x100776830` and `0x10077f534`, with the original signing caller retained | iOS static library; 269 native fixtures; zero-number probe remains unverified |
 
 See the exact reports under [builds/](builds/). The container parser's incomplete-header result and recursive DER integer-zero result remain unverified. The header/command ivar slides are explicit runtime models, not observed original-device state. Scalar accessor fragments are separate restricted C translations and can overlap these classes; do not add their count to these methods as if all were distinct recovered app behavior.
@@ -26,7 +28,7 @@ The main `YYYArchO` DER-slot method calls the recursive helper directly; it does
 | Original class | Indexed methods | Methods retaining unresolved jumps | Work still needed |
 |---|---:|---:|---|
 | `YYYP12` | 37 | 4 | P12/certificate initialization, native crypto ownership/layout, subject-name helpers, exact dependency identification |
-| `YYYMobileprovision` | 38 | 2 | Data/profile extraction, plist/model population, certificate membership and formatting |
+| `YYYMobileprovision` | 38 | 2 | All class methods now translated; connect the actual BIO/CMS decoder and original P12 parser, then verify real profiles |
 | `YYYSignAsset` | 22 | 4 | Certificate/profile composition, entitlement selection, ASN.1/CMS generation and dependent crypto routines |
 | `YYYArchO` | 49 | 13 | Requirements and code-directory bodies now translated separately; full class, XML/DER slot wrappers, CMS generation, signature placement, file edits, and orchestration still need integration/recovery |
 | `YYYMachO` | 34 | 8 | Mapping/slice selection, load-command editing, code directory/hash/signature placement, full signing integration |
@@ -55,3 +57,15 @@ A real iPhone setup is still required for the original device binary and for gen
 The eight helper bodies execute all 301 of their distinct original instructions in 355 fixtures and pass [native Apple comparisons](builds/legacy-crypto-c7190909.json). Frozen OpenSSL references narrow the source family: `p_lib.c` lines 287/391 match the 1.0.2u reference, while examined 1.0.2a and 1.0.1u references have 279/383. This is not a unique patch-release identification. See [the research manifest](../reconstruction/legacy-crypto/reference-research.json) and preserved OpenSSL/SSLeay notices.
 
 Unreconstructed boundaries remain in [the dependency declarations](../reconstruction/legacy-crypto/ESignLegacyCryptoDependencies.h): reference locking, ERR state, allocators, engine/ex-data cleanup, BN/blinding cleanup, attribute-stack cleanup, BIO operations, and PEM BIO parsing. RSA_METHOD callbacks and ASN.1 key callbacks also remain dependencies. Test recorders establish the recovered bodies' boundary behavior only. They do not implement these algorithms for an app. Full `YYYP12`, ordinary `YYYSignAsset` CMS generation, alternate CMS template assembly, and `YYYArchO` signing orchestration still need original implementation recovery and integration.
+
+
+## Profile integration and project build — 20 October
+
+The profile class is now fully translated, with 148 invented-data fixtures covering plist/date/data handling, preexisting-object failure state, certificate-construction failure, serial membership, 17 property pairs and destruction. Its baseline's two unresolved records remain historical; the separate analysis restricts the original setup and NSString equality BOOL results and checks exact original table targets. The 2,427 instructions exercised in that model do not change baseline coverage counts.
+
+The original CMS content accessor is separately recovered and exports the exact address dependency used by the profile class. Its six-byte dispatch table and unsigned 0–5 guard support the explicit byte-load/shifted-add analysis. All 71 original instructions and all table branches are exercised. The generic walker's default behavior is unchanged. The profile's additional [146 passing native integration comparisons](builds/mobileprovision-a8f0b930.json) use this recovered body, while OID lookup remains controlled. Complete CMS decoding and certificate/P12 parsing remain absent.
+
+A [new Xcode project](../xcode/README.md) builds the twelve recovered libraries together. Its [actual report](builds/component-project-a8f0b930.json) records twelve arm64 iOS archives and exact source/project hashes. It contains no app target, test backends or original binary. This improves source development and dependency organization; it does not close the original crypto backend, full `YYYP12`, `YYYSignAsset`, Mach-O signing/installation or app/UI implementation requirements.
+
+
+The next OID dependency is the original `OBJ_obj2nid` role at `0x1005b3138`. A separate original-byte study reaches 91 instructions with no unresolved indirect jumps, including calls at `0x1005b318c` to `0x100602d34` and `0x1005b3218` to the imported stub `0x10093122c`. It still needs its original object prefixes, static OID data and mutable-registry behavior recovered and verified; this research adds no source-completeness claim. The profile's decoder wrapper at `0x10062fb30` has five original instructions, forwards its BIO/output arguments to `0x100613354`, and uses the original ASN.1 descriptor at `0x100b24750`. Recovering only that wrapper would not reconstruct the ASN.1/CMS decoder behind it.
