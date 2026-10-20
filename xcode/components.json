@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "kind": "recovered-static-libraries-only",
+  "minimum_iOS": "11.0",
+  "components": [
+    {
+      "name": "ESignLocalization",
+      "directory": "reconstruction/localization",
+      "files": [
+        "reconstruction/localization/ESignLocalization.h",
+        "reconstruction/localization/ESignLocalization.m",
+        "reconstruction/localization/ESignLocalizationTables.m",
+        "reconstruction/localization/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignSignatureBlobs",
+      "directory": "reconstruction/signature-blobs",
+      "files": [
+        "reconstruction/signature-blobs/ESignSignatureBlobs.h",
+        "reconstruction/signature-blobs/ESignSignatureBlobs.m",
+        "reconstruction/signature-blobs/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignMachHeader",
+      "directory": "reconstruction/mach-header",
+      "files": [
+        "reconstruction/mach-header/ESignMachHeader.h",
+        "reconstruction/mach-header/ESignMachHeader.m",
+        "reconstruction/mach-header/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignEntitlements",
+      "directory": "reconstruction/entitlements",
+      "files": [
+        "reconstruction/entitlements/ESignEntitlements.h",
+        "reconstruction/entitlements/ESignEntitlements.m",
+        "reconstruction/entitlements/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignLoadCommands",
+      "directory": "reconstruction/load-commands",
+      "files": [
+        "reconstruction/load-commands/ESignLoadCommands.h",
+        "reconstruction/load-commands/ESignLoadCommands.m",
+        "reconstruction/load-commands/README.md"
+      ],
+      "dependencies": [
+        "ESignMachHeader"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignRecursiveDER",
+      "directory": "reconstruction/recursive-der",
+      "files": [
+        "reconstruction/recursive-der/ESignRecursiveDER.h",
+        "reconstruction/recursive-der/ESignRecursiveDER.m",
+        "reconstruction/recursive-der/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignRequirementsSlot",
+      "directory": "reconstruction/requirements-slot",
+      "files": [
+        "reconstruction/requirements-slot/ESignRequirementsSlot.h",
+        "reconstruction/requirements-slot/ESignRequirementsSlot.m",
+        "reconstruction/requirements-slot/README.md"
+      ],
+      "dependencies": [
+        "ESignSignatureBlobs"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignCodeDirectory",
+      "directory": "reconstruction/code-directory",
+      "files": [
+        "reconstruction/code-directory/ESignCodeDirectory.h",
+        "reconstruction/code-directory/ESignCodeDirectory.m",
+        "reconstruction/code-directory/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": [
+        "-Wno-deprecated-declarations"
+      ]
+    },
+    {
+      "name": "ESignLegacyCrypto",
+      "directory": "reconstruction/legacy-crypto",
+      "files": [
+        "reconstruction/legacy-crypto/ESignLegacyCrypto.c",
+        "reconstruction/legacy-crypto/ESignLegacyCrypto.h",
+        "reconstruction/legacy-crypto/ESignLegacyCryptoDependencies.h",
+        "reconstruction/legacy-crypto/OPENSSL-LICENSE.txt",
+        "reconstruction/legacy-crypto/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignRSASignWrapper",
+      "directory": "reconstruction/rsa-wrapper",
+      "files": [
+        "reconstruction/rsa-wrapper/ESignRSASignWrapper.c",
+        "reconstruction/rsa-wrapper/ESignRSASignWrapper.h",
+        "reconstruction/rsa-wrapper/README.md"
+      ],
+      "dependencies": [
+        "ESignLegacyCrypto"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignCMSContent",
+      "directory": "reconstruction/cms-content",
+      "files": [
+        "reconstruction/cms-content/ESignCMSContent.c",
+        "reconstruction/cms-content/ESignCMSContent.h",
+        "reconstruction/cms-content/OPENSSL-LICENSE.txt",
+        "reconstruction/cms-content/README.md"
+      ],
+      "dependencies": [],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignMobileprovision",
+      "directory": "reconstruction/mobileprovision",
+      "files": [
+        "reconstruction/mobileprovision/ESignMobileprovision.h",
+        "reconstruction/mobileprovision/ESignMobileprovision.m",
+        "reconstruction/mobileprovision/ESignMobileprovisionDependencies.h",
+        "reconstruction/mobileprovision/README.md"
+      ],
+      "dependencies": [
+        "ESignCMSContent"
+      ],
+      "extra_cflags": []
+    }
+  ]
+}

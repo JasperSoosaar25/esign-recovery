@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "component": "ESign original CMS content-slot accessor",
+  "original_native_functions": 1,
+  "source_behavior_fixture_comparisons": 71,
+  "original_instructions_exercised": 71,
+  "live_returned_field_identity_and_mutation_compared": true,
+  "OBJ_lookup_and_ERR_are_controlled_test_boundaries": true,
+  "actual_CMS_decoding_signing_or_OID_lookup_implementation_tested": false,
+  "source_files_sha256": {
+    "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "reconstruction/cms-content/ESignCMSContent.h": "8927f22dd7332799943bd4f29512f12777af5b1f52699c2965a63d4b42864769",
+    "tests/cms_content_runtime.m": "3a3bef7e6c3647cc426ab7c73bdd322bced6c407454310b873c254cbf555e40c"
+  },
+  "library_sha256": "ef83e9599f56dc53da73ed0cd9c16af40e403f1d434a91e72dbfea390cd896c4",
+  "toolchain": "Apple clang version 17.0.0 (clang-1700.0.13.5)\nTarget: arm64-apple-darwin24.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 16.4\nBuild version 16F6",
+  "iphoneos_sdk": "18.5",
+  "host_runtime": "macOS-15.7.9-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios11.0",
+  "complete_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "source_commit": "d505e438a0a46fe8fcc154ee7b8f2ea1ecc67e2e",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39442884242",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39442884242/artifacts/12273858028"
+}
