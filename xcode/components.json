@@ -208,6 +208,21 @@
         "ESignOIDLookup"
       ],
       "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Value",
+      "directory": "reconstruction/asn1-value",
+      "files": [
+        "reconstruction/asn1-value/ESignASN1Value.h",
+        "reconstruction/asn1-value/ESignASN1Value.c",
+        "reconstruction/asn1-value/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-value/README.md"
+      ],
+      "dependencies": [
+        "ESignASN1Item",
+        "ESignBIOInput"
+      ],
+      "extra_cflags": []
     }
   ]
 }

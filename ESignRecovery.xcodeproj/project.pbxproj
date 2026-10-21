@@ -1748,6 +1748,131 @@
 			"productReference" = "823A5ADBC8BF8186A9413EB5";
 			"productType" = "com.apple.product-type.library.static";
 		};
+		"51E1902D45BFE0768A1548D0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.h";
+			"path" = "ESignASN1Value.h";
+			"sourceTree" = "<group>";
+		};
+		"F83A2B2C7DB998C24BB0A015" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "ESignASN1Value.c";
+			"sourceTree" = "<group>";
+		};
+		"47E057473E5D197E3C35B5B2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F83A2B2C7DB998C24BB0A015";
+		};
+		"7245C457CE904627CA7A347B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "OPENSSL-LICENSE.txt";
+			"sourceTree" = "<group>";
+		};
+		"EB14BD57E3EC4FFE562CB1D9" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "README.md";
+			"sourceTree" = "<group>";
+		};
+		"D4DEC80954914DB02C8C9379" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"51E1902D45BFE0768A1548D0",
+				"F83A2B2C7DB998C24BB0A015",
+				"7245C457CE904627CA7A347B",
+				"EB14BD57E3EC4FFE562CB1D9",
+			);
+			"name" = "ESignASN1Value";
+			"path" = "reconstruction/asn1-value";
+			"sourceTree" = "<group>";
+		};
+		"BCA5679833146F4DD45C4C8B" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"47E057473E5D197E3C35B5B2",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"8592BCCB1376A911EBB215D8" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"includeInIndex" = 0;
+			"path" = "libESignASN1Value.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"23174F7696BADF67FF80D1D3" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "4BC446A1D6827DE5E3790E9C";
+			"remoteInfo" = "ESignASN1Item";
+		};
+		"1781622B1B8F840526648095" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "4BC446A1D6827DE5E3790E9C";
+			"targetProxy" = "23174F7696BADF67FF80D1D3";
+		};
+		"D452928FB39E262C83CE3EA6" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "244210E48437B6556980A702";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "8D0AC91CDEDD1C8375486274";
+			"remoteInfo" = "ESignBIOInput";
+		};
+		"2C68054FCC4D7B0D666D2A51" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "8D0AC91CDEDD1C8375486274";
+			"targetProxy" = "D452928FB39E262C83CE3EA6";
+		};
+		"3DD728A1C8146669ACA76232" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignASN1Value";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Debug";
+		};
+		"0996C22A8246EDF0FB41DF69" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "ESignASN1Value";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+				);
+			};
+			"name" = "Release";
+		};
+		"531D726A282A26EFBA9EB85F" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"3DD728A1C8146669ACA76232",
+				"0996C22A8246EDF0FB41DF69",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Debug";
+		};
+		"A9949FF3A94E302D0F66F069" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "531D726A282A26EFBA9EB85F";
+			"buildPhases" = (
+				"BCA5679833146F4DD45C4C8B",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				"1781622B1B8F840526648095",
+				"2C68054FCC4D7B0D666D2A51",
+			);
+			"name" = "ESignASN1Value";
+			"productName" = "ESignASN1Value";
+			"productReference" = "8592BCCB1376A911EBB215D8";
+			"productType" = "com.apple.product-type.library.static";
+		};
 		"41CF6794BA4200B839C53531" = {
 			"isa" = "PBXGroup";
 			"children" = (
@@ -1767,6 +1892,7 @@
 				"89B9688380B5D7045E309E1F",
 				"60ABF6CA8E1E71DAAA99A57A",
 				"51AF463BE124D8670B5D31E0",
+				"D4DEC80954914DB02C8C9379",
 			);
 			"name" = "Recovered source";
 			"sourceTree" = "<group>";
@@ -1790,6 +1916,7 @@
 				"0C3C7D5935985D82C2A0E521",
 				"A3584C4F690BA9F7F6CA790B",
 				"823A5ADBC8BF8186A9413EB5",
+				"8592BCCB1376A911EBB215D8",
 			);
 			"name" = "Products";
 			"sourceTree" = "<group>";
@@ -1837,6 +1964,7 @@
 				"8D0AC91CDEDD1C8375486274",
 				"E475D6EDA2E96B60CF33374B",
 				"4BC446A1D6827DE5E3790E9C",
+				"A9949FF3A94E302D0F66F069",
 			);
 		};
 	};

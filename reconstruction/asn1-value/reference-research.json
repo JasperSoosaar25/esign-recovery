@@ -1,0 +1,15 @@
+{
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "references": [
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/tasn_dec.c",
+      "role": "Primitive, converter, collector and no-explicit-template source-family comparison; all bodies translated against pinned original instructions"
+    }
+  ],
+  "linked_patch_uniquely_identified": false,
+  "host_crypto_engine_substituted": false,
+  "original_converter_dispatch_table_address": "0x10099987f",
+  "original_converter_dispatch_table": "1e0023412931414141004141414141414141414141414141414141374140",
+  "native_fixture_comparisons": 2065,
+  "full_CMS_value_decoder_complete": false
+}

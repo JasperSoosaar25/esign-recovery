@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "original_native_functions": 4,
+  "fixtures": 2065,
+  "original_instructions": 923,
+  "original_instructions_exercised": 920,
+  "unexercised_original_instruction_addresses": [
+    "0x10061a1f0",
+    "0x10061a4cc",
+    "0x10061aac8"
+  ],
+  "per_function_coverage": {
+    "convert": {
+      "instructions": 200,
+      "exercised": 199
+    },
+    "primitive": {
+      "instructions": 303,
+      "exercised": 302
+    },
+    "collect": {
+      "instructions": 217,
+      "exercised": 216
+    },
+    "noexp": {
+      "instructions": 203,
+      "exercised": 203
+    }
+  },
+  "actual_item_template_entry_composition_cases": 541,
+  "actual_memory_BIO_to_value_composition_cases": 18,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "string_object_bit_integer_constructors_destructors_stacks_and_ERR_are_controlled": true,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "files": {
+    "ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+    "ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "6b0671392e0cb17255a4450482949e06baba793e37e4ca0eae6611f02bc0a4f7",
+    "fixtures.json.gz": "b422a576e79aeeeee1d3e199a2086298fcb11683330eef8f8f96dc7a4d158702"
+  }
+}
