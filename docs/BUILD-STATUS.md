@@ -7,22 +7,22 @@
 | Match the selected IPA | Confirmed; original input hashes unchanged |
 | Account for original entries/resources | All 100 archive entries accounted for; all 63 retained resources exact |
 | Preserve original code evidence | Complete saved byte listings, metadata, pseudocode and separate flow studies verified |
-| Reconstruct reviewed native source | 24 classes / 167 metadata methods, three separate method-body translations and 49 native helper/wrapper bodies, plus documented blocks |
-| Compile recovered components | All 16 arm64 libraries build with Xcode 27.1 / iOS 27.1 SDK, targeting iOS 15.0 |
-| Run source/evidence checks | All 18 CI jobs and 112 tests pass for source commit `6e6b3629` |
+| Reconstruct reviewed native source | 24 classes / 167 metadata methods, three separate method-body translations and 53 native helper/wrapper bodies, plus documented blocks |
+| Compile recovered components | All 17 arm64 libraries build with Xcode 27.1 / iOS 27.1 SDK, targeting iOS 15.0 |
+| Run source/evidence checks | All 19 CI jobs and 119 tests pass for source commit `e6268e42` |
 | Obtain the author's original source/project | Not obtained |
 | Link the complete original app from source | Not achieved |
 | Produce a verified source-built IPA | Not achieved |
 | Run it on an iPhone / iOS 27 | Not run |
 | Supply genuine running-app screenshots | Not available |
 
-The [combined Xcode report](builds/component-project-6e6b3629.json), [all sixteen native reports](builds/all-components-6e6b3629.json), and [verification record](builds/verification-6e6b3629.json) identify the exact source commit, library hashes, SDK and test results. [latest.json](builds/latest.json) is the current verified report index. Original IPA metadata still declares iOS 11.0; the new component build target is iOS 15.0. SDK compilation does not establish device compatibility.
+The [combined Xcode report](builds/component-project-e6268e42.json), [all seventeen native reports](builds/all-components-e6268e42.json), and [verification record](builds/verification-e6268e42.json) identify the exact source commit, library hashes, SDK and test results. [latest.json](builds/latest.json) is the current verified report index. Original IPA metadata still declares iOS 11.0; the new component build target is iOS 15.0. SDK compilation does not establish device compatibility.
 
 ## Latest original source
 
-[ASN.1 item orchestration](../reconstruction/asn1-item/) now supplies the main 640-instruction dispatcher and seven template/cache/selector helpers. All 783 original-instruction/native C comparisons pass, including 56 actual entry-wrapper compositions. They exercise 990/999 instructions, including 639/640 in the dispatcher. The nine remaining addresses and excluded undefined fresh-cache probes stay explicit.
+[ASN.1 values and non-explicit templates](../reconstruction/asn1-value/) now supplies four original bodies. All 2,065 original-instruction/native C comparisons pass on Linux and Apple tooling, exercising 920/923 instructions. The 541 actual recovered-code compositions include 18 complete memory-BIO-to-value chains. All 203 non-explicit parser instructions execute; three remaining addresses and undefined fresh-cache exclusions stay explicit. [The Apple report](builds/asn1-value-e6268e42.json) preserves the actual result.
 
-The original lower-level primitive-value decoder, non-explicit template parser, constructors/destructors, CMS schema graph and certificate/P12 processing remain missing. ERR, allocation and other backend primitives also remain unresolved. Controlled test callees are excluded from the iOS archives. The [dependency map](SIGNING-DEPENDENCIES.md) gives exact addresses and next work.
+[The earlier item component](../reconstruction/asn1-item/) retains its eight bodies and 783 independent comparisons. Original ANY/string/item constructors/destructors, content-to-object/bit/integer decoders, stack primitives, CMS schema graph and certificate/P12 processing remain missing. ERR, allocation and other backend primitives also remain unresolved. Controlled test callees are excluded from the iOS archives. The [dependency map](SIGNING-DEPENDENCIES.md) gives exact addresses and next work.
 
 ## Why a full app and screenshots remain unavailable
 

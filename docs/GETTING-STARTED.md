@@ -15,7 +15,7 @@ On a Mac with Xcode, open `ESignRecovery.xcodeproj`, select **RecoveredComponent
 python3 scripts/build_component_project.py
 ```
 
-The project builds sixteen arm64 iOS static libraries. Current CI uses stable Xcode 27.1, the iOS 27.1 SDK and an iOS 15.0 library deployment target. It has no ESign application target, runnable app bundle or source-built IPA. The exact [combined build report](builds/component-project-6e6b3629.json) records the tested toolchain, source hashes and library artifacts. Test adapters are excluded from these libraries. Missing original implementations still prevent a complete app link.
+The project builds seventeen arm64 iOS static libraries. Current CI uses Xcode 27.1 (build 27A9275), the iOS 27.1 SDK and an iOS 15.0 library deployment target. It has no ESign application target, runnable app bundle or source-built IPA. The exact [combined build report](builds/component-project-e6268e42.json) records the tested toolchain, source hashes and library artifacts. Test adapters are excluded from these libraries. Missing original implementations still prevent a complete app link.
 
 For behavior comparisons and analysis, create a Python virtual environment, install the pinned `requirements-reconstruction.txt`, and restore the evidence:
 
@@ -27,6 +27,7 @@ python3 scripts/unpack_evidence.py
 python3 scripts/unpack_native_methods.py
 python3 scripts/recover_asn1_input.py --verify
 python3 scripts/recover_asn1_item.py --verify
+python3 scripts/recover_asn1_value.py --verify
 python3 -m unittest discover -s tests -v
 ```
 
@@ -51,4 +52,4 @@ python3 scripts/verify_app_analysis.py --ipa /path/to/esign_5.0.2_unsigned.ipa
 
 ## What remains
 
-Original primitive ASN.1/non-explicit-template and CMS decoding, certificate/P12 processing, signing/archive/install orchestration and most application/UI source remain unfinished. No actual iPhone run, iOS 27 result or running-app screenshot is available. [Build status](BUILD-STATUS.md) tracks those requirements; [the dependency map](SIGNING-DEPENDENCIES.md) identifies the next original code. [Community feature ideas](IDEAS.md) remain proposals for later development.
+Original ASN.1 constructors/destructors, content conversions, stack primitives and CMS schema/decoding, certificate/P12 processing, signing/archive/install orchestration and most application/UI source remain unfinished. No actual iPhone run, iOS 27 result or running-app screenshot is available. [Build status](BUILD-STATUS.md) tracks those requirements; [the dependency map](SIGNING-DEPENDENCIES.md) identifies the next original code. [Community feature ideas](IDEAS.md) remain proposals for later development.

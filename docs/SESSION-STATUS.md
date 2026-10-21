@@ -4,15 +4,16 @@ The original ESign recovery remains incomplete. No source-built ESign app/IPA or
 
 ## Current verified snapshot
 
-Source commit: `6e6b362913b9b0cdcbb3529581e10cdaca65ffa0`.
+Source commit: `e6268e42a641488a60a073a6c91fdcc3d86e6a39`.
 
-- All 18 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39638336548) passed, including 112 tool tests.
-- All 16 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
-- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 49 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
-- The latest eight ASN.1 item/template/cache/selector translations pass 783 native C comparisons, exercise 990/999 instructions, and compose 56 cases with the previously recovered entry wrapper. The main dispatcher reaches 639/640 instructions. No unexercised path is presented as runtime proof.
+- All 19 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39645250482) passed, including 119 tool tests.
+- All 17 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
+- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 53 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
+- The latest four ASN.1 primitive/converter/collector/non-explicit-template translations pass 2,065 native C comparisons, exercise 920/923 instructions, and compose 541 cases with actual recovered item/template/entry/BIO code. Eighteen cases follow the complete memory-BIO-to-value chain. All 203 instructions in the non-explicit parser execute; three unexercised addresses stay explicit.
+- The prior eight-function item component and its 783 independent comparisons remain unchanged. No unexercised path is presented as runtime proof.
 - Capstone 5.0.9 passes the unchanged baseline and every component verifier. The selected exact input and baseline archive parts remain unchanged.
 
-[Verification](builds/verification-6e6b3629.json), [combined project](builds/component-project-6e6b3629.json), [all component reports](builds/all-components-6e6b3629.json), [new item component](builds/asn1-item-6e6b3629.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
+[Verification](builds/verification-e6268e42.json), [combined project](builds/component-project-e6268e42.json), [all component reports](builds/all-components-e6268e42.json), [new value component](builds/asn1-value-e6268e42.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
 
 ## Original input and retained evidence
 
@@ -40,6 +41,6 @@ The build/continuation guides, roadmap, source counts and report links are refre
 
 ## Remaining work
 
-The next bodies are `asn1_d2i_ex_primitive` at `0x10061a27c`, `asn1_template_noexp_d2i` at `0x10061acc8`, original allocation/free constructors and the CMS schema graph. Certificate/P12 handling, full signing/archive/install orchestration and most application/UI source still need recovery. Only a full app link and genuine runtime testing can close the [build/screenshot requirements](BUILD-STATUS.md).
+The next original dependencies are ANY/string/item constructors and destructors, object/bit/integer content conversion, stack primitives and the CMS schema graph. Their exact addresses are in [SIGNING-DEPENDENCIES.md](SIGNING-DEPENDENCIES.md). Certificate/P12 handling, full signing/archive/install orchestration and most application/UI source still need recovery. Only a full app link and genuine runtime testing can close the [build/screenshot requirements](BUILD-STATUS.md).
 
 [Earlier detailed session history](https://github.com/JasperSoosaar25/esign-recovery/blob/4c3b4f7795fcd20c09a5eadfe7a17b7e8476c3b8/docs/SESSION-STATUS.md) and older reports preserve previous findings without mixing historical toolchains with the current snapshot.

@@ -9,7 +9,7 @@ Four original ESign 5.0.2 bodies are translated into C. This continues the actua
 | 0x10061a964 | Specialized asn1_collect with inlined header/content helpers | 217 | 216 |
 | 0x10061acc8 | asn1_template_noexp_d2i | 203 | 203 |
 
-All **2,065 original-ARM64/compiled-C comparisons** pass locally. They exercise **920/923** distinct original instructions. **541** fixtures compose actual recovered item, explicit-template, entry-wrapper or BIO paths, including **18 full memory-BIO-to-value compositions**. The three unexercised addresses remain in `index.json`: `0x10061a1f0`, `0x10061a4cc`, and `0x10061aac8`. Each is an edge whose preceding guarded dispatch or constant branch prevents execution in this study; no execution coverage is claimed for them.
+All **2,065 original-ARM64/compiled-C comparisons** pass locally and on Apple tooling. [The Apple report](../../docs/builds/asn1-value-e6268e42.json) records Xcode 27.1 / iOS 27.1 SDK and the exact source/library hashes. They exercise **920/923** distinct original instructions. **541** fixtures compose actual recovered item, explicit-template, entry-wrapper or BIO paths, including **18 full memory-BIO-to-value compositions**. The three unexercised addresses remain in `index.json`: `0x10061a1f0`, `0x10061a4cc`, and `0x10061aac8`. Each is an edge whose preceding guarded dispatch or constant branch prevents execution in this study; no execution coverage is claimed for them.
 
 ## Reproduce
 

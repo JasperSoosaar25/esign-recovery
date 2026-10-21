@@ -2,7 +2,7 @@
 
 ## Current decoder state — 21 October 2026
 
-The item dispatcher previously listed as missing is now supplied by [asn1-item](../reconstruction/asn1-item/). Eight new bodies pass 783 native comparisons, including 56 original entry-wrapper compositions, with 990/999 instructions exercised. All 16 libraries compile under Xcode 27.1 / iOS 27.1 SDK. See [the current native catalog](builds/all-components-6e6b3629.json) and [verification](builds/verification-6e6b3629.json).
+The item/header/BIO chain now continues through the original primitive decoder, value converter, specialized string collector and non-explicit template parser in [asn1-value](../reconstruction/asn1-value/). The four bodies pass 2,065 comparisons, exercise 920/923 instructions and compose 541 cases with recovered item/template/entry/BIO bodies, including 18 complete memory-BIO-to-value chains. The [latest verified report index](builds/latest.json) records the exact tested source and Apple results. Earlier item tests and their controlled-boundary fixtures remain intact.
 
 | Original address | Role | Current source status |
 | --- | --- | --- |
@@ -12,8 +12,14 @@ The item dispatcher previously listed as missing is now supplied by [asn1-item](
 | 0x10061aff4 / 0x10061b004 | CHOICE get/set | Supplied |
 | 0x10061b0f8 | Encoding save/cache | Supplied |
 | 0x10061b218 / 0x10061b230 | Field pointer / ADB resolver | Supplied; ADB native test controls OID/integer conversion |
-| 0x10061a27c | asn1_d2i_ex_primitive | Missing original value decoder |
-| 0x10061acc8 | asn1_template_noexp_d2i | Missing original non-explicit template parser |
+| 0x10061a27c | asn1_d2i_ex_primitive | Supplied by value component; inlined indefinite-end search retained |
+| 0x10061acc8 | asn1_template_noexp_d2i | Supplied; all 203 original instructions exercised |
+| 0x100619f5c | asn1_ex_c2i | Supplied; bounded 30-byte dispatch and callback tested |
+| 0x10061a964 | Specialized asn1_collect | Supplied; original five-argument ABI and nesting check retained |
+| 0x10061b3ec / 0x10061b3f8 / 0x100612e1c | ASN1_TYPE new/free/set | Remaining original boundaries |
+| 0x10061d254 / 0x10061cfa4 / 0x10061d1e0 | ASN1_STRING type-new/set/free | Remaining original boundaries |
+| 0x1006111c4 / 0x100610d4c / 0x1006125f4 | Content-to-bit-string/object/integer | Remaining original boundaries |
+| 0x100602154 / 0x100602610 / 0x100602560 / 0x100602494 | Stack new/num/pop/push | Remaining original boundaries |
 | 0x100617b3c | ASN1_item_ex_new | Missing original constructor |
 | 0x10061848c / 0x100618494 | Item/template free | Missing original destructors |
 | 0x100612af0 | ASN1_INTEGER_get | Missing original integer conversion |
@@ -21,7 +27,7 @@ The item dispatcher previously listed as missing is now supplied by [asn1-item](
 | 0x10062fb30 | d2i_CMS_bio | Wrapper identified; CMS item/schema graph still unresolved |
 | 0x100b24750 | Original CMS item descriptor | Inspected; complete referenced graph not relocated |
 
-The new item source and ASN.1 input source reference each other at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
+The value, item and ASN.1 input sources reference one another at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
 
 The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admitting only item types 0–6. Its complete separate flow is checked against original bytes and replayed. The generic baseline walker and baseline unresolved counts remain unchanged. The current manual ASN.1 study reproduces this fuller body.
 
