@@ -1,0 +1,150 @@
+{
+  "result": "PASS",
+  "source_commit": "6e6b362913b9b0cdcbb3529581e10cdaca65ffa0",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/39638336548",
+  "successful_jobs": 18,
+  "tool_tests": 112,
+  "jobs": [
+    {
+      "id": 119354953097,
+      "name": "native-signature-blobs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953510,
+      "name": "native-localization",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953600,
+      "name": "native-component-project",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953614,
+      "name": "native-asn1-input",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953647,
+      "name": "native-requirements-slot",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953660,
+      "name": "native-recursive-der",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953664,
+      "name": "native-oid-lookup",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953672,
+      "name": "native-entitlements",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953680,
+      "name": "native-mach-header",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953704,
+      "name": "native-mobileprovision",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953779,
+      "name": "native-asn1-item",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953792,
+      "name": "native-bio-input",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953799,
+      "name": "native-legacy-crypto",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953831,
+      "name": "native-cms-content",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953851,
+      "name": "native-code-directory",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953895,
+      "name": "native-rsa-wrapper",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354953901,
+      "name": "recovery-integrity",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 119354954005,
+      "name": "native-load-commands",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "new_original_native_functions": 8,
+  "new_native_fixture_comparisons": 783,
+  "new_original_instructions": 999,
+  "new_original_instructions_exercised": 990,
+  "unexercised_new_instructions": 9,
+  "entry_wrapper_composition_cases": 56,
+  "native_static_libraries_built_together": 16,
+  "source_scope": {
+    "original_classes": 24,
+    "metadata_methods_in_classes": 167,
+    "separate_metadata_method_body_translations": 3,
+    "native_helper_wrapper_bodies": 49
+  },
+  "analysis_dependencies": {
+    "capstone": "5.0.9",
+    "unicorn": "2.1.4"
+  },
+  "apple_toolchain": {
+    "xcode": "27.1",
+    "build": "27A9275",
+    "iphoneos_sdk": "27.1",
+    "host": "macOS 27.0.1 arm64",
+    "target": "arm64-apple-ios15.0"
+  },
+  "unchanged_original_ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "unchanged_original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "baseline_archives_modified": false,
+  "original_schema_graph_complete": false,
+  "complete_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "ios27_device_compatibility_verified": false
+}

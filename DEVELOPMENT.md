@@ -2,7 +2,7 @@
 
 ## Current capability
 
-This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for fifteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
+This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for sixteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
 
 The current user constraint requires original implementation under the hood. Do not substitute a different app, current upstream signing engine, replacement UI, or binary-backed wrapper. Read [the explicit build status](docs/BUILD-STATUS.md) before implementation work. A source-built lookalike would not meet the current request.
 
@@ -26,7 +26,7 @@ Run `python3 scripts/unpack_evidence.py` after cloning to restore the complete s
 
 ## Reproduce static recovery
 
-Python 3 runs metadata/resource recovery and verification. Capstone 5.0.6 is required for disassembly and static branch resolution. Use an isolated environment:
+Python 3 runs metadata/resource recovery and verification. Capstone 5.0.9 is required for disassembly and static branch resolution. Use an isolated environment:
 
 ```sh
 python3 -m venv .venv
@@ -134,3 +134,12 @@ On macOS run `python3 scripts/build_bio_input.py`. The [Apple report](docs/build
 `reconstruction/asn1-input/` supplies four original native bodies: ASN1_get_object with its inlined length parser, asn1_d2i_read_bio, ASN1_item_d2i_bio, and the ASN1_item_d2i entry wrapper. Run `python3 scripts/recover_asn1_input.py --verify`. All 376 original-instruction/compiled-C fixtures match; 337 of 367 original instructions execute, with the other 30 addresses retained in index.json. Thirty-three cases use the actual recovered memory BIO source. Six additional rejection/native-comparison tests bring the suite to 105.
 
 On macOS, run `python3 scripts/build_asn1_input.py`. The [Apple report](docs/builds/asn1-input-bfe2c88d.json) records native comparisons, source hashes and the separate arm64 archive. The [combined report](docs/builds/component-project-bfe2c88d.json) records fifteen libraries. These checks use controlled allocation, ERR and recursive-item-decoder boundaries; they do not decode CMS into real app objects. The original recursive decoder at `0x10061955c`, CMS template graph and certificate/P12 code remain missing. Preserve LP64 lengths, partial writes/cursor updates, truncated pointer deltas, nested indefinite lengths, chunked reads and cleanup order. No full-app, IPA, iPhone or iOS 27 result is established.
+
+
+## Original item decoder and current toolchain
+
+`reconstruction/asn1-item/` supplies eight original functions, including the complete 640-instruction item dispatcher, explicit-template parser, cached header checker, choice selectors, encoding-cache saver, field pointer and ADB resolver. Run `python3 scripts/recover_asn1_item.py --verify`; optional `--original-ipa` verifies saved bytes directly. Generation requires `--generate --original-ipa` and the exact selected input. All 783 comparisons pass, exercising 990/999 instructions and composing 56 cases with the earlier item-entry wrapper. Read the component README for Darwin stack packing, undefined fresh-cache exclusions, controlled lower-level boundaries and nine unexercised addresses.
+
+`python3 scripts/build_asn1_item.py` compares native behavior and builds its archive. The [new Apple report](docs/builds/asn1-item-6e6b3629.json), [all sixteen component reports](docs/builds/all-components-6e6b3629.json), and [combined Xcode report](docs/builds/component-project-6e6b3629.json) record Xcode 27.1, iOS 27.1 SDK, macOS 27.0.1 arm64, and an iOS 15.0 library deployment target. Original IPA metadata still declares iOS 11.0. Older reports above describe their historical toolchains and controlled boundaries.
+
+All 18 CI jobs and 112 tests pass for the [verified source commit](docs/builds/verification-6e6b3629.json). Capstone is updated to 5.0.9 with baseline archives unchanged. Primitive ASN.1 value decoding, non-explicit templates, constructors/destructors, CMS schema and certificate/P12 code remain missing. These SDK/native library results do not establish a complete app link or iPhone execution. [Toolchain maintenance](docs/TOOLCHAIN.md) and [the actual REA evaluation](docs/REA.md) record the other updates.

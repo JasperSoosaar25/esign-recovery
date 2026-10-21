@@ -1,6 +1,6 @@
 # Future native design work
 
-Status: planning only. No app UI or behavior was changed in this recovery. iOS 27 is the requested future test target; no compatibility result is claimed. Start after a source-built app target and baseline navigation exist.
+Status: planning only. The recovered libraries now compile with Xcode 27.1/iOS 27.1 SDK, but the original app target and UI remain unreconstructed. No app UI or behavior was changed in this recovery. iOS 27 is the requested future test target; no compatibility result is claimed. Start after a source-built app target and baseline navigation exist.
 
 Apple's [Liquid Glass adoption guide](https://developer.apple.com/documentation/technologyoverviews/adopting-liquid-glass) describes building with current Xcode/SDKs, using system controls and navigation, and reviewing custom backgrounds that may obscure the system appearance. [Build a UIKit app with the new design](https://developer.apple.com/videos/play/wwdc2025/284/) explains UIKit navigation, bars, presentations, search, and controls. These are design references, not proof that this recovered app already supports the target OS.
 

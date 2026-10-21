@@ -1,5 +1,7 @@
 # iOS 27 verification and screenshot plan
 
+Current build evidence: all sixteen recovered static libraries compile with Xcode 27.1 and the iOS 27.1 SDK. This matrix still requires an actual app and device/simulator tests; library compilation does not mark its runtime checks complete. See [the current build report](builds/component-project-6e6b3629.json).
+
 **Status: not run.** The available local host is Linux and has no Xcode, iOS simulator, attached iPhone, or connected iOS testing service. The supplied executable is a device arm64 binary built with the iPhoneOS 16.2 SDK. It cannot be treated as a simulator build simply by changing its platform metadata.
 
 No source-only replacement app exists yet. A mockup, extracted storyboard, browser rendering, or unrelated development harness would not prove the supplied application runs on iOS 27. None is presented as a running-app screenshot.

@@ -1,5 +1,38 @@
 # Remaining original signing dependencies
 
+## Current decoder state — 21 October 2026
+
+The item dispatcher previously listed as missing is now supplied by [asn1-item](../reconstruction/asn1-item/). Eight new bodies pass 783 native comparisons, including 56 original entry-wrapper compositions, with 990/999 instructions exercised. All 16 libraries compile under Xcode 27.1 / iOS 27.1 SDK. See [the current native catalog](builds/all-components-6e6b3629.json) and [verification](builds/verification-6e6b3629.json).
+
+| Original address | Role | Current source status |
+| --- | --- | --- |
+| 0x10061955c | asn1_item_ex_d2i | Supplied by ASN.1 item component; seven-way dispatch and callbacks tested |
+| 0x10061938c | asn1_template_ex_d2i | Supplied; explicit tag/EOC handling tested |
+| 0x10061a738 | asn1_check_tlen | Supplied; actual original header parser and cache tested |
+| 0x10061aff4 / 0x10061b004 | CHOICE get/set | Supplied |
+| 0x10061b0f8 | Encoding save/cache | Supplied |
+| 0x10061b218 / 0x10061b230 | Field pointer / ADB resolver | Supplied; ADB native test controls OID/integer conversion |
+| 0x10061a27c | asn1_d2i_ex_primitive | Missing original value decoder |
+| 0x10061acc8 | asn1_template_noexp_d2i | Missing original non-explicit template parser |
+| 0x100617b3c | ASN1_item_ex_new | Missing original constructor |
+| 0x10061848c / 0x100618494 | Item/template free | Missing original destructors |
+| 0x100612af0 | ASN1_INTEGER_get | Missing original integer conversion |
+| 0x1005b3138 | OBJ_obj2nid | Supplied by OID component; declared target dependency |
+| 0x10062fb30 | d2i_CMS_bio | Wrapper identified; CMS item/schema graph still unresolved |
+| 0x100b24750 | Original CMS item descriptor | Inspected; complete referenced graph not relocated |
+
+The new item source and ASN.1 input source reference each other at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
+
+The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admitting only item types 0–6. Its complete separate flow is checked against original bytes and replayed. The generic baseline walker and baseline unresolved counts remain unchanged. The current manual ASN.1 study reproduces this fuller body.
+
+## Earlier dependency studies
+
+These notes record earlier commits and their then-unresolved boundaries. The current table above and source component READMEs supersede their continuation status; historical reports remain exact records of those earlier builds.
+
+<details>
+<summary>Earlier signing, crypto, BIO and ASN.1 investigations</summary>
+
+
 This map uses the exact ESign 5.0.2 method metadata and expanded original-byte traces under `analysis/app-methods/`. Counts describe indexed method entries and unresolved static indirect flow. Zero unresolved jumps does not imply that readable source, types, dependencies, or behavior have been recovered. No upstream signing engine is substituted.
 
 ## Completed source boundaries
@@ -89,3 +122,5 @@ The original allocator/reallocator, reference locking, ex-data, cleansing and ER
 The entry wrapper still calls missing `ASN1_item_ex_d2i` at `0x10061955c`. Its initial type dispatch reads the signed item-type byte, admits only unsigned values 0–6, then loads a byte from `0x100999878` at `0x100619644` and branches to `0x100619650 + (byte << 2)`. The original table and every type-specific body need independent flow recovery before that implementation can be supplied. The inspected CMS item at `0x100b24750` is type 6, with two templates; its referenced template/callback graph is not yet relocated. The five-instruction CMS wrapper alone would not resolve that graph.
 
 Keep ERR clear/peek/put, primitive allocation, core decoder and certificate/P12 code explicit. Do not replace them with a host OpenSSL parser or a fake CMS result in the runtime archive. The research script reproduces the selected dependency study from the exact hash-checked IPA; the matching 1.0.2u reference does not identify a unique linked patch release.
+
+</details>
