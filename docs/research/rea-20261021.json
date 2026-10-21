@@ -1,0 +1,75 @@
+{
+  "result": "PASS",
+  "date": "2026-10-21",
+  "rea_cli_version": "6.7.0",
+  "rea_entry_sha256": "ed06cee49505b95a3cc5fceb1b4b279167e26df86227c644bb366ffffdbaf738",
+  "original_ipa_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "original_zip_entries": 100,
+  "inventory_manifest": {
+    "manifest_id": "agm_9cebfa199a2e386422885a4b2ecdbee500c4f6f6d043643b4a6345b77d90c47f",
+    "root_artifact_id": "art_c5a77255d712415e16be807c2b823dda87edf0abcc8a6ad7e69233b74b4ced2b",
+    "root_sha256": "f00116a398972c83bc13b8c0b10d2a6ee580e404aa122bd6b4aadb4a1e479a29",
+    "root_format": "ipa",
+    "graph_sha256": "96cde29be61bbbb72dd014068c2c84397a9db10d1391d509ce055025e5aa8b91",
+    "node_count": 97,
+    "occurrence_count": 101,
+    "edge_count": 100
+  },
+  "inspection_evidence_id": "ev_f62ed77e391d9201b273974fa3c14a4d3144f999fab37682b98bdbbf62bd0565",
+  "inventory_evidence_id": "ev_3d8426cd9af66a5fabee0b09c4e6abe2ca2ecd2f0d5df80c0eaa9f2bddabd564",
+  "apple_projection_id": "aap_1b08319aff700c9da08a34f77ead0a12514807870a9f93def260b2f0b06bdb04",
+  "apple_graph_evidence_id": "ev_a97b3d3bcdc3b5ee90dcdeac9775e119db331f31218e5fbeb93ca213c2c7f92c",
+  "platforms": [
+    "ios"
+  ],
+  "application_roots": [
+    "Payload/ESign.app"
+  ],
+  "bundle_count": 4,
+  "component_counts": {
+    "bundle_metadata": 5,
+    "executables": 1,
+    "frameworks": 0,
+    "native_libraries": 0,
+    "javascript": 10,
+    "signing": 2,
+    "privileged_helpers": 0,
+    "launchd_plists": 0,
+    "helpers": 0
+  },
+  "coverage": {
+    "status": "complete-within-inventory",
+    "inventory_complete": true
+  },
+  "runtime_families": [
+    "javascript",
+    "native"
+  ],
+  "unavailable_components": 0,
+  "limitations": [
+    "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences.",
+    "Bundle roles follow path conventions. Read each info_plist_path with inspect_plist for CFBundleExecutable, identifiers, and declared services.",
+    "Bundle identifiers and signing claims require dedicated plist and CMS parsing; this projection reports only exact paths and hashes.",
+    "Runtime families are inferred from inventory formats and bounded framework path conventions, not observed runtime loading.",
+    "Generic framework and dylib paths do not establish Swift or Objective-C; this inventory projection does not decode language metadata.",
+    "Bridge candidates are path-based hypotheses, not observed runtime calls.",
+    "A bridge basis is inferred from the native path and is repeated for every managed component."
+  ],
+  "native_macho_inspection": {
+    "success": false,
+    "code": "capability_unavailable",
+    "details": {
+      "provider_id": "native-macos",
+      "operation": "inspect_macho",
+      "reason": "Native macOS utilities require macOS."
+    }
+  },
+  "host_platform": "Linux",
+  "native_decompilation_performed": false,
+  "original_binary_modified": false,
+  "CMS_semantics_verified": false,
+  "original_source_generated_by_REA": false,
+  "full_app_built": false,
+  "iphone_runtime_tested": false
+}

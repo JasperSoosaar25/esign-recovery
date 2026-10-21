@@ -33,3 +33,5 @@ The original OID lookup, static object/name/OID tables and LHASH retrieval trans
 
 
 The eighteen BIO/memory-buffer translations and original memory-method descriptor in `reconstruction/bio-input/` preserve the legacy OpenSSL/SSLeay notices in its `OPENSSL-LICENSE.txt`. The runtime source is tied to original ESign instructions and exact public algorithm constants; source-family references are documented without identifying a unique linked patch. New analysis tools/tests do not relicense these recovered implementations.
+
+The ASN.1 input and item-orchestration source in `reconstruction/asn1-input/` and `reconstruction/asn1-item/` preserves original-derived ESign/OpenSSL ownership and the respective OpenSSL/SSLeay notices. The item/template/cache/selector translations are tied to original ARM64 instructions. Reference source-family identification does not uniquely identify a linked patch release. Controlled constructors/destructors and primitive-value test callbacks are separate harness code, excluded from iOS archives.

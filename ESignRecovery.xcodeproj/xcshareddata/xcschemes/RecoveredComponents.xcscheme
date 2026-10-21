@@ -47,6 +47,9 @@
       <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="E475D6EDA2E96B60CF33374B" BuildableName="libESignASN1Input.a" BlueprintName="ESignASN1Input" ReferencedContainer="container:ESignRecovery.xcodeproj" />
       </BuildActionEntry>
+      <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="4BC446A1D6827DE5E3790E9C" BuildableName="libESignASN1Item.a" BlueprintName="ESignASN1Item" ReferencedContainer="container:ESignRecovery.xcodeproj" />
+      </BuildActionEntry>
     </BuildActionEntries>
   </BuildAction>
 </Scheme>

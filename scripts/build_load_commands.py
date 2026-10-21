@@ -51,7 +51,7 @@ def build(output):
         print(json.dumps({'original': canonical(original_metadata), 'compiled': canonical(runtime['metadata'])}, indent=2), file=sys.stderr)
         raise ValueError('Reconstructed classes differ from original class layout or method ABI')
     obj = output / 'ESignLoadCommands.o'
-    command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios11.0',
+    command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios15.0',
              *common, '-c', str(source), '-o', str(obj)])
     library = output / 'libESignLoadCommands.a'
     command(['xcrun', 'libtool', '-static', '-o', str(library), str(obj)])
@@ -65,7 +65,7 @@ def build(output):
               'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
               'parent_source_sha256': hashlib.sha256((ROOT / 'reconstruction/mach-header/ESignMachHeader.m').read_bytes()).hexdigest(),
               'library_sha256': hashlib.sha256(library.read_bytes()).hexdigest(),
-              'host_runtime': platform.platform(), 'target': 'arm64-apple-ios11.0',
+              'host_runtime': platform.platform(), 'target': 'arm64-apple-ios15.0',
               'complete_signing_pipeline': False, 'full_app_built': False, 'source_built_ipa': False,
               'iphone_runtime_tested': False}
     (output / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')

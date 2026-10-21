@@ -1,0 +1,24 @@
+{
+  "original_executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "references": [
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/tasn_dec.c",
+      "role": "Identification of item, explicit-template and cached-tag orchestration; translated against original instructions and diagnostics"
+    },
+    {
+      "url": "https://github.com/openssl/openssl/blob/OpenSSL_1_0_2u/crypto/asn1/tasn_utl.c",
+      "role": "Choice selector, field pointer, encoding cache and ADB source-family comparison"
+    }
+  ],
+  "linked_patch_uniquely_identified": false,
+  "host_crypto_engine_substituted": false,
+  "original_type_dispatch_guard": [
+    0,
+    6
+  ],
+  "original_type_dispatch_table": "2b003756737d00",
+  "original_type_dispatch_table_address": "0x100999878",
+  "original_tag_bitmap_address": "0x1009998a0",
+  "native_fixture_comparisons": 783,
+  "full_CMS_value_decoder_complete": false
+}

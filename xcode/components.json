@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "kind": "recovered-static-libraries-only",
-  "minimum_iOS": "11.0",
+  "minimum_iOS": "15.0",
   "components": [
     {
       "name": "ESignLocalization",
@@ -191,6 +191,21 @@
       ],
       "dependencies": [
         "ESignBIOInput"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Item",
+      "directory": "reconstruction/asn1-item",
+      "files": [
+        "reconstruction/asn1-item/ESignASN1Item.h",
+        "reconstruction/asn1-item/ESignASN1Item.c",
+        "reconstruction/asn1-item/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-item/README.md"
+      ],
+      "dependencies": [
+        "ESignASN1Input",
+        "ESignOIDLookup"
       ],
       "extra_cflags": []
     }

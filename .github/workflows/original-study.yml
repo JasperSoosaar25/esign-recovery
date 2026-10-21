@@ -1,0 +1,38 @@
+name: Inspect selected original dependencies
+on:
+  workflow_dispatch:
+    inputs:
+      study:
+        description: Original dependency study
+        required: true
+        default: asn1
+        type: choice
+        options: [asn1, bio]
+permissions:
+  contents: read
+jobs:
+  inspect-original:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Install pinned analysis tools and restore original evidence
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -r requirements-reconstruction.txt
+          .venv/bin/python scripts/unpack_evidence.py
+      - name: Inspect hash-verified original public dependency code
+        env:
+          STUDY: ${{ inputs.study }}
+        run: |
+          .venv/bin/python - <<'PY'
+          import os, subprocess
+          scripts = {'asn1': 'research_asn1_input.py', 'bio': 'research_bio_input.py'}
+          subprocess.run(['.venv/bin/python', 'scripts/' + scripts[os.environ['STUDY']]], check=True)
+          PY
+      - name: Preserve selected algorithm study only
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: original-dependency-study
+          path: build/*-study.json
+          if-no-files-found: error

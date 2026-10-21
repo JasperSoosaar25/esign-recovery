@@ -1,0 +1,67 @@
+{
+  "result": "PASS",
+  "original_native_functions": 8,
+  "fixtures": 783,
+  "original_instructions": 999,
+  "original_instructions_exercised": 990,
+  "unexercised_original_instruction_addresses": [
+    "0x100619da4",
+    "0x10061a834",
+    "0x10061a838",
+    "0x10061a83c",
+    "0x10061a840",
+    "0x10061a844",
+    "0x10061a848",
+    "0x10061a84c",
+    "0x10061a850"
+  ],
+  "per_function_coverage": {
+    "core": {
+      "instructions": 640,
+      "exercised": 639
+    },
+    "template": {
+      "instructions": 116,
+      "exercised": 116
+    },
+    "check": {
+      "instructions": 139,
+      "exercised": 131
+    },
+    "get_choice": {
+      "instructions": 4,
+      "exercised": 4
+    },
+    "set_choice": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "save": {
+      "instructions": 35,
+      "exercised": 35
+    },
+    "field": {
+      "instructions": 6,
+      "exercised": 6
+    },
+    "adb": {
+      "instructions": 54,
+      "exercised": 54
+    }
+  },
+  "entry_wrapper_composition_cases": 56,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "undefined_fresh_cache_header_outputs_excluded": true,
+  "constructors_destructors_primitive_noexp_integer_ERR_and_OID_are_controlled": true,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "files": {
+    "ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+    "ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "27487497eb7256da22fb510a2d38554a948526d2d84a9b7bec030ebd8d6c238e",
+    "fixtures.json.gz": "63637fca77819ba00d34282c4572419216f69992eb3383c155d839a7259633d1"
+  }
+}

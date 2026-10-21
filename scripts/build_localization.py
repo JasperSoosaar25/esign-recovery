@@ -50,7 +50,7 @@ def build(output):
     objects = []
     for source in sources:
         obj = output / (source.stem + '.o')
-        command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios11.0',
+        command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios15.0',
                  *common, '-c', str(source), '-o', str(obj)])
         objects.append(obj)
     library = output / 'libESignLocalization.a'
@@ -63,7 +63,7 @@ def build(output):
               'iphoneos_sdk': command(['xcrun', '--sdk', 'iphoneos', '--show-sdk-version']).stdout.strip(),
               'library_sha256': hashlib.sha256(library.read_bytes()).hexdigest(),
               'source_files': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sources},
-              'host_runtime': platform.platform(), 'target': 'arm64-apple-ios11.0',
+              'host_runtime': platform.platform(), 'target': 'arm64-apple-ios15.0',
               'full_app_built': False, 'source_built_ipa': False, 'iphone_runtime_tested': False}
     (output / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))

@@ -60,12 +60,16 @@ jobs:
         run: python3 scripts/recover_bio_input.py --verify
       - name: Execute original ASN1 input and compare native stream/header effects
         run: python3 scripts/recover_asn1_input.py --verify
+      - name: Execute original ASN1 item, template, cache and selector logic
+        run: python3 scripts/recover_asn1_item.py --verify
       - name: Verify the source-only component Xcode project manifest and generated files
         run: python3 scripts/generate_component_project.py --verify
       - name: Test audit rejection of corrupted evidence
         run: python3 -m unittest discover -s tests -v
   native-localization:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -80,7 +84,9 @@ jobs:
             build/localization/build-report.json
           if-no-files-found: error
   native-rsa-wrapper:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -95,7 +101,9 @@ jobs:
             build/rsa-wrapper/build-report.json
           if-no-files-found: error
   native-signature-blobs:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -110,7 +118,9 @@ jobs:
             build/signature-blobs/build-report.json
           if-no-files-found: error
   native-mach-header:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -125,7 +135,9 @@ jobs:
             build/mach-header/build-report.json
           if-no-files-found: error
   native-entitlements:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -140,7 +152,9 @@ jobs:
             build/entitlements/build-report.json
           if-no-files-found: error
   native-load-commands:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -155,7 +169,9 @@ jobs:
             build/load-commands/build-report.json
           if-no-files-found: error
   native-recursive-der:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -170,7 +186,9 @@ jobs:
             build/recursive-der/build-report.json
           if-no-files-found: error
   native-requirements-slot:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -185,7 +203,9 @@ jobs:
             build/requirements-slot/build-report.json
           if-no-files-found: error
   native-code-directory:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -200,7 +220,9 @@ jobs:
             build/code-directory/build-report.json
           if-no-files-found: error
   native-legacy-crypto:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -215,7 +237,9 @@ jobs:
             build/legacy-crypto/build-report.json
           if-no-files-found: error
   native-mobileprovision:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -230,7 +254,9 @@ jobs:
             build/mobileprovision/build-report.json
           if-no-files-found: error
   native-cms-content:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -245,11 +271,13 @@ jobs:
             build/cms-content/build-report.json
           if-no-files-found: error
   native-component-project:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-      - name: Build all fifteen recovered library targets through the shared Xcode project
+      - name: Build all sixteen recovered library targets through the shared Xcode project
         run: python3 scripts/build_component_project.py
       - name: Preserve all component libraries and the exact project build report
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
@@ -261,7 +289,9 @@ jobs:
             build/xcode-components/xcodebuild.log
           if-no-files-found: error
   native-oid-lookup:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -276,7 +306,9 @@ jobs:
             build/oid-lookup/build-report.json
           if-no-files-found: error
   native-bio-input:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -291,7 +323,9 @@ jobs:
             build/bio-input/build-report.json
           if-no-files-found: error
   native-asn1-input:
-    runs-on: macos-15
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -304,4 +338,21 @@ jobs:
           path: |
             build/asn1-input/libESignASN1Input.a
             build/asn1-input/build-report.json
+          if-no-files-found: error
+  native-asn1-item:
+    runs-on: xcode-27
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Compile original ASN1 item source and compare native schemas and callbacks
+        run: python3 scripts/build_asn1_item.py
+      - name: Preserve original-derived ASN1 item library and exact report
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: original-derived-asn1-item-library
+          path: |
+            build/asn1-item/libESignASN1Item.a
+            build/asn1-item/build-report.json
           if-no-files-found: error

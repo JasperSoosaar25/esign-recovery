@@ -39,7 +39,7 @@ def build(output):
                 break
         raise ValueError('Native recursive DER source differs from original instruction/model results')
     obj = output / 'ESignRecursiveDER.o'
-    command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios11.0', *common,
+    command(['xcrun', '--sdk', 'iphoneos', 'clang', '-target', 'arm64-apple-ios15.0', *common,
              '-c', str(source), '-o', str(obj)])
     library = output / 'libESignRecursiveDER.a'
     command(['xcrun', 'libtool', '-static', '-o', str(library), str(obj)])
@@ -52,7 +52,7 @@ def build(output):
         'iphoneos_sdk': command(['xcrun', '--sdk', 'iphoneos', '--show-sdk-version']).stdout.strip(),
         'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
         'library_sha256': hashlib.sha256(library.read_bytes()).hexdigest(),
-        'host_runtime': platform.platform(), 'target': 'arm64-apple-ios11.0',
+        'host_runtime': platform.platform(), 'target': 'arm64-apple-ios15.0',
         'complete_signing_pipeline': False, 'full_app_built': False, 'source_built_ipa': False, 'iphone_runtime_tested': False}
     (output / 'build-report.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))
