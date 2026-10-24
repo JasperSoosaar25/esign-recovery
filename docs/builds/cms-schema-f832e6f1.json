@@ -1,0 +1,121 @@
+{
+  "result": "PASS",
+  "original_native_functions": 12,
+  "original_schema_items": 53,
+  "original_schema_nodes": 257,
+  "original_schema_field_templates": 149,
+  "fixtures": 805,
+  "original_instructions": 304,
+  "original_instructions_exercised": 304,
+  "unexercised_original_instruction_addresses": [],
+  "per_function_coverage": {
+    "cms_bio": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "signer_callback": {
+      "instructions": 19,
+      "exercised": 19
+    },
+    "recipient_key_callback": {
+      "instructions": 10,
+      "exercised": 10
+    },
+    "key_agree_callback": {
+      "instructions": 27,
+      "exercised": 27
+    },
+    "recipient_callback": {
+      "instructions": 36,
+      "exercised": 36
+    },
+    "cms_callback": {
+      "instructions": 38,
+      "exercised": 38
+    },
+    "long_new": {
+      "instructions": 4,
+      "exercised": 4
+    },
+    "long_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "long_decode": {
+      "instructions": 74,
+      "exercised": 74
+    },
+    "long_encode": {
+      "instructions": 41,
+      "exercised": 41
+    },
+    "long_print": {
+      "instructions": 10,
+      "exercised": 10
+    },
+    "word_bits": {
+      "instructions": 37,
+      "exercised": 37
+    }
+  },
+  "actual_CMS_schema_parser_composition_cases": 108,
+  "actual_memory_BIO_to_CMS_composition_cases": 78,
+  "original_OID_lookup_composed": true,
+  "certificate_callbacks_and_name_codecs_are_unreconstructed": true,
+  "crypto_streaming_allocation_reference_and_ERR_boundaries_are_controlled": true,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "schema_sha256": "77fbacc4c15de72319f1b21848076595232d8f5dc9808dd1ece7df9db1adb4b3",
+  "component": "ESign original CMS schema graph, callbacks and LONG",
+  "source_commit": "f832e6f112a2be0dafac315c08cf5ca09a75e70c",
+  "source_behavior_fixture_comparisons": 805,
+  "test_adapters_excluded_from_iOS_archive": true,
+  "source_files_sha256": {
+    "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+    "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+    "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+    "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+    "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+    "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.c": "b53a4e0154a2dcead49bd34d4cd25a7bd863a459ccb663461ad074c3551f857a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.h": "a7cb6e293fefb0a519a80da0ce716706d1879d5e15175bef59e16f678d10bf18",
+    "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+    "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+    "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+    "reconstruction/cms-schema/ESignCMSSchema.c": "5a851f5b6f2074227018994984b71d26884455d36ccbc94fbc6067698291c8e5",
+    "reconstruction/cms-schema/ESignCMSSchema.h": "4cb6b1882e6bf802c74a0462cb23f91375bf058f7fe98dbd232d356e2f59cc4f",
+    "reconstruction/cms-schema/ESignCMSSchemaData.c": "7717d4b3e5a9a4e1af8ad76e06d529c94b37898a9fecd6569d09f11dd2a5983c",
+    "reconstruction/cms-schema/ESignCMSSchemaDependencies.h": "95cf625fb122ddbe0df5289e469fa4167382e9b7aac904f18d7ddd22a19bacfa",
+    "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "scripts/cms_schema_data.py": "e6d5432ff533c8d3590a2925c05587e751f42f203f431ee975dac921f3de1b23",
+    "scripts/recover_cms_schema.py": "5ed7d82a50ca4877029eed6a1fe5f2c483a91f0039ff83b8410763338f9372ce",
+    "tests/asn1_item_runtime.py": "1a60baa4a0148ad439663f2611c6b0512ceb956029a76cac9d16525fc3e8ea29",
+    "tests/asn1_item_test_adapter.c": "1838e3b49cbb2713a82f8ff38bc02f69b68d87b8d05d57ffe448bba34179f4d7",
+    "tests/asn1_object_runtime.py": "fdc536b63430088b8715449b443fe2629644004e504578ec394768d84466d2e9",
+    "tests/asn1_object_test_adapter.c": "480836bb72d60e93235766263c7e320ddac8a694ba3c55f138dd3232109c8d27",
+    "tests/asn1_primitives_runtime.py": "88fa6d4091233b998b124db7e7cff41eb909694d916f4fc6ae6500843794961a",
+    "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+    "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+    "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+    "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8",
+    "tests/cms_schema_runtime.py": "47e1d00feffa52c224740767a31947e2d412c6547fd48a40d7b0feb0d3bd4abe",
+    "tests/cms_schema_test_adapter.c": "1d411f82ca97c4a218477b960a9feffed213cc2f3c5487bc60354dcca656eca6"
+  },
+  "library_sha256": "332e4808b45e37aa719c9a887d5be6621ea2d9205cb6a5e2a6da6f8b88f700cb",
+  "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 27.1\nBuild version 27A9275",
+  "iphoneos_sdk": "27.1",
+  "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios15.0",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40115107206",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40115107206/artifacts/12567847411",
+  "artifact_digest": "sha256:a4046af356d34d970ea7c7a45c1bb331080213a87287797afb4958bb6fc5cbe1"
+}

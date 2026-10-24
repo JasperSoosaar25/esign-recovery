@@ -8,21 +8,21 @@ An unofficial reconstruction of the user's selected ESign 5.0.2 IPA, preserving 
 
 ## Current verified result
 
-The Xcode project builds **nineteen arm64 iOS static libraries** from recovered source. Open `ESignRecovery.xcodeproj`, select **RecoveredComponents** and build for a generic iOS device; or, on a Mac with Xcode:
+The Xcode project builds **twenty arm64 iOS static libraries** from recovered source. Open `ESignRecovery.xcodeproj`, select **RecoveredComponents** and build for a generic iOS device; or, on a Mac with Xcode:
 
 ```sh
 python3 scripts/build_component_project.py
 ```
 
-The latest [combined project report](docs/builds/component-project-722fbfdb.json) records all nineteen archives and their source/project hashes. All [21 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491) passed for source commit `722fbfdb`, including **137 tool tests**; [the verification record](docs/builds/verification-722fbfdb.json) records exact jobs. Current Apple builds use Xcode 27.1/iOS 27.1 on macOS 27.0.1 arm64, with an iOS 15.0 library deployment target. These are component tests and library compilation, not an app link or iOS 27 device result.
+The latest [combined project report](docs/builds/component-project-f832e6f1.json) records all twenty archives and their source/project hashes. All [22 CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40115107206) passed for source commit `f832e6f1`, including **151 tool tests**; [the verification record](docs/builds/verification-f832e6f1.json) records exact jobs. Current Apple builds use Xcode 27.1/iOS 27.1 on macOS 27.0.1 arm64, with an iOS 15.0 library deployment target. These are component tests and library compilation, not an app link or iOS 27 device result.
 
-Current reviewed source covers **24 original class definitions / 167 metadata methods**, **three additional metadata-method body translations**, and **83 native helper/wrapper bodies**, plus documented blocks. Scalar fragments overlap some methods and are not added to those counts. The libraries exclude test backends and the original executable.
+Current reviewed source covers **24 original class definitions / 167 metadata methods**, **three additional metadata-method body translations**, and **95 native helper/wrapper bodies**, plus documented blocks. Scalar fragments overlap some methods and are not added to those counts. The libraries exclude test backends and the original executable.
 
-The latest addition is [original stacks and ASN.1 content source](reconstruction/asn1-primitives/): **ten bodies** covering stack new/num/pop/push/free/value, encoded BIT STRING/OBJECT/INTEGER conversion and OBJECT cleanup. Its [Apple report](docs/builds/asn1-primitives-722fbfdb.json) records **1,010 passing original-instruction/native C comparisons**, exercising **all 552 original instructions**. The **138 parser compositions** include **32 complete memory-BIO-to-value paths** with actual recovered parser, lifetime, stack and content bodies, including allocation/growth failure cleanup.
+The latest addition is [original CMS schemas, callbacks and LONG source](reconstruction/cms-schema/): **53 original schema items and 149 field templates**, plus **twelve function bodies**. Its [Apple report](docs/builds/cms-schema-f832e6f1.json) records **805 passing original-instruction/native C comparisons**, exercising **all 304 original instructions**. The **108 parser compositions** include **78 memory-BIO-to-CMS test cases**, using the actual recovered schema, parser, lifetime, stacks, content conversion, OID lookup and CMS content accessor. All seven content types return their expected invented payload/ciphertext; all five recipient choices, attributes, indefinite wrappers and allocation-failure cleanup are tested.
 
-Earlier item/value/object components retain their separate 783, 2,065 and 1,775 comparisons. Original allocation/reference locking/ex-data/ERR state, CMS schemas/callbacks, certificate/P12 processing and most signing/application source still need recovery.
+Earlier item/value/object/primitive components retain their separate 783, 2,065, 1,775 and 1,010 comparisons. Original allocation/reference locking/ex-data/ERR state, X509 callbacks/name codecs, certificate/P12 processing, cryptographic streaming and most signing/application source still need recovery. The CMS tests do not verify signatures or decrypt content.
 
-[All nineteen current native reports](docs/builds/all-components-722fbfdb.json) and [the latest verified snapshot](docs/builds/latest.json) give exact toolchain/source/library hashes. [Toolchain maintenance](docs/TOOLCHAIN.md) records the Capstone 5.0.9 update and cleaned-up manual study workflow. [REA was actually evaluated against this IPA](docs/REA.md); its inventory/Apple projection helps investigation, while native source recovery remains separate.
+[All twenty current native reports](docs/builds/all-components-f832e6f1.json) and [the latest verified snapshot](docs/builds/latest.json) give exact toolchain/source/library hashes. [Toolchain maintenance](docs/TOOLCHAIN.md) records the Capstone 5.0.9 update and cleaned-up manual study workflow. [REA was actually evaluated against this IPA](docs/REA.md); its inventory/Apple projection helps investigation, while native source recovery remains separate.
 
 ## Available source and evidence
 
@@ -54,7 +54,8 @@ Earlier item/value/object components retain their separate 783, 2,065 and 1,775 
 | Original ASN.1 values and non-explicit templates | Four bodies; 2,065 comparisons, 541 compositions including 18 full memory-BIO-to-value chains; 920/923 instructions exercised | [Source and evidence](reconstruction/asn1-value/) |
 | Original ASN.1 object lifetimes | Twenty bodies; 1,775 comparisons, all 959 instructions; 48 parser compositions including sixteen full memory-BIO-to-value paths | [Source and evidence](reconstruction/asn1-object/) |
 | Original stacks and encoded primitive content | Ten bodies; 1,010 comparisons, all 552 instructions; 138 parser compositions including 32 full memory-BIO-to-value paths | [Source and evidence](reconstruction/asn1-primitives/) |
-| Combined Xcode project | All nineteen recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
+| Original CMS schema graph and callbacks | 53 items / 149 fields / 257 audited nodes; twelve bodies, 805 comparisons, all 304 instructions and 78 memory-BIO-to-CMS test cases | [Source and evidence](reconstruction/cms-schema/) |
+| Combined Xcode project | All twenty recovered library targets build together for arm64 iOS; no test backends | [Project guide](xcode/README.md) |
 | Main signing-path DER functions | 2 original native helper translations; 269 native fixtures passed, one original zero-number probe remains unverified | [Source and evidence](reconstruction/recursive-der/) |
 
 Pseudocode export coverage is not source completeness or proven behavior. The separate static study traces all 3,396 selected app-method entries, reaching 358,448 unique instructions and identifying 12,244 selector call sites under its model. It preserves 419 unresolved jump occurrences. Initial pointers, incomplete function boundaries and decompiler types need review. See [recovery limits](docs/RECOVERY.md), [dispatch analysis](docs/DISPATCH-RECOVERY.md) and [native reconstruction](docs/NATIVE-RECONSTRUCTION.md).

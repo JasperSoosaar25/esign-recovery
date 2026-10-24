@@ -2,7 +2,7 @@
 
 ## Current decoder state — 24 October 2026
 
-The recovered parser now uses original stack and content-to-BIT-STRING/OBJECT/INTEGER operations, plus OBJECT cleanup, from [asn1-primitives](../reconstruction/asn1-primitives/). Ten bodies pass 1,010 comparisons and exercise all 552 original instructions. The 138 parser compositions include 32 full memory-BIO-to-value paths with actual recovered parser, lifetime, stack and content bodies. [The latest report index](builds/latest.json) records tested source and Apple results. Earlier component fixtures retain their original controlled boundaries.
+The [CMS schema component](../reconstruction/cms-schema/) now relocates all 53 items / 149 templates reachable from `CMS_ContentInfo` and supplies twelve original CMS/LONG bodies. All 805 comparisons pass, exercising all 304 instructions. The 108 parser compositions include 78 memory-BIO-to-CMS paths with actual recovered schema, parser, constructors, stacks, values, OID lookup and content access. All seven content types and five recipient choices have invented fixtures. [The latest report index](builds/latest.json) records tested source and Apple results. Earlier fixtures retain their original controlled boundaries.
 
 | Original address | Role | Current source status |
 | --- | --- | --- |
@@ -27,12 +27,28 @@ The recovered parser now uses original stack and content-to-BIT-STRING/OBJECT/IN
 | 0x10061848c / 0x100618494 / 0x10061809c | Item/template/recursive combine-free | Supplied; reverse fields, stacks, references and callbacks tested |
 | 0x100612af0 | ASN1_INTEGER_get | Supplied; all 33 instructions exercised; encoded integer decoding is now supplied by the primitive component |
 | 0x1005b3138 | OBJ_obj2nid | Supplied by OID component; declared target dependency |
-| 0x10062fb30 | d2i_CMS_bio | Wrapper identified; CMS item/schema graph still unresolved |
-| 0x100b24750 | Original CMS item descriptor | Inspected; complete referenced graph not relocated |
+| 0x10062fb30 | d2i_CMS_bio | Supplied; complete memory BIO/parser/schema compositions tested |
+| 0x100b24750 | Original CMS item descriptor | All 53 referenced items / 149 templates / 257 graph nodes relocated; callback bodies remain explicit |
+| 0x10062f838 / 0x10062f884 / 0x10062f8ac / 0x10062f918 / 0x10062f9a8 | CMS auxiliary callbacks | Supplied; key/certificate/EVP/stream dependencies remain controlled |
+| 0x1006159c4 / 0x1006159d4 / 0x1006159e0 / 0x100615b08 / 0x100615bac / 0x1005d160c | LONG new/free-clear/decode/encode/print and 32-bit BN word-bit-count | Supplied; Original 32-bit word-bit-count supplied; BIO printf remains controlled |
 
 The primitive, object, value, item and ASN.1 input sources reference one another at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
 
 The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admitting only item types 0–6. Its complete separate flow is checked against original bytes and replayed. The generic baseline walker and baseline unresolved counts remain unchanged. The current manual ASN.1 study reproduces this fuller body.
+
+## Next original CMS dependencies
+
+| Original address | Referenced role | Source still required |
+| --- | --- | --- |
+| 0x10061660c | X509 auxiliary callback | Certificate new/decode/free state and ownership |
+| 0x1006156ec | X509_PUBKEY auxiliary callback | Public-key state and cleanup |
+| 0x1006168c4 | X509_CRL auxiliary callback | Revocation-list state and cleanup |
+| 0x100616890 | X509_CRL_INFO auxiliary callback | Revoked-entry ordering/cache behavior |
+| 0x100615bfc / 0x100615cc8 | X509_NAME new/free | Name storage and cleanup |
+| 0x100615d1c / 0x100615f14 / 0x1006160dc | X509_NAME decode/encode/print | Original name codecs |
+| 0x10062faac / 0x10062eef4 / 0x10062effc | CMS stream / data init / data final | Original streaming/crypto operations |
+
+The nine X509 callbacks/name codecs are retained as external original function references in the relocated graph. CMS fixtures fail if they reach one of those unreconstructed bodies; certificate-free signed fixtures use subject-key identifiers. All five recipient-choice parsing paths are tested, while EVP context calls remain controlled. Parsing does not verify signatures, decrypt ciphertext or decompress data. The 36 allocation sites of the invented signed fixture have separate failure cases. The new decoder uses original OID lookup; older component fixtures retain their original OID boundaries.
 
 ## Earlier dependency studies
 
