@@ -223,6 +223,20 @@
         "ESignBIOInput"
       ],
       "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Object",
+      "directory": "reconstruction/asn1-object",
+      "files": [
+        "reconstruction/asn1-object/ESignASN1Object.h",
+        "reconstruction/asn1-object/ESignASN1Object.c",
+        "reconstruction/asn1-object/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-object/README.md"
+      ],
+      "dependencies": [
+        "ESignASN1Value"
+      ],
+      "extra_cflags": []
     }
   ]
 }

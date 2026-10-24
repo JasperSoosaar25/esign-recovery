@@ -4,11 +4,15 @@
 uint64_t (*ESignASN1ItemTestBoundary)(uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t);
 #define V(v) ((uint64_t)(uintptr_t)(v))
 #define B(t,a,b,c,d,e,f,g,h) ESignASN1ItemTestBoundary((t),V(a),V(b),V(c),V(d),V(e),V(f),V(g),V(h),0,0,0)
+#ifndef ESIGN_ASN1_OBJECT_SOURCE
 int ESignOriginal_100617b3c(void **p,const ESignASN1Item *it){return (int)B(0x100617b3c,p,it,0,0,0,0,0,0);}
 void ESignOriginal_10061848c(void **p,const ESignASN1Item *it){(void)B(0x10061848c,p,it,0,0,0,0,0,0);}
 void ESignOriginal_100618494(void **p,const ESignASN1Template *tt){(void)B(0x100618494,p,tt,0,0,0,0,0,0);}
+#endif
 int ESignOriginal_1005b3138(const void *p){return (int)B(0x1005b3138,p,0,0,0,0,0,0,0);}
+#ifndef ESIGN_ASN1_OBJECT_SOURCE
 long ESignOriginal_100612af0(const void *p){return (long)B(0x100612af0,p,0,0,0,0,0,0,0);}
+#endif
 #ifndef ESIGN_ASN1_VALUE_SOURCE
 int ESignOriginal_10061a27c(void **p,const unsigned char **in,long n,const ESignASN1Item *it,int tag,int cls,int opt,ESignASN1Context *ctx){return (int)B(0x10061a27c,p,in,n,it,tag,cls,opt,ctx);}
 int ESignOriginal_10061acc8(void **p,const unsigned char **in,long n,const ESignASN1Template *tt,int opt,ESignASN1Context *ctx,int depth){return (int)B(0x10061acc8,p,in,n,tt,opt,ctx,depth,0);}

@@ -1,0 +1,105 @@
+{
+  "result": "PASS",
+  "original_native_functions": 20,
+  "fixtures": 1775,
+  "original_instructions": 959,
+  "original_instructions_exercised": 959,
+  "unexercised_original_instruction_addresses": [],
+  "per_function_coverage": {
+    "new_core": {
+      "instructions": 213,
+      "exercised": 213
+    },
+    "new": {
+      "instructions": 2,
+      "exercised": 2
+    },
+    "free_core": {
+      "instructions": 252,
+      "exercised": 252
+    },
+    "free": {
+      "instructions": 2,
+      "exercised": 2
+    },
+    "template_free": {
+      "instructions": 44,
+      "exercised": 44
+    },
+    "clear": {
+      "instructions": 46,
+      "exercised": 46
+    },
+    "primitive_new": {
+      "instructions": 74,
+      "exercised": 74
+    },
+    "primitive_free": {
+      "instructions": 71,
+      "exercised": 71
+    },
+    "reference": {
+      "instructions": 23,
+      "exercised": 23
+    },
+    "encoding_init": {
+      "instructions": 13,
+      "exercised": 13
+    },
+    "encoding_free": {
+      "instructions": 20,
+      "exercised": 20
+    },
+    "new_return": {
+      "instructions": 13,
+      "exercised": 13
+    },
+    "free_value": {
+      "instructions": 9,
+      "exercised": 9
+    },
+    "any_new": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "any_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "any_set": {
+      "instructions": 28,
+      "exercised": 28
+    },
+    "string_new": {
+      "instructions": 25,
+      "exercised": 25
+    },
+    "string_set": {
+      "instructions": 71,
+      "exercised": 71
+    },
+    "string_free": {
+      "instructions": 14,
+      "exercised": 14
+    },
+    "integer": {
+      "instructions": 33,
+      "exercised": 33
+    }
+  },
+  "actual_parser_composition_cases": 48,
+  "actual_memory_BIO_to_value_composition_cases": 16,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "object_bit_integer_content_decoders_stacks_allocators_and_ERR_are_controlled": true,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "files": {
+    "ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+    "ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "e40b2310973a3ccfeb13e236e2d66118ddd21ae19c9035fd1c5e6944bb2e7289",
+    "fixtures.json.gz": "8f24ef8b4ac85ea34f0ebb9bd3bd9c453bfb82f21b3bb93566b61d383c149f3e"
+  }
+}
