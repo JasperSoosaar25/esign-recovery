@@ -59,10 +59,19 @@ int ESignOriginal_1006159e0(void **value,const unsigned char *content,uint64_t l
 }
 int ESignOriginal_100615b08(void **value,unsigned char *content,int *type,const ESignASN1Item *item){
     (void)type;uint64_t v=word(value);if(v==(uint64_t)item->size)return -1;
-    uint64_t sign=(v>>63)?UINT64_MAX:0,mag=v^sign;int bits=ESignOriginal_1005d160c(mag),pad=(bits&7)==0,length=(bits+7)>>3;
+    uint64_t sign=(v>>63)?UINT64_MAX:0,mag=v^sign;int bits=ESignOriginal_1005d160c((uint32_t)mag),pad=(bits&7)==0,length=(bits+7)>>3;
     if(content){if(pad)*content++=(unsigned char)sign;if(bits>0)for(int i=length-1;i>=0;i--){content[i]=(unsigned char)(mag^sign);mag>>=8;}}
     return length+pad;
 }
 int ESignOriginal_100615bac(void *bio,void **value,const ESignASN1Item *item,int indent,const void *context){
     (void)item;(void)indent;(void)context;return ESignOriginal_100600ed8(bio,"%ld\n",(long)word(value));
+}
+/* Original BN_num_bits_word consumes w0, including when LONG passes x0. */
+int ESignOriginal_1005d160c(uint32_t value){
+    uint32_t bits=value!=0;
+    for(unsigned shift=16;shift>=2;shift>>=1){
+        uint32_t upper=value>>shift,mask=0u-((0u-upper)>>31);
+        bits|=shift&mask;value=(value&~mask)|(upper&mask);
+    }
+    return (int)(bits+((0u-(value>>1))>>31));
 }

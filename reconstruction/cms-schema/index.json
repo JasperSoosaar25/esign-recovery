@@ -1,12 +1,12 @@
 {
   "result": "PASS",
-  "original_native_functions": 11,
+  "original_native_functions": 12,
   "original_schema_items": 53,
   "original_schema_nodes": 257,
   "original_schema_field_templates": 149,
-  "fixtures": 434,
-  "original_instructions": 267,
-  "original_instructions_exercised": 267,
+  "fixtures": 805,
+  "original_instructions": 304,
+  "original_instructions_exercised": 304,
   "unexercised_original_instruction_addresses": [],
   "per_function_coverage": {
     "cms_bio": {
@@ -52,6 +52,10 @@
     "long_print": {
       "instructions": 10,
       "exercised": 10
+    },
+    "word_bits": {
+      "instructions": 37,
+      "exercised": 37
     }
   },
   "actual_CMS_schema_parser_composition_cases": 108,
@@ -66,13 +70,13 @@
   "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
   "schema_sha256": "77fbacc4c15de72319f1b21848076595232d8f5dc9808dd1ece7df9db1adb4b3",
   "files": {
-    "ESignCMSSchema.c": "eeee7fc6249b92914c2dee652d30855667948bf4d5feed72e090d720035b5a0d",
-    "ESignCMSSchema.h": "ab9cb42c807eb7b680fd5a620bf54d3fb579358f1760644c3a9479bea00325b2",
+    "ESignCMSSchema.c": "5a851f5b6f2074227018994984b71d26884455d36ccbc94fbc6067698291c8e5",
+    "ESignCMSSchema.h": "4cb6b1882e6bf802c74a0462cb23f91375bf058f7fe98dbd232d356e2f59cc4f",
     "ESignCMSSchemaData.c": "7717d4b3e5a9a4e1af8ad76e06d529c94b37898a9fecd6569d09f11dd2a5983c",
-    "ESignCMSSchemaDependencies.h": "7e13bea5ef8f8784cbaf9ef01870d029e68880c2f37f28e372e15efbe75efc10",
+    "ESignCMSSchemaDependencies.h": "95cf625fb122ddbe0df5289e469fa4167382e9b7aac904f18d7ddd22a19bacfa",
     "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
-    "evidence.json.gz": "2bd8a491ff0b3719a3fc88ee94f37774ad4d12b0ee5ef139e6d7d0f821978b1c",
-    "fixtures.json.gz": "3e33a3f37a3cffc9c696e6e7a30e1c9d9eb9dd8b207a1eead036eeadf91a5781",
+    "evidence.json.gz": "94c75ea2944734f8d90646a374b93071e2c8807db8b08f8a1c71121a5ecab69f",
+    "fixtures.json.gz": "c737af6a52c21c4c5eef17e5469caa7c0c93cfad32e09dd817b45431f20d4cb7",
     "schema.json.gz": "5255df346c461c9a756f79f8dbb654a7407511fc359346e67dc386fedde93c64"
   }
 }

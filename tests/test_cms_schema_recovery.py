@@ -51,3 +51,8 @@ class CMSSchemaRecoveryTests(unittest.TestCase):
     def test_all_signed_message_allocation_sites_have_failure_fixtures(self):
         f=json.loads(gzip.decompress((ROOT/'reconstruction/cms-schema/fixtures.json.gz').read_bytes()));f=[x for x in f if x['input'].get('nid')==22 and 'malloc_failures' in x['input']]
         self.assertEqual([x['input']['malloc_failures'][0] for x in f],list(range(37)));self.assertTrue(all(x['result']['returned'] is None for x in f[:36]));self.assertIsNotNone(f[36]['result']['returned'])
+    @unittest.skipUnless(shutil.which('cc'),'C compiler required')
+    def test_original_long_encoder_preserves_32_bit_word_boundary(self):
+        m=NativeScenario(self.library)
+        result=m.evaluate(dict(op='long_encode',value=0x100000000));self.assertEqual(result['returned'],1);self.assertEqual(result['state']['output']['words'][0],'0073737373737373')
+        self.assertEqual(m.evaluate(dict(op='word_bits',value=0x100000000))['returned'],0)

@@ -12,7 +12,6 @@ void ESignOriginal_10060e13c(void *p,int n){(void)B(0x10060e13c,p,n,0,0,0,0,0,0)
 int ESignOriginal_10062faac(void **p,void *cms){return (int)B(0x10062faac,p,cms,0,0,0,0,0,0);}
 void *ESignOriginal_10062eef4(void *cms,void *bio){return (void *)(uintptr_t)B(0x10062eef4,cms,bio,0,0,0,0,0,0);}
 int ESignOriginal_10062effc(void *cms,void *bio){return (int)B(0x10062effc,cms,bio,0,0,0,0,0,0);}
-int ESignOriginal_1005d160c(uint64_t n){return (int)B(0x1005d160c,n,0,0,0,0,0,0,0);}
 int ESignOriginal_100600ed8(void *bio,const char *format,...){va_list v;va_start(v,format);long n=va_arg(v,long);va_end(v);return (int)B(0x100600ed8,bio,format,n,0,0,0,0,0);}
 #define AUX(a) int ESignOriginal_##a(int op,void **v,const ESignASN1Item *it,void *arg){return (int)B(0x##a,op,v,it,arg,0,0,0,0);}
 AUX(10061660c) AUX(1006156ec) AUX(1006168c4) AUX(100616890)

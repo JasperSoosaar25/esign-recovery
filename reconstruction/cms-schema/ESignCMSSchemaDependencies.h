@@ -8,12 +8,9 @@ void ESignOriginal_10060700c(void *context);
 void ESignOriginal_10060e13c(void *context,int flags);
 void ESignOriginal_10060f3fc(void *context);
 int ESignOriginal_100607474(void *context);
-void ESignOriginal_1005b2bb8(void *data,uint64_t length);
-void ESignOriginal_1005b1658(void *data);
 int ESignOriginal_10062faac(void **boundary,void *cms);
 void *ESignOriginal_10062eef4(void *cms,void *bio);
 int ESignOriginal_10062effc(void *cms,void *bio);
-int ESignOriginal_1005d160c(uint64_t word);
 int ESignOriginal_100600ed8(void *bio,const char *format,...);
 /* Referenced X509 callbacks and name codecs: source not yet reconstructed. */
 int ESignOriginal_10061660c(int,void **,const ESignASN1Item *,void *);

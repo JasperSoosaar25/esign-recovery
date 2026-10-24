@@ -16,3 +16,4 @@ void ESignOriginal_1006159d4(void **value,const ESignASN1Item *item);
 int ESignOriginal_1006159e0(void **value,const unsigned char *content,uint64_t length,int type,unsigned char *free_content,const ESignASN1Item *item);
 int ESignOriginal_100615b08(void **value,unsigned char *content,int *type,const ESignASN1Item *item);
 int ESignOriginal_100615bac(void *bio,void **value,const ESignASN1Item *item,int indent,const void *context);
+int ESignOriginal_1005d160c(uint32_t word);

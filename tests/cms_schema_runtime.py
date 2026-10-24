@@ -4,8 +4,8 @@ from pathlib import Path
 from asn1_primitives_runtime import Scenario as PrimitiveScenario,NativeScenario as PrimitiveNative
 from bio_input_runtime import MASK,i32,i64
 ROOT=Path(__file__).resolve().parents[1]
-ENTRIES={'cms_bio':0x10062fb30,'signer_callback':0x10062f838,'recipient_key_callback':0x10062f884,'key_agree_callback':0x10062f8ac,'recipient_callback':0x10062f918,'cms_callback':0x10062f9a8,'long_new':0x1006159c4,'long_free':0x1006159d4,'long_decode':0x1006159e0,'long_encode':0x100615b08,'long_print':0x100615bac}
-DEPENDENCIES={0x10060c954:'EVP_PKEY_free',0x1006165f4:'X509_free',0x100606c78:'EVP_MD_CTX_cleanup',0x10060700c:'EVP_CIPHER_CTX_init',0x10060e13c:'EVP_CIPHER_CTX_set_flags',0x10060f3fc:'EVP_PKEY_CTX_free',0x100607474:'EVP_CIPHER_CTX_cleanup',0x10062faac:'CMS_stream',0x10062eef4:'CMS_dataInit',0x10062effc:'CMS_dataFinal',0x1005d160c:'BN_num_bits_word',0x100600ed8:'BIO_printf',0x10061660c:'X509_aux',0x1006156ec:'X509_PUBKEY_aux',0x1006168c4:'X509_CRL_aux',0x100616890:'X509_CRL_INFO_aux',0x100615bfc:'X509_NAME_new',0x100615cc8:'X509_NAME_free',0x100615d1c:'X509_NAME_d2i',0x100615f14:'X509_NAME_i2d',0x1006160dc:'X509_NAME_print'}
+ENTRIES={'cms_bio':0x10062fb30,'signer_callback':0x10062f838,'recipient_key_callback':0x10062f884,'key_agree_callback':0x10062f8ac,'recipient_callback':0x10062f918,'cms_callback':0x10062f9a8,'long_new':0x1006159c4,'long_free':0x1006159d4,'long_decode':0x1006159e0,'long_encode':0x100615b08,'long_print':0x100615bac,'word_bits':0x1005d160c}
+DEPENDENCIES={0x10060c954:'EVP_PKEY_free',0x1006165f4:'X509_free',0x100606c78:'EVP_MD_CTX_cleanup',0x10060700c:'EVP_CIPHER_CTX_init',0x10060e13c:'EVP_CIPHER_CTX_set_flags',0x10060f3fc:'EVP_PKEY_CTX_free',0x100607474:'EVP_CIPHER_CTX_cleanup',0x10062faac:'CMS_stream',0x10062eef4:'CMS_dataInit',0x10062effc:'CMS_dataFinal',0x100600ed8:'BIO_printf',0x10061660c:'X509_aux',0x1006156ec:'X509_PUBKEY_aux',0x1006168c4:'X509_CRL_aux',0x100616890:'X509_CRL_INFO_aux',0x100615bfc:'X509_NAME_new',0x100615cc8:'X509_NAME_free',0x100615d1c:'X509_NAME_d2i',0x100615f14:'X509_NAME_i2d',0x1006160dc:'X509_NAME_print'}
 def schema():return json.loads(gzip.decompress((ROOT/'reconstruction/cms-schema/schema.json.gz').read_bytes()))
 class Scenario(PrimitiveScenario):
     def label(self,p):
@@ -15,7 +15,6 @@ class Scenario(PrimitiveScenario):
     def dependency(self,target,a):
         if target in DEPENDENCIES:
             name=DEPENDENCIES[target]
-            if target==0x1005d160c:self.effects.append(dict(call=name,word=str(a[0])));return a[0].bit_length()
             if target==0x100600ed8:self.effects.append(dict(call=name,bio=self.label(a[0]),format=self.string(a[1]),value=str(i64(a[2]))));return self.case.get('print_result',7)&MASK
             if target in [0x10061660c,0x1006156ec,0x1006168c4,0x100616890,0x100615bfc,0x100615cc8,0x100615d1c,0x100615f14,0x1006160dc]:raise ValueError('Fixture reached unreconstructed X509 callback '+name)
             row=dict(call=name)
@@ -82,6 +81,7 @@ class Scenario(PrimitiveScenario):
             if op=='entry':a=0x100619304;args=[self.slot,self.cursor,len(data),self.schema_pointer(item)]
             else:
                 bio=self.invoke(0x1005fedf0,[self.memory_method]);self.invoke(0x1005ff090,[bio,self.input,len(data)]);args=[bio,self.slot]
+        elif op=='word_bits':args=[case['value']]
         elif op in ['long_new','long_free']:self.put64(self.slot,case.get('value',99));args=[self.slot,self.item]
         elif op=='long_decode':self.put64(self.slot,case.get('value',99));args=[self.slot,self.input,case.get('length',len(data)),0,self.free_flag,self.item]
         elif op=='long_encode':self.put64(self.slot,case.get('value',99));args=[self.slot,0 if case.get('null_output') else self.output,self.free_flag,self.item]
@@ -126,7 +126,7 @@ class NativeScenario(Scenario,PrimitiveNative):
         for a in set(ENTRIES.values())|set(DEPENDENCIES):self.static_regions.append((C.cast(getattr(self.lib,'ESignOriginal_'+format(a,'x')),C.c_void_p).value,1,'function-'+hex(a)))
         for op,a in ENTRIES.items():
             f=getattr(self.lib,'ESignOriginal_'+format(a,'x'))
-            f.argtypes=[C.c_void_p,C.c_void_p] if op in ['cms_bio','long_new','long_free'] else [C.c_void_p,C.c_void_p,C.c_uint64,C.c_int,C.c_void_p,C.c_void_p] if op=='long_decode' else [C.c_void_p]*4 if op=='long_encode' else [C.c_void_p,C.c_void_p,C.c_void_p,C.c_int,C.c_void_p] if op=='long_print' else [C.c_int,C.c_void_p,C.c_void_p,C.c_void_p]
+            f.argtypes=[C.c_uint32] if op=='word_bits' else [C.c_void_p,C.c_void_p] if op in ['cms_bio','long_new','long_free'] else [C.c_void_p,C.c_void_p,C.c_uint64,C.c_int,C.c_void_p,C.c_void_p] if op=='long_decode' else [C.c_void_p]*4 if op=='long_encode' else [C.c_void_p,C.c_void_p,C.c_void_p,C.c_int,C.c_void_p] if op=='long_print' else [C.c_int,C.c_void_p,C.c_void_p,C.c_void_p]
             f.restype=C.c_void_p if op=='cms_bio' else None if op=='long_free' else C.c_int;self.functions[a]=f
         f=self.lib.ESignOriginal_1005b3138;f.argtypes=[C.c_void_p];f.restype=C.c_int;self.functions[0x1005b3138]=f
         f=self.lib.ESignOriginal_10062edd8;f.argtypes=[C.c_void_p];f.restype=C.c_void_p;self.functions[0x10062edd8]=f
@@ -165,7 +165,8 @@ def extended_messages():
     result.append(('indefinite-data',tl(48,dataoid+tl(160,tl(36,tl(4,b'Invented ')+tl(4,b'CMS payload'),True),True),True)))
     return result
 def cases():
-    r=[]
+    values=sorted(set(range(256))|{1<<b for b in range(64)}|{(1<<b)-1 for b in range(1,65)}|{0x100000001,0xffffffff00000000,0x1234567887654321})
+    r=[dict(op="word_bits",value=v) for v in values]
     for op in ['long_new','long_free']:r.append(dict(op=op))
     for data in ['','00','ff','01','7f','80','007f','0080','ff7f','ff80','ffff','7fffffff','0080000000','7fffffffffffffff','8000000000000000','00ffffffffffffffff','ffffffffffffffffff','010203040506070809','00010203040506070809']:
         r.append(dict(op='long_decode',data=data))
