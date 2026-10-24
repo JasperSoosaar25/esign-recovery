@@ -2,7 +2,7 @@
 
 This component supplies twenty original ESign 5.0.2 bodies for item/primitive construction and destruction, optional-field clearing, encoding caches, reference handling, ANY/string ownership and integer retrieval. It continues the recovered BIO/header/item/value chain with actual recovered constructors, string setters and cleanup.
 
-**1,775 original-ARM64/compiled-C comparisons pass locally, exercising all 959 distinct original instructions.** Forty-eight parser compositions include sixteen full memory-BIO-to-value paths. These use invented schemas and data; they do not establish CMS or certificate parsing.
+**1,775 original-ARM64/compiled-C comparisons pass locally and on Apple tooling, exercising all 959 distinct original instructions. [The Apple report](../../docs/builds/asn1-object-c4146cf5.json) records the exact tested source, Xcode 27.1 / iOS 27.1 SDK and library hashes.** Forty-eight parser compositions include sixteen full memory-BIO-to-value paths. These use invented schemas and data; they do not establish CMS or certificate parsing.
 
 | Original address | Recovered role | Instructions |
 | --- | --- | ---: |
