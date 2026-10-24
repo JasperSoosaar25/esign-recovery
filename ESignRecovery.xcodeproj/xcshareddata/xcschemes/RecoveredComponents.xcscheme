@@ -59,6 +59,9 @@
       <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="F1DC578E0C8B2C78C3F1C266" BuildableName="libESignASN1Primitives.a" BlueprintName="ESignASN1Primitives" ReferencedContainer="container:ESignRecovery.xcodeproj" />
       </BuildActionEntry>
+      <BuildActionEntry buildForTesting="NO" buildForRunning="YES" buildForProfiling="NO" buildForArchiving="YES" buildForAnalyzing="YES">
+        <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="F514FFAC198E4D33602AC5B7" BuildableName="libESignCMSSchema.a" BlueprintName="ESignCMSSchema" ReferencedContainer="container:ESignRecovery.xcodeproj" />
+      </BuildActionEntry>
     </BuildActionEntries>
   </BuildAction>
 </Scheme>

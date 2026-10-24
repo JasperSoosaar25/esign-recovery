@@ -1,0 +1,78 @@
+{
+  "result": "PASS",
+  "original_native_functions": 11,
+  "original_schema_items": 53,
+  "original_schema_nodes": 257,
+  "original_schema_field_templates": 149,
+  "fixtures": 434,
+  "original_instructions": 267,
+  "original_instructions_exercised": 267,
+  "unexercised_original_instruction_addresses": [],
+  "per_function_coverage": {
+    "cms_bio": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "signer_callback": {
+      "instructions": 19,
+      "exercised": 19
+    },
+    "recipient_key_callback": {
+      "instructions": 10,
+      "exercised": 10
+    },
+    "key_agree_callback": {
+      "instructions": 27,
+      "exercised": 27
+    },
+    "recipient_callback": {
+      "instructions": 36,
+      "exercised": 36
+    },
+    "cms_callback": {
+      "instructions": 38,
+      "exercised": 38
+    },
+    "long_new": {
+      "instructions": 4,
+      "exercised": 4
+    },
+    "long_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "long_decode": {
+      "instructions": 74,
+      "exercised": 74
+    },
+    "long_encode": {
+      "instructions": 41,
+      "exercised": 41
+    },
+    "long_print": {
+      "instructions": 10,
+      "exercised": 10
+    }
+  },
+  "actual_CMS_schema_parser_composition_cases": 108,
+  "actual_memory_BIO_to_CMS_composition_cases": 78,
+  "original_OID_lookup_composed": true,
+  "certificate_callbacks_and_name_codecs_are_unreconstructed": true,
+  "crypto_streaming_allocation_reference_and_ERR_boundaries_are_controlled": true,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "schema_sha256": "77fbacc4c15de72319f1b21848076595232d8f5dc9808dd1ece7df9db1adb4b3",
+  "files": {
+    "ESignCMSSchema.c": "eeee7fc6249b92914c2dee652d30855667948bf4d5feed72e090d720035b5a0d",
+    "ESignCMSSchema.h": "ab9cb42c807eb7b680fd5a620bf54d3fb579358f1760644c3a9479bea00325b2",
+    "ESignCMSSchemaData.c": "7717d4b3e5a9a4e1af8ad76e06d529c94b37898a9fecd6569d09f11dd2a5983c",
+    "ESignCMSSchemaDependencies.h": "7e13bea5ef8f8784cbaf9ef01870d029e68880c2f37f28e372e15efbe75efc10",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "2bd8a491ff0b3719a3fc88ee94f37774ad4d12b0ee5ef139e6d7d0f821978b1c",
+    "fixtures.json.gz": "3e33a3f37a3cffc9c696e6e7a30e1c9d9eb9dd8b207a1eead036eeadf91a5781",
+    "schema.json.gz": "5255df346c461c9a756f79f8dbb654a7407511fc359346e67dc386fedde93c64"
+  }
+}

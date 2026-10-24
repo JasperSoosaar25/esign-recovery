@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-24",
+  "method": "Official upstream source fetched for source-family research; original instructions and descriptor bytes remain authoritative. No complete release identity is asserted.",
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/cms/cms_asn1.c",
+      "sha256": "d4feb418136e836a86944652ee673c08f40030c7884e6881f3170fe64ee07d13",
+      "scope": "Names, ASN.1 operation constants and legacy source-family context only; selected binary independently reconstructed and compared."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/asn1/x_long.c",
+      "sha256": "446aad3cd85cf910c0abd1fe3defb363998f222b92f54c6ced3c9b0b7db1826f",
+      "scope": "Names, ASN.1 operation constants and legacy source-family context only; selected binary independently reconstructed and compared."
+    }
+  ]
+}

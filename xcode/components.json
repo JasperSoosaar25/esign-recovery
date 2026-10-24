@@ -151,7 +151,8 @@
       ],
       "dependencies": [
         "ESignCMSContent",
-        "ESignBIOInput"
+        "ESignBIOInput",
+        "ESignCMSSchema"
       ],
       "extra_cflags": []
     },
@@ -249,6 +250,24 @@
       ],
       "dependencies": [
         "ESignASN1Object"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignCMSSchema",
+      "directory": "reconstruction/cms-schema",
+      "files": [
+        "reconstruction/cms-schema/ESignCMSSchema.h",
+        "reconstruction/cms-schema/ESignCMSSchema.c",
+        "reconstruction/cms-schema/ESignCMSSchemaData.c",
+        "reconstruction/cms-schema/ESignCMSSchemaDependencies.h",
+        "reconstruction/cms-schema/OPENSSL-LICENSE.txt",
+        "reconstruction/cms-schema/README.md"
+      ],
+      "dependencies": [
+        "ESignASN1Primitives",
+        "ESignCMSContent",
+        "ESignOIDLookup"
       ],
       "extra_cflags": []
     }

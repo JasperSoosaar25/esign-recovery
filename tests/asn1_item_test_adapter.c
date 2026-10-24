@@ -9,7 +9,9 @@ int ESignOriginal_100617b3c(void **p,const ESignASN1Item *it){return (int)B(0x10
 void ESignOriginal_10061848c(void **p,const ESignASN1Item *it){(void)B(0x10061848c,p,it,0,0,0,0,0,0);}
 void ESignOriginal_100618494(void **p,const ESignASN1Template *tt){(void)B(0x100618494,p,tt,0,0,0,0,0,0);}
 #endif
+#ifndef ESIGN_OID_SOURCE
 int ESignOriginal_1005b3138(const void *p){return (int)B(0x1005b3138,p,0,0,0,0,0,0,0);}
+#endif
 #ifndef ESIGN_ASN1_OBJECT_SOURCE
 long ESignOriginal_100612af0(const void *p){return (long)B(0x100612af0,p,0,0,0,0,0,0,0);}
 #endif

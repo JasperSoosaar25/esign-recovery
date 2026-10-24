@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1];PROJECT=ROOT/'ESignRecovery.xcodeproj';
 def validate(manifest):
     if manifest['schema_version']!=1 or manifest['kind']!='recovered-static-libraries-only':raise ValueError('Wrong component manifest kind')
     names=[c['name'] for c in manifest['components']]
-    if len(names)!=19 or len(set(names))!=19:raise ValueError('Expected nineteen unique recovered components')
+    if len(names)!=20 or len(set(names))!=20:raise ValueError('Expected twenty unique recovered components')
     seen=set()
     for c in manifest['components']:
         if not re.fullmatch(r'ESign[A-Za-z0-9]+',c['name']):raise ValueError('Invalid library name')
@@ -83,6 +83,6 @@ def run(verify=False):
         if verify:
             if not p.is_file() or p.read_text()!=content:raise ValueError('Generated Xcode project differs: '+name)
         else:p.parent.mkdir(parents=True,exist_ok=True);p.write_text(content)
-    print(json.dumps({'result':'PASS','native_library_targets':19,'application_targets':0,'test_backends_included':False,'new_runtime_source_generated':False,'generated_files':list(files)},indent=2))
+    print(json.dumps({'result':'PASS','native_library_targets':20,'application_targets':0,'test_backends_included':False,'new_runtime_source_generated':False,'generated_files':list(files)},indent=2))
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--verify',action='store_true');run(p.parse_args().verify)

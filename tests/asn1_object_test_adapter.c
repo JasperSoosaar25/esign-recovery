@@ -4,7 +4,9 @@ extern uint64_t (*ESignASN1ItemTestBoundary)(uint64_t,uint64_t,uint64_t,uint64_t
 #define V(v) ((uint64_t)(uintptr_t)(v))
 #define B(t,a,b,c,d) ESignASN1ItemTestBoundary((t),V(a),V(b),V(c),V(d),0,0,0,0,0,0,0)
 void *ESignOriginal_1005b137c(void *p,uint64_t n,const char *f,int l){return (void *)(uintptr_t)B(0x1005b137c,p,n,f,l);}
+#ifndef ESIGN_OID_SOURCE
 const void *ESignOriginal_1005b2eac(int n){return (void *)(uintptr_t)B(0x1005b2eac,n,0,0,0);}
+#endif
 #ifndef ESIGN_ASN1_PRIMITIVES_SOURCE
 void ESignOriginal_100610ffc(void *p){(void)B(0x100610ffc,p,0,0,0);}
 void ESignOriginal_100602124(void *p){(void)B(0x100602124,p,0,0,0);}
