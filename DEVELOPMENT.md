@@ -2,7 +2,7 @@
 
 ## Current capability
 
-This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for eighteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
+This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for nineteen recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
 
 The current user constraint requires original implementation under the hood. Do not substitute a different app, current upstream signing engine, replacement UI, or binary-backed wrapper. Read [the explicit build status](docs/BUILD-STATUS.md) before implementation work. A source-built lookalike would not meet the current request.
 
@@ -157,3 +157,10 @@ On macOS run `python3 scripts/build_asn1_value.py`. The new archive contains onl
 `reconstruction/asn1-object/` supplies twenty original bodies: recursive combine-new/free, public item/template/ANY wrappers, primitive new/free, optional-field clear, references, encoding-cache initialization/free, ANY set, string new/set/free and integer retrieval. Run `python3 scripts/recover_asn1_object.py --verify`. All 1,775 original-instruction/compiled-C comparisons pass locally and on Apple tooling, exercising all 959 distinct original instructions. [The Apple report](docs/builds/asn1-object-c4146cf5.json) records the exact source, library and toolchain. Forty-eight parser compositions include sixteen full memory-BIO-to-value paths using actual recovered construction, string setting and cleanup.
 
 On macOS, `python3 scripts/build_asn1_object.py` compares native state and builds the eighteenth component archive. The primitive-free continuation at `0x100618634` is included in this separate flow without rewriting the baseline's apparent entry. Original ANY descriptor bytes and its relocated name are checked. Read the component README for four-byte BOOLEAN writes, untouched ANY padding, callback/cache ownership, allocation-failure preservation and remaining controlled object/content/stack/allocator/ERR dependencies. The [latest report index](docs/builds/latest.json) records verified Apple results. These component results do not supply CMS templates, certificate/P12 processing, the remaining signing/application source or an IPA.
+
+
+## Original stacks and encoded primitive content
+
+`reconstruction/asn1-primitives/` adds six original stack operations, content-to-BIT-STRING/OBJECT/INTEGER conversion and OBJECT cleanup. Run `python3 scripts/recover_asn1_primitives.py --verify`. All 1,010 original-instruction/compiled-C comparisons pass locally, exercising all 552 original instructions. The 138 parser compositions include 32 complete memory-BIO-to-value paths; explicit wrappers, stack growth and allocation-failure cleanup use actual recovered parser, constructor, stack and content bodies together.
+
+On macOS run `python3 scripts/build_asn1_primitives.py`; the shared project now includes nineteen library targets. The component README explains post-allocator field reloads, original padding/ownership, BIT STRING masks, negative INTEGER conversion, the controlled ERR-reason/static-OID models and excluded unsafe copy probes. Original allocators, reference locking, ex-data, ERR state, CMS schemas/callbacks, certificate/P12 and most signing/application source remain unfinished. [latest.json](docs/builds/latest.json) indexes verified Apple results; earlier component reports retain their original test boundaries.

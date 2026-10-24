@@ -237,6 +237,20 @@
         "ESignASN1Value"
       ],
       "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Primitives",
+      "directory": "reconstruction/asn1-primitives",
+      "files": [
+        "reconstruction/asn1-primitives/ESignASN1Primitives.h",
+        "reconstruction/asn1-primitives/ESignASN1Primitives.c",
+        "reconstruction/asn1-primitives/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-primitives/README.md"
+      ],
+      "dependencies": [
+        "ESignASN1Object"
+      ],
+      "extra_cflags": []
     }
   ]
 }
