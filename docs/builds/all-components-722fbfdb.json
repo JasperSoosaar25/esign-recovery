@@ -1,0 +1,964 @@
+{
+  "result": "PASS",
+  "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+  "native_components": 19,
+  "xcode": "27.1",
+  "iphoneos_sdk": "27.1",
+  "target": "arm64-apple-ios15.0",
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "components": [
+    {
+      "job_id": 120926328565,
+      "job_name": "native-mach-header",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567445150",
+      "artifact_digest": "sha256:bf46c14cab1cdb9692075a07245a08cabeda3501daf6c4a825a58819a1cd8419",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original-derived Mach-O header classes",
+        "classes": 2,
+        "original_methods": 17,
+        "foundation_fixture_comparisons": 67,
+        "derived_realized_class_layout_and_method_abis_verified": true,
+        "ivar_realization_is_modeled": true,
+        "original_device_layout_observed": false,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "ce7d3a9945d98efe6f08dab57107599b18c69dbf67e8699806bb339a8edaa559",
+        "library_sha256": "0b7916e3383a5479e318ea02e58ce0710d47a68ea0aea3b60f067428e399f30b",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328607,
+      "job_name": "native-rsa-wrapper",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567410649",
+      "artifact_digest": "sha256:ce63f6966c1a3e2c7c441c4c95dd425b48db8ef5ee292273f22d95d1cffa2192",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original alternate-CMS RSA wrapper",
+        "new_original_native_functions": 1,
+        "reused_original_native_functions": 8,
+        "source_behavior_fixture_comparisons": 20,
+        "original_fault_probes_excluded_from_native_comparison": 3,
+        "allocation_diagnostics_reference_state_and_cleanup_order_compared": true,
+        "crypto_stdio_and_allocator_callees_are_controlled_test_boundaries": true,
+        "actual_RSA_PEM_parsing_or_signing_implementation_tested": false,
+        "embedded_key_bytes_included": false,
+        "complete_crypto_backend": false,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_files_sha256": {
+          "reconstruction/legacy-crypto/ESignLegacyCrypto.c": "30867f84655670607bb4feee84abcaae35b32f06acb86d9429b596cea8944461",
+          "reconstruction/legacy-crypto/ESignLegacyCrypto.h": "184b2ded8179188d32989f4abba744478297778e4a886bf6e8914eaa8a666083",
+          "reconstruction/legacy-crypto/ESignLegacyCryptoDependencies.h": "5f56afec8698a134db77d9c123bed9825290ad5c69b3451fecce0eda06310343",
+          "reconstruction/rsa-wrapper/ESignRSASignWrapper.c": "444804567c7607d65be9e68009f426ed859669e5e056d67b991a2c36e1485e42",
+          "reconstruction/rsa-wrapper/ESignRSASignWrapper.h": "008e0bd544c91e2524e3ab2cadf1c92bd222097dd73644535ead852b8b8e2ab5",
+          "tests/legacy_crypto_runtime.m": "231a4e5d7fbd1fde9dcae74708df007e85039e16a307bbd9a75bcdd15c3fec9e",
+          "tests/rsa_wrapper_runtime.m": "ff58a4d91d3b800a6f8bd2c3a9a0f6da8bc95a2c111345c8a1eb48dd7f6c313a"
+        },
+        "library_sha256": "0c2a51d6348fd7ab0cdc80e47563a32ba784dad37623b247a6aaa223a72cbbac",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "iOS_library_contains_test_adapters_or_invented_key": false,
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328609,
+      "job_name": "native-signature-blobs",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12565964855",
+      "artifact_digest": "sha256:d7e2c583ab2372324ef07548b95b73385ddf124c1037d640b50ef1aefca5ef69",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original-derived signature containers",
+        "classes": 3,
+        "original_methods": 38,
+        "foundation_fixture_comparisons": 58,
+        "source_behavior_fixture_comparisons": 57,
+        "indeterminate_original_parser_inputs": 1,
+        "original_class_layout_and_method_abis_verified": true,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "e1ee5c014a2b67d7ed8c6c7b81c0920300a99310ea9c4fd7afbc178302c296ad",
+        "library_sha256": "39739da96be70e9e3ce8f81e7e0f4aac710170e645e5bf9bae6fecce35857bd4",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328640,
+      "job_name": "native-localization",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566594816",
+      "artifact_digest": "sha256:b6932fa3e76a1d06b1eea455bed89c3ec91490e369853109095cc4cca2c40532",
+      "report": {
+        "result": "PASS",
+        "component": "original-derived ESign localization",
+        "classes": 10,
+        "dictionary_pairs": 3812,
+        "locale_fixtures": 18,
+        "foundation_comparisons": 13496,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "library_sha256": "0651fa9d8e693963d6deda56082279842326aba02b5915ac068436cba4202bf0",
+        "source_files": {
+          "ESignLocalization.m": "75efcbbff8f142ef70dd1dbb56c2ca672e7aed64230bda36785e4c6a350db9b0",
+          "ESignLocalizationTables.m": "93d08a0573cfde0110863fc8832de0c40aca802995483b392893ec9c44b8612e"
+        },
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328662,
+      "job_name": "native-asn1-value",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566752636",
+      "artifact_digest": "sha256:a91aed4baa66ee96e572edb5e252e081078a55adfdd01a2da2cead1b84684703",
+      "report": {
+        "result": "PASS",
+        "original_native_functions": 4,
+        "fixtures": 2065,
+        "original_instructions": 923,
+        "original_instructions_exercised": 920,
+        "unexercised_original_instruction_addresses": [
+          "0x10061a1f0",
+          "0x10061a4cc",
+          "0x10061aac8"
+        ],
+        "per_function_coverage": {
+          "convert": {
+            "instructions": 200,
+            "exercised": 199
+          },
+          "primitive": {
+            "instructions": 303,
+            "exercised": 302
+          },
+          "collect": {
+            "instructions": 217,
+            "exercised": 216
+          },
+          "noexp": {
+            "instructions": 203,
+            "exercised": 203
+          }
+        },
+        "actual_item_template_entry_composition_cases": 541,
+        "actual_memory_BIO_to_value_composition_cases": 18,
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false,
+        "string_object_bit_integer_constructors_destructors_stacks_and_ERR_are_controlled": true,
+        "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+        "component": "ESign original ASN.1 values and non-explicit templates",
+        "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+        "source_behavior_fixture_comparisons": 2065,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+          "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+          "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+          "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+          "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+          "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+          "tests/asn1_item_test_adapter.c": "7922f7937c54c0837f57602d7c3721eda3331ec6722d6db3dec41ef46c2fc682",
+          "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+          "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "4199c5be8cfe03d00959d3cb5e0cff3a0dfbf7bdbb56f328899b412a469f4ff0",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0"
+      }
+    },
+    {
+      "job_id": 120926328685,
+      "job_name": "native-bio-input",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566798870",
+      "artifact_digest": "sha256:91eaa61e0b16a4170f4fcd4e27770de4b7c80a24eb57318e3168b4a1918b8fb4",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original BIO input and memory buffers",
+        "original_native_functions": 18,
+        "source_behavior_fixture_comparisons": 603,
+        "original_instructions": 666,
+        "original_instructions_exercised": 666,
+        "unexercised_original_instruction_addresses": [],
+        "original_memory_method_type_name_and_callback_relocations_verified": true,
+        "create_write_read_reset_free_sequence_compared": true,
+        "allocators_ex_data_refcount_ERR_and_cleanse_are_controlled_test_boundaries": true,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "e79b48d7897fb9bd836fd173754c7a6153bfc421cfab1d98ecb6937e04c50577",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328692,
+      "job_name": "native-entitlements",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566574862",
+      "artifact_digest": "sha256:0e88eeb9847892fcd5a67fd81726d347f074d60883657c49ca6bcfcc184d77e8",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original-derived entitlement encoding",
+        "classes": 3,
+        "original_methods": 41,
+        "foundation_fixture_comparisons": 583,
+        "dictionary_enumeration_order_controlled": true,
+        "original_dictionary_callback_checked": true,
+        "original_class_layout_and_method_abis_verified": true,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "d9854761e23e645f4618e8821c4ba675c775f40fff57e06ba450d3103eb7f14d",
+        "library_sha256": "bab4fc07a90bbc3735c4f727e32fd4763c5226ad35858ad7b1ab1b27f6f43f8a",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328722,
+      "job_name": "native-asn1-item",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566594719",
+      "artifact_digest": "sha256:e83fbe1d3c465b4f549bcad143f9b53d628ae89617f00be4a90744aa4c076ae4",
+      "report": {
+        "result": "PASS",
+        "original_native_functions": 8,
+        "fixtures": 783,
+        "original_instructions": 999,
+        "original_instructions_exercised": 990,
+        "unexercised_original_instruction_addresses": [
+          "0x100619da4",
+          "0x10061a834",
+          "0x10061a838",
+          "0x10061a83c",
+          "0x10061a840",
+          "0x10061a844",
+          "0x10061a848",
+          "0x10061a84c",
+          "0x10061a850"
+        ],
+        "per_function_coverage": {
+          "core": {
+            "instructions": 640,
+            "exercised": 639
+          },
+          "template": {
+            "instructions": 116,
+            "exercised": 116
+          },
+          "check": {
+            "instructions": 139,
+            "exercised": 131
+          },
+          "get_choice": {
+            "instructions": 4,
+            "exercised": 4
+          },
+          "set_choice": {
+            "instructions": 5,
+            "exercised": 5
+          },
+          "save": {
+            "instructions": 35,
+            "exercised": 35
+          },
+          "field": {
+            "instructions": 6,
+            "exercised": 6
+          },
+          "adb": {
+            "instructions": 54,
+            "exercised": 54
+          }
+        },
+        "entry_wrapper_composition_cases": 56,
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false,
+        "undefined_fresh_cache_header_outputs_excluded": true,
+        "constructors_destructors_primitive_noexp_integer_ERR_and_OID_are_controlled": true,
+        "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+        "component": "ESign original ASN.1 item orchestration",
+        "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+        "source_behavior_fixture_comparisons": 783,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+          "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+          "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+          "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+          "tests/asn1_item_runtime.py": "1a60baa4a0148ad439663f2611c6b0512ceb956029a76cac9d16525fc3e8ea29",
+          "tests/asn1_item_test_adapter.c": "7922f7937c54c0837f57602d7c3721eda3331ec6722d6db3dec41ef46c2fc682",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "430cee6f461d7bae4eca3a68e5553040524bbfefee1001e07bd456e6d553bf00",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0"
+      }
+    },
+    {
+      "job_id": 120926328729,
+      "job_name": "native-load-commands",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567540113",
+      "artifact_digest": "sha256:bcbb0381f6f6eb8d2d2a4c1d530cfd1db3e138ea6640babdb62fbbcf541de941",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original-derived Mach-O load-command classes",
+        "new_classes": 5,
+        "native_classes_checked": 6,
+        "new_original_methods": 20,
+        "reused_parent_methods": 5,
+        "foundation_fixture_comparisons": 86,
+        "derived_realized_class_layout_and_method_abis_verified": true,
+        "ivar_realization_is_modeled": true,
+        "original_device_layout_observed": false,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "252ad4b5a6bb4df1fff90499f96aa04fc11ff0ddc3202bec8d064dbffb8ea93f",
+        "parent_source_sha256": "ce7d3a9945d98efe6f08dab57107599b18c69dbf67e8699806bb339a8edaa559",
+        "library_sha256": "6221f2feaa64ae4a12e4afac294780a5d1bc035a04e6c2ab8ad7305f5b04623f",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328735,
+      "job_name": "native-asn1-input",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567415640",
+      "artifact_digest": "sha256:eaecc4c41e34d5068ace33be0faffc1f5f256cf2425239e068e778e333033a67",
+      "report": {
+        "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+        "original_native_functions": 4,
+        "fixtures": 376,
+        "original_instructions": 367,
+        "original_instructions_exercised": 337,
+        "unexercised_original_instruction_addresses": [
+          "0x1006131c0",
+          "0x1006131dc",
+          "0x100613200",
+          "0x100613204",
+          "0x100613208",
+          "0x10061320c",
+          "0x100613210",
+          "0x100613214",
+          "0x100613218",
+          "0x1006132c0",
+          "0x1006132c4",
+          "0x1006132c8",
+          "0x1006132cc",
+          "0x1006132d0",
+          "0x1006132d4",
+          "0x1006132d8",
+          "0x10061331c",
+          "0x100613320",
+          "0x100613324",
+          "0x100613328",
+          "0x10061332c",
+          "0x100613330",
+          "0x100613334",
+          "0x100613338",
+          "0x10061333c",
+          "0x100613340",
+          "0x100613344",
+          "0x100613348",
+          "0x10061334c",
+          "0x100613350"
+        ],
+        "real_recovered_BIO_source_composition_cases": 33,
+        "recursive_item_decoder_and_ERR_are_controlled": true,
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false,
+        "result": "PASS",
+        "component": "ESign original ASN.1 input",
+        "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+        "source_behavior_fixture_comparisons": 376,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+          "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "tests/asn1_input_runtime.py": "9ed6fdcfb097095d9f285591adc7a67201d44caeff2b5dc14848feb78958238c",
+          "tests/asn1_input_test_adapter.c": "9dddb62da000263de58738fbd686617e2daade63bc9a6c48cfaf8e27c2252475",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "fbb1860246df4f4c305eb5d2f4577ca02bd9a42839f6f0db885f0ef78d2c0cfa",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0"
+      }
+    },
+    {
+      "job_id": 120926328736,
+      "job_name": "native-code-directory",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567291221",
+      "artifact_digest": "sha256:6599467ffd1041a1871c9f9d3037c49de465899fde1056afeb968fc7ad53a00d",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original CodeDirectory generation",
+        "translated_original_method_bodies": 2,
+        "original_native_digest_helpers": 2,
+        "original_native_block_invocations": 3,
+        "source_behavior_fixture_comparisons": 85,
+        "code_directory_and_digest_fixtures": 65,
+        "signing_flag_fixtures": 20,
+        "exact_output_and_getter_file_crypto_effects_compared": true,
+        "native_Apple_CommonCrypto_used": true,
+        "digest_test_adapters_record_and_forward_to_real_Apple_functions": true,
+        "native_file_handle_reads_and_seeks_used": true,
+        "source_built_with_original_deprecated_digest_APIs": true,
+        "BOOL_index_domain": [
+          0,
+          1
+        ],
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "40360b5b84032e3400e5c0086f0d995d5af66f35ce5e4db4b27122bb7524ec7c",
+        "library_sha256": "6818b015dfeb80d14eaa017bc227d6ff01c5bcb3c7f7fe71f2bf02b188a49d62",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "full_YYYArchO_class_reconstructed": false,
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328744,
+      "job_name": "native-legacy-crypto",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566604840",
+      "artifact_digest": "sha256:0493964b7aef40dee6b5c1e1c314b762c4716884fbe1a2a7b066a29a1a72cdee",
+      "report": {
+        "result": "PASS",
+        "component": "ESign selected original legacy-crypto helpers",
+        "original_native_functions": 8,
+        "source_behavior_fixture_comparisons": 355,
+        "BN_limb_bits": 32,
+        "LP64_field_offsets_checked_at_compile_time": true,
+        "native_callbacks_reference_state_and_cleanup_order_compared": true,
+        "unreconstructed_native_callees_are_controlled_test_boundaries": true,
+        "actual_RSA_PEM_parsing_or_signing_implementation_tested": false,
+        "complete_crypto_backend": false,
+        "exact_bundled_OpenSSL_release_identified": false,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_files_sha256": {
+          "ESignLegacyCrypto.c": "30867f84655670607bb4feee84abcaae35b32f06acb86d9429b596cea8944461",
+          "ESignLegacyCrypto.h": "184b2ded8179188d32989f4abba744478297778e4a886bf6e8914eaa8a666083",
+          "ESignLegacyCryptoDependencies.h": "5f56afec8698a134db77d9c123bed9825290ad5c69b3451fecce0eda06310343"
+        },
+        "library_sha256": "f13cab4f6715c2d437fdb7373ddb25b466f16208b258b12c5a86274e28836822",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328756,
+      "job_name": "native-oid-lookup",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566388794",
+      "artifact_digest": "sha256:be4a18c1e0c040cbe989c8e8b2c87130ea4d17725ffac6f7287484ffdca74754",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original OID lookup and LHASH retrieval",
+        "original_native_functions": 5,
+        "original_instructions": 315,
+        "original_instructions_exercised": 314,
+        "zero_length_no_match_branch_not_exercised": [
+          "0x1005b3274"
+        ],
+        "source_behavior_fixture_comparisons": 5635,
+        "complete_static_object_records_compared": 958,
+        "original_static_pointer_aliases_compared": true,
+        "actual_original_static_OID_lookup_implemented": true,
+        "registry_hash_comparator_and_ERR_are_controlled_test_boundaries": true,
+        "original_hash_retrieval_body_is_compiled_and_tested": true,
+        "source_files_sha256": {
+          "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+          "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+          "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+          "tests/oid_lookup_runtime.py": "80336d18add5c665727172d4cf001ae16f136d6b4a667fb10ef5b1c8be043d6e",
+          "tests/oid_lookup_test_adapter.c": "8e7604b37360f3a903f03f5acc5c21841c2b5d92aaac0b4fbe7903973c551596"
+        },
+        "library_sha256": "56e6442da3eef0c80a835046c294acd5f3d3bdb10e638486503dd9af6fd1f735",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_crypto_backend": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328758,
+      "job_name": "native-requirements-slot",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566594913",
+      "artifact_digest": "sha256:078e6fa78755a8f49f6939f8373986795635f28e945e27a94bc1a23e0cab0b07",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original requirements slot",
+        "translated_original_method_bodies": 1,
+        "original_native_block_invocations": 3,
+        "source_behavior_fixture_comparisons": 117,
+        "original_nil_fallback_truncation_preserved": true,
+        "original_signature_container_dependency_compared_natively": true,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "56b2020a58e386fe6c25a20f8956683f29453cc19518527eaae124dd4d6641ba",
+        "library_sha256": "a12445ad80f086bc14394501b09117a8b4205c362be12420ead20d6cffb9d3fe",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "full_YYYArchO_class_reconstructed": false,
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328760,
+      "job_name": "native-asn1-object",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566787618",
+      "artifact_digest": "sha256:81e900ea9ee09ca036c31a9ca821392d20b0e275a7e6c8152b97a8a7cf0958b5",
+      "report": {
+        "result": "PASS",
+        "original_native_functions": 20,
+        "fixtures": 1775,
+        "original_instructions": 959,
+        "original_instructions_exercised": 959,
+        "unexercised_original_instruction_addresses": [],
+        "per_function_coverage": {
+          "new_core": {
+            "instructions": 213,
+            "exercised": 213
+          },
+          "new": {
+            "instructions": 2,
+            "exercised": 2
+          },
+          "free_core": {
+            "instructions": 252,
+            "exercised": 252
+          },
+          "free": {
+            "instructions": 2,
+            "exercised": 2
+          },
+          "template_free": {
+            "instructions": 44,
+            "exercised": 44
+          },
+          "clear": {
+            "instructions": 46,
+            "exercised": 46
+          },
+          "primitive_new": {
+            "instructions": 74,
+            "exercised": 74
+          },
+          "primitive_free": {
+            "instructions": 71,
+            "exercised": 71
+          },
+          "reference": {
+            "instructions": 23,
+            "exercised": 23
+          },
+          "encoding_init": {
+            "instructions": 13,
+            "exercised": 13
+          },
+          "encoding_free": {
+            "instructions": 20,
+            "exercised": 20
+          },
+          "new_return": {
+            "instructions": 13,
+            "exercised": 13
+          },
+          "free_value": {
+            "instructions": 9,
+            "exercised": 9
+          },
+          "any_new": {
+            "instructions": 3,
+            "exercised": 3
+          },
+          "any_free": {
+            "instructions": 3,
+            "exercised": 3
+          },
+          "any_set": {
+            "instructions": 28,
+            "exercised": 28
+          },
+          "string_new": {
+            "instructions": 25,
+            "exercised": 25
+          },
+          "string_set": {
+            "instructions": 71,
+            "exercised": 71
+          },
+          "string_free": {
+            "instructions": 14,
+            "exercised": 14
+          },
+          "integer": {
+            "instructions": 33,
+            "exercised": 33
+          }
+        },
+        "actual_parser_composition_cases": 48,
+        "actual_memory_BIO_to_value_composition_cases": 16,
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false,
+        "object_bit_integer_content_decoders_stacks_allocators_and_ERR_are_controlled": true,
+        "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+        "component": "ESign original ASN.1 object construction and destruction",
+        "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+        "source_behavior_fixture_comparisons": 1775,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+          "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+          "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+          "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+          "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+          "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+          "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+          "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+          "tests/asn1_item_test_adapter.c": "7922f7937c54c0837f57602d7c3721eda3331ec6722d6db3dec41ef46c2fc682",
+          "tests/asn1_object_runtime.py": "fdc536b63430088b8715449b443fe2629644004e504578ec394768d84466d2e9",
+          "tests/asn1_object_test_adapter.c": "9cf8ff89697528d93ed73c91ffc71c31123e48f256998ce2bb3c0e784056d7f0",
+          "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+          "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "cf64bb8ad3f6f80426de98de6fd9428a6f4367cf9d7a2ff316dfde9337575bf5",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0"
+      }
+    },
+    {
+      "job_id": 120926328794,
+      "job_name": "native-cms-content",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12566159237",
+      "artifact_digest": "sha256:bf8f2235bb39c5d5981104833a28fd7b4114c8e5199c5002c1ae2594587e0cd2",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original CMS content-slot accessor",
+        "original_native_functions": 1,
+        "source_behavior_fixture_comparisons": 71,
+        "original_instructions_exercised": 71,
+        "live_returned_field_identity_and_mutation_compared": true,
+        "OBJ_lookup_and_ERR_are_controlled_test_boundaries": true,
+        "additional_native_comparisons_using_actual_original_OID_source": 71,
+        "actual_original_OID_lookup_implementation_tested": true,
+        "actual_CMS_decoding_or_signing_tested": false,
+        "source_files_sha256": {
+          "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+          "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+          "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+          "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+          "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+          "tests/cms_content_runtime.m": "a644db23038c7c0f2846a766b9bca81e606e2c5240950a55ba402cfd2a027573"
+        },
+        "library_sha256": "927e39a8951b53733faa9e6924a7aaf0eeb956cde2ea8680514e9568a22692b3",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_CMS_backend": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328799,
+      "job_name": "native-recursive-der",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567595133",
+      "artifact_digest": "sha256:40c0a81a43b5c051ae213a0a6d033d598053035d194994a19206b4efed544566",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original recursive DER helpers",
+        "native_functions": 2,
+        "source_behavior_fixture_comparisons": 269,
+        "unverified_original_inputs": 1,
+        "original_function_abis_inferred_from_call_sites": true,
+        "original_signing_caller_relationship_verified": true,
+        "dictionary_enumeration_order_controlled": true,
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "source_sha256": "33cb401215a06fec8619ed3175d9ccd5ba43be60c813e07ad7e760b4d0c4ed88",
+        "library_sha256": "8c95418214de5d4668b832a60479deffbddc9b92283380359c2ef652c8cbd82d",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    },
+    {
+      "job_id": 120926328807,
+      "job_name": "native-asn1-primitives",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567495322",
+      "artifact_digest": "sha256:78f5d450b5a2cd8c3559eb12fb1bf78843b880c17ef9bbe22b5fb636d9fca017",
+      "report": {
+        "result": "PASS",
+        "original_native_functions": 10,
+        "fixtures": 1010,
+        "original_instructions": 552,
+        "original_instructions_exercised": 552,
+        "unexercised_original_instruction_addresses": [],
+        "per_function_coverage": {
+          "stack_new": {
+            "instructions": 39,
+            "exercised": 39
+          },
+          "stack_num": {
+            "instructions": 5,
+            "exercised": 5
+          },
+          "stack_pop": {
+            "instructions": 11,
+            "exercised": 11
+          },
+          "stack_push": {
+            "instructions": 51,
+            "exercised": 51
+          },
+          "stack_free": {
+            "instructions": 12,
+            "exercised": 12
+          },
+          "stack_value": {
+            "instructions": 12,
+            "exercised": 12
+          },
+          "bit": {
+            "instructions": 100,
+            "exercised": 100
+          },
+          "object": {
+            "instructions": 149,
+            "exercised": 149
+          },
+          "integer": {
+            "instructions": 142,
+            "exercised": 142
+          },
+          "object_free": {
+            "instructions": 31,
+            "exercised": 31
+          }
+        },
+        "actual_parser_composition_cases": 138,
+        "actual_memory_BIO_to_value_composition_cases": 32,
+        "complete_CMS_decoder": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false,
+        "allocators_references_OID_retrieval_ex_data_and_ERR_are_controlled": true,
+        "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+        "component": "ESign original stacks and ASN.1 content decoders",
+        "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+        "source_behavior_fixture_comparisons": 1010,
+        "test_adapters_excluded_from_iOS_archive": true,
+        "source_files_sha256": {
+          "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+          "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+          "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+          "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+          "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+          "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+          "reconstruction/asn1-primitives/ESignASN1Primitives.c": "b53a4e0154a2dcead49bd34d4cd25a7bd863a459ccb663461ad074c3551f857a",
+          "reconstruction/asn1-primitives/ESignASN1Primitives.h": "a7cb6e293fefb0a519a80da0ce716706d1879d5e15175bef59e16f678d10bf18",
+          "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+          "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+          "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+          "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+          "tests/asn1_item_test_adapter.c": "7922f7937c54c0837f57602d7c3721eda3331ec6722d6db3dec41ef46c2fc682",
+          "tests/asn1_object_runtime.py": "fdc536b63430088b8715449b443fe2629644004e504578ec394768d84466d2e9",
+          "tests/asn1_object_test_adapter.c": "9cf8ff89697528d93ed73c91ffc71c31123e48f256998ce2bb3c0e784056d7f0",
+          "tests/asn1_primitives_runtime.py": "88fa6d4091233b998b124db7e7cff41eb909694d916f4fc6ae6500843794961a",
+          "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+          "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+          "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+          "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+        },
+        "library_sha256": "ab65c692e7ac295732bba0e6a4cc81fb8ad0f9d82bba5fb68f413cd60f1e72e2",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0"
+      }
+    },
+    {
+      "job_id": 120926328916,
+      "job_name": "native-mobileprovision",
+      "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+      "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+      "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567356018",
+      "artifact_digest": "sha256:e8bd1c781a5512092f026db0d1756f837fcd5504f3b0752e9fbd4855ad3866f1",
+      "report": {
+        "result": "PASS",
+        "component": "ESign original provisioning-profile class",
+        "original_classes": 1,
+        "original_methods": 38,
+        "foundation_fixture_comparisons": 148,
+        "additional_native_comparisons_using_recovered_CMS_content_accessor": 146,
+        "original_class_layout_and_method_ABIs_verified": true,
+        "base_harness_BIO_CMS_and_certificate_parsers_are_controlled_test_boundaries": true,
+        "integration_harness_uses_original_CMS_content_source_with_controlled_OID_lookup": true,
+        "additional_native_comparisons_using_actual_original_CMS_and_OID_source": 146,
+        "second_integration_uses_real_original_OID_bytes_and_lookup": true,
+        "actual_CMS_decoding_or_certificate_parsing_tested": false,
+        "property_population_serial_matching_copy_strong_and_failure_state_compared": true,
+        "test_standin_YYYP12_not_in_iOS_library": true,
+        "source_files_sha256": {
+          "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+          "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+          "reconstruction/mobileprovision/ESignMobileprovision.h": "9b84428f3557ce0aafd52b1d2d77a4fbd49f199a2d4185652c50106a8ca542f7",
+          "reconstruction/mobileprovision/ESignMobileprovision.m": "8f8aca12378effac3e69ff4db2644675758cbd5b8c9f3f8f58a3829cfc51d4e3",
+          "reconstruction/mobileprovision/ESignMobileprovisionDependencies.h": "0e31395ab9ce7665d6c3fdaf3b270ed4de7f3cd0bf913074f67e099015b8609d",
+          "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+          "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+          "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+          "tests/mobileprovision_runtime.m": "e2a8b26decb88690578b0c2765b83f0a5f34f1f037c89a1e9b6a3b2079c14527"
+        },
+        "library_sha256": "8dcf47d2b689141ccf5f84c8e00dc27f02f34ed37deb0cc2a6d61cd9c262e2e2",
+        "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        "xcode": "Xcode 27.1\nBuild version 27A9275",
+        "iphoneos_sdk": "27.1",
+        "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+        "target": "arm64-apple-ios15.0",
+        "complete_signing_pipeline": false,
+        "full_app_built": false,
+        "source_built_ipa": false,
+        "iphone_runtime_tested": false
+      }
+    }
+  ]
+}

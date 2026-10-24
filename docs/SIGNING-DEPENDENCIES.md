@@ -2,7 +2,7 @@
 
 ## Current decoder state — 24 October 2026
 
-The recovered parser now has original item/primitive constructors and destructors, string storage, ANY ownership, reference wrappers and encoding-cache cleanup in [asn1-object](../reconstruction/asn1-object/). Twenty bodies pass 1,775 comparisons and exercise all 959 original instructions. Forty-eight parser compositions include sixteen full memory-BIO-to-value paths using actual recovered construction, string setting and cleanup. The [latest verified report index](builds/latest.json) records the tested source and Apple builds. Earlier controlled-boundary fixtures remain as independent records of their original scope.
+The recovered parser now uses original stack and content-to-BIT-STRING/OBJECT/INTEGER operations, plus OBJECT cleanup, from [asn1-primitives](../reconstruction/asn1-primitives/). Ten bodies pass 1,010 comparisons and exercise all 552 original instructions. The 138 parser compositions include 32 full memory-BIO-to-value paths with actual recovered parser, lifetime, stack and content bodies. [The latest report index](builds/latest.json) records tested source and Apple results. Earlier component fixtures retain their original controlled boundaries.
 
 | Original address | Role | Current source status |
 | --- | --- | --- |
@@ -18,19 +18,19 @@ The recovered parser now has original item/primitive constructors and destructor
 | 0x10061a964 | Specialized asn1_collect | Supplied; original five-argument ABI and nesting check retained |
 | 0x10061b3ec / 0x10061b3f8 / 0x100612e1c | ASN1_TYPE new/free/set | Supplied with relocated original ANY descriptor |
 | 0x10061d254 / 0x10061cfa4 / 0x10061d1e0 | ASN1_STRING type-new/set/free | Supplied; storage ownership and allocation-failure preservation tested |
-| 0x1006111c4 / 0x100610d4c / 0x1006125f4 | Content-to-bit-string/object/integer | Remaining original boundaries |
-| 0x100602154 / 0x100602610 / 0x100602560 / 0x100602494 / 0x100602124 / 0x100602624 | Stack new/num/pop/push/free/value | Remaining original boundaries |
-| 0x100610ffc | ASN1_OBJECT_free | Remaining original object-lifetime boundary |
+| 0x1006111c4 / 0x100610d4c / 0x1006125f4 | Content-to-bit-string/object/integer | Supplied by primitive component; all 391 original instructions exercised |
+| 0x100602154 / 0x100602610 / 0x100602560 / 0x100602494 / 0x100602124 / 0x100602624 | Stack new/num/pop/push/free/value | Supplied; all 130 instructions exercised, including post-reallocation reload/movement |
+| 0x100610ffc | ASN1_OBJECT_free | Supplied; all 31 instructions exercised with ownership and mutation cases |
 | 0x100617e98 / 0x100617f50 / 0x100618544 | Optional clear / primitive new/free | Supplied; bounded dispatch and callback paths tested |
 | 0x10061b018 / 0x10061b074 / 0x10061b0a8 | References / encoding init/free | Supplied; underlying reference locking remains controlled |
 | 0x100617b3c / 0x100617b44 | Item ex-new / recursive combine-new | Supplied by object component; allocation, fields, callbacks and failure cleanup tested |
 | 0x10061848c / 0x100618494 / 0x10061809c | Item/template/recursive combine-free | Supplied; reverse fields, stacks, references and callbacks tested |
-| 0x100612af0 | ASN1_INTEGER_get | Supplied; all 33 instructions exercised; encoded integer decoding remains separate |
+| 0x100612af0 | ASN1_INTEGER_get | Supplied; all 33 instructions exercised; encoded integer decoding is now supplied by the primitive component |
 | 0x1005b3138 | OBJ_obj2nid | Supplied by OID component; declared target dependency |
 | 0x10062fb30 | d2i_CMS_bio | Wrapper identified; CMS item/schema graph still unresolved |
 | 0x100b24750 | Original CMS item descriptor | Inspected; complete referenced graph not relocated |
 
-The object, value, item and ASN.1 input sources reference one another at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
+The primitive, object, value, item and ASN.1 input sources reference one another at the symbol level. The Xcode project builds component archives without merging them; it does not establish a complete link. Original ERR, allocation/reference/ex-data, PEM/RSA internals, certificate/P12 processing and application/signing orchestration remain incomplete. No host crypto engine or test parser is substituted into the archives.
 
 The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admitting only item types 0–6. Its complete separate flow is checked against original bytes and replayed. The generic baseline walker and baseline unresolved counts remain unchanged. The current manual ASN.1 study reproduces this fuller body.
 

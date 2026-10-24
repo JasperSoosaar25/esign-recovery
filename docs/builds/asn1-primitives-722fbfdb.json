@@ -1,0 +1,93 @@
+{
+  "result": "PASS",
+  "original_native_functions": 10,
+  "fixtures": 1010,
+  "original_instructions": 552,
+  "original_instructions_exercised": 552,
+  "unexercised_original_instruction_addresses": [],
+  "per_function_coverage": {
+    "stack_new": {
+      "instructions": 39,
+      "exercised": 39
+    },
+    "stack_num": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "stack_pop": {
+      "instructions": 11,
+      "exercised": 11
+    },
+    "stack_push": {
+      "instructions": 51,
+      "exercised": 51
+    },
+    "stack_free": {
+      "instructions": 12,
+      "exercised": 12
+    },
+    "stack_value": {
+      "instructions": 12,
+      "exercised": 12
+    },
+    "bit": {
+      "instructions": 100,
+      "exercised": 100
+    },
+    "object": {
+      "instructions": 149,
+      "exercised": 149
+    },
+    "integer": {
+      "instructions": 142,
+      "exercised": 142
+    },
+    "object_free": {
+      "instructions": 31,
+      "exercised": 31
+    }
+  },
+  "actual_parser_composition_cases": 138,
+  "actual_memory_BIO_to_value_composition_cases": 32,
+  "complete_CMS_decoder": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "allocators_references_OID_retrieval_ex_data_and_ERR_are_controlled": true,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "component": "ESign original stacks and ASN.1 content decoders",
+  "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+  "source_behavior_fixture_comparisons": 1010,
+  "test_adapters_excluded_from_iOS_archive": true,
+  "source_files_sha256": {
+    "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+    "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+    "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+    "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+    "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+    "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.c": "b53a4e0154a2dcead49bd34d4cd25a7bd863a459ccb663461ad074c3551f857a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.h": "a7cb6e293fefb0a519a80da0ce716706d1879d5e15175bef59e16f678d10bf18",
+    "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+    "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+    "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "tests/asn1_item_test_adapter.c": "7922f7937c54c0837f57602d7c3721eda3331ec6722d6db3dec41ef46c2fc682",
+    "tests/asn1_object_runtime.py": "fdc536b63430088b8715449b443fe2629644004e504578ec394768d84466d2e9",
+    "tests/asn1_object_test_adapter.c": "9cf8ff89697528d93ed73c91ffc71c31123e48f256998ce2bb3c0e784056d7f0",
+    "tests/asn1_primitives_runtime.py": "88fa6d4091233b998b124db7e7cff41eb909694d916f4fc6ae6500843794961a",
+    "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+    "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+    "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+    "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8"
+  },
+  "library_sha256": "ab65c692e7ac295732bba0e6a4cc81fb8ad0f9d82bba5fb68f413cd60f1e72e2",
+  "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 27.1\nBuild version 27A9275",
+  "iphoneos_sdk": "27.1",
+  "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios15.0",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567495322",
+  "artifact_digest": "sha256:78f5d450b5a2cd8c3559eb12fb1bf78843b880c17ef9bbe22b5fb636d9fca017"
+}

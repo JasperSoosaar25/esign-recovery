@@ -4,16 +4,16 @@ The original ESign recovery remains incomplete. No source-built ESign app/IPA or
 
 ## Current verified snapshot
 
-Source commit: `c4146cf5904b1a219e99e660a92c3185c2b564de`.
+Source commit: `722fbfdb1d5f9598450bb2048239bb19bd1c871c`.
 
-- All 20 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40108419657) passed, including 127 tool tests.
-- All 18 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
-- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 73 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
-- The latest twenty ASN.1 object-lifetime, string, ANY, reference/cache and integer-retrieval bodies pass 1,775 native C comparisons and exercise all 959 original instructions. Forty-eight parser compositions include sixteen full memory-BIO-to-value paths using actual recovered constructors, string setting and cleanup.
-- The earlier item/value components retain their independent 783 and 2,065 comparisons, with their original controlled boundaries and unexercised addresses explicit.
+- All 21 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491) passed, including 137 tool tests.
+- All 19 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
+- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 83 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
+- The latest ten stack/content/OBJECT-free bodies pass 1,010 native C comparisons and exercise all 552 original instructions. The 138 parser compositions include 32 full memory-BIO-to-value paths using actual recovered parser, lifetime, stack and content code, including allocation/growth failure cleanup.
+- Earlier item/value/object components retain their independent 783, 2,065 and 1,775 comparisons, with their original controlled boundaries and unexercised addresses explicit.
 - Capstone 5.0.9 passes the unchanged baseline and every component verifier. The selected exact input and baseline archive parts remain unchanged.
 
-[Verification](builds/verification-c4146cf5.json), [combined project](builds/component-project-c4146cf5.json), [all component reports](builds/all-components-c4146cf5.json), [new object component](builds/asn1-object-c4146cf5.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
+[Verification](builds/verification-722fbfdb.json), [combined project](builds/component-project-722fbfdb.json), [all component reports](builds/all-components-722fbfdb.json), [new primitive component](builds/asn1-primitives-722fbfdb.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
 
 ## Original input and retained evidence
 
@@ -41,6 +41,6 @@ The build/continuation guides, roadmap, source counts and report links are refre
 
 ## Remaining work
 
-The next original dependencies are encoded object/bit/integer conversion, object and stack primitives, allocation/reference locking/ERR state and the CMS schema graph. Original ANY/string/item constructors/destructors and integer retrieval are now supplied by the object component. Exact addresses are in [SIGNING-DEPENDENCIES.md](SIGNING-DEPENDENCIES.md). Certificate/P12 handling, full signing/archive/install orchestration and most application/UI source still need recovery. A full app link and genuine runtime testing remain necessary for the [build/screenshot requirements](BUILD-STATUS.md).
+The next original work is CMS schema relocation and callbacks, original allocation/reference locking/ex-data/ERR state, and certificate/P12 handling. The required stack, encoded BIT STRING/OBJECT/INTEGER conversion and OBJECT cleanup now have source in the primitive component. Exact addresses are in [SIGNING-DEPENDENCIES.md](SIGNING-DEPENDENCIES.md). Full signing/archive/install orchestration and most application/UI source still need recovery. A full app link and genuine runtime testing remain necessary for the [build/screenshot requirements](BUILD-STATUS.md).
 
 [Earlier detailed session history](https://github.com/JasperSoosaar25/esign-recovery/blob/4c3b4f7795fcd20c09a5eadfe7a17b7e8476c3b8/docs/SESSION-STATUS.md) and older reports preserve previous findings without mixing historical toolchains with the current snapshot.

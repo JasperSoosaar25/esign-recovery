@@ -1,0 +1,187 @@
+{
+  "result": "PASS",
+  "kind": "recovered-component Xcode project build",
+  "source_commit": "722fbfdb1d5f9598450bb2048239bb19bd1c871c",
+  "native_static_library_targets_built": 19,
+  "all_nineteen_recovered_components_built_together": true,
+  "source_runtime_files_sha256": {
+    "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+    "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+    "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+    "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+    "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+    "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.c": "b53a4e0154a2dcead49bd34d4cd25a7bd863a459ccb663461ad074c3551f857a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.h": "a7cb6e293fefb0a519a80da0ce716706d1879d5e15175bef59e16f678d10bf18",
+    "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+    "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+    "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+    "reconstruction/code-directory/ESignCodeDirectory.h": "962323f2f3b251765341104e978fd6b7add27fa3b45b23456769fa2fd9db1a96",
+    "reconstruction/code-directory/ESignCodeDirectory.m": "40360b5b84032e3400e5c0086f0d995d5af66f35ce5e4db4b27122bb7524ec7c",
+    "reconstruction/entitlements/ESignEntitlements.h": "2e437479c89b6a37afab436528504e1832ec69da3dd8b7a15ec1635bbd2afc2c",
+    "reconstruction/entitlements/ESignEntitlements.m": "d9854761e23e645f4618e8821c4ba675c775f40fff57e06ba450d3103eb7f14d",
+    "reconstruction/legacy-crypto/ESignLegacyCrypto.c": "30867f84655670607bb4feee84abcaae35b32f06acb86d9429b596cea8944461",
+    "reconstruction/legacy-crypto/ESignLegacyCrypto.h": "184b2ded8179188d32989f4abba744478297778e4a886bf6e8914eaa8a666083",
+    "reconstruction/legacy-crypto/ESignLegacyCryptoDependencies.h": "5f56afec8698a134db77d9c123bed9825290ad5c69b3451fecce0eda06310343",
+    "reconstruction/load-commands/ESignLoadCommands.h": "88d18015da14a1ae076e06c1710370f0503a7c001e9cac2c7ebd61c40acd3ab4",
+    "reconstruction/load-commands/ESignLoadCommands.m": "252ad4b5a6bb4df1fff90499f96aa04fc11ff0ddc3202bec8d064dbffb8ea93f",
+    "reconstruction/localization/ESignLocalization.h": "f2d657e4a256c4aae2c5a4baaaa40306bd7b605ff4d53a11cab125b96758c190",
+    "reconstruction/localization/ESignLocalization.m": "75efcbbff8f142ef70dd1dbb56c2ca672e7aed64230bda36785e4c6a350db9b0",
+    "reconstruction/localization/ESignLocalizationTables.m": "93d08a0573cfde0110863fc8832de0c40aca802995483b392893ec9c44b8612e",
+    "reconstruction/mach-header/ESignMachHeader.h": "29bbdec74743849ced3e7dc02776105686e4f68e9672a0fb6a57a2d0ea6cf923",
+    "reconstruction/mach-header/ESignMachHeader.m": "ce7d3a9945d98efe6f08dab57107599b18c69dbf67e8699806bb339a8edaa559",
+    "reconstruction/mobileprovision/ESignMobileprovision.h": "9b84428f3557ce0aafd52b1d2d77a4fbd49f199a2d4185652c50106a8ca542f7",
+    "reconstruction/mobileprovision/ESignMobileprovision.m": "8f8aca12378effac3e69ff4db2644675758cbd5b8c9f3f8f58a3829cfc51d4e3",
+    "reconstruction/mobileprovision/ESignMobileprovisionDependencies.h": "0e31395ab9ce7665d6c3fdaf3b270ed4de7f3cd0bf913074f67e099015b8609d",
+    "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "reconstruction/recursive-der/ESignRecursiveDER.h": "0fd8b341f96ac7d3c4cfdd98493a3f59b037606ae5c57f3cc6147276a3954dbb",
+    "reconstruction/recursive-der/ESignRecursiveDER.m": "33cb401215a06fec8619ed3175d9ccd5ba43be60c813e07ad7e760b4d0c4ed88",
+    "reconstruction/requirements-slot/ESignRequirementsSlot.h": "218f50d1f08ae9a49725599e495364907b0fa9cff9161804b7ff909da19f34df",
+    "reconstruction/requirements-slot/ESignRequirementsSlot.m": "56b2020a58e386fe6c25a20f8956683f29453cc19518527eaae124dd4d6641ba",
+    "reconstruction/rsa-wrapper/ESignRSASignWrapper.c": "444804567c7607d65be9e68009f426ed859669e5e056d67b991a2c36e1485e42",
+    "reconstruction/rsa-wrapper/ESignRSASignWrapper.h": "008e0bd544c91e2524e3ab2cadf1c92bd222097dd73644535ead852b8b8e2ab5",
+    "reconstruction/signature-blobs/ESignSignatureBlobs.h": "77dc0d7fb6cec3df658921af9daff73081012bbdba9efc4a3972751455e06b72",
+    "reconstruction/signature-blobs/ESignSignatureBlobs.m": "e1ee5c014a2b67d7ed8c6c7b81c0920300a99310ea9c4fd7afbc178302c296ad"
+  },
+  "project_files_sha256": {
+    "xcode/components.json": "08f3ecc39b22cb55d7f07cf0997926b8a8f166b41659e75441043c4dc2dd6f04",
+    "ESignRecovery.xcodeproj/project.pbxproj": "c9e2a61c9798365c6d6a73bc96e54ca17b7316c780b16d95f210c5b324dc4484",
+    "ESignRecovery.xcodeproj/xcshareddata/xcschemes/RecoveredComponents.xcscheme": "2803ea3b07f80338f453af1a49031840bee5b9365677cd6fd563920e97cf37d0"
+  },
+  "libraries": {
+    "libESignASN1Input.a": {
+      "sha256": "4d3a57fa88c1368d75c9a844debaef86c803c5f4637c7f3bbbe494319c414061",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignASN1Item.a": {
+      "sha256": "dda9e6121dfb9baf956fcfbc6cbceb4e016b22ff60669560cd305b1fbbcff331",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignASN1Object.a": {
+      "sha256": "01c2bddf8977d13e4ebaf1941b9c492bd1c82ed31e84658cbb9b352a933282ad",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignASN1Primitives.a": {
+      "sha256": "94f0800e2cf725f4278d11e101f63fe4e58263ce3b04cdd6e16a7844dbe08d99",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignASN1Value.a": {
+      "sha256": "0ae90a0280d8a07c6328ea40cb2b0b97977ccdfabd61183e4b19b3b2349229d6",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignBIOInput.a": {
+      "sha256": "cbbbc802fd8f80521f629d71a8a0484b5a8b3012418bd8893f8c3d2ebb77367f",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignCMSContent.a": {
+      "sha256": "f8ca4e44855a576025a1dde74429d66b4249e4ed8a4f79bc7e8f02eedb311255",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignCodeDirectory.a": {
+      "sha256": "84f542ead2c61ef99f1eb8b09480381c12054a4dee539b9e95f32641e35998a6",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignEntitlements.a": {
+      "sha256": "a9b9668f020349e1a9827e599223ce8bee2a4f21ec55045c9e4b0f4c003d3472",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignLegacyCrypto.a": {
+      "sha256": "3850d2d7a7935c59d08d631643b519a06be59ad6027494cbc285c6b758ae5eba",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignLoadCommands.a": {
+      "sha256": "7e196dd8aefce82f24e3c2bc37c9be8f13c68ba2fa70cbd602ee841d26a2ef85",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignLocalization.a": {
+      "sha256": "2b67901ba23270963d9e431655fa437609e892618edfc8b939075f2ff1023101",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignMachHeader.a": {
+      "sha256": "5c68c3fddd91be29b6847544d6bacbd866469d54dacd32c59686843025cd79b6",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignMobileprovision.a": {
+      "sha256": "d7d206c765804671e81e2f8edc3dc4f26312ac94650b7f13f84a86b41ef55d50",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignOIDLookup.a": {
+      "sha256": "1765fd14960f39e098ca91e223b4b82b91b3cb44248e506f10f176b3eb31791e",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignRSASignWrapper.a": {
+      "sha256": "4a7a3130054794268aa8b91b3e21488ca93853b229a306357cb669f8e831e014",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignRecursiveDER.a": {
+      "sha256": "db044c19bbabd56865392c811289b173afb88759f90c8bd8bb1157a5fae96307",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignRequirementsSlot.a": {
+      "sha256": "d736a581bc79b249246596dac03f9fc178f778164fa97113d62b5d88b8014bbc",
+      "architectures": [
+        "arm64"
+      ]
+    },
+    "libESignSignatureBlobs.a": {
+      "sha256": "a6e8076fb3c4ddd4de6075e0e0c12282d57a9f71034df9322802d5f1933e44fa",
+      "architectures": [
+        "arm64"
+      ]
+    }
+  },
+  "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 27.1\nBuild version 27A9275",
+  "iphoneos_sdk": "27.1",
+  "requested_minimum_iOS": "15.0",
+  "architecture": "arm64",
+  "application_targets": 0,
+  "test_backends_included": false,
+  "unresolved_original_backend_dependencies_remain": true,
+  "whole_app_link_or_behavior_verified": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40112283491/artifacts/12567101938",
+  "artifact_digest": "sha256:64cbdfcff3f1dfbedbe9275ac89e18878ebec2f1f3ddd5a2604b2a115fd4e626"
+}

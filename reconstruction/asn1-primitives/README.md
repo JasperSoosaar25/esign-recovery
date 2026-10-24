@@ -2,7 +2,7 @@
 
 Ten original ESign 5.0.2 bodies provide the stack operations used by the recovered parser, encoded BIT STRING/OBJECT/INTEGER conversion, and OBJECT cleanup. This continues the actual recovered BIO/header/item/template/value/lifetime chain with real stack and content operations.
 
-**1,010 original-ARM64/compiled-C comparisons pass locally, exercising all 552 original instructions.** The 138 parser compositions include 32 complete memory-BIO-to-value paths. Fixtures use invented data and schemas, with controlled allocation and ERR boundaries. They do not establish complete CMS, certificate or app behavior.
+**1,010 original-ARM64/compiled-C comparisons pass locally and on Apple tooling, exercising all 552 original instructions. [The Apple report](../../docs/builds/asn1-primitives-722fbfdb.json) records the tested source, Xcode 27.1 / iOS 27.1 SDK and exact hashes.** The 138 parser compositions include 32 complete memory-BIO-to-value paths. Fixtures use invented data and schemas, with controlled allocation and ERR boundaries. They do not establish complete CMS, certificate or app behavior.
 
 | Original address | Recovered role | Instructions |
 | --- | --- | ---: |
