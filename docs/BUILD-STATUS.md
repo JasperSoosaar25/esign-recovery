@@ -1,4 +1,4 @@
-# Original-only build and screenshot status — 24 October 2026
+# Original-only build and screenshot status — 25 October 2026
 
 **The recovered libraries build; the complete original ESign application does not yet build from source.** The runtime implementation must come from original ESign recovery. A substitute signer, replacement UI, original-binary wrapper or mock screenshot would not satisfy the request.
 
@@ -7,22 +7,22 @@
 | Match the selected IPA | Confirmed; original input hashes unchanged |
 | Account for original entries/resources | All 100 archive entries accounted for; all 63 retained resources exact |
 | Preserve original code evidence | Complete saved byte listings, metadata, pseudocode and separate flow studies verified |
-| Reconstruct reviewed native source | 24 classes / 167 metadata methods, three separate method-body translations and 95 native helper/wrapper bodies, plus documented blocks |
-| Compile recovered components | All 20 arm64 libraries build with Xcode 27.1 / iOS 27.1 SDK, targeting iOS 15.0 |
-| Run source/evidence checks | All 22 CI jobs and 151 tests pass for source commit `f832e6f1` |
+| Reconstruct reviewed native source | 24 classes / 167 metadata methods, three separate method-body translations and 117 native helper/wrapper bodies, plus documented blocks |
+| Compile recovered components | All 21 arm64 libraries build with Xcode 27.1 / iOS 27.1 SDK, targeting iOS 15.0 |
+| Run source/evidence checks | All 23 CI jobs and 167 tests pass for source commit `7940f841` |
 | Obtain the author's original source/project | Not obtained |
 | Link the complete original app from source | Not achieved |
 | Produce a verified source-built IPA | Not achieved |
 | Run it on an iPhone / iOS 27 | Not run |
 | Supply genuine running-app screenshots | Not available |
 
-The [combined Xcode report](builds/component-project-f832e6f1.json), [all twenty native reports](builds/all-components-f832e6f1.json), and [verification record](builds/verification-f832e6f1.json) identify the exact source commit, library hashes, SDK and test results. [latest.json](builds/latest.json) is the current verified report index. Original IPA metadata still declares iOS 11.0; the new component build target is iOS 15.0. SDK compilation does not establish device compatibility.
+The [combined Xcode report](builds/component-project-7940f841.json), [all twenty-one native reports](builds/all-components-7940f841.json), and [verification record](builds/verification-7940f841.json) identify the exact source commit, library hashes, SDK and test results. [latest.json](builds/latest.json) is the current verified report index. Original IPA metadata still declares iOS 11.0; the new component build target is iOS 15.0. SDK compilation does not establish device compatibility.
 
 ## Latest original source
 
-[CMS schemas and callbacks](../reconstruction/cms-schema/) now supplies 53 original items, 149 field templates and twelve bodies. All 805 original-instruction/native C comparisons pass on Linux and Apple tooling, exercising all 304 instructions. The 108 parser compositions include 78 memory-BIO-to-CMS test cases with actual recovered schema, parser, constructors, stacks, value conversion, OID lookup and content access. All seven top-level content types return expected invented payload/ciphertext. [The Apple report](builds/cms-schema-f832e6f1.json) records the exact result and controlled boundaries.
+[X509 name/certificate/CRL state](../reconstruction/x509-state/) supplies 22 original bodies, including all nine callbacks/name codecs previously referenced by the CMS graph. All 456 original-instruction/native C comparisons pass on Linux and Apple tooling, exercising all 839 instructions. The 79 parser composition cases include names, certificate/CRL items and memory-BIO-to-CMS cases containing both structures with their invented expected payload. Five additional descriptors and fifteen nodes are audited and relocated. [The Apple report](builds/x509-state-7940f841.json) records the exact result and controlled boundaries.
 
-Earlier item/value/object/primitive components retain their independent 783, 2,065, 1,775 and 1,010 comparisons. Original allocation/reference locking/ex-data/ERR state, nine X509 callbacks/name codecs, certificate/P12 processing and cryptographic streaming remain incomplete. Most signing/archive/install and application/UI source also remains unfinished. CMS fixture parsing does not establish signature verification, decryption or decompression. Controlled test callees are excluded from the iOS archives. [The dependency map](SIGNING-DEPENDENCIES.md) gives exact addresses and next work.
+Earlier item/value/object/primitive/CMS components retain their independent 783, 2,065, 1,775, 1,010 and 805 comparisons. Name canonicalization/encoding/formatting, extension decoders, cryptographic operations, allocation/reference locking/ex-data/ERR state and P12 remain incomplete. Most signing/archive/install and application/UI source also remains unfinished. The fixtures do not establish certificate validation, signature verification, decryption or decompression. Controlled test callees are excluded from the iOS archives. [The dependency map](SIGNING-DEPENDENCIES.md) identifies exact next addresses.
 
 ## Why a full app and screenshots remain unavailable
 

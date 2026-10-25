@@ -1,8 +1,8 @@
 # Remaining original signing dependencies
 
-## Current decoder state — 24 October 2026
+## Current decoder state — 25 October 2026
 
-The [CMS schema component](../reconstruction/cms-schema/) now relocates all 53 items / 149 templates reachable from `CMS_ContentInfo` and supplies twelve original CMS/LONG bodies. All 805 comparisons pass, exercising all 304 instructions. The 108 parser compositions include 78 memory-BIO-to-CMS paths with actual recovered schema, parser, constructors, stacks, values, OID lookup and content access. All seven content types and five recipient choices have invented fixtures. [The latest report index](builds/latest.json) records tested source and Apple results. Earlier fixtures retain their original controlled boundaries.
+The [X509 state component](../reconstruction/x509-state/) supplies the nine X509 callbacks/name codec bodies referenced by CMS and thirteen supporting original bodies. All 456 comparisons pass, exercising all 839 instructions. Five additional descriptor items and fifteen nodes reuse the earlier CMS graph. The 79 parser compositions include nested names, certificate and CRL items and memory-BIO-to-CMS fixtures containing both structures with an invented expected payload. Deeper canonicalization/encoding/formatting, extension and crypto operations remain controlled. [The latest report index](builds/latest.json) records exact verified source and Apple results.
 
 | Original address | Role | Current source status |
 | --- | --- | --- |
@@ -36,19 +36,33 @@ The primitive, object, value, item and ASN.1 input sources reference one another
 
 The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admitting only item types 0–6. Its complete separate flow is checked against original bytes and replayed. The generic baseline walker and baseline unresolved counts remain unchanged. The current manual ASN.1 study reproduces this fuller body.
 
-## Next original CMS dependencies
+## X509 callbacks now supplied
 
-| Original address | Referenced role | Source still required |
+| Original address | Referenced role | Current source status |
 | --- | --- | --- |
-| 0x10061660c | X509 auxiliary callback | Certificate new/decode/free state and ownership |
-| 0x1006156ec | X509_PUBKEY auxiliary callback | Public-key state and cleanup |
-| 0x1006168c4 | X509_CRL auxiliary callback | Revocation-list state and cleanup |
-| 0x100616890 | X509_CRL_INFO auxiliary callback | Revoked-entry ordering/cache behavior |
-| 0x100615bfc / 0x100615cc8 | X509_NAME new/free | Name storage and cleanup |
-| 0x100615d1c / 0x100615f14 / 0x1006160dc | X509_NAME decode/encode/print | Original name codecs |
-| 0x10062faac / 0x10062eef4 / 0x10062effc | CMS stream / data init / data final | Original streaming/crypto operations |
+| 0x10061660c | X509 auxiliary callback | Supplied; cached-name/ex-data/extension cleanup order tested |
+| 0x1006156ec | X509_PUBKEY auxiliary callback | Supplied; underlying key destruction remains external |
+| 0x1006168c4 | X509_CRL auxiliary callback | Supplied; IDP/reason/critical/issuer state and live method callbacks tested |
+| 0x100616890 | X509_CRL_INFO auxiliary callback | Supplied; actual stack comparator setter composed |
+| 0x100615bfc / 0x100615cc8 | X509_NAME new/free | Supplied; allocation/ownership/failure cleanup tested |
+| 0x100615d1c / 0x100615f14 / 0x1006160dc | X509_NAME decode/encode/print | Caller bodies supplied; nested name parser and cache/grouping behavior tested; deeper operations remain external |
+| 0x100602068 / 0x100602654 / 0x10060258c | Stack comparator/set/pop-free | Supplied; pointer/null behavior and post-callback count/data reloads tested |
+| 0x1005fe88c / 0x100619370 | BUF_MEM grow / tagged item entry | Supplied; bounded growth, errors and actual recursive parser composition tested |
 
-The nine X509 callbacks/name codecs are retained as external original function references in the relocated graph. CMS fixtures fail if they reach one of those unreconstructed bodies; certificate-free signed fixtures use subject-key identifiers. All five recipient-choice parsing paths are tested, while EVP context calls remain controlled. Parsing does not verify signatures, decrypt ciphertext or decompress data. The 36 allocation sites of the invented signed fixture have separate failure cases. The new decoder uses original OID lookup; older component fixtures retain their original OID boundaries.
+## Next original name/extension/crypto dependencies
+
+| Original address | Role still required |
+| --- | --- |
+| 0x100616178 | Canonical name generation |
+| 0x100618744 | ASN.1 item encoding engine |
+| 0x10061f458 / 0x100614624 | Name formatting / printing |
+| 0x100620150 / 0x10062018c | CRL / revoked-entry extension decoding |
+| 0x100620884 / 0x10060c0b4 | CRL digest / EVP SHA-1 method |
+| 0x100616d34 / 0x100616f74 | Default CRL lookup / verification |
+| 0x10061d308 / 0x1006134a4 | Integer comparison / ENUMERATED retrieval |
+| 0x10062faac / 0x10062eef4 / 0x10062effc | CMS stream / data init / data final |
+
+Name canonicalization/formatting, encoding, extension parsing, hashing/key internals, several extension destructors, allocators/refcounts/ex-data/ERR and P12 remain unresolved. The new tests compose the actual nine X509 callers with the recovered parser, stack, object, OID and CMS bodies. Their invented certificate/CRL syntax and cached state are checked; certificate trust, signatures and complete crypto behavior are not established. Earlier component fixtures preserve their original boundaries.
 
 ## Earlier dependency studies
 

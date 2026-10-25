@@ -35,9 +35,10 @@ Current constraint: the runtime implementation must come from original ESign rec
 - [x] Reconstruct twenty ASN.1 object-lifetime, string, ANY and integer-retrieval bodies: 1,775 comparisons, all 959 instructions, 48 parser compositions including sixteen complete memory-BIO-to-value paths.
 - [x] Reconstruct ten stack/content/OBJECT-free bodies: 1,010 comparisons, all 552 instructions, 138 parser compositions including 32 full memory-BIO-to-value paths.
 - [x] Relocate 53 original CMS schema items / 149 fields and recover twelve CMS/LONG bodies: 805 comparisons, all 304 instructions and 78 memory-BIO-to-CMS paths; retain nine unresolved X509 callbacks/name codecs.
-- [x] Update all twenty component builds to Xcode 27.1/iOS 27.1 SDK with an iOS 15.0 library target; retain original iOS 11 metadata.
+- [x] Recover 22 X509/name/CRL and supporting bodies, including all nine CMS-referenced callbacks/codecs: 456 comparisons, all 839 instructions, five additional descriptors and 79 parser compositions; deeper name/extension/crypto operations remain unresolved.
+- [x] Update all twenty-one component builds to Xcode 27.1/iOS 27.1 SDK with an iOS 15.0 library target; retain original iOS 11 metadata.
 - [x] Evaluate REA against the exact IPA, update Capstone and consolidate manual study workflows.
-- [x] Build twenty component libraries through the shared Xcode project and retain exact source/toolchain reports.
+- [x] Build twenty-one component libraries through the shared Xcode project and retain exact source/toolchain reports.
 
 These are components, not completed app features. Their reports are under `docs/builds/`. The [remaining signing dependency map](SIGNING-DEPENDENCIES.md) identifies unreconstructed original methods and unresolved static flow.
 

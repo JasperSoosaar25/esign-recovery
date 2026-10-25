@@ -1,0 +1,163 @@
+{
+  "result": "PASS",
+  "source_commit": "7940f841bf46d0b135ef41cabe56a8867ce43815",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40203517500",
+  "successful_jobs": 23,
+  "tool_tests": 167,
+  "unittest_summary": "Ran 167 tests in 78.814s\n\nOK",
+  "native_static_libraries": 21,
+  "new_original_native_functions": 22,
+  "new_additional_original_schema_items": 5,
+  "new_additional_original_schema_nodes": 15,
+  "new_original_instruction_native_comparisons": 456,
+  "new_original_instructions_exercised": 839,
+  "new_original_instructions": 839,
+  "new_actual_certificate_name_parser_compositions": 79,
+  "all_nine_CMS_referenced_X509_callback_bodies_supplied": true,
+  "remaining_canonicalization_encoding_formatting_extension_crypto_runtime_and_P12_work_explicit": true,
+  "baseline_archives_unchanged": true,
+  "job_provenance": "Completed job conclusions were checked through the workflow API; full native logs identify the exact checkout and contain the preserved reports. The integrity log contains the complete unittest summary. Raw step summaries are not included in this record.",
+  "jobs": [
+    {
+      "id": 121199498659,
+      "name": "recovery-integrity",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498854,
+      "name": "native-localization",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498862,
+      "name": "native-mach-header",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498887,
+      "name": "native-rsa-wrapper",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498900,
+      "name": "native-asn1-item",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498903,
+      "name": "native-signature-blobs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498912,
+      "name": "native-oid-lookup",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498925,
+      "name": "native-recursive-der",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498938,
+      "name": "native-entitlements",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498973,
+      "name": "native-cms-content",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199498976,
+      "name": "native-asn1-value",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499007,
+      "name": "native-cms-schema",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499009,
+      "name": "native-legacy-crypto",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499017,
+      "name": "native-requirements-slot",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499019,
+      "name": "native-asn1-input",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499020,
+      "name": "native-mobileprovision",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499027,
+      "name": "native-asn1-object",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499040,
+      "name": "native-component-project",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499054,
+      "name": "native-asn1-primitives",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499066,
+      "name": "native-x509-state",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499114,
+      "name": "native-load-commands",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499129,
+      "name": "native-code-directory",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 121199499136,
+      "name": "native-bio-input",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false
+}
