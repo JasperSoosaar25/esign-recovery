@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-25",
+  "authoritative_input": "selected original ESign 5.0.2 executable",
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "reference_role": "Algorithm/source-family research only; all translations and behavioral expectations are checked against the exact ARM64 input. An exact bundled OpenSSL patch release is not established.",
+  "primary_references": [
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/asn1/tasn_enc.c",
+      "sha256": "b4ed1444ce4df90b4fe07bbce722bc23453543da2a971ceb2229236bd0fe892f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/asn1/a_strex.c",
+      "sha256": "935589cb3fb9daf43cb05d417c798b1f233cee1b0e787edffe9d1c719c018848"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/asn1/a_mbstr.c",
+      "sha256": "e2267e2b6b80d72c1c6237a61258028d8aeb5bf727352c452231ac1645ba025f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openssl/openssl/OpenSSL_1_0_2u/crypto/asn1/a_utf8.c",
+      "sha256": "4066f4f6d6c7f0c051f65a7c95792d95b11e94268a61fe8f7bda7c22f079c1c1"
+    }
+  ],
+  "original_specific_observations": [
+    "Finite seven-way encoder and ten-way content dispatch recovered from original data; baseline flow archives are unchanged.",
+    "The original name function inlines canonical string and canonical DER RDN encoding loops. It does not provide modern Unicode case folding.",
+    "Legacy UTF8 accepts one to six bytes, surrogate values and values outside modern Unicode scalar bounds.",
+    "BIT STRING all-zero trimming still reads the byte preceding its data pointer; bounded fixtures own that prefix byte and preserve the result.",
+    "SET allocation failure can leave headers and return the previously computed length. These effects are preserved.",
+    "The object-size helper rejects equality at its signed-int overflow boundary.",
+    "Original Darwin __DefaultRuneLocale and ___tolower imports are explicit; ASCII-only ctype and qsort/memcmp models are test-only.",
+    "The original private-provider interval is neither used nor included."
+  ]
+}

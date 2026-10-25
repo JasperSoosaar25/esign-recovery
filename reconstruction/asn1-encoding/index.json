@@ -1,0 +1,178 @@
+{
+  "result": "PASS",
+  "original_native_functions": 27,
+  "fixtures": 2045,
+  "original_instructions": 2397,
+  "original_instructions_exercised": 2355,
+  "unexercised_original_instruction_addresses": [
+    "0x1006142ac",
+    "0x1006142b0",
+    "0x1006142b4",
+    "0x1006142b8",
+    "0x1006142bc",
+    "0x1006142c0",
+    "0x1006142c4",
+    "0x1006142c8",
+    "0x1006142cc",
+    "0x1006142d0",
+    "0x1006142d4",
+    "0x1006142d8",
+    "0x1006142dc",
+    "0x1006142e0",
+    "0x1006142e4",
+    "0x1006142e8",
+    "0x100614360",
+    "0x1006162ac",
+    "0x1006162b0",
+    "0x1006162b4",
+    "0x1006162b8",
+    "0x1006162fc",
+    "0x100616300",
+    "0x100616304",
+    "0x100616308",
+    "0x1006163ac",
+    "0x1006163b0",
+    "0x1006163b4",
+    "0x1006163b8",
+    "0x1006163bc",
+    "0x1006163c0",
+    "0x1006163c4",
+    "0x1006163c8",
+    "0x1006163cc",
+    "0x1006163f4",
+    "0x1006163f8",
+    "0x1006163fc",
+    "0x100616400",
+    "0x100616504",
+    "0x100616508",
+    "0x100618ae8",
+    "0x100618aec"
+  ],
+  "per_function_coverage": {
+    "core_encode": {
+      "instructions": 235,
+      "exercised": 233
+    },
+    "template_encode": {
+      "instructions": 310,
+      "exercised": 310
+    },
+    "primitive_encode": {
+      "instructions": 73,
+      "exercised": 73
+    },
+    "content_encode": {
+      "instructions": 111,
+      "exercised": 111
+    },
+    "der_compare": {
+      "instructions": 15,
+      "exercised": 15
+    },
+    "restore_encode": {
+      "instructions": 37,
+      "exercised": 37
+    },
+    "put_object": {
+      "instructions": 61,
+      "exercised": 61
+    },
+    "put_eoc": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "object_size": {
+      "instructions": 26,
+      "exercised": 26
+    },
+    "bit_encode": {
+      "instructions": 82,
+      "exercised": 82
+    },
+    "integer_encode": {
+      "instructions": 104,
+      "exercised": 104
+    },
+    "tag_bit": {
+      "instructions": 8,
+      "exercised": 8
+    },
+    "object_new": {
+      "instructions": 23,
+      "exercised": 23
+    },
+    "object_dup": {
+      "instructions": 113,
+      "exercised": 113
+    },
+    "string_copy": {
+      "instructions": 21,
+      "exercised": 21
+    },
+    "string_utf8": {
+      "instructions": 39,
+      "exercised": 39
+    },
+    "mbcopy": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "mbncopy": {
+      "instructions": 369,
+      "exercised": 352
+    },
+    "traverse": {
+      "instructions": 88,
+      "exercised": 88
+    },
+    "type_mask": {
+      "instructions": 50,
+      "exercised": 50
+    },
+    "copy_ascii": {
+      "instructions": 7,
+      "exercised": 7
+    },
+    "copy_bmp": {
+      "instructions": 9,
+      "exercised": 9
+    },
+    "copy_universal": {
+      "instructions": 8,
+      "exercised": 8
+    },
+    "copy_utf8": {
+      "instructions": 14,
+      "exercised": 14
+    },
+    "utf8_get": {
+      "instructions": 179,
+      "exercised": 179
+    },
+    "utf8_put": {
+      "instructions": 127,
+      "exercised": 127
+    },
+    "canonicalize": {
+      "instructions": 280,
+      "exercised": 257
+    }
+  },
+  "actual_canonical_name_parser_compositions": 55,
+  "original_DER_encoder_canonicalizer_and_Unicode_bodies_composed": true,
+  "allocator_ERR_platform_qsort_memcmp_ctype_and_remaining_X509_crypto_boundaries_are_controlled": true,
+  "complete_certificate_or_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "files": {
+    "ESignASN1Encoding.c": "956d21b18c4e7cf2aab742728aaaabf068709e5a5f71e423184e46fc6a1e127f",
+    "ESignASN1Encoding.h": "2d3615b425dc2c42b585031f73691e05150a0162da77ea4ed99f48e3abf11c14",
+    "ESignNameCanonical.c": "94794de75f00a8d1c52cc325181039b3be8619a35a564446c6fece1acccadb41",
+    "ESignUnicode.c": "8109b5f5133140d5541c047313764498101e56511344105fa41708ab20118bb2",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "a7e219d731b980382dc4be5f15c757006a9e9079f3c51e13ae625cbc4612b8e7",
+    "fixtures.json.gz": "7638c9d15eb3673e8849b491ae20261b67909d41bc2ab4476edc91cd03a27d28"
+  }
+}

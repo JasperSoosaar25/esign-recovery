@@ -1,0 +1,15 @@
+# Original DER encoding and canonical names
+
+This component translates 27 original ESign ARM64 helper bodies from the pinned executable. It provides the item/template/primitive DER encoder, SET sorting, cached encoding restore, DER headers, BIT STRING and INTEGER output, OID duplication, string copying, legacy UTF8 and multibyte conversion, and the X509 name canonicalizer.
+
+The recovered parser, schema, name callbacks, canonicalizer and encoder compose directly. Canonical name bytes contain consecutive DER RDN SETs; the original outer name SEQUENCE is excluded. Canonicalization trims and collapses ASCII whitespace and lowercases ASCII, preserving non-ASCII bytes. The original one-to-six-byte UTF8 behavior is retained, including legacy values outside modern Unicode scalar ranges. No host OpenSSL parser or encoder is used as a replacement.
+
+All **2,045 original-instruction/native C comparisons** pass. They exercise **2,355 of 2,397** recorded original instructions, including every instruction in the template encoder and all 24 leaf/helper bodies other than the main encoder, multibyte converter and canonicalizer. The 55 actual parser compositions reach canonical name bytes through names, certificate/CRL items and complete BIO-to-CMS calls; thirty further cases test actual name re-encoding. The remaining 42 addresses are retained explicitly in the index. They include ASCII-guarded ctype fallbacks, the compiler stack-guard failure, an unreachable generic UTF8 conversion branch and unexercised negative-stack/overflow paths. Unsafe sizes, arbitrary invalid pointers and nonreturning malformed-length loops are excluded.
+
+The exact IPA, original byte-flow proofs, modeled platform contracts, original/native state comparisons and coverage are recorded in `index.json`, `evidence.json.gz`, `fixtures.json.gz` and the recovery script. Tests use invented names, certificates, CRLs and CMS messages. Runtime code is separated from every test adapter.
+
+Remaining dependencies include the original allocator, ERR/error formatting, platform sorting/comparison/ctype data and the remaining X509, extension and crypto runtime. The test-only ASCII rune table, stable byte-order qsort contract, byte-difference memcmp and numeric error formatter are explicit boundary models and are excluded from the iOS library. The production code uses the Darwin platform ctype symbol. Equal-key qsort reordering on a particular OS is not established. Allocator fixtures retain freed bytes to compare original cleanup/state effects. A bounded length-failure probe verifies that the original canonicalizer passes 0xffffffff to its allocator, rather than sign-extending the negative result to 64 bits.
+
+Build and verify using `scripts/recover_asn1_encoding.py --verify` and, on macOS/Xcode, `scripts/build_asn1_encoding.py`. Existing lower-component evidence remains unchanged. The build produces a static library, not an application or IPA.
+
+Legacy OpenSSL/Eric Young notices are retained in [OPENSSL-LICENSE.txt](OPENSSL-LICENSE.txt). Recovery does not establish an exact upstream release identity or grant a license for the ESign application.

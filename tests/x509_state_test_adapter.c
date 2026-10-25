@@ -13,8 +13,12 @@ void *ESignOriginal_10062018c(void *v,int nid,int *crit,void *idx){return (void 
 void ESignOriginal_100625a20(void *v,void *issuer){(void)B(0x100625a20,v,issuer,0,0,0);}
 long ESignOriginal_1006134a4(void *p){return (long)B(0x1006134a4,p,0,0,0,0);}
 int ESignOriginal_10061d308(void *a,void *b){return (int)B(0x10061d308,a,b,0,0,0);}
+
+#ifndef ESIGN_ASN1_ENCODING_SOURCE
 int ESignOriginal_100616178(void *v){return (int)B(0x100616178,v,0,0,0,0);}
 int ESignOriginal_100618744(void **v,unsigned char **out,const ESignASN1Item *it,int tag,int cls){return (int)B(0x100618744,v,out,it,tag,cls);}
+
+#endif
 int ESignOriginal_100614624(void *bio,void *v,int indent,uint64_t flags){return (int)B(0x100614624,bio,v,indent,flags,0);}
 int ESignOriginal_100616d34(void *v,void **ret,void *serial,void *issuer){return (int)B(0x100616d34,v,ret,serial,issuer,0);}
 int ESignOriginal_100616f74(void *v,void *key){return (int)B(0x100616f74,v,key,0,0,0);}

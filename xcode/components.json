@@ -290,6 +290,22 @@
         "ESignOIDLookup"
       ],
       "extra_cflags": []
+    },
+    {
+      "name": "ESignASN1Encoding",
+      "directory": "reconstruction/asn1-encoding",
+      "files": [
+        "reconstruction/asn1-encoding/ESignASN1Encoding.h",
+        "reconstruction/asn1-encoding/ESignASN1Encoding.c",
+        "reconstruction/asn1-encoding/ESignNameCanonical.c",
+        "reconstruction/asn1-encoding/ESignUnicode.c",
+        "reconstruction/asn1-encoding/OPENSSL-LICENSE.txt",
+        "reconstruction/asn1-encoding/README.md"
+      ],
+      "dependencies": [
+        "ESignX509State"
+      ],
+      "extra_cflags": []
     }
   ]
 }
