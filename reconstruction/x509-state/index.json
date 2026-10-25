@@ -1,0 +1,119 @@
+{
+  "result": "PASS",
+  "original_native_functions": 22,
+  "additional_original_schema_items": 5,
+  "additional_original_schema_nodes": 15,
+  "fixtures": 456,
+  "original_instructions": 839,
+  "original_instructions_exercised": 839,
+  "unexercised_original_instruction_addresses": [],
+  "per_function_coverage": {
+    "certificate_callback": {
+      "instructions": 63,
+      "exercised": 63
+    },
+    "pubkey_callback": {
+      "instructions": 9,
+      "exercised": 9
+    },
+    "crl_callback": {
+      "instructions": 284,
+      "exercised": 284
+    },
+    "crl_info_callback": {
+      "instructions": 13,
+      "exercised": 13
+    },
+    "name_new": {
+      "instructions": 51,
+      "exercised": 51
+    },
+    "name_free": {
+      "instructions": 21,
+      "exercised": 21
+    },
+    "name_decode": {
+      "instructions": 126,
+      "exercised": 126
+    },
+    "name_encode": {
+      "instructions": 114,
+      "exercised": 114
+    },
+    "name_print": {
+      "instructions": 9,
+      "exercised": 9
+    },
+    "certificate_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "entry_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "inner_stack_free": {
+      "instructions": 1,
+      "exercised": 1
+    },
+    "inner_stack_pop_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "revoked_compare": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "tagged_entry": {
+      "instructions": 7,
+      "exercised": 7
+    },
+    "stack_compare": {
+      "instructions": 7,
+      "exercised": 7
+    },
+    "stack_set": {
+      "instructions": 13,
+      "exercised": 13
+    },
+    "stack_pop_free": {
+      "instructions": 33,
+      "exercised": 33
+    },
+    "buffer_grow": {
+      "instructions": 65,
+      "exercised": 65
+    },
+    "integer_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "enumerated_free": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "octet_free": {
+      "instructions": 3,
+      "exercised": 3
+    }
+  },
+  "actual_certificate_name_parser_compositions": 79,
+  "all_nine_CMS_referenced_X509_callback_bodies_supplied": true,
+  "canonicalization_encoder_name_formatting_extension_crypto_and_runtime_dependencies_are_controlled": true,
+  "complete_certificate_or_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "schema_sha256": "9fae3b1aa5c357afe6d94d8a754bfc7feff343eb7c6325d2dc74bb5b43fba332",
+  "files": {
+    "ESignX509SchemaData.c": "e56bae4cce5dfb358d5647d8575bdb376f2f94ea84649cb3a0a688df065f35fc",
+    "ESignX509State.c": "23e5df026f65a3efd12565532e7fe93b426e72986ef5a369ba53fd7c90c683bd",
+    "ESignX509State.h": "7f72b4b589c045bc3e10c9be0fe9797a64dbcf763f6ce7ec11dba211b16efb54",
+    "ESignX509StateDependencies.h": "045cc29e89256c5a54f44f2fa7e5e46a4e3d71b11ce9e3f876d64956a3ec750e",
+    "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
+    "evidence.json.gz": "05037ec81ac992c10976eb2460b76d646bc04dedb4b9770fad6998638d376e0f",
+    "fixtures.json.gz": "f7ac9e0492503137935d7d9aa65324b8d527c70411fbc169b39b027fc3ba9bd3",
+    "schema.json.gz": "9ff8723aae4b7d8efb4d1cc620a7ec878af3a312ab7440c53b9af3e8dc288fa5"
+  }
+}

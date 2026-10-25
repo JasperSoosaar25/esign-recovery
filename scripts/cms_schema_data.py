@@ -4,7 +4,7 @@ from audit_evidence import require
 ROOT_ITEM=0x100b24750
 # Slot widths follow the recovered parser/constructor ABIs. The external X509
 # encoder/printer callbacks are retained as unresolved original symbol references.
-def extract(image):
+def extract(image,root=ROOT_ITEM):
     nodes={}
     def add(a,n,kind):
         require(not 0x100e34468<=a<0x100e34b10,'Private provider bytes are outside this graph')
@@ -46,11 +46,11 @@ def extract(image):
                 require(typ in [0,4],'Unreviewed function-table kind');f=add(fn,64 if typ==0 else 56,'primitive_functions' if typ==0 else 'external_functions')
                 require(image.u64(fn)==0 and image.u64(fn+8)==0 if typ==0 else image.u64(fn)==0,'Unreviewed function-table prefix')
                 for off in range(16 if typ==0 else 8,len(bytes.fromhex(f['bytes'])),8):reloc(f,off,image.u64(fn+off),'function')
-    visit(ROOT_ITEM)
+    visit(root)
     return sorted(nodes.values(),key=lambda r:int(r['address'],16))
 def symbol(a):return 'ESignCMSSchema_'+format(a,'x')
-def render(nodes):
-    lookup={int(r['address'],16):r for r in nodes}
+def render(nodes,external=(),registry="ESignOriginalCMSSchema"):
+    lookup={int(r['address'],16):r for r in [*external,*nodes]}
     def ptr(a):
         if not a:return 'NULL'
         for base,row in lookup.items():
@@ -60,7 +60,7 @@ def render(nodes):
         raise ValueError('Uncaptured schema pointer '+hex(a))
     lines=['/* Generated from original descriptor bytes, not upstream schema macros. */','/* OpenSSL notices: OPENSSL-LICENSE.txt. */','#include "ESignCMSSchema.h"','#include "ESignCMSSchemaDependencies.h"','#include "../asn1-object/ESignASN1Object.h"']
     ctypes={'item':'ESignASN1Item','templates':'ESignASN1Template','aux':'ESignASN1Aux','adb':'ESignASN1ADB','adb_table':'ESignASN1ADBTable'}
-    for row in nodes:
+    for row in [*external,*nodes]:
         a=int(row['address'],16);kind=row['kind'];n=len(bytes.fromhex(row['bytes']))
         if a==0x100b1f0e8:continue
         ty='char' if kind=='string' else 'void *const' if kind.endswith('functions') else ctypes[kind]
@@ -87,7 +87,7 @@ def render(nodes):
         else:
             p=struct.unpack('<'+'Q'*(len(b)//8),b)
             lines.append('const void *const '+name+'[] = {'+','.join('(const void *)ESignOriginal_'+format(v,'x') if v else 'NULL' for v in p)+'};')
-    lines.append('const ESignCMSSchemaNode ESignOriginalCMSSchemaNodes[] = {')
+    lines.append('const ESignCMSSchemaNode '+registry+'Nodes[] = {')
     for row in nodes:
         a=int(row['address'],16);lines.append('    {UINT64_C('+hex(a)+'),'+ptr(a)+','+str(len(row['bytes'])//2)+'},')
-    return '\n'.join(lines+['};','const size_t ESignOriginalCMSSchemaNodeCount = sizeof(ESignOriginalCMSSchemaNodes)/sizeof(ESignOriginalCMSSchemaNodes[0]);',''])
+    return '\n'.join(lines+['};','const size_t '+registry+'NodeCount = sizeof('+registry+'Nodes)/sizeof('+registry+'Nodes[0]);',''])

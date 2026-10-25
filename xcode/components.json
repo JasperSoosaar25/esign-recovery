@@ -152,7 +152,8 @@
       "dependencies": [
         "ESignCMSContent",
         "ESignBIOInput",
-        "ESignCMSSchema"
+        "ESignCMSSchema",
+        "ESignX509State"
       ],
       "extra_cflags": []
     },
@@ -267,6 +268,25 @@
       "dependencies": [
         "ESignASN1Primitives",
         "ESignCMSContent",
+        "ESignOIDLookup"
+      ],
+      "extra_cflags": []
+    },
+    {
+      "name": "ESignX509State",
+      "directory": "reconstruction/x509-state",
+      "files": [
+        "reconstruction/x509-state/ESignX509State.h",
+        "reconstruction/x509-state/ESignX509State.c",
+        "reconstruction/x509-state/ESignX509StateDependencies.h",
+        "reconstruction/x509-state/ESignX509SchemaData.c",
+        "reconstruction/x509-state/OPENSSL-LICENSE.txt",
+        "reconstruction/x509-state/README.md"
+      ],
+      "dependencies": [
+        "ESignCMSSchema",
+        "ESignASN1Primitives",
+        "ESignBIOInput",
         "ESignOIDLookup"
       ],
       "extra_cflags": []
