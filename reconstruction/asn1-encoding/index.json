@@ -168,8 +168,8 @@
   "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
   "files": {
     "ESignASN1Encoding.c": "956d21b18c4e7cf2aab742728aaaabf068709e5a5f71e423184e46fc6a1e127f",
-    "ESignASN1Encoding.h": "2d3615b425dc2c42b585031f73691e05150a0162da77ea4ed99f48e3abf11c14",
-    "ESignNameCanonical.c": "94794de75f00a8d1c52cc325181039b3be8619a35a564446c6fece1acccadb41",
+    "ESignASN1Encoding.h": "78216de91423d763dc216356a980109e2041beb39bb94241ceb93f5ac3b459e0",
+    "ESignNameCanonical.c": "5888c2853bc4aeac3a3ae9bdc21ae63eab532148de0dbf3e1c1180d02cbc05ab",
     "ESignUnicode.c": "8109b5f5133140d5541c047313764498101e56511344105fa41708ab20118bb2",
     "OPENSSL-LICENSE.txt": "f09421d0e1426a067ca41454a814b9bc03f50387f04d4520795177c069239ccb",
     "evidence.json.gz": "a7e219d731b980382dc4be5f15c757006a9e9079f3c51e13ae625cbc4612b8e7",

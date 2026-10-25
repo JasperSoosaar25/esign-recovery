@@ -28,9 +28,15 @@ int ESignOriginal_1006145ec(uint64_t,void *);
 int ESignOriginal_1006135a8(const unsigned char *,int,uint64_t *);
 int ESignOriginal_100613874(unsigned char *,int,uint64_t);
 int ESignOriginal_100616178(void *);
-/* Original Darwin platform data dependency: accessed prefix through runetype. */
+/* Original Darwin data dependency. SDK modules already declare this symbol. */
+#ifdef __APPLE__
+#include <runetype.h>
+typedef _RuneLocale ESignDarwinRuneLocale;
+_Static_assert(offsetof(_RuneLocale,__runetype)==60,"Original Darwin runetype offset");
+#else
 typedef struct {unsigned char prefix[60];uint32_t runetype[256];} ESignDarwinRuneLocale;
 extern const ESignDarwinRuneLocale _DefaultRuneLocale;
+#endif
 int __tolower(int);
 /* Remaining original error formatting dependency; no invented runtime backend. */
 int ESignOriginal_100601b1c(char *,size_t,const char *,...);

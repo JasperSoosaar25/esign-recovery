@@ -29,7 +29,13 @@ fail:
 int ESignOriginal_10061cf50(void *destination,const void *source){
     String *out=destination;const String *in=source;if(!in)return 0;out->type=in->type;if(!ESignOriginal_10061cfa4(out,in->data,(uint32_t)in->length))return 0;out->flags=in->flags;return 1;
 }
-static int ascii_space(unsigned c){return !(c&128) && (_DefaultRuneLocale.runetype[c]&0x4000);}
+static int ascii_space(unsigned c){
+#ifdef __APPLE__
+    return !(c&128) && (_DefaultRuneLocale.__runetype[c]&0x4000);
+#else
+    return !(c&128) && (_DefaultRuneLocale.runetype[c]&0x4000);
+#endif
+}
 int ESignOriginal_100616178(void *value){
     Name *name=value;if(name->canonical){ESignOriginal_1005b1658(name->canonical);name->canonical=NULL;}
     if(!ESignOriginal_100602610(name->entries)){name->length=0;return 1;}

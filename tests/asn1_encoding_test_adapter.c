@@ -4,7 +4,11 @@
 extern uint64_t (*ESignASN1ItemTestBoundary)(uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t,uint64_t);
 #define V(x) ((uint64_t)(uintptr_t)(x))
 #define B(t,a,b,c,d,e) ESignASN1ItemTestBoundary(t,V(a),V(b),V(c),V(d),V(e),0,0,0,0,0,0)
+#ifdef __APPLE__
+ESignDarwinRuneLocale _DefaultRuneLocale={.__runetype={[9]=0x4000,[10]=0x4000,[11]=0x4000,[12]=0x4000,[13]=0x4000,[32]=0x4000}};
+#else
 const ESignDarwinRuneLocale _DefaultRuneLocale={.runetype={[9]=0x4000,[10]=0x4000,[11]=0x4000,[12]=0x4000,[13]=0x4000,[32]=0x4000}};
+#endif
 int ESignEncodingTest_tolower(int c){return (int)B(0x1009308b4,c,0,0,0,0);}
 void ESignEncodingTest_qsort(void *p,size_t n,size_t size,int (*cmp)(const void *,const void *)){(void)B(0x10093179c,p,n,size,cmp,0);}
 int ESignEncodingTest_memcmp(const void *a,const void *b,size_t n){return (int)B(0x10093122c,a,b,n,0,0);}
