@@ -1,6 +1,10 @@
-# Verification record — rechecked 18 October 2026
+# Static recovery verification and current build results
 
 This record separates static recovery validation from app verification. The supplied ESign application was not executed or installed here.
+
+## Current source checkpoint — 25 October 2026
+
+The [current verification record](builds/verification-c66b1bec.json) records all 24 successful jobs and 184 tool tests for source commit `c66b1bec`. All 22 libraries build with Xcode 27.1 / iOS 27.1; the new DER/name/Unicode component passes 2,045 original/native comparisons and supplies canonical name generation beneath the actual recovered certificate/CRL/CMS parsers. These are component builds and explicit-boundary comparisons. The original static evidence below remains unchanged and does not establish complete app or device behavior.
 
 ## Direct comparison with the cached IPA
 
@@ -37,7 +41,7 @@ The [expanded analysis](DISPATCH-RECOVERY.md) covers all 3,396 indexed app-candi
 
 ## Not verified
 
-The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; the current suite has 56 passing tool tests. These results do not establish complete app equivalence.
+The later [native reconstruction pass](NATIVE-RECONSTRUCTION.md) indexes all 3,396 app-candidate methods, exports fuller pseudocode for 3,380, and explicitly records 16 remaining decompiler failures after a fresh-process retry. All final method identities, markers, class aggregates, and hashes pass the native export verifier. Separately, 215 machine-level C accessor fragments across 39 classes pass 35,840 compiled-C/original-ARM64 fixture comparisons; that checkpoint had 56 passing tool tests. These results do not establish complete app equivalence.
 
 | Claim | Status |
 |---|---|

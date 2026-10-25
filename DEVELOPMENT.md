@@ -2,7 +2,7 @@
 
 ## Current capability
 
-This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for twenty-one recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
+This is a research and reconstruction base. It provides native implementation evidence, not a functioning source-only app. It now has a [component-only Xcode project](xcode/README.md) for twenty-two recovered libraries. It has no application target, replacement signing engine, development-panel injection, or modified IPA. Existing original functionality cannot be verified by compiling pseudocode.
 
 The current user constraint requires original implementation under the hood. Do not substitute a different app, current upstream signing engine, replacement UI, or binary-backed wrapper. Read [the explicit build status](docs/BUILD-STATUS.md) before implementation work. A source-built lookalike would not meet the current request.
 
@@ -177,7 +177,7 @@ On macOS run `python3 scripts/build_cms_schema.py`. Its archive contains only th
 
 `reconstruction/x509-state/` supplies all nine X509 callbacks/name codec bodies referenced by the CMS graph and thirteen supporting original stack, buffer, comparison and cleanup bodies. Five additional descriptors across fifteen audited nodes reuse the prior graph. Run `python3 scripts/recover_x509_state.py --verify`; all 456 comparisons pass, exercising all 839 instructions. The 79 parser compositions include nested names, certificate/CRL items and memory-BIO-to-CMS cases returning their invented expected payload. These are parsing/state comparisons, not certificate or signature validation.
 
-On macOS run `python3 scripts/build_x509_state.py`. The shared project now has twenty-one targets. The archive contains only the two new C sources, with no test implementations. Canonical-name generation, ASN.1 encoding, name formatting/printing, extension decoding, hashing, public-key internals and runtime primitives remain external. The component README explains exact original pointers, RDN grouping, cache ownership, callback/allocator failure effects, live stack counts and controlled dependencies. [latest.json](docs/builds/latest.json) records the exact verified source and toolchain. No complete app, IPA or iPhone result is established.
+On macOS run `python3 scripts/build_x509_state.py`. That checkpoint had twenty-one project targets. The archive contains only the two new C sources, with no test implementations. Canonical-name generation, ASN.1 encoding, name formatting/printing, extension decoding, hashing, public-key internals and runtime primitives remain external. The component README explains exact original pointers, RDN grouping, cache ownership, callback/allocator failure effects, live stack counts and controlled dependencies. [latest.json](docs/builds/latest.json) records the exact verified source and toolchain. No complete app, IPA or iPhone result is established.
 
 
 ## Original encoding and canonical-name integration

@@ -1,5 +1,7 @@
 # Native reconstruction from the exact Filebin IPA
 
+For the current verified source and library results, read [latest.json](builds/latest.json), [the build status](BUILD-STATUS.md), and [the dependency map](SIGNING-DEPENDENCIES.md). The historical analysis counts below remain separate from reviewed runtime source.
+
 The exact user-selected IPA now matches the recovery baseline. This follow-up improves native method recovery without adding app features, a replacement UI, another signing engine, or a binary-backed app wrapper.
 
 ## Fuller original-byte decompilation

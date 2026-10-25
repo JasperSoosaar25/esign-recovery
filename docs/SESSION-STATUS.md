@@ -4,17 +4,17 @@ The original ESign recovery remains incomplete. No source-built ESign app/IPA or
 
 ## Current verified snapshot
 
-Source commit: `7940f841bf46d0b135ef41cabe56a8867ce43815`.
+Source commit: `c66b1bec553fca384147b3909fa83efce72a298f`.
 
-- All 23 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40203517500) passed, including 167 tool tests.
-- All 21 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
-- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 117 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
-- The latest X509 component supplies 22 bodies, including all nine CMS-referenced X509 callbacks/name codecs. All 456 native C comparisons pass and all 839 instructions execute. The 79 parser compositions include certificate and CRL structures inside a memory-BIO-to-CMS fixture returning its expected invented payload.
-- Five additional name/ENUMERATED descriptors across fifteen audited nodes reuse the earlier CMS graph. The original default CRL method table and mutable pointer are checked, with deeper method/crypto operations explicit.
+- All 24 [CI jobs](https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40208737697) passed, including 184 tool tests.
+- All 22 recovered libraries built together with Xcode 27.1 / iOS 27.1 SDK on macOS 27.0.1 arm64, targeting iOS 15.0.
+- Reviewed source covers 24 original class definitions and 167 metadata methods, three separately exposed metadata-method bodies and 144 native helper/wrapper bodies, plus documented blocks. Overlapping scalar fragments are not added to those counts.
+- The latest DER/name/Unicode component supplies 27 original bodies. All 2,045 native comparisons pass, exercising 2,355/2,397 instructions. All 42 unexercised addresses are retained. Fifty-five actual parser compositions reach canonical certificate names and CRL issuers, including inside memory-BIO-to-CMS fixtures; thirty additional cases re-encode names.
+- The preceding X509 component retains its 22 bodies, five additional descriptors and fifteen nodes, all 456 comparisons and 839 instructions. The new component supplies its canonicalization and encoding dependencies. Formatting, extension/key/digest/stream and runtime internals remain explicit.
 - Earlier item/value/object/primitive/CMS components retain their independent 783, 2,065, 1,775, 1,010 and 805 comparisons, with original boundaries and unexercised addresses retained.
 - Capstone 5.0.9 passes the unchanged baseline and every component verifier. The selected exact input and baseline archive parts remain unchanged.
 
-[Verification](builds/verification-7940f841.json), [combined project](builds/component-project-7940f841.json), [all component reports](builds/all-components-7940f841.json), [new X509 component](builds/x509-state-7940f841.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
+[Verification](builds/verification-c66b1bec.json), [combined project](builds/component-project-c66b1bec.json), [all component reports](builds/all-components-c66b1bec.json), [new DER/name/Unicode component](builds/asn1-encoding-c66b1bec.json), and [latest report index](builds/latest.json) retain source/toolchain/library hashes and artifact links.
 
 ## Original input and retained evidence
 
@@ -42,6 +42,6 @@ The build/continuation guides, roadmap, source counts and report links are refre
 
 ## Remaining work
 
-The next original work is name canonicalization (`0x100616178`), ASN.1 encoding (`0x100618744`), name formatting/printing (`0x10061f458`, `0x100614624`), extension decoders, crypto/runtime internals and P12. The nine CMS-referenced X509 callback bodies now have source, with their remaining callees explicit. Exact addresses are in [SIGNING-DEPENDENCIES.md](SIGNING-DEPENDENCIES.md). Full signing/archive/install orchestration and most application/UI source still need recovery. A complete app link and real device testing remain necessary for the [build/screenshot requirements](BUILD-STATUS.md).
+The next original work is name formatting/printing (`0x10061f458`, `0x100614624`), extension decoding, key/digest/stream operations, runtime initialization and P12. Canonicalization (`0x100616178`) and ASN.1 encoding (`0x100618744`) now have source and tested parser compositions. The nine CMS-referenced X509 callback bodies now have source, with their remaining callees explicit. Exact addresses are in [SIGNING-DEPENDENCIES.md](SIGNING-DEPENDENCIES.md). Full signing/archive/install orchestration and most application/UI source still need recovery. A complete app link and real device testing remain necessary for the [build/screenshot requirements](BUILD-STATUS.md).
 
 [Earlier detailed session history](https://github.com/JasperSoosaar25/esign-recovery/blob/4c3b4f7795fcd20c09a5eadfe7a17b7e8476c3b8/docs/SESSION-STATUS.md) and older reports preserve previous findings without mixing historical toolchains with the current snapshot.

@@ -1,0 +1,232 @@
+{
+  "result": "PASS",
+  "original_native_functions": 27,
+  "fixtures": 2045,
+  "original_instructions": 2397,
+  "original_instructions_exercised": 2355,
+  "unexercised_original_instruction_addresses": [
+    "0x1006142ac",
+    "0x1006142b0",
+    "0x1006142b4",
+    "0x1006142b8",
+    "0x1006142bc",
+    "0x1006142c0",
+    "0x1006142c4",
+    "0x1006142c8",
+    "0x1006142cc",
+    "0x1006142d0",
+    "0x1006142d4",
+    "0x1006142d8",
+    "0x1006142dc",
+    "0x1006142e0",
+    "0x1006142e4",
+    "0x1006142e8",
+    "0x100614360",
+    "0x1006162ac",
+    "0x1006162b0",
+    "0x1006162b4",
+    "0x1006162b8",
+    "0x1006162fc",
+    "0x100616300",
+    "0x100616304",
+    "0x100616308",
+    "0x1006163ac",
+    "0x1006163b0",
+    "0x1006163b4",
+    "0x1006163b8",
+    "0x1006163bc",
+    "0x1006163c0",
+    "0x1006163c4",
+    "0x1006163c8",
+    "0x1006163cc",
+    "0x1006163f4",
+    "0x1006163f8",
+    "0x1006163fc",
+    "0x100616400",
+    "0x100616504",
+    "0x100616508",
+    "0x100618ae8",
+    "0x100618aec"
+  ],
+  "per_function_coverage": {
+    "core_encode": {
+      "instructions": 235,
+      "exercised": 233
+    },
+    "template_encode": {
+      "instructions": 310,
+      "exercised": 310
+    },
+    "primitive_encode": {
+      "instructions": 73,
+      "exercised": 73
+    },
+    "content_encode": {
+      "instructions": 111,
+      "exercised": 111
+    },
+    "der_compare": {
+      "instructions": 15,
+      "exercised": 15
+    },
+    "restore_encode": {
+      "instructions": 37,
+      "exercised": 37
+    },
+    "put_object": {
+      "instructions": 61,
+      "exercised": 61
+    },
+    "put_eoc": {
+      "instructions": 5,
+      "exercised": 5
+    },
+    "object_size": {
+      "instructions": 26,
+      "exercised": 26
+    },
+    "bit_encode": {
+      "instructions": 82,
+      "exercised": 82
+    },
+    "integer_encode": {
+      "instructions": 104,
+      "exercised": 104
+    },
+    "tag_bit": {
+      "instructions": 8,
+      "exercised": 8
+    },
+    "object_new": {
+      "instructions": 23,
+      "exercised": 23
+    },
+    "object_dup": {
+      "instructions": 113,
+      "exercised": 113
+    },
+    "string_copy": {
+      "instructions": 21,
+      "exercised": 21
+    },
+    "string_utf8": {
+      "instructions": 39,
+      "exercised": 39
+    },
+    "mbcopy": {
+      "instructions": 3,
+      "exercised": 3
+    },
+    "mbncopy": {
+      "instructions": 369,
+      "exercised": 352
+    },
+    "traverse": {
+      "instructions": 88,
+      "exercised": 88
+    },
+    "type_mask": {
+      "instructions": 50,
+      "exercised": 50
+    },
+    "copy_ascii": {
+      "instructions": 7,
+      "exercised": 7
+    },
+    "copy_bmp": {
+      "instructions": 9,
+      "exercised": 9
+    },
+    "copy_universal": {
+      "instructions": 8,
+      "exercised": 8
+    },
+    "copy_utf8": {
+      "instructions": 14,
+      "exercised": 14
+    },
+    "utf8_get": {
+      "instructions": 179,
+      "exercised": 179
+    },
+    "utf8_put": {
+      "instructions": 127,
+      "exercised": 127
+    },
+    "canonicalize": {
+      "instructions": 280,
+      "exercised": 257
+    }
+  },
+  "actual_canonical_name_parser_compositions": 55,
+  "original_DER_encoder_canonicalizer_and_Unicode_bodies_composed": true,
+  "allocator_ERR_platform_qsort_memcmp_ctype_and_remaining_X509_crypto_boundaries_are_controlled": true,
+  "complete_certificate_or_CMS_backend": false,
+  "full_app_built": false,
+  "source_built_ipa": false,
+  "iphone_runtime_tested": false,
+  "executable_sha256": "809ce5d189ac6e5e4479eda7a2fdfab886a03363fce7c40e06d2a80bb7306154",
+  "component": "ESign original DER encoding, canonical names and Unicode",
+  "source_commit": "c66b1bec553fca384147b3909fa83efce72a298f",
+  "source_behavior_fixture_comparisons": 2045,
+  "test_adapters_excluded_from_iOS_archive": true,
+  "source_files_sha256": {
+    "reconstruction/asn1-encoding/ESignASN1Encoding.c": "956d21b18c4e7cf2aab742728aaaabf068709e5a5f71e423184e46fc6a1e127f",
+    "reconstruction/asn1-encoding/ESignASN1Encoding.h": "78216de91423d763dc216356a980109e2041beb39bb94241ceb93f5ac3b459e0",
+    "reconstruction/asn1-encoding/ESignNameCanonical.c": "5888c2853bc4aeac3a3ae9bdc21ae63eab532148de0dbf3e1c1180d02cbc05ab",
+    "reconstruction/asn1-encoding/ESignUnicode.c": "8109b5f5133140d5541c047313764498101e56511344105fa41708ab20118bb2",
+    "reconstruction/asn1-input/ESignASN1Input.c": "bef33ede59f3828d1d32360df07bcf0f8dfc29aa90d47ab6dbc331e9001d469b",
+    "reconstruction/asn1-input/ESignASN1Input.h": "0d002aaad2f614fa8c9d89a8c4ca268bc80d3cb2e82c7494599ba252d8ec5328",
+    "reconstruction/asn1-item/ESignASN1Item.c": "3695117a821a6eda9bb47b4ecc637ff95dab06cf3eb57c03905bbb62e09b8512",
+    "reconstruction/asn1-item/ESignASN1Item.h": "c9d60ca8263cdc3fc884b6cc35fd0d54c6d96892dacb0933a29cea1789c078df",
+    "reconstruction/asn1-object/ESignASN1Object.c": "8823a808a657d50521b7c8c941ae7d33e30afe6ea48ef313397f943378a5551d",
+    "reconstruction/asn1-object/ESignASN1Object.h": "b4475fccbb646fc73dce099b848cea02667ab7a6f6fa40cf1fcdbd1cce5af53a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.c": "b53a4e0154a2dcead49bd34d4cd25a7bd863a459ccb663461ad074c3551f857a",
+    "reconstruction/asn1-primitives/ESignASN1Primitives.h": "a7cb6e293fefb0a519a80da0ce716706d1879d5e15175bef59e16f678d10bf18",
+    "reconstruction/asn1-value/ESignASN1Value.c": "b94e244eaa73e99f31cd24a26a42112d021ca999f607644841a9749d3189cc53",
+    "reconstruction/asn1-value/ESignASN1Value.h": "b01de86ceceebcd128616a61e3c0cff193b92367615038088fc03bb13a16864f",
+    "reconstruction/bio-input/ESignBIOInput.c": "d10740cc46928678d0f50ca47660ad06cbe9f5c333473cca0cd08ebb61eedfe6",
+    "reconstruction/bio-input/ESignBIOInput.h": "3dbfa4829664b100c5b1b2d4863cf92bce15c1250faac07dad29ec2f54aa0ce4",
+    "reconstruction/cms-content/ESignCMSContent.c": "3144f51764bcb67839d95c2119261504c9e4f4ebd08093efb7097e328950f0c6",
+    "reconstruction/cms-content/ESignCMSContent.h": "ba769aaba30870b612a3807b445dd5769974b56559c1049850678f38224239c9",
+    "reconstruction/cms-schema/ESignCMSSchema.c": "5a851f5b6f2074227018994984b71d26884455d36ccbc94fbc6067698291c8e5",
+    "reconstruction/cms-schema/ESignCMSSchema.h": "4cb6b1882e6bf802c74a0462cb23f91375bf058f7fe98dbd232d356e2f59cc4f",
+    "reconstruction/cms-schema/ESignCMSSchemaData.c": "7717d4b3e5a9a4e1af8ad76e06d529c94b37898a9fecd6569d09f11dd2a5983c",
+    "reconstruction/cms-schema/ESignCMSSchemaDependencies.h": "95cf625fb122ddbe0df5289e469fa4167382e9b7aac904f18d7ddd22a19bacfa",
+    "reconstruction/oid-lookup/ESignOIDData.c": "7483675a21eab5b111e7dbd085eb93d6fcbfb398e6f73567e884fd6d9bd0fcc9",
+    "reconstruction/oid-lookup/ESignOIDLookup.c": "784f7344a677f471aef8ed288e86f4bc8294c553c62cb588bd76e0e6f90352bf",
+    "reconstruction/oid-lookup/ESignOIDLookup.h": "e3e34483256ba3e88d6d2e3725599d992da5f97ce9922e075d9f2a25c769dcd6",
+    "reconstruction/x509-state/ESignX509SchemaData.c": "e56bae4cce5dfb358d5647d8575bdb376f2f94ea84649cb3a0a688df065f35fc",
+    "reconstruction/x509-state/ESignX509State.c": "23e5df026f65a3efd12565532e7fe93b426e72986ef5a369ba53fd7c90c683bd",
+    "reconstruction/x509-state/ESignX509State.h": "7f72b4b589c045bc3e10c9be0fe9797a64dbcf763f6ce7ec11dba211b16efb54",
+    "reconstruction/x509-state/ESignX509StateDependencies.h": "045cc29e89256c5a54f44f2fa7e5e46a4e3d71b11ce9e3f876d64956a3ec750e",
+    "scripts/cms_schema_data.py": "4c7f9efbe4ecb77028dbb961f05eb0e5a6078a46f31695b8964b7e2f97284327",
+    "scripts/recover_asn1_encoding.py": "9cb74a90b97005184c7f359c55eb821025a5dd9358615260fc744ce5757435ac",
+    "scripts/recover_x509_state.py": "de9489810f03fa1e8134a88991719c3cca7c6ea61ae7f70a31273b78e94a8b3e",
+    "scripts/x509_schema_data.py": "280660b3320dab55fa14d6a70b6be4f10340d0a895d00fc39eff512c4e503113",
+    "tests/asn1_encoding_runtime.py": "5fb629b6d5cea646dd50aae8f16bb08508e2141269ca4796ad3798f42894b1d0",
+    "tests/asn1_encoding_test_adapter.c": "23c742cf49573e342e53b023d8704035af4965545239d6827eaa951c043fd2ee",
+    "tests/asn1_item_runtime.py": "1a60baa4a0148ad439663f2611c6b0512ceb956029a76cac9d16525fc3e8ea29",
+    "tests/asn1_item_test_adapter.c": "1838e3b49cbb2713a82f8ff38bc02f69b68d87b8d05d57ffe448bba34179f4d7",
+    "tests/asn1_object_runtime.py": "fdc536b63430088b8715449b443fe2629644004e504578ec394768d84466d2e9",
+    "tests/asn1_object_test_adapter.c": "480836bb72d60e93235766263c7e320ddac8a694ba3c55f138dd3232109c8d27",
+    "tests/asn1_primitives_runtime.py": "88fa6d4091233b998b124db7e7cff41eb909694d916f4fc6ae6500843794961a",
+    "tests/asn1_value_runtime.py": "91181b6e221b938a79ed5eb5575c7d972a75af193de8813044aaad41a0025a54",
+    "tests/asn1_value_test_adapter.c": "ac2f4614ebac8fc0652ccccc26df98a2b32dfcc4c73035b8e6f7c3d39274eaef",
+    "tests/bio_input_runtime.py": "131abbad7da1fbbc69ecce6cff4ce9da1a3e85edf07a174df9c2e70c7c4b38ce",
+    "tests/bio_input_test_adapter.c": "83b920e46fd78623b4fafd7206a85a21370e791107735833e2266bd6489f90c8",
+    "tests/cms_schema_runtime.py": "47e1d00feffa52c224740767a31947e2d412c6547fd48a40d7b0feb0d3bd4abe",
+    "tests/cms_schema_test_adapter.c": "41e27762a44bf8b4fa104778407a72bb206e39a42d25c03af6fbb0565c103045",
+    "tests/x509_state_runtime.py": "7323fe502dc09cfe88babb1ede2e7e8a597464b7c8b9a9c264e9c0b62a2feab3",
+    "tests/x509_state_test_adapter.c": "9de80986c6cfb5140d849976fbaca2a47e917cf5f0d7053a1e6f351c1c320b98"
+  },
+  "library_sha256": "7e072d3c4c54ac1f6edbd3f78032830b0fc488fd6561ba3da253b1a29a65eeca",
+  "toolchain": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode_27.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "xcode": "Xcode 27.1\nBuild version 27A9275",
+  "iphoneos_sdk": "27.1",
+  "host_runtime": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "target": "arm64-apple-ios15.0",
+  "workflow_run": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40208737697",
+  "artifact_url": "https://github.com/JasperSoosaar25/esign-recovery/actions/runs/40208737697/artifacts/12605201081",
+  "artifact_digest": "sha256:787818beb01584f51043c36622e168f84f479c8266e75ad202048891a07d6154"
+}

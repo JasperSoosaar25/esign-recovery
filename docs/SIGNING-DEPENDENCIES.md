@@ -2,8 +2,7 @@
 
 ## Current decoder state — 25 October 2026
 
-The [X509 state component](../reconstruction/x509-state/) supplies the nine X509 callbacks/name codec bodies referenced by CMS and thirteen supporting original bodies. All 456 comparisons pass, exercising all 839 instructions. Five additional descriptor items and fifteen nodes reuse the earlier CMS graph. The 79 parser compositions include nested names, certificate and CRL items and memory-BIO-to-CMS fixtures containing both structures with an invented expected payload. Deeper canonicalization/encoding/formatting, extension and crypto operations remain controlled. [The latest report index](builds/latest.json) records exact verified source and Apple results.
-
+The [DER/name/Unicode component](../reconstruction/asn1-encoding/) supplies 27 original bodies and closes the encoding/canonicalization path beneath the recovered X509 names and CMS parsers. All 2,045 comparisons pass, exercising 2,355 of 2,397 instructions. Fifty-five parser compositions reach canonical DER names through certificates, CRLs and memory-BIO-to-CMS fixtures; thirty additional cases use actual name re-encoding. The preceding X509 component retains all 456 comparisons, 839 instructions and five additional descriptors. [The latest reports](builds/latest.json) record exact source, Apple results and remaining boundaries.
 | Original address | Role | Current source status |
 | --- | --- | --- |
 | 0x10061955c | asn1_item_ex_d2i | Supplied by ASN.1 item component; seven-way dispatch and callbacks tested |
@@ -49,12 +48,27 @@ The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admittin
 | 0x100602068 / 0x100602654 / 0x10060258c | Stack comparator/set/pop-free | Supplied; pointer/null behavior and post-callback count/data reloads tested |
 | 0x1005fe88c / 0x100619370 | BUF_MEM grow / tagged item entry | Supplied; bounded growth, errors and actual recursive parser composition tested |
 
+## Original encoding and canonicalization now supplied
+
+| Original address | Supplied role |
+| --- | --- |
+| 0x100618744 / 0x100618af0 / 0x100618fc8 / 0x1006190ec | Item / template / primitive / content encoding |
+| 0x1006192a8 / 0x10061b184 | DER sorting comparator / cached encoding restore |
+| 0x10061cd1c / 0x10061ce10 / 0x10061ce24 | DER header / EOC / encoded size |
+| 0x10061107c / 0x100612454 | BIT STRING / INTEGER content output |
+| 0x100616178 / 0x1006192e4 | Name canonicalization / tag-to-type bit |
+| 0x100610fa0 / 0x1005b3dc4 / 0x10061cf50 | OBJECT allocation / OID duplication / string copy |
+| 0x100614d44 / 0x100613d94 / 0x100613da0 | String-to-UTF8 / multibyte copy / bounded copy |
+| 0x100614364 / 0x1006144c4 | String traversal / permissible type mask |
+| 0x10061458c / 0x1006145a8 / 0x1006145cc / 0x1006145ec | ASCII / BMP / Universal / UTF8 output callbacks |
+| 0x1006135a8 / 0x100613874 | Legacy UTF8 read / write |
+
+The production archive uses Darwin ctype data and platform qsort/memcmp. Test models for those boundaries, error formatting and allocation are excluded. It preserves original six-byte UTF8 and canonical ASCII behavior, partial output on SET allocation failure and the original 32-bit negative allocator argument. No certificate trust or signature validation is established. Earlier components retain their independent controlled fixtures.
+
 ## Next original name/extension/crypto dependencies
 
 | Original address | Role still required |
 | --- | --- |
-| 0x100616178 | Canonical name generation |
-| 0x100618744 | ASN.1 item encoding engine |
 | 0x10061f458 / 0x100614624 | Name formatting / printing |
 | 0x100620150 / 0x10062018c | CRL / revoked-entry extension decoding |
 | 0x100620884 / 0x10060c0b4 | CRL digest / EVP SHA-1 method |
@@ -62,7 +76,7 @@ The guarded original table is at `0x100999878`, bytes `2b003756737d00`, admittin
 | 0x10061d308 / 0x1006134a4 | Integer comparison / ENUMERATED retrieval |
 | 0x10062faac / 0x10062eef4 / 0x10062effc | CMS stream / data init / data final |
 
-Name canonicalization/formatting, encoding, extension parsing, hashing/key internals, several extension destructors, allocators/refcounts/ex-data/ERR and P12 remain unresolved. The new tests compose the actual nine X509 callers with the recovered parser, stack, object, OID and CMS bodies. Their invented certificate/CRL syntax and cached state are checked; certificate trust, signatures and complete crypto behavior are not established. Earlier component fixtures preserve their original boundaries.
+Name formatting, extension parsing, hashing/key internals, several extension destructors, allocators/refcounts/ex-data/ERR and P12 remain unresolved. The new tests compose the actual nine X509 callers with the recovered parser, stack, object, OID and CMS bodies. Their invented certificate/CRL syntax and cached state are checked; certificate trust, signatures and complete crypto behavior are not established. Earlier component fixtures preserve their original boundaries.
 
 ## Earlier dependency studies
 
